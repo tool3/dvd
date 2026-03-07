@@ -77,7 +77,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.005579;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.00547;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
@@ -95,7 +95,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="41.2" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.005579;0.01056;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.00547;0.010543;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
@@ -113,7 +113,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="49.6" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.01056;0.015641;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.010543;0.015616;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
@@ -131,7 +131,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="58" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.015641;0.020721;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.015616;0.020589;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
@@ -149,7 +149,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.020721;0.026001;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.020589;0.025761;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
@@ -167,7 +167,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="74.8" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.026001;0.030982;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.025761;0.031032;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
@@ -185,7 +185,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.030982;0.036063;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.031032;0.036006;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
@@ -203,7 +203,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="91.6" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.036063;0.041243;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.036006;0.041277;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
@@ -221,7 +221,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="100" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.041243;0.046324;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.041277;0.04635;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
@@ -239,7 +239,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="108.4" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.046324;0.051405;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.04635;0.051522;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
@@ -257,7 +257,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.051405;0.056485;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.051522;0.056694;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
@@ -275,7 +275,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="125.2" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.056485;0.061367;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.056694;0.061667;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
@@ -293,7 +293,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="133.6" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.061367;0.066447;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.061667;0.06664;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
@@ -311,7 +311,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="142" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.066447;0.071827;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.06664;0.071613;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
@@ -329,7 +329,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.071827;0.077107;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.071613;0.076586;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
@@ -347,7 +347,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="158.8" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.077107;0.081889;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.076586;0.081759;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
@@ -365,7 +365,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.081889;0.087169;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.081759;0.086931;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
@@ -383,7 +383,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="175.6" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.087169;0.09205;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.086931;0.092003;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
@@ -401,7 +401,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="184" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.09205;0.097131;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.092003;0.097374;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
@@ -419,7 +419,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="192.4" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.097131;0.101913;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.097374;0.101949;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
@@ -437,7 +437,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="200.8" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.101913;0.106993;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.101949;0.107022;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
@@ -455,7 +455,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="209.2" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.106993;0.106794;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.107022;0.106923;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
@@ -473,7 +473,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="209.2" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.106794;0.157601;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.106923;0.15745;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
@@ -491,7 +491,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="209.2" y="56" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.157601;0.168161;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.15745;0.168192;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
@@ -506,7 +506,7 @@
 <text class="text f13" x="16" y="56">❯</text>
 <text class="text fg" x="24" y="56"> ls -la --color=always</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.168161;0.178422;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.168192;0.178635;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
@@ -525,16 +525,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -560,7 +560,7 @@
 <text class="text fg" x="16" y="644">-rw-r--r--@  1 talhayut  staff   26391 Mar  7 14:06 test.svg</text>
 <text class="text fg" x="16" y="663.6">-rw-r--r--@  1 talhayut  staff     415 Mar  3 20:46 tsconfig.json</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.178422;0.203228;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.178635;0.203203;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
@@ -579,16 +579,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -618,7 +618,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.203228;0.369097;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.203203;0.36851;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
@@ -637,16 +637,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -676,7 +676,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.369097;0.387627;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.36851;0.387209;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
@@ -695,16 +695,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -735,7 +735,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="41.2" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.387627;0.392608;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.387209;0.392282;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
@@ -754,16 +754,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -794,7 +794,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="49.6" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.392608;0.397689;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.392282;0.397454;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
@@ -813,16 +813,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -853,7 +853,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="58" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.397689;0.402969;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.397454;0.402526;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
@@ -872,16 +872,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -912,7 +912,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.402969;0.408348;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.402526;0.4075;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
@@ -931,16 +931,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -971,7 +971,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="74.8" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.408348;0.412831;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.4075;0.412771;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
@@ -990,16 +990,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1030,7 +1030,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.412831;0.417912;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.412771;0.417844;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
@@ -1049,16 +1049,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1089,7 +1089,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="91.6" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.417912;0.423291;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.417844;0.422518;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
@@ -1108,16 +1108,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1148,7 +1148,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="100" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.423291;0.428372;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.422518;0.428088;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
@@ -1167,16 +1167,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1207,7 +1207,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="108.4" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.428372;0.433453;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.428088;0.433061;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
@@ -1226,16 +1226,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1266,7 +1266,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.433453;0.438434;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.433061;0.438134;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
@@ -1285,16 +1285,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1325,7 +1325,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="125.2" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.438434;0.443116;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.438134;0.443306;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
@@ -1344,16 +1344,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1384,7 +1384,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="133.6" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.443116;0.448296;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.443306;0.448379;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-40" visibility="hidden">
@@ -1403,16 +1403,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1443,7 +1443,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="142" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.448296;0.453676;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.448379;0.453551;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-41" visibility="hidden">
@@ -1462,16 +1462,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1502,7 +1502,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.453676;0.458657;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.453551;0.458425;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-42" visibility="hidden">
@@ -1521,16 +1521,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1561,7 +1561,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="158.8" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.458657;0.464136;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.458425;0.463497;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-43" visibility="hidden">
@@ -1580,16 +1580,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1620,7 +1620,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.464136;0.469117;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.463497;0.46857;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-44" visibility="hidden">
@@ -1639,16 +1639,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1679,7 +1679,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="175.6" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.469117;0.474098;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.46857;0.473941;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-45" visibility="hidden">
@@ -1698,16 +1698,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1738,7 +1738,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="184" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.474098;0.479378;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.473941;0.478914;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-46" visibility="hidden">
@@ -1757,16 +1757,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1797,7 +1797,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="192.4" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.479378;0.48426;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.478914;0.484285;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-47" visibility="hidden">
@@ -1816,16 +1816,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1856,7 +1856,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="200.8" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.48426;0.48944;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.484285;0.489059;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-48" visibility="hidden">
@@ -1875,16 +1875,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1915,7 +1915,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="209.2" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.48944;0.493724;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.489059;0.49443;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-49" visibility="hidden">
@@ -1934,16 +1934,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -1974,7 +1974,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.493724;0.499402;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.49443;0.499304;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-50" visibility="hidden">
@@ -1993,16 +1993,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -2033,7 +2033,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="226" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.499402;0.504483;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.499304;0.504476;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-51" visibility="hidden">
@@ -2052,16 +2052,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -2092,7 +2092,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="234.4" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.504483;0.509663;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.504476;0.509449;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-52" visibility="hidden">
@@ -2111,16 +2111,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -2151,7 +2151,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="242.8" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.509663;0.514545;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.509449;0.51482;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-53" visibility="hidden">
@@ -2170,16 +2170,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -2210,7 +2210,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="251.2" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.514545;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.51482;0.514024;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-54" visibility="hidden">
@@ -2229,16 +2229,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -2269,7 +2269,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="251.2" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.514545;0.580096;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.514024;0.57967;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-55" visibility="hidden">
@@ -2288,16 +2288,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -2328,7 +2328,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="251.2" y="683.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.580096;0.598227;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.57967;0.597772;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-56" visibility="hidden">
@@ -2347,16 +2347,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -2384,7 +2384,7 @@
 <text class="text f13" x="16" y="683.2">❯</text>
 <text class="text fg" x="24" y="683.2"> ls -la --color=always src/</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.598227;0.611476;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.597772;0.611299;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-57" visibility="hidden">
@@ -2403,16 +2403,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -2461,10 +2461,10 @@
 <text class="text bold f6" x="436" y="898.8">shell</text>
 <text class="text fg" x="16" y="918.4">drwxr-xr-x@  3 talhayut  staff    96 Mar  7 14:06</text>
 <text class="text bold f6" x="436" y="918.4">types</text>
-<text class="text fg" x="16" y="938">drwxr-xr-x@  4 talhayut  staff   128 Mar  7 14:06</text>
+<text class="text fg" x="16" y="938">drwxr-xr-x@  4 talhayut  staff   128 Mar  7 17:10</text>
 <text class="text bold f6" x="436" y="938">utils</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.611476;0.648137;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.611299;0.6481;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-58" visibility="hidden">
@@ -2483,16 +2483,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -2541,14 +2541,14 @@
 <text class="text bold f6" x="436" y="898.8">shell</text>
 <text class="text fg" x="16" y="918.4">drwxr-xr-x@  3 talhayut  staff    96 Mar  7 14:06</text>
 <text class="text bold f6" x="436" y="918.4">types</text>
-<text class="text fg" x="16" y="938">drwxr-xr-x@  4 talhayut  staff   128 Mar  7 14:06</text>
+<text class="text fg" x="16" y="938">drwxr-xr-x@  4 talhayut  staff   128 Mar  7 17:10</text>
 <text class="text bold f6" x="436" y="938">utils</text>
 <text class="text f13" x="16" y="957.6">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="957.6" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.648137;0.875672;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.6481;0.875274;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-59" visibility="hidden">
@@ -2567,16 +2567,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -2625,14 +2625,14 @@
 <text class="text bold f6" x="436" y="898.8">shell</text>
 <text class="text fg" x="16" y="918.4">drwxr-xr-x@  3 talhayut  staff    96 Mar  7 14:06</text>
 <text class="text bold f6" x="436" y="918.4">types</text>
-<text class="text fg" x="16" y="938">drwxr-xr-x@  4 talhayut  staff   128 Mar  7 14:06</text>
+<text class="text fg" x="16" y="938">drwxr-xr-x@  4 talhayut  staff   128 Mar  7 17:10</text>
 <text class="text bold f6" x="436" y="938">utils</text>
 <text class="text f13" x="16" y="957.6">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="957.6" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.875672;0.900379;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.875274;0.900537;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-60" visibility="hidden">
@@ -2651,16 +2651,16 @@
 <text class="text bold f6" x="453" y="95.2">.</text>
 <text class="text fg" x="16" y="114.8">drwxr-xr-x@ 26 talhayut  staff     832 Mar  3 16:48</text>
 <text class="text bold f6" x="453" y="114.8">..</text>
-<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 15:11 .DS_Store</text>
+<text class="text fg" x="16" y="134.4">-rw-r--r--@  1 talhayut  staff    8196 Mar  7 17:17 .DS_Store</text>
 <text class="text fg" x="16" y="154">drwxr-xr-x@  3 talhayut  staff      96 Mar  7 14:30</text>
 <text class="text bold f6" x="453" y="154">.claude</text>
-<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 16:51</text>
+<text class="text fg" x="16" y="173.6">drwxr-xr-x@ 14 talhayut  staff     448 Mar  7 17:14</text>
 <text class="text bold f6" x="453" y="173.6">.git</text>
 <text class="text fg" x="16" y="193.2">-rw-r--r--@  1 talhayut  staff      90 Mar  4 14:10 .gitignore</text>
 <text class="text fg" x="16" y="212.8">-rw-r--r--@  1 talhayut  staff    6041 Mar  3 17:06 FORMAT.md</text>
-<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13614 Mar  7 14:12 README.md</text>
-<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:01 backspace_out.svg</text>
-<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34759 Mar  7 17:02 cursor-test.svg</text>
+<text class="text fg" x="16" y="232.4">-rw-r--r--@  1 talhayut  staff   13628 Mar  7 17:17 README.md</text>
+<text class="text fg" x="16" y="252">-rw-r--r--@  1 talhayut  staff    1200 Mar  7 17:15 backspace_out.svg</text>
+<text class="text fg" x="16" y="271.6">-rw-r--r--@  1 talhayut  staff   34757 Mar  7 17:16 cursor-test.svg</text>
 <text class="text fg" x="16" y="291.2">-rw-r--r--@  1 talhayut  staff     327 Mar  7 14:06 demo.cd</text>
 <text class="text fg" x="16" y="310.8">-rw-r--r--@  1 talhayut  staff  139962 Mar  7 16:41 demo.gif</text>
 <text class="text fg" x="16" y="330.4">-rw-r--r--@  1 talhayut  staff   40313 Mar  7 14:06 demo.svg</text>
@@ -2709,14 +2709,14 @@
 <text class="text bold f6" x="436" y="898.8">shell</text>
 <text class="text fg" x="16" y="918.4">drwxr-xr-x@  3 talhayut  staff    96 Mar  7 14:06</text>
 <text class="text bold f6" x="436" y="918.4">types</text>
-<text class="text fg" x="16" y="938">drwxr-xr-x@  4 talhayut  staff   128 Mar  7 14:06</text>
+<text class="text fg" x="16" y="938">drwxr-xr-x@  4 talhayut  staff   128 Mar  7 17:10</text>
 <text class="text bold f6" x="436" y="938">utils</text>
 <text class="text f13" x="16" y="957.6">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="957.6" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.900379;1" dur="10.04s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.900537;1" dur="10.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

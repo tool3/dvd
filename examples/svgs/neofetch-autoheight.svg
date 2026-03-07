@@ -76,7 +76,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.005309;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.005551;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
@@ -93,7 +93,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.005309;0.010306;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.005551;0.010332;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
@@ -110,7 +110,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="54.4" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.010306;0.014991;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.010332;0.015112;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
@@ -127,7 +127,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="64" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.014991;0.019675;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.015112;0.020046;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
@@ -144,7 +144,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.019675;0.024828;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.020046;0.024672;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
@@ -161,7 +161,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.024828;0.029669;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.024672;0.029453;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
@@ -178,7 +178,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="92.8" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.029669;0.034666;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.029453;0.034387;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
@@ -195,7 +195,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.034666;0.039819;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.034387;0.039476;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
@@ -212,7 +212,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="112" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.039819;0.039507;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.039476;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
@@ -229,7 +229,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="112" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.039507;0.11852;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.039476;0.117348;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
@@ -246,7 +246,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="112" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.11852;0.134447;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.117348;0.133693;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
@@ -260,7 +260,7 @@
 <text class="text f13" x="16" y="56">❯</text>
 <text class="text fg" x="26" y="56"> neofetch</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.134447;0.141162;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.133693;0.142174;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
@@ -274,7 +274,7 @@
 <text class="text f13" x="16" y="56">❯</text>
 <text class="text fg" x="26" y="56"> neofetch</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.141162;0.142879;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.142174;0.14387;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
@@ -295,9 +295,8 @@
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="16" y="235.2"> XMMMMMMMMMMMMMMMMMMMMMMMX.</text>
-<text class="text bold f1" x="16" y="257.6">;MMMMMMMMMMMMMMMMMMMMMMMM:</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.142879;0.14569;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.14387;0.146955;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
@@ -334,7 +333,7 @@
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.14569;0.168176;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.146955;0.179645;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
@@ -373,7 +372,7 @@
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.168176;0.17208;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.179645;0.183809;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
@@ -403,7 +402,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -420,7 +419,7 @@
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.17208;0.17614;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.183809;0.187972;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
@@ -450,7 +449,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -469,7 +468,7 @@
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.17614;0.180668;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.187972;0.192444;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
@@ -499,7 +498,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -520,7 +519,7 @@
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.180668;0.185509;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.192444;0.19707;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
@@ -550,7 +549,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -573,7 +572,7 @@
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.185509;0.191287;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.19707;0.203855;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
@@ -583,6 +582,24 @@
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
+<g class="bg-layer">
+<rect x="332.8" y="459.2" width="28.8" height="22.4" fill="#484f58"/>
+<rect x="332.8" y="481.6" width="28.8" height="22.4" fill="#6e7681"/>
+<rect x="361.6" y="459.2" width="28.8" height="22.4" fill="#ff7b72"/>
+<rect x="361.6" y="481.6" width="28.8" height="22.4" fill="#ffa198"/>
+<rect x="390.4" y="459.2" width="28.8" height="22.4" fill="#3fb950"/>
+<rect x="390.4" y="481.6" width="28.8" height="22.4" fill="#56d364"/>
+<rect x="419.2" y="459.2" width="28.8" height="22.4" fill="#d29922"/>
+<rect x="419.2" y="481.6" width="28.8" height="22.4" fill="#e3b341"/>
+<rect x="448" y="459.2" width="28.8" height="22.4" fill="#58a6ff"/>
+<rect x="448" y="481.6" width="28.8" height="22.4" fill="#79c0ff"/>
+<rect x="476.8" y="459.2" width="28.8" height="22.4" fill="#bc8cff"/>
+<rect x="476.8" y="481.6" width="28.8" height="22.4" fill="#d2a8ff"/>
+<rect x="505.6" y="459.2" width="28.8" height="22.4" fill="#39c5cf"/>
+<rect x="505.6" y="481.6" width="28.8" height="22.4" fill="#56d4dd"/>
+<rect x="534.4" y="459.2" width="28.8" height="22.4" fill="#b1bac4"/>
+<rect x="534.4" y="481.6" width="28.8" height="22.4" fill="#f0f6fc"/>
+</g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
 <text class="text fg" x="26" y="56"> neofetch</text>
@@ -603,7 +620,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -632,9 +649,27 @@
 <text class="text bold f3" x="333" y="392">GPU</text>
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
+<text class="text bold f3" x="333" y="414.4">Memory</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
+<text class="text f0" x="333" y="459.2">   </text>
+<text class="text f1" x="362" y="459.2">   </text>
+<text class="text f2" x="390" y="459.2">   </text>
+<text class="text f3" x="419" y="459.2">   </text>
+<text class="text f4" x="448" y="459.2">   </text>
+<text class="text f5" x="477" y="459.2">   </text>
+<text class="text f6" x="506" y="459.2">   </text>
+<text class="text f7" x="534" y="459.2">   </text>
+<text class="text f8" x="333" y="481.6">   </text>
+<text class="text f9" x="362" y="481.6">   </text>
+<text class="text f10" x="390" y="481.6">   </text>
+<text class="text f11" x="419" y="481.6">   </text>
+<text class="text f12" x="448" y="481.6">   </text>
+<text class="text f13" x="477" y="481.6">   </text>
+<text class="text f14" x="506" y="481.6">   </text>
+<text class="text f15" x="534" y="481.6">   </text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.191287;0.198626;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.203855;0.235312;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
@@ -682,7 +717,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -712,7 +747,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -730,8 +765,12 @@
 <text class="text f13" x="477" y="481.6">   </text>
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
+<text class="text f13" x="16" y="571.2">❯</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.198626;0.229232;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+<g class="cursor-layer">
+<rect class="cursor" x="35.2" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+</g>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.235312;0.562837;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
@@ -779,7 +818,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -809,7 +848,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -832,7 +871,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.229232;0.557464;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.562837;0.581804;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
@@ -880,7 +919,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -910,7 +949,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -929,11 +968,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
+<text class="text fg" x="26" y="571.2"> A</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor" x="35.2" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="44.8" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.557464;0.577295;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.581804;0.586584;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
@@ -981,7 +1021,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -1011,7 +1051,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -1030,12 +1070,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> A</text>
+<text class="text fg" x="26" y="571.2"> Au</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="44.8" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="54.4" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.577295;0.581199;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.586584;0.591519;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
@@ -1083,7 +1123,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -1113,7 +1153,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -1132,12 +1172,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Au</text>
+<text class="text fg" x="26" y="571.2"> Aut</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="54.4" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="64" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.581199;0.587289;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.591519;0.596453;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
@@ -1185,7 +1225,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -1215,7 +1255,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -1234,12 +1274,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Aut</text>
+<text class="text fg" x="26" y="571.2"> Auto</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="64" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="73.6" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.587289;0.591193;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.596453;0.601388;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
@@ -1287,7 +1327,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -1317,7 +1357,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -1336,12 +1376,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Auto</text>
+<text class="text fg" x="26" y="571.2"> Auto-</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="73.6" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="83.2" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.591193;0.595721;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.601388;0.606322;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
@@ -1389,7 +1429,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -1419,7 +1459,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -1438,12 +1478,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Auto-</text>
+<text class="text fg" x="26" y="571.2"> Auto-h</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="83.2" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="92.8" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.595721;0.601499;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.606322;0.611103;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
@@ -1491,7 +1531,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -1521,7 +1561,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -1540,12 +1580,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Auto-h</text>
+<text class="text fg" x="26" y="571.2"> Auto-he</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="92.8" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="102.4" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.601499;0.606496;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.611103;0.616345;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
@@ -1593,7 +1633,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -1623,7 +1663,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -1642,12 +1682,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Auto-he</text>
+<text class="text fg" x="26" y="571.2"> Auto-hei</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="102.4" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="112" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.606496;0.6104;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.616345;0.620355;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
@@ -1695,7 +1735,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -1725,7 +1765,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -1744,12 +1784,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Auto-hei</text>
+<text class="text fg" x="26" y="571.2"> Auto-heig</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="112" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="121.6" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.6104;0.616177;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.620355;0.625443;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
@@ -1797,7 +1837,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -1827,7 +1867,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -1846,12 +1886,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Auto-heig</text>
+<text class="text fg" x="26" y="571.2"> Auto-heigh</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="121.6" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="131.2" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.616177;0.621018;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.625443;0.630224;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
@@ -1899,7 +1939,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -1929,7 +1969,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -1948,12 +1988,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Auto-heigh</text>
+<text class="text fg" x="26" y="571.2"> Auto-height</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="131.2" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="140.8" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.621018;0.62539;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.630224;0.634541;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
@@ -2001,7 +2041,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -2031,7 +2071,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -2053,9 +2093,9 @@
 <text class="text fg" x="26" y="571.2"> Auto-height</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="140.8" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="150.4" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.62539;0.630075;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.634541;0.639938;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
@@ -2103,7 +2143,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -2133,7 +2173,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -2152,12 +2192,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Auto-height</text>
+<text class="text fg" x="26" y="571.2"> Auto-height m</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="150.4" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="160" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.630075;0.635228;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.639938;0.644564;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
@@ -2205,7 +2245,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -2235,7 +2275,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -2254,12 +2294,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Auto-height m</text>
+<text class="text fg" x="26" y="571.2"> Auto-height mo</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="160" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="169.6" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.635228;0.640225;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.644564;0.648882;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
@@ -2307,7 +2347,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -2337,7 +2377,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -2356,12 +2396,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Auto-height mo</text>
+<text class="text fg" x="26" y="571.2"> Auto-height mod</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="169.6" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="179.2" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.640225;0.644753;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.648882;0.654588;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
@@ -2409,7 +2449,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -2439,7 +2479,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -2458,12 +2498,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Auto-height mod</text>
+<text class="text fg" x="26" y="571.2"> Auto-height mode</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="179.2" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="188.8" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.644753;0.650062;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.654588;0.659214;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
@@ -2511,7 +2551,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -2541,7 +2581,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -2560,12 +2600,12 @@
 <text class="text f14" x="506" y="481.6">   </text>
 <text class="text f15" x="534" y="481.6">   </text>
 <text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Auto-height mode</text>
+<text class="text fg" x="26" y="571.2"> Auto-height mode!</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="188.8" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor-active" x="198.4" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.650062;0.655215;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.659214;0.658597;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-40" visibility="hidden">
@@ -2613,7 +2653,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -2643,7 +2683,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -2665,9 +2705,9 @@
 <text class="text fg" x="26" y="571.2"> Auto-height mode!</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor-active" x="198.4" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor" x="198.4" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.655215;0.654435;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.658597;0.831457;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-41" visibility="hidden">
@@ -2715,7 +2755,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -2745,7 +2785,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -2769,7 +2809,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="198.4" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.654435;0.829794;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.831457;0.845798;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-42" visibility="hidden">
@@ -2817,7 +2857,7 @@
 <text class="text fg" x="390" y="168">: 25.2.0</text>
 <text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
 <text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
+<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 24 mins</text>
 <text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
 <text class="text bold f3" x="333" y="212.8">Packages</text>
 <text class="text fg" x="410" y="212.8">: 52 (brew)</text>
@@ -2847,7 +2887,7 @@
 <text class="text fg" x="362" y="392">: Apple M4 Max</text>
 <text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
 <text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
+<text class="text fg" x="390" y="414.4">: 7002MiB / 36864MiB</text>
 <text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
 <text class="text f0" x="333" y="459.2">   </text>
 <text class="text f1" x="362" y="459.2">   </text>
@@ -2871,109 +2911,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="198.4" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.829794;0.843848;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
-  </g>
-
-  <g id="frame-43" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="1000" height="618" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="1000" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="1000" height="8" fill="#0d1117"/>
-<circle cx="22" cy="20" r="6" fill="#ff5f56"/>
-<circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
-<circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
-<g class="bg-layer">
-<rect x="332.8" y="459.2" width="28.8" height="22.4" fill="#484f58"/>
-<rect x="332.8" y="481.6" width="28.8" height="22.4" fill="#6e7681"/>
-<rect x="361.6" y="459.2" width="28.8" height="22.4" fill="#ff7b72"/>
-<rect x="361.6" y="481.6" width="28.8" height="22.4" fill="#ffa198"/>
-<rect x="390.4" y="459.2" width="28.8" height="22.4" fill="#3fb950"/>
-<rect x="390.4" y="481.6" width="28.8" height="22.4" fill="#56d364"/>
-<rect x="419.2" y="459.2" width="28.8" height="22.4" fill="#d29922"/>
-<rect x="419.2" y="481.6" width="28.8" height="22.4" fill="#e3b341"/>
-<rect x="448" y="459.2" width="28.8" height="22.4" fill="#58a6ff"/>
-<rect x="448" y="481.6" width="28.8" height="22.4" fill="#79c0ff"/>
-<rect x="476.8" y="459.2" width="28.8" height="22.4" fill="#bc8cff"/>
-<rect x="476.8" y="481.6" width="28.8" height="22.4" fill="#d2a8ff"/>
-<rect x="505.6" y="459.2" width="28.8" height="22.4" fill="#39c5cf"/>
-<rect x="505.6" y="481.6" width="28.8" height="22.4" fill="#56d4dd"/>
-<rect x="534.4" y="459.2" width="28.8" height="22.4" fill="#b1bac4"/>
-<rect x="534.4" y="481.6" width="28.8" height="22.4" fill="#f0f6fc"/>
-</g>
-<g class="text-layer">
-<text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26" y="56"> neofetch</text>
-<text class="text bold f2" x="16" y="78.4">                    &apos;c.</text>
-<text class="text bold f2" x="333" y="78.4">talhayut</text>
-<text class="text fg" x="410" y="78.4">@</text>
-<text class="text bold f2" x="419" y="78.4">Mac</text>
-<text class="text bold f2" x="16" y="100.8">                 ,xNMM.</text>
-<text class="text fg" x="237" y="100.8">          ------------</text>
-<text class="text bold f2" x="16" y="123.2">               .OMMMMo</text>
-<text class="text bold f3" x="333" y="123.2">OS</text>
-<text class="text fg" x="352" y="123.2">: macOS 26.2 25C56 arm64</text>
-<text class="text bold f2" x="16" y="145.6">               OMMM0,</text>
-<text class="text bold f3" x="333" y="145.6">Host</text>
-<text class="text fg" x="371" y="145.6">: Mac16,5</text>
-<text class="text bold f2" x="16" y="168">     .;loddo:&apos; loolloddol;.</text>
-<text class="text bold f3" x="333" y="168">Kernel</text>
-<text class="text fg" x="390" y="168">: 25.2.0</text>
-<text class="text bold f2" x="16" y="190.4">   cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
-<text class="text bold f3" x="333" y="190.4">Uptime</text>
-<text class="text fg" x="390" y="190.4">: 2 days, 5 hours, 10 mins</text>
-<text class="text bold f3" x="16" y="212.8"> .KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
-<text class="text bold f3" x="333" y="212.8">Packages</text>
-<text class="text fg" x="410" y="212.8">: 52 (brew)</text>
-<text class="text bold f3" x="16" y="235.2"> XMMMMMMMMMMMMMMMMMMMMMMMX.</text>
-<text class="text bold f3" x="333" y="235.2">Shell</text>
-<text class="text fg" x="381" y="235.2">: zsh 5.9</text>
-<text class="text bold f1" x="16" y="257.6">;MMMMMMMMMMMMMMMMMMMMMMMM:</text>
-<text class="text bold f3" x="333" y="257.6">Resolution</text>
-<text class="text fg" x="429" y="257.6">: 1728x1117</text>
-<text class="text bold f1" x="16" y="280">:MMMMMMMMMMMMMMMMMMMMMMMM:</text>
-<text class="text bold f3" x="333" y="280">DE</text>
-<text class="text fg" x="352" y="280">: Aqua</text>
-<text class="text bold f1" x="16" y="302.4">.MMMMMMMMMMMMMMMMMMMMMMMMX.</text>
-<text class="text bold f3" x="333" y="302.4">WM</text>
-<text class="text fg" x="352" y="302.4">: Quartz Compositor</text>
-<text class="text bold f1" x="16" y="324.8"> kMMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
-<text class="text bold f3" x="333" y="324.8">WM Theme</text>
-<text class="text fg" x="410" y="324.8">: Blue (Dark)</text>
-<text class="text bold f5" x="26" y="347.2">.XMMMMMMMMMMMMMMMMMMMMMMMMMMk</text>
-<text class="text bold f3" x="333" y="347.2">Terminal</text>
-<text class="text fg" x="410" y="347.2">: vscode</text>
-<text class="text bold f5" x="16" y="369.6">  .XMMMMMMMMMMMMMMMMMMMMMMMMK.</text>
-<text class="text bold f3" x="333" y="369.6">CPU</text>
-<text class="text fg" x="362" y="369.6">: Apple M4 Max</text>
-<text class="text bold f4" x="54" y="392">kMMMMMMMMMMMMMMMMMMMMMMd</text>
-<text class="text bold f3" x="333" y="392">GPU</text>
-<text class="text fg" x="362" y="392">: Apple M4 Max</text>
-<text class="text bold f4" x="16" y="414.4">     ;KMMMMMMMWXXWMMMMMMMk.</text>
-<text class="text bold f3" x="333" y="414.4">Memory</text>
-<text class="text fg" x="390" y="414.4">: 7060MiB / 36864MiB</text>
-<text class="text bold f4" x="16" y="436.8">       .cooc,.    .,coo:.</text>
-<text class="text f0" x="333" y="459.2">   </text>
-<text class="text f1" x="362" y="459.2">   </text>
-<text class="text f2" x="390" y="459.2">   </text>
-<text class="text f3" x="419" y="459.2">   </text>
-<text class="text f4" x="448" y="459.2">   </text>
-<text class="text f5" x="477" y="459.2">   </text>
-<text class="text f6" x="506" y="459.2">   </text>
-<text class="text f7" x="534" y="459.2">   </text>
-<text class="text f8" x="333" y="481.6">   </text>
-<text class="text f9" x="362" y="481.6">   </text>
-<text class="text f10" x="390" y="481.6">   </text>
-<text class="text f11" x="419" y="481.6">   </text>
-<text class="text f12" x="448" y="481.6">   </text>
-<text class="text f13" x="477" y="481.6">   </text>
-<text class="text f14" x="506" y="481.6">   </text>
-<text class="text f15" x="534" y="481.6">   </text>
-<text class="text f13" x="16" y="571.2">❯</text>
-<text class="text fg" x="26" y="571.2"> Auto-height mode!</text>
-</g>
-<g class="cursor-layer">
-<rect class="cursor" x="198.4" y="571.2" width="9.6" height="22.4" fill="#c9d1d9"/>
-</g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.843848;1" dur="6.40s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.845798;1" dur="6.49s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

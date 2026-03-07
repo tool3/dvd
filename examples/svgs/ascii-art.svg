@@ -77,7 +77,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.002528;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.002712;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
@@ -95,7 +95,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="41.2" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.002528;0.004513;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.002712;0.004702;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
@@ -113,7 +113,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="49.6" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.004513;0.006499;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.004702;0.006691;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
@@ -131,7 +131,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="58" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.006499;0.008485;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.006691;0.00868;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
@@ -149,7 +149,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.008485;0.010471;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.00868;0.010488;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
@@ -167,7 +167,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="74.8" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.010471;0.012457;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.010488;0.012477;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
@@ -185,7 +185,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.012457;0.014263;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.012477;0.014647;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
@@ -203,7 +203,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="91.6" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.014263;0.016429;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.014647;0.016637;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
@@ -221,7 +221,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="100" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.016429;0.018415;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.016637;0.018445;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
@@ -239,7 +239,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="108.4" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.018415;0.020581;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.018445;0.020615;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
@@ -257,7 +257,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.020581;0.022567;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.020615;0.022423;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
@@ -275,7 +275,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="125.2" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.022567;0.024373;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.022423;0.024593;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
@@ -293,7 +293,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="133.6" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.024373;0.026359;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.024593;0.026944;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
@@ -311,7 +311,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="142" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.026359;0.028525;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.026944;0.028752;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
@@ -329,7 +329,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.028525;0.030691;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.028752;0.030922;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
@@ -347,7 +347,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="158.8" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.030691;0.032677;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.030922;0.032911;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
@@ -365,7 +365,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.032677;0.034663;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.032911;0.034901;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
@@ -383,7 +383,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="175.6" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.034663;0.036649;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.034901;0.03689;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
@@ -401,7 +401,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="184" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.036649;0.038635;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.03689;0.038879;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
@@ -419,7 +419,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="192.4" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.038635;0.040802;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.038879;0.040687;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
@@ -437,7 +437,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="200.8" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.040802;0.042788;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.040687;0.042857;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
@@ -455,7 +455,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="209.2" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.042788;0.044773;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.042857;0.045027;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
@@ -473,7 +473,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.044773;0.046759;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.045027;0.047016;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
@@ -491,7 +491,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="226" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.046759;0.048745;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.047016;0.049005;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
@@ -509,7 +509,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="234.4" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.048745;0.050731;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.049005;0.051175;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
@@ -527,7 +527,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="242.8" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.050731;0.052898;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.051175;0.053165;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
@@ -545,7 +545,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="251.2" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.052898;0.054884;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.053165;0.055154;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
@@ -563,7 +563,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="259.6" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.054884;0.056689;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.055154;0.056962;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
@@ -581,7 +581,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="268" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.056689;0.058855;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.056962;0.059132;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
@@ -599,7 +599,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="276.4" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.058855;0.061022;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.059132;0.061121;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
@@ -617,7 +617,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.061022;0.062827;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.061121;0.06311;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
@@ -635,7 +635,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="293.2" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.062827;0.064633;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.06311;0.064919;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
@@ -653,7 +653,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="301.6" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.064633;0.066619;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.064919;0.066908;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
@@ -671,7 +671,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="310" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.066619;0.068604;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.066908;0.068897;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
@@ -689,7 +689,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="318.4" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.068604;0.070771;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.068897;0.070886;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
@@ -707,7 +707,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="326.8" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.070771;0.072576;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.070886;0.072875;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
@@ -725,7 +725,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="335.2" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.072576;0.074743;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.072875;0.074684;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
@@ -743,7 +743,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="343.6" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.074743;0.076548;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.074684;0.076673;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
@@ -761,7 +761,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="352" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.076548;0.078715;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.076673;0.078662;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
@@ -779,7 +779,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="360.4" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.078715;0.0807;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.078662;0.080832;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-40" visibility="hidden">
@@ -797,7 +797,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="368.8" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.0807;0.082506;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.080832;0.08264;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-41" visibility="hidden">
@@ -815,7 +815,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="368.8" y="58.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.082506;0.084853;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.08264;0.084629;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-42" visibility="hidden">
@@ -833,7 +833,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="24.4" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.084853;0.086839;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.084629;0.086438;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-43" visibility="hidden">
@@ -851,7 +851,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="32.8" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.086839;0.088644;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.086438;0.088427;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-44" visibility="hidden">
@@ -870,7 +870,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="41.2" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.088644;0.090811;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.088427;0.090597;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-45" visibility="hidden">
@@ -889,7 +889,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="49.6" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.090811;0.092797;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.090597;0.092586;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-46" visibility="hidden">
@@ -908,7 +908,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="58" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.092797;0.094782;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.092586;0.094394;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-47" visibility="hidden">
@@ -927,7 +927,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.094782;0.096768;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.094394;0.096564;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-48" visibility="hidden">
@@ -946,7 +946,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="74.8" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.096768;0.098574;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.096564;0.098553;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-49" visibility="hidden">
@@ -965,7 +965,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.098574;0.10056;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.098553;0.100362;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-50" visibility="hidden">
@@ -984,7 +984,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="91.6" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.10056;0.102546;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.100362;0.102532;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-51" visibility="hidden">
@@ -1003,7 +1003,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="100" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.102546;0.104532;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.102532;0.104521;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-52" visibility="hidden">
@@ -1022,7 +1022,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="108.4" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.104532;0.106337;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.104521;0.106329;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-53" visibility="hidden">
@@ -1041,7 +1041,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.106337;0.108684;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.106329;0.108499;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-54" visibility="hidden">
@@ -1060,7 +1060,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="125.2" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.108684;0.11067;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.108499;0.110488;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-55" visibility="hidden">
@@ -1079,7 +1079,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="133.6" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.11067;0.112656;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.110488;0.112297;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-56" visibility="hidden">
@@ -1098,7 +1098,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="142" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.112656;0.114461;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.112297;0.114467;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-57" visibility="hidden">
@@ -1117,7 +1117,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.114461;0.116447;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.114467;0.116275;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-58" visibility="hidden">
@@ -1136,7 +1136,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="158.8" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.116447;0.118433;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.116275;0.118264;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-59" visibility="hidden">
@@ -1155,7 +1155,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.118433;0.120238;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.118264;0.120253;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-60" visibility="hidden">
@@ -1174,7 +1174,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="175.6" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.120238;0.122224;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.120253;0.122423;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-61" visibility="hidden">
@@ -1193,7 +1193,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="184" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.122224;0.12421;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.122423;0.124231;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-62" visibility="hidden">
@@ -1212,7 +1212,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="192.4" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.12421;0.126016;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.124231;0.12604;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-63" visibility="hidden">
@@ -1231,7 +1231,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="200.8" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.126016;0.128001;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.12604;0.128029;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-64" visibility="hidden">
@@ -1250,7 +1250,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="209.2" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.128001;0.130168;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.128029;0.130018;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-65" visibility="hidden">
@@ -1269,7 +1269,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.130168;0.132154;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.130018;0.131646;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-66" visibility="hidden">
@@ -1288,7 +1288,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="226" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.132154;0.13432;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.131646;0.133816;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-67" visibility="hidden">
@@ -1307,7 +1307,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="234.4" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.13432;0.136306;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.133816;0.135624;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-68" visibility="hidden">
@@ -1326,7 +1326,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="242.8" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.136306;0.138112;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.135624;0.137432;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-69" visibility="hidden">
@@ -1345,7 +1345,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="251.2" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.138112;0.140278;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.137432;0.139421;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-70" visibility="hidden">
@@ -1364,7 +1364,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="259.6" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.140278;0.142264;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.139421;0.14141;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-71" visibility="hidden">
@@ -1383,7 +1383,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="268" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.142264;0.14425;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.14141;0.1434;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-72" visibility="hidden">
@@ -1402,7 +1402,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="276.4" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.14425;0.146055;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.1434;0.14557;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-73" visibility="hidden">
@@ -1421,7 +1421,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.146055;0.148222;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.14557;0.147559;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-74" visibility="hidden">
@@ -1440,7 +1440,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="293.2" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.148222;0.150388;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.147559;0.149548;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-75" visibility="hidden">
@@ -1459,7 +1459,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="301.6" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.150388;0.152194;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.149548;0.151356;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-76" visibility="hidden">
@@ -1478,7 +1478,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="310" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.152194;0.15436;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.151356;0.153526;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-77" visibility="hidden">
@@ -1497,7 +1497,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="318.4" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.15436;0.156526;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.153526;0.155515;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-78" visibility="hidden">
@@ -1516,7 +1516,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="326.8" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.156526;0.158332;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.155515;0.157324;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-79" visibility="hidden">
@@ -1535,7 +1535,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="335.2" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.158332;0.160498;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.157324;0.159313;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-80" visibility="hidden">
@@ -1554,7 +1554,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="343.6" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.160498;0.162304;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.159313;0.161302;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-81" visibility="hidden">
@@ -1573,7 +1573,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="352" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.162304;0.16447;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.161302;0.163472;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-82" visibility="hidden">
@@ -1592,7 +1592,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="360.4" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.16447;0.166456;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.163472;0.16528;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-83" visibility="hidden">
@@ -1611,7 +1611,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="368.8" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.166456;0.168622;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.16528;0.16745;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-84" visibility="hidden">
@@ -1630,7 +1630,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="368.8" y="72.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.168622;0.170608;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.16745;0.169439;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-85" visibility="hidden">
@@ -1650,7 +1650,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="24.4" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.170608;0.172775;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.169439;0.171429;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-86" visibility="hidden">
@@ -1670,7 +1670,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="32.8" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.172775;0.174941;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.171429;0.173599;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-87" visibility="hidden">
@@ -1690,7 +1690,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="41.2" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.174941;0.176927;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.173599;0.175407;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-88" visibility="hidden">
@@ -1710,7 +1710,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="49.6" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.176927;0.178913;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.175407;0.177758;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-89" visibility="hidden">
@@ -1730,7 +1730,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="58" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.178913;0.180719;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.177758;0.179566;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-90" visibility="hidden">
@@ -1750,7 +1750,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.180719;0.182885;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.179566;0.181374;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-91" visibility="hidden">
@@ -1770,7 +1770,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="74.8" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.182885;0.18451;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.181374;0.183544;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-92" visibility="hidden">
@@ -1790,7 +1790,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.18451;0.186676;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.183544;0.185533;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-93" visibility="hidden">
@@ -1810,7 +1810,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="91.6" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.186676;0.188843;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.185533;0.187523;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-94" visibility="hidden">
@@ -1830,7 +1830,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="100" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.188843;0.190829;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.187523;0.189512;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-95" visibility="hidden">
@@ -1850,7 +1850,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="108.4" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.190829;0.192634;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.189512;0.191501;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-96" visibility="hidden">
@@ -1870,7 +1870,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.192634;0.19462;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.191501;0.193309;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-97" visibility="hidden">
@@ -1890,7 +1890,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="125.2" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.19462;0.196606;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.193309;0.195298;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-98" visibility="hidden">
@@ -1910,7 +1910,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="133.6" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.196606;0.198592;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.195298;0.197107;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-99" visibility="hidden">
@@ -1930,7 +1930,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="142" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.198592;0.200578;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.197107;0.199277;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-100" visibility="hidden">
@@ -1950,7 +1950,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.200578;0.202383;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.199277;0.201085;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-101" visibility="hidden">
@@ -1970,7 +1970,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="158.8" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.202383;0.20455;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.201085;0.203074;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-102" visibility="hidden">
@@ -1990,7 +1990,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.20455;0.206355;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.203074;0.205244;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-103" visibility="hidden">
@@ -2010,7 +2010,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="175.6" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.206355;0.208521;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.205244;0.207052;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-104" visibility="hidden">
@@ -2030,7 +2030,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="184" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.208521;0.210327;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.207052;0.209222;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-105" visibility="hidden">
@@ -2050,7 +2050,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="192.4" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.210327;0.212313;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.209222;0.211031;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-106" visibility="hidden">
@@ -2070,7 +2070,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="200.8" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.212313;0.214479;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.211031;0.21302;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-107" visibility="hidden">
@@ -2090,7 +2090,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="209.2" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.214479;0.216285;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.21302;0.21519;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-108" visibility="hidden">
@@ -2110,7 +2110,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.216285;0.218451;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.21519;0.216998;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-109" visibility="hidden">
@@ -2130,7 +2130,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="226" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.218451;0.220437;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.216998;0.219168;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-110" visibility="hidden">
@@ -2150,7 +2150,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="234.4" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.220437;0.222423;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.219168;0.220976;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-111" visibility="hidden">
@@ -2170,7 +2170,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="242.8" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.222423;0.224228;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.220976;0.223146;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-112" visibility="hidden">
@@ -2190,7 +2190,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="251.2" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.224228;0.226395;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.223146;0.224955;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-113" visibility="hidden">
@@ -2210,7 +2210,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="259.6" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.226395;0.2282;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.224955;0.226582;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-114" visibility="hidden">
@@ -2230,7 +2230,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="268" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.2282;0.230186;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.226582;0.228391;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-115" visibility="hidden">
@@ -2250,7 +2250,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="276.4" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.230186;0.232172;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.228391;0.230561;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-116" visibility="hidden">
@@ -2270,7 +2270,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.232172;0.233977;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.230561;0.23255;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-117" visibility="hidden">
@@ -2290,7 +2290,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="293.2" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.233977;0.235783;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.23255;0.234539;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-118" visibility="hidden">
@@ -2310,7 +2310,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="301.6" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.235783;0.237769;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.234539;0.236166;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-119" visibility="hidden">
@@ -2330,7 +2330,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="310" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.237769;0.240116;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.236166;0.238336;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-120" visibility="hidden">
@@ -2350,7 +2350,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="318.4" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.240116;0.24174;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.238336;0.240145;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-121" visibility="hidden">
@@ -2370,7 +2370,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="326.8" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.24174;0.243726;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.240145;0.242315;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-122" visibility="hidden">
@@ -2390,7 +2390,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="335.2" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.243726;0.245712;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.242315;0.244123;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-123" visibility="hidden">
@@ -2410,7 +2410,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="343.6" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.245712;0.247698;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.244123;0.246112;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-124" visibility="hidden">
@@ -2430,7 +2430,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="352" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.247698;0.249504;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.246112;0.24792;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-125" visibility="hidden">
@@ -2450,7 +2450,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="360.4" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.249504;0.251489;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.24792;0.25009;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-126" visibility="hidden">
@@ -2470,7 +2470,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="368.8" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.251489;0.253656;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.25009;0.25208;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-127" visibility="hidden">
@@ -2490,7 +2490,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="368.8" y="86.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.253656;0.255281;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.25208;0.254069;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-128" visibility="hidden">
@@ -2511,7 +2511,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="24.4" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.255281;0.257447;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.254069;0.256058;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-129" visibility="hidden">
@@ -2532,7 +2532,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="32.8" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.257447;0.259433;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.256058;0.258047;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-130" visibility="hidden">
@@ -2553,7 +2553,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="41.2" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.259433;0.261238;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.258047;0.260036;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-131" visibility="hidden">
@@ -2574,7 +2574,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="49.6" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.261238;0.263405;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.260036;0.262206;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-132" visibility="hidden">
@@ -2595,7 +2595,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="58" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.263405;0.265571;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.262206;0.264014;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-133" visibility="hidden">
@@ -2616,7 +2616,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.265571;0.267196;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.264014;0.266004;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-134" visibility="hidden">
@@ -2637,7 +2637,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="74.8" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.267196;0.269363;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.266004;0.268174;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-135" visibility="hidden">
@@ -2658,7 +2658,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.269363;0.271349;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.268174;0.269801;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-136" visibility="hidden">
@@ -2679,7 +2679,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="91.6" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.271349;0.273154;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.269801;0.27179;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-137" visibility="hidden">
@@ -2700,7 +2700,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="100" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.273154;0.27514;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.27179;0.27396;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-138" visibility="hidden">
@@ -2721,7 +2721,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="108.4" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.27514;0.277126;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.27396;0.275949;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-139" visibility="hidden">
@@ -2742,7 +2742,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.277126;0.279112;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.275949;0.277758;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-140" visibility="hidden">
@@ -2763,7 +2763,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="125.2" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.279112;0.281098;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.277758;0.279928;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-141" visibility="hidden">
@@ -2784,7 +2784,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="133.6" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.281098;0.283084;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.279928;0.281736;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-142" visibility="hidden">
@@ -2805,7 +2805,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="142" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.283084;0.28507;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.281736;0.283906;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-143" visibility="hidden">
@@ -2826,7 +2826,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.28507;0.287055;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.283906;0.285895;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-144" visibility="hidden">
@@ -2847,7 +2847,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="158.8" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.287055;0.289041;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.285895;0.287703;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-145" visibility="hidden">
@@ -2868,7 +2868,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.289041;0.290847;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.287703;0.289693;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-146" visibility="hidden">
@@ -2889,7 +2889,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="175.6" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.290847;0.293013;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.289693;0.291501;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-147" visibility="hidden">
@@ -2910,7 +2910,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="184" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.293013;0.294999;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.291501;0.29349;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-148" visibility="hidden">
@@ -2931,7 +2931,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="192.4" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.294999;0.296985;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.29349;0.295479;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-149" visibility="hidden">
@@ -2952,7 +2952,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="200.8" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.296985;0.298971;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.295479;0.297288;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-150" visibility="hidden">
@@ -2973,7 +2973,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="209.2" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.298971;0.300957;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.297288;0.299277;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-151" visibility="hidden">
@@ -2994,7 +2994,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.300957;0.302762;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.299277;0.301447;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-152" visibility="hidden">
@@ -3015,7 +3015,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="226" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.302762;0.304568;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.301447;0.303255;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-153" visibility="hidden">
@@ -3036,7 +3036,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="234.4" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.304568;0.306734;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.303255;0.305063;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-154" visibility="hidden">
@@ -3057,7 +3057,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="242.8" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.306734;0.30872;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.305063;0.307233;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-155" visibility="hidden">
@@ -3078,7 +3078,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="251.2" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.30872;0.310706;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.307233;0.309222;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-156" visibility="hidden">
@@ -3099,7 +3099,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="259.6" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.310706;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.309222;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-157" visibility="hidden">
@@ -3120,7 +3120,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="259.6" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.310706;0.404405;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.309222;0.403436;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-158" visibility="hidden">
@@ -3141,7 +3141,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="259.6" y="100.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.404405;0.424806;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.403436;0.422966;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-159" visibility="hidden">
@@ -3159,7 +3159,7 @@
 <text class="text fg" x="16" y="84">\ / / | | | |\n   | |_| |  \\ V /  | |_| |\</text>
 <text class="text fg" x="16" y="98">n   |____/    \\_/   |____/ &apos;</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.424806;0.428597;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.422966;0.425859;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-160" visibility="hidden">
@@ -3182,7 +3182,7 @@
 <text class="text fg" x="16" y="154">   | |_| |  \ V /  | |_| |</text>
 <text class="text fg" x="16" y="168">   |____/    \_/   |____/</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.428597;0.450081;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.425859;0.449186;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-161" visibility="hidden">
@@ -3209,7 +3209,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="184.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.450081;0.816393;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.449186;0.816094;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-162" visibility="hidden">
@@ -3236,7 +3236,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="184.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.816393;0.819462;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.816094;0.819168;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-163" visibility="hidden">
@@ -3263,7 +3263,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="184.1" width="8.4" height="14" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.819462;1" dur="5.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.819168;1" dur="5.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

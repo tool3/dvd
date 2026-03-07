@@ -2,7 +2,7 @@
 
 Create beautiful animated SVG terminal recordings from `.cd` scripts.
 
-![demo](./demo.svg)
+![demo](examples/svgs/figlet.svg)
 ```text
 # Where should we output the SVG?
 Output demo.svg

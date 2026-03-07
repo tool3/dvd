@@ -71,7 +71,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="16" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.007079;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.007134;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
@@ -83,7 +83,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="41.2" y="16" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.007079;0.013514;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.007134;0.013748;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
@@ -95,7 +95,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="49.6" y="16" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.013514;0.019949;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.013748;0.020493;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
@@ -107,7 +107,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="58" y="16" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.019949;0.026641;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.020493;0.027237;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
@@ -119,7 +119,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="16" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.026641;0.033205;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.027237;0.034112;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
@@ -131,7 +131,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="74.8" y="16" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.033205;0.039768;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.034112;0.040856;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
@@ -143,7 +143,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="16" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.039768;0.046203;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.040856;0.047601;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
@@ -155,7 +155,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="91.6" y="16" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.046203;0.052896;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.047601;0.054086;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
@@ -167,7 +167,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="100" y="16" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.052896;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.054086;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
@@ -179,7 +179,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="100" y="16" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.052896;0.092535;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.054086;0.093904;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
@@ -191,7 +191,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="100" y="16" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.092535;0.106178;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.093904;0.107523;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
@@ -200,7 +200,7 @@
 <text class="text f13" x="16" y="16">❯</text>
 <text class="text fg" x="24" y="16"> npm test</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.106178;0.118404;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.107523;0.119974;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
@@ -211,7 +211,7 @@
 <text class="text fg" x="16" y="55.2">&gt; dvd-cli@1.0.0 test</text>
 <text class="text fg" x="16" y="74.8">&gt; vitest run</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.118404;0.137967;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.119974;0.137873;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
@@ -222,7 +222,7 @@
 <text class="text fg" x="16" y="55.2">&gt; dvd-cli@1.0.0 test</text>
 <text class="text fg" x="16" y="74.8">&gt; vitest run</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.137967;0.138481;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.137873;0.138392;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
@@ -239,7 +239,7 @@
 <text class="text f6" x="66" y="133.6">v4.0.18</text>
 <text class="text f8" x="134" y="133.6">/Users/talhayut/projects/dvd</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.138481;0.158945;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.138392;0.156291;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
@@ -261,7 +261,7 @@
 <text class="text f2" x="369" y="172.8"> 5</text>
 <text class="text dim f2" x="386" y="172.8">ms</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.158945;0.16036;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.156291;0.158106;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
@@ -288,7 +288,7 @@
 <text class="text f2" x="386" y="192.4"> 10</text>
 <text class="text dim f2" x="411" y="192.4">ms</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.16036;0.163449;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.158106;0.161089;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
@@ -320,7 +320,7 @@
 <text class="text f2" x="386" y="212"> 10</text>
 <text class="text dim f2" x="411" y="212">ms</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.163449;0.165122;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.161089;0.162776;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
@@ -358,12 +358,12 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.165122;0.185457;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.162776;0.183139;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
@@ -401,16 +401,16 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.185457;0.320335;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.183139;0.317639;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
@@ -448,16 +448,16 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.320335;0.331145;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.317639;0.328534;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
@@ -495,17 +495,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="41.2" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.331145;0.337452;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.328534;0.33489;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
@@ -543,17 +543,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> ec</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="49.6" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.337452;0.344273;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.33489;0.341505;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
@@ -591,17 +591,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> ech</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="58" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.344273;0.350708;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.341505;0.348119;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
@@ -639,17 +639,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.350708;0.357272;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.348119;0.354734;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
@@ -687,17 +687,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="74.8" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.357272;0.363964;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.354734;0.361349;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
@@ -735,17 +735,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.363964;0.370399;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.361349;0.367834;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
@@ -783,17 +783,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;C</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="91.6" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.370399;0.376963;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.367834;0.374449;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
@@ -831,17 +831,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Cl</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="100" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.376963;0.383655;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.374449;0.381064;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
@@ -879,17 +879,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Cle</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="108.4" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.383655;0.389961;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.381064;0.387678;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
@@ -927,17 +927,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clea</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.389961;0.396654;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.387678;0.394293;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
@@ -975,17 +975,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="125.2" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.396654;0.403218;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.394293;0.400908;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
@@ -1023,17 +1023,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="133.6" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.403218;0.40991;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.400908;0.407652;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
@@ -1071,17 +1071,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean a</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="142" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.40991;0.416216;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.407652;0.414267;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
@@ -1119,17 +1119,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean an</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.416216;0.422909;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.414267;0.420882;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
@@ -1167,17 +1167,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="158.8" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.422909;0.429601;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.420882;0.427626;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
@@ -1215,17 +1215,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.429601;0.436165;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.427626;0.433852;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
@@ -1263,17 +1263,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and m</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="175.6" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.436165;0.4426;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.433852;0.440597;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
@@ -1311,17 +1311,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and mi</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="184" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.4426;0.449292;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.440597;0.446693;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
@@ -1359,17 +1359,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and min</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="192.4" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.449292;0.455727;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.446693;0.453696;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-40" visibility="hidden">
@@ -1407,17 +1407,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and mini</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="200.8" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.455727;0.46242;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.453696;0.460571;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-41" visibility="hidden">
@@ -1455,17 +1455,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minim</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="209.2" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.46242;0.468726;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.460571;0.467185;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-42" visibility="hidden">
@@ -1503,17 +1503,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minima</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.468726;0.475676;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.467185;0.4738;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-43" visibility="hidden">
@@ -1551,17 +1551,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="226" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.475676;0.482368;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.4738;0.480804;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-44" visibility="hidden">
@@ -1599,17 +1599,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="234.4" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.482368;0.48906;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.480804;0.487289;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-45" visibility="hidden">
@@ -1647,17 +1647,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal l</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="242.8" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.48906;0.495495;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.487289;0.494034;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-46" visibility="hidden">
@@ -1695,17 +1695,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal lo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="251.2" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.495495;0.502059;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.494034;0.500649;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-47" visibility="hidden">
@@ -1743,17 +1743,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal loo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="259.6" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.502059;0.508752;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.500649;0.507134;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-48" visibility="hidden">
@@ -1791,17 +1791,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal look</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="268" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.508752;0.515187;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.507134;0.513619;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-49" visibility="hidden">
@@ -1839,17 +1839,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal look!</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="276.4" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.515187;0.521879;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.513619;0.520363;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-50" visibility="hidden">
@@ -1887,17 +1887,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal look!&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.521879;0.521236;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.520363;0.519585;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-51" visibility="hidden">
@@ -1935,17 +1935,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal look!&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="284.8" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.521236;0.566409;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.519585;0.563813;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-52" visibility="hidden">
@@ -1983,17 +1983,17 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal look!&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="284.8" y="349.2" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.566409;0.582111;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.563813;0.579637;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-53" visibility="hidden">
@@ -2031,14 +2031,14 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal look!&apos;</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.582111;0.584942;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.579637;0.582361;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-54" visibility="hidden">
@@ -2076,15 +2076,15 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal look!&apos;</text>
 <text class="text fg" x="16" y="368.8">Clean and minimal look!</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.584942;0.603218;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.582361;0.599741;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-55" visibility="hidden">
@@ -2122,10 +2122,10 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal look!&apos;</text>
 <text class="text fg" x="16" y="368.8">Clean and minimal look!</text>
@@ -2134,7 +2134,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="388.4" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.603218;0.867181;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.599741;0.866278;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-56" visibility="hidden">
@@ -2172,10 +2172,10 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal look!&apos;</text>
 <text class="text fg" x="16" y="368.8">Clean and minimal look!</text>
@@ -2184,7 +2184,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="388.4" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.867181;0.8713;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.866278;0.870298;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-57" visibility="hidden">
@@ -2222,10 +2222,10 @@
 <text class="text bold f2" x="125" y="270.8">70 passed</text>
 <text class="text f8" x="201" y="270.8"> (70)</text>
 <text class="text dim fg" x="16" y="290.4">   Start at</text>
-<text class="text fg" x="117" y="290.4"> 17:06:23</text>
+<text class="text fg" x="117" y="290.4"> 17:20:48</text>
 <text class="text dim fg" x="16" y="310">   Duration</text>
-<text class="text fg" x="117" y="310"> 190ms</text>
-<text class="text dim fg" x="167" y="310"> (transform 272ms, setup 0ms, import 302ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="117" y="310"> 171ms</text>
+<text class="text dim fg" x="167" y="310"> (transform 218ms, setup 0ms, import 248ms, tests 25ms, environment 0ms)</text>
 <text class="text f13" x="16" y="349.2">❯</text>
 <text class="text fg" x="24" y="349.2"> echo &apos;Clean and minimal look!&apos;</text>
 <text class="text fg" x="16" y="368.8">Clean and minimal look!</text>
@@ -2234,7 +2234,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="388.4" width="8.4" height="19.6" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.8713;1" dur="7.77s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.870298;1" dur="7.71s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>
