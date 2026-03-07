@@ -288,17 +288,6 @@ Set Width 600
 Type "Height auto-calculated"
 ```
 
-## Examples
-
-See the [examples/](examples/) directory for complete working examples:
-
-- `ansi-colors.cd` - ANSI color demonstration
-- `embedded-font.cd` - Custom font embedding
-- `keyboard-navigation-demo.cd` - Text selection, word movement, shortcuts
-- `themes.cd` - All available themes
-- `custom-prompt.cd` - Custom shell prompts
-- And more...
-
 ## Themes
 
 Available themes:
@@ -341,128 +330,162 @@ Unlike VHS which uses a browser and ffmpeg to generate video files, dvd:
 
 ## Examples
 
+See the [examples/](examples/) directory for complete working examples.
+
 ### ANSI Colors
-Demonstration of all ANSI color codes and styles.   
+Demonstration of all ANSI color codes and styles.
 ![ansi-colors](./examples/svgs/ansi-colors.svg)
 
 ### ASCII Art
-Demonstration of all ANSI color codes and styles.   
-![ascii-art](./examples/svgs/figlet.svg)
+ASCII art rendering using echo with escape sequences.
+![ascii-art](./examples/svgs/ascii-art.svg)
 
-### Backspace with watermark
-Testing backspace functionality for text editing.   
+### Backspace
+Testing backspace functionality with watermark.
 ![backspace](./examples/svgs/backspace.svg)
 
 ### Border Test
-Custom border styling with radius and colors.   
+Custom border styling with radius and colors.
 ![border-test](./examples/svgs/border-test.svg)
 
 ### Chartscii
-ASCII chart rendering demonstration.   
+ASCII chart rendering with chartscii-cli.
 ![chartscii](./examples/svgs/chartscii.svg)
 
+### Colors Table
+Full 256 color palette demonstration.
+![colors-table](./examples/svgs/colors-table.svg)
+
 ### Cursor Blink
-Animated cursor blinking effect.   
+Animated cursor blinking effect.
 ![cursor-blink-test](./examples/svgs/cursor-blink-test.svg)
 
 ### Cursor Styles
-Different cursor styles: block, bar, and underline.   
+Different cursor styles: block, bar, and underline.
 ![cursor-style-test](./examples/svgs/cursor-style-test.svg)
 
+### Cursor Test
+Cursor alignment testing.
+![cursor-test](./examples/svgs/cursor-test.svg)
+
 ### Custom Font
-Using custom fonts with font embedding.   
+Using custom fonts with font embedding.
 ![custom-font-test](./examples/svgs/custom-font-test.svg)
 
 ### Custom Prompt
-Custom shell prompt prefix with ANSI styling.   
+Custom shell prompt prefix with ANSI styling.
 ![custom-prompt](./examples/svgs/custom-prompt.svg)
 
+### Embed Font Test
+Font embedding with JetBrains Mono for consistent rendering.
+![embed-font-test](./examples/svgs/embed-font-test.svg)
+
 ### Embedded Font
-Font embedded directly into the SVG for offline viewing.   
+Font embedded directly into the SVG for offline viewing.
 ![embedded-font](./examples/svgs/embedded-font.svg)
 
+### Figlet
+Figlet ASCII art with isometric font and lolcat colors.
+![figlet](./examples/svgs/figlet.svg)
+
 ### Font Sizes
-Different font size configurations.   
+Different font size configurations.
 ![font-sizes](./examples/svgs/font-sizes.svg)
 
+### Git Log
+Git log with graph, colors, and decorations.
+![git-log](./examples/svgs/git-log.svg)
+
 ### Header and Footer
-Custom header and footer styling.   
+Custom header and footer styling.
 ![header-footer-test](./examples/svgs/header-footer-test.svg)
 
+### Htop-like
+System stats with top and df commands.
+![htop-like](./examples/svgs/htop-like.svg)
+
 ### Keyboard Navigation
-Text selection, word movement, and keyboard shortcuts.   
+Text selection, word movement, and keyboard shortcuts.
 ![keyboard-navigation-demo](./examples/svgs/keyboard-navigation-demo.svg)
 
-### Lolcat
-Rainbow colored text output.   
-![lolcat](./examples/svgs/lolcat.svg)
+### LS Colors
+Colored file listings with ls command.
+![ls-colors](./examples/svgs/ls-colors.svg)
 
 ### macOS Style
-macOS terminal window with traffic light buttons.   
+macOS terminal window with traffic light buttons.
 ![macos-style](./examples/svgs/macos-style.svg)
 
+### Multiline
+Multi-line Type command using backticks with ASCII art.
+![multiline](./examples/svgs/multiline.svg)
+
 ### Neofetch Auto Height
-Neofetch with automatic height calculation.   
+Neofetch with automatic height calculation.
 ![neofetch-autoheight](./examples/svgs/neofetch-autoheight.svg)
 
 ### Neofetch Embedded Font
-Neofetch with JetBrains Mono font embedded.   
+Neofetch with JetBrains Mono font embedded.
 ![neofetch-embedded-font](./examples/svgs/neofetch-embedded-font.svg)
 
-### Neofetch Fixed Dimensions and LineHeight
-Neofetch with explicit width and height.   
+### Neofetch Fixed Dimensions
+Neofetch with explicit width and height.
 ![neofetch-fixed-dimensions](./examples/svgs/neofetch-fixed-dimensions.svg)
 
 ### Neofetch Theme and Cursor
-Neofetch with Dracula theme and custom underline cursor.   
+Neofetch with Dracula theme and custom underline cursor.
 ![neofetch-theme-cursor](./examples/svgs/neofetch-theme-cursor.svg)
 
 ### Nord Theme
-Nord color theme demonstration.   
+Nord color theme demonstration.
 ![nord-theme](./examples/svgs/nord-theme.svg)
 
 ### Rainbow
-Rainbow text effects.   
+Rainbow text effects.
 ![rainbow](./examples/svgs/rainbow.svg)
 
+### Rainbow Lolcat
+Rainbow gradient colors with lolcat.
+![rainbow-lolcat](./examples/svgs/rainbow-lolcat.svg)
+
 ### Scroll Test
-Terminal scrolling behavior.   
+Terminal scrolling behavior.
 ![scroll-test](./examples/svgs/scroll-test.svg)
 
 ### Selection Test
-Text selection highlighting.   
+Text selection highlighting.
 ![selection-test](./examples/svgs/selection-test.svg)
 
 ### Slow Typing
-Slow typing speed demonstration.   
+Slow typing speed demonstration.
 ![slow-typing-test](./examples/svgs/slow-typing-test.svg)
 
 ### Templates
-Different window templates (minimal, macos, windows).   
+Different window templates (minimal, macos, windows).
 ![templates](./examples/svgs/templates.svg)
 
 ### Theme Test
-Theme configuration showcase.   
+Theme configuration showcase.
 ![theme-test](./examples/svgs/theme-test.svg)
 
 ### Underline Cursor
-Underline cursor style.   
+Underline cursor style.
 ![underline-cursor-test](./examples/svgs/underline-cursor-test.svg)
 
 ### Windows Style
-Windows terminal window style.   
+Windows terminal window style.
 ![windows-style](./examples/svgs/windows-style.svg)
 
 ### Word Deletion
-Word deletion with keyboard shortcuts.   
+Word deletion with keyboard shortcuts.
 ![word-deletion-test](./examples/svgs/word-deletion-test.svg)
 
 ### Word Navigation
-Word-by-word navigation with Alt+Arrow keys.   
+Word-by-word navigation with Alt+Arrow keys.
 ![word-navigation-test](./examples/svgs/word-navigation-test.svg)
 
 ### Word Selection
-Word selection with Shift+Alt+Arrow keys.   
+Word selection with Shift+Alt+Arrow keys.
 ![word-selection-test](./examples/svgs/word-selection-test.svg)
 
 ## License
