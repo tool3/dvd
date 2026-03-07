@@ -29,7 +29,35 @@ export function createSpinner(text: string): Spinner {
   const render = (): void => {
     clearLine();
     const frame = SPINNER_FRAMES[frameIndex];
-    process.stdout.write(`${frame} ${currentText}`);
+    let output = `${frame} ${currentText}`;
+
+    // Truncate to terminal width to prevent line wrapping issues
+    const cols = process.stdout.columns || 80;
+    if (output.length > cols - 1) {
+      // Strip ANSI codes for length calculation, then truncate
+      const stripped = output.replace(/\x1b\[[0-9;]*m/g, '');
+      if (stripped.length > cols - 1) {
+        // Find where to cut in the original string
+        let visibleLen = 0;
+        let cutIndex = 0;
+        for (let i = 0; i < output.length && visibleLen < cols - 4; i++) {
+          if (output[i] === '\x1b') {
+            // Skip ANSI sequence
+            const match = output.slice(i).match(/^\x1b\[[0-9;]*m/);
+            if (match) {
+              cutIndex = i + match[0].length;
+              i += match[0].length - 1;
+              continue;
+            }
+          }
+          visibleLen++;
+          cutIndex = i + 1;
+        }
+        output = output.slice(0, cutIndex) + '...\x1b[0m';
+      }
+    }
+
+    process.stdout.write(output);
     frameIndex = (frameIndex + 1) % SPINNER_FRAMES.length;
   };
 

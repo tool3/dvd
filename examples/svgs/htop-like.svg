@@ -1,5 +1,5 @@
-<svg width="2243" height="467" xmlns="http://www.w3.org/2000/svg">
-  <defs><clipPath id="rounded-corners"><rect x="0" y="0" width="2243" height="467" rx="8" ry="8"/></clipPath></defs>
+<svg width="2250" height="467" xmlns="http://www.w3.org/2000/svg">
+  <defs><clipPath id="rounded-corners"><rect x="0" y="0" width="2250" height="467" rx="8" ry="8"/></clipPath></defs>
   <style>
     
 .text {
@@ -64,1122 +64,1122 @@
   <!-- Animated frames with discrete visibility transitions -->
   
   <g id="frame-0" visibility="visible">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.005022;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.00482;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> t</text>
+<text class="text fg" x="23" y="56"> t</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="37.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.005022;0.009771;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.00482;0.009133;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> to</text>
+<text class="text fg" x="23" y="56"> to</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.009771;0.014428;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.009133;0.013362;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top</text>
+<text class="text fg" x="23" y="56"> top</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="52" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.014428;0.019176;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.013362;0.017928;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top</text>
+<text class="text fg" x="23" y="56"> top</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="59.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.019176;0.024016;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.017928;0.022495;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -</text>
+<text class="text fg" x="23" y="56"> top -</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.024016;0.028764;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.022495;0.026808;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l</text>
+<text class="text fg" x="23" y="56"> top -l</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.028764;0.033422;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.026808;0.031121;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l</text>
+<text class="text fg" x="23" y="56"> top -l</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="80.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.033422;0.03817;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.031121;0.035772;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1</text>
+<text class="text fg" x="23" y="56"> top -l 1</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="88" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.03817;0.042918;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.035772;0.039662;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1</text>
+<text class="text fg" x="23" y="56"> top -l 1</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="95.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.042918;0.047484;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.039662;0.044059;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 |</text>
+<text class="text fg" x="23" y="56"> top -l 1 |</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.047484;0.052141;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.044059;0.048457;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 |</text>
+<text class="text fg" x="23" y="56"> top -l 1 |</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="109.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.052141;0.05689;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.048457;0.052939;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | h</text>
+<text class="text fg" x="23" y="56"> top -l 1 | h</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.05689;0.061547;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.052939;0.057421;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | he</text>
+<text class="text fg" x="23" y="56"> top -l 1 | he</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="124" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.061547;0.066478;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.057421;0.061564;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | hea</text>
+<text class="text fg" x="23" y="56"> top -l 1 | hea</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="131.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.066478;0.070952;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.061564;0.066047;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="138.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.070952;0.075701;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.066047;0.070529;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="145.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.075701;0.080541;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.070529;0.074841;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="152.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.080541;0.085289;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.074841;0.079323;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -1</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -1</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="160" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.085289;0.090037;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.079323;0.083467;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.090037;0.09022;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.083467;0.083214;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="167.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.09022;0.136426;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.083214;0.126342;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="167.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.136426;0.146288;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.126342;0.13556;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.146288;0.2776;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.13556;0.259027;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.2776;0.296777;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.259027;0.285328;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.296777;0.491188;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.285328;0.472643;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.491188;0.505342;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.472643;0.493953;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> d</text>
+<text class="text fg" x="23" y="274.4"> d</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="37.6" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.505342;0.51009;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.493953;0.498013;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df</text>
+<text class="text fg" x="23" y="274.4"> df</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.51009;0.514748;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.498013;0.502241;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df</text>
+<text class="text fg" x="23" y="274.4"> df</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="52" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.514748;0.519587;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.502241;0.506723;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -</text>
+<text class="text fg" x="23" y="274.4"> df -</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="59.2" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.519587;0.524062;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.506723;0.511459;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h</text>
+<text class="text fg" x="23" y="274.4"> df -h</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.524062;0.528445;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.511459;0.516279;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h</text>
+<text class="text fg" x="23" y="274.4"> df -h</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.528445;0.533285;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.516279;0.519577;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h |</text>
+<text class="text fg" x="23" y="274.4"> df -h |</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="80.8" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.533285;0.538581;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.519577;0.523975;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h |</text>
+<text class="text fg" x="23" y="274.4"> df -h |</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="88" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.538581;0.543238;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.523975;0.528541;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | h</text>
+<text class="text fg" x="23" y="274.4"> df -h | h</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="95.2" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.543238;0.547621;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.528541;0.532685;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | he</text>
+<text class="text fg" x="23" y="274.4"> df -h | he</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.547621;0.552278;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.532685;0.537167;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | hea</text>
+<text class="text fg" x="23" y="274.4"> df -h | hea</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="109.6" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.552278;0.556935;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.537167;0.541311;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | head</text>
+<text class="text fg" x="23" y="274.4"> df -h | head</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.556935;0.561593;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.541311;0.546131;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | head</text>
+<text class="text fg" x="23" y="274.4"> df -h | head</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="124" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.561593;0.566432;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.546131;0.550021;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | head -</text>
+<text class="text fg" x="23" y="274.4"> df -h | head -</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="131.2" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.566432;0.570815;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.550021;0.554334;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-40" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | head -8</text>
+<text class="text fg" x="23" y="274.4"> df -h | head -8</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="138.4" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.570815;0.570633;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.554334;0.553827;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-41" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | head -8</text>
+<text class="text fg" x="23" y="274.4"> df -h | head -8</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="138.4" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.570633;0.627523;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.553827;0.614207;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-42" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | head -8</text>
+<text class="text fg" x="23" y="274.4"> df -h | head -8</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="138.4" y="274.4" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.627523;0.647247;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.614207;0.631205;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-43" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | head -8</text>
+<text class="text fg" x="23" y="274.4"> df -h | head -8</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.647247;0.664232;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.631205;0.646512;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-44" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | head -8</text>
+<text class="text fg" x="23" y="274.4"> df -h | head -8</text>
 <text class="text fg" x="16" y="291.2">Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on</text>
 <text class="text fg" x="16" y="308">/dev/disk3s1s1   926Gi    11Gi   477Gi     3%    453k  4.3G    0%   /</text>
-<text class="text fg" x="16" y="324.8">devfs            216Ki   216Ki     0Bi   100%     746     0  100%   /dev</text>
+<text class="text fg" x="16" y="324.8">devfs            217Ki   217Ki     0Bi   100%     752     0  100%   /dev</text>
 <text class="text fg" x="16" y="341.6">/dev/disk3s6     926Gi    11Gi   477Gi     3%      11  5.0G    0%   /System/Volumes/VM</text>
 <text class="text fg" x="16" y="358.4">/dev/disk3s2     926Gi   8.9Gi   477Gi     2%    1.8k  5.0G    0%   /System/Volumes/Preboot</text>
-<text class="text fg" x="16" y="375.2">/dev/disk3s4     926Gi    36Mi   477Gi     1%     109  5.0G    0%   /System/Volumes/Update</text>
+<text class="text fg" x="16" y="375.2">/dev/disk3s4     926Gi    36Mi   477Gi     1%     108  5.0G    0%   /System/Volumes/Update</text>
 <text class="text fg" x="16" y="392">/dev/disk1s2     500Mi   6.0Mi   480Mi     2%       1  4.9M    0%   /System/Volumes/xarts</text>
 <text class="text fg" x="16" y="408.8">/dev/disk1s1     500Mi   5.7Mi   480Mi     2%      36  4.9M    0%   /System/Volumes/iSCPreboot</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.664232;0.690531;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.646512;0.685159;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-45" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | head -8</text>
+<text class="text fg" x="23" y="274.4"> df -h | head -8</text>
 <text class="text fg" x="16" y="291.2">Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on</text>
 <text class="text fg" x="16" y="308">/dev/disk3s1s1   926Gi    11Gi   477Gi     3%    453k  4.3G    0%   /</text>
-<text class="text fg" x="16" y="324.8">devfs            216Ki   216Ki     0Bi   100%     746     0  100%   /dev</text>
+<text class="text fg" x="16" y="324.8">devfs            217Ki   217Ki     0Bi   100%     752     0  100%   /dev</text>
 <text class="text fg" x="16" y="341.6">/dev/disk3s6     926Gi    11Gi   477Gi     3%      11  5.0G    0%   /System/Volumes/VM</text>
 <text class="text fg" x="16" y="358.4">/dev/disk3s2     926Gi   8.9Gi   477Gi     2%    1.8k  5.0G    0%   /System/Volumes/Preboot</text>
-<text class="text fg" x="16" y="375.2">/dev/disk3s4     926Gi    36Mi   477Gi     1%     109  5.0G    0%   /System/Volumes/Update</text>
+<text class="text fg" x="16" y="375.2">/dev/disk3s4     926Gi    36Mi   477Gi     1%     108  5.0G    0%   /System/Volumes/Update</text>
 <text class="text fg" x="16" y="392">/dev/disk1s2     500Mi   6.0Mi   480Mi     2%       1  4.9M    0%   /System/Volumes/xarts</text>
 <text class="text fg" x="16" y="408.8">/dev/disk1s1     500Mi   5.7Mi   480Mi     2%      36  4.9M    0%   /System/Volumes/iSCPreboot</text>
 <text class="text f13" x="16" y="425.6">❯</text>
@@ -1187,39 +1187,39 @@
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="425.6" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.690531;0.892339;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.685159;0.886427;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-46" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | head -8</text>
+<text class="text fg" x="23" y="274.4"> df -h | head -8</text>
 <text class="text fg" x="16" y="291.2">Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on</text>
 <text class="text fg" x="16" y="308">/dev/disk3s1s1   926Gi    11Gi   477Gi     3%    453k  4.3G    0%   /</text>
-<text class="text fg" x="16" y="324.8">devfs            216Ki   216Ki     0Bi   100%     746     0  100%   /dev</text>
+<text class="text fg" x="16" y="324.8">devfs            217Ki   217Ki     0Bi   100%     752     0  100%   /dev</text>
 <text class="text fg" x="16" y="341.6">/dev/disk3s6     926Gi    11Gi   477Gi     3%      11  5.0G    0%   /System/Volumes/VM</text>
 <text class="text fg" x="16" y="358.4">/dev/disk3s2     926Gi   8.9Gi   477Gi     2%    1.8k  5.0G    0%   /System/Volumes/Preboot</text>
-<text class="text fg" x="16" y="375.2">/dev/disk3s4     926Gi    36Mi   477Gi     1%     109  5.0G    0%   /System/Volumes/Update</text>
+<text class="text fg" x="16" y="375.2">/dev/disk3s4     926Gi    36Mi   477Gi     1%     108  5.0G    0%   /System/Volumes/Update</text>
 <text class="text fg" x="16" y="392">/dev/disk1s2     500Mi   6.0Mi   480Mi     2%       1  4.9M    0%   /System/Volumes/xarts</text>
 <text class="text fg" x="16" y="408.8">/dev/disk1s1     500Mi   5.7Mi   480Mi     2%      36  4.9M    0%   /System/Volumes/iSCPreboot</text>
 <text class="text f13" x="16" y="425.6">❯</text>
@@ -1227,39 +1227,39 @@
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="425.6" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.892339;0.908684;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.886427;0.915433;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-47" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="2243" height="467" fill="#0d1117" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="2243" height="40" fill="#0d1117" rx="8" ry="8"/>
-<rect x="0" y="32" width="2243" height="8" fill="#0d1117"/>
+    <rect class="window-bg" x="0" y="0" width="2250" height="467" fill="#0d1117" rx="8" ry="8"/>
+<g class="chrome"><rect class="header-bg" x="0" y="0" width="2250" height="40" fill="#0d1117" rx="8" ry="8"/>
+<rect x="0" y="32" width="2250" height="8" fill="#0d1117"/>
 <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="1121.5" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
+<text class="text fg" x="1125" y="20" text-anchor="middle" style="dominant-baseline: central">System Stats</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> top -l 1 | head -12</text>
-<text class="text fg" x="16" y="72.8">Processes: 706 total, 4 running, 702 sleeping, 6628 threads</text>
-<text class="text fg" x="16" y="89.6">2026/03/07 14:13:34</text>
-<text class="text fg" x="16" y="106.4">Load Avg: 3.33, 3.23, 2.73</text>
-<text class="text fg" x="16" y="123.2">CPU usage: 6.0% user, 9.37% sys, 84.61% idle</text>
-<text class="text fg" x="16" y="140">SharedLibs: 939M resident, 181M data, 145M linkedit.</text>
-<text class="text fg" x="16" y="156.8">MemRegions: 2373211 total, 9934M resident, 247M private, 2267M shared.</text>
-<text class="text fg" x="16" y="173.6">PhysMem: 34G used (3711M wired, 15G compressor), 684M unused.</text>
-<text class="text fg" x="16" y="190.4">VM: 497T vsize, 17G framework vsize, 206234(0) swapins, 861893(0) swapouts.</text>
-<text class="text fg" x="16" y="207.2">Networks: packets: 7443591/4091M in, 6220610/2829M out.</text>
-<text class="text fg" x="16" y="224">Disks: 28087609/427G read, 9522318/131G written.</text>
-<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ  #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
+<text class="text fg" x="23" y="56"> top -l 1 | head -12</text>
+<text class="text fg" x="16" y="72.8">Processes: 663 total, 3 running, 660 sleeping, 6669 threads</text>
+<text class="text fg" x="16" y="89.6">2026/03/07 17:03:08</text>
+<text class="text fg" x="16" y="106.4">Load Avg: 3.38, 3.11, 2.86</text>
+<text class="text fg" x="16" y="123.2">CPU usage: 2.77% user, 7.35% sys, 89.86% idle</text>
+<text class="text fg" x="16" y="140">SharedLibs: 914M resident, 182M data, 129M linkedit.</text>
+<text class="text fg" x="16" y="156.8">MemRegions: 2527635 total, 8627M resident, 195M private, 2093M shared.</text>
+<text class="text fg" x="16" y="173.6">PhysMem: 35G used (3314M wired, 17G compressor), 233M unused.</text>
+<text class="text fg" x="16" y="190.4">VM: 493T vsize, 5268M framework vsize, 225072(0) swapins, 861893(0) swapouts.</text>
+<text class="text fg" x="16" y="207.2">Networks: packets: 7909957/4533M in, 6667147/3270M out.</text>
+<text class="text fg" x="16" y="224">Disks: 29890030/455G read, 10068883/138G written.</text>
+<text class="text fg" x="16" y="257.6">PID    COMMAND          %CPU TIME     #TH    #WQ   #PORTS MEM   PURG  CMPRS PGRP  PPID  STATE    BOOSTS            %CPU_ME %CPU_OTHRS UID FAULTS    COW    MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER INSTRS CYCLES JETPRI USER                  #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD</text>
 <text class="text f13" x="16" y="274.4">❯</text>
-<text class="text fg" x="23.2" y="274.4"> df -h | head -8</text>
+<text class="text fg" x="23" y="274.4"> df -h | head -8</text>
 <text class="text fg" x="16" y="291.2">Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on</text>
 <text class="text fg" x="16" y="308">/dev/disk3s1s1   926Gi    11Gi   477Gi     3%    453k  4.3G    0%   /</text>
-<text class="text fg" x="16" y="324.8">devfs            216Ki   216Ki     0Bi   100%     746     0  100%   /dev</text>
+<text class="text fg" x="16" y="324.8">devfs            217Ki   217Ki     0Bi   100%     752     0  100%   /dev</text>
 <text class="text fg" x="16" y="341.6">/dev/disk3s6     926Gi    11Gi   477Gi     3%      11  5.0G    0%   /System/Volumes/VM</text>
 <text class="text fg" x="16" y="358.4">/dev/disk3s2     926Gi   8.9Gi   477Gi     2%    1.8k  5.0G    0%   /System/Volumes/Preboot</text>
-<text class="text fg" x="16" y="375.2">/dev/disk3s4     926Gi    36Mi   477Gi     1%     109  5.0G    0%   /System/Volumes/Update</text>
+<text class="text fg" x="16" y="375.2">/dev/disk3s4     926Gi    36Mi   477Gi     1%     108  5.0G    0%   /System/Volumes/Update</text>
 <text class="text fg" x="16" y="392">/dev/disk1s2     500Mi   6.0Mi   480Mi     2%       1  4.9M    0%   /System/Volumes/xarts</text>
 <text class="text fg" x="16" y="408.8">/dev/disk1s1     500Mi   5.7Mi   480Mi     2%      36  4.9M    0%   /System/Volumes/iSCPreboot</text>
 <text class="text f13" x="16" y="425.6">❯</text>
@@ -1267,7 +1267,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="425.6" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.908684;1" dur="10.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.915433;1" dur="11.82s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

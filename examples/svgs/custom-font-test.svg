@@ -71,958 +71,958 @@
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.008748;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.008902;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> e</text>
+<text class="text fg" x="26" y="16"> e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.008748;0.017497;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.008902;0.017467;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> ec</text>
+<text class="text fg" x="26" y="16"> ec</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="54.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.017497;0.026077;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.017467;0.025697;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> ech</text>
+<text class="text fg" x="26" y="16"> ech</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="64" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.026077;0.034489;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.025697;0.034599;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo</text>
+<text class="text fg" x="26" y="16"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.034489;0.043573;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.034599;0.042996;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo</text>
+<text class="text fg" x="26" y="16"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.043573;0.051817;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.042996;0.05173;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="92.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.051817;0.060229;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.05173;0.060296;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;U</text>
+<text class="text fg" x="26" y="16"> echo &apos;U</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.060229;0.069145;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.060296;0.069029;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Us</text>
+<text class="text fg" x="26" y="16"> echo &apos;Us</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="112" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.069145;0.077725;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.069029;0.077595;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Usi</text>
+<text class="text fg" x="26" y="16"> echo &apos;Usi</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="121.6" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.077725;0.086137;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.077595;0.085993;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Usin</text>
+<text class="text fg" x="26" y="16"> echo &apos;Usin</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="131.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.086137;0.094717;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.085993;0.094894;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="140.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.094717;0.103297;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.094894;0.10346;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.103297;0.111878;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.10346;0.112026;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using J</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using J</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="160" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.111878;0.120458;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.112026;0.120591;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using Je</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using Je</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="169.6" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.120458;0.129038;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.120591;0.129157;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using Jet</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using Jet</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="179.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.129038;0.137618;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.129157;0.137555;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetB</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetB</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="188.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.137618;0.146198;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.137555;0.14612;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBr</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBr</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="198.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.146198;0.15461;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.14612;0.15435;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBra</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBra</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="208" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.15461;0.16319;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.15435;0.163084;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrai</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrai</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.16319;0.172106;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.163084;0.171481;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrain</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrain</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="227.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.172106;0.180518;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.171481;0.179879;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="236.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.180518;0.189266;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.179879;0.188613;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="246.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.189266;0.19751;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.188613;0.19701;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains M</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains M</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="256" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.19751;0.206258;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.19701;0.205744;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mo</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="265.6" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.206258;0.21467;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.205744;0.214142;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mon</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mon</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="275.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.21467;0.22325;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.214142;0.222875;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.22325;0.231999;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.222875;0.231273;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="294.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.231999;0.24041;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.231273;0.239671;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono f</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono f</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="304" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.24041;0.248822;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.239671;0.247901;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono fo</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono fo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="313.6" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.248822;0.257571;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.247901;0.256466;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono fon</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono fon</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="323.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.257571;0.265983;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.256466;0.2652;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="332.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.265983;0.274731;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.2652;0.273598;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="342.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.274731;0.274563;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.273598;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="342.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.274563;0.359017;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.273598;0.358079;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="342.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.359017;0.376514;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.358079;0.375546;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.376514;0.378701;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.375546;0.377729;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.378701;0.396366;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.377729;0.395532;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.396366;0.405619;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.395532;0.404938;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> e</text>
+<text class="text fg" x="26" y="60.8"> e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.405619;0.413863;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.404938;0.413;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> ec</text>
+<text class="text fg" x="26" y="60.8"> ec</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="54.4" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.413863;0.422275;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.413;0.421733;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-40" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> ech</text>
+<text class="text fg" x="26" y="60.8"> ech</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="64" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.422275;0.430855;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.421733;0.429963;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-41" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo</text>
+<text class="text fg" x="26" y="60.8"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.430855;0.439435;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.429963;0.438529;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-42" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo</text>
+<text class="text fg" x="26" y="60.8"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.439435;0.448015;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.438529;0.446758;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-43" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="92.8" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.448015;0.456595;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.446758;0.455324;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-44" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;O</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;O</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.456595;0.465175;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.455324;0.464058;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-45" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="112" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.465175;0.473587;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.464058;0.472959;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-46" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="121.6" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.473587;0.482167;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.472959;0.481861;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-47" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or f</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or f</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="131.2" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.482167;0.490915;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.481861;0.490427;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-48" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fa</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fa</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="140.8" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.490915;0.499495;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.490427;0.498992;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-49" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fal</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fal</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.499495;0.508075;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.498992;0.507558;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-50" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fall</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fall</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="160" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.508075;0.516655;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.507558;0.51646;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-51" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallb</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallb</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="169.6" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.516655;0.525236;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.51646;0.524857;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-52" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallba</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallba</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="179.2" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.525236;0.533816;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.524857;0.533423;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-53" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallbac</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallbac</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="188.8" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.533816;0.542396;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.533423;0.542324;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-54" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="198.4" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.542396;0.551144;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.542324;0.55089;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-55" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="208" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.551144;0.560061;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.55089;0.559288;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-56" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback t</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback t</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.560061;0.568641;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.559288;0.568021;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-57" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="227.2" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.568641;0.577221;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.568021;0.576251;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-58" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="236.8" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.577221;0.585801;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.576251;0.584985;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-59" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to m</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to m</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="246.4" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.585801;0.594886;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.584985;0.593719;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-60" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to mo</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to mo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="256" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.594886;0.603129;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.593719;0.602116;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-61" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to mon</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to mon</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="265.6" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.603129;0.611709;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.602116;0.61085;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-62" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to mono</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to mono</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="275.2" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.611709;0.620626;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.61085;0.61908;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-63" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to monos</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to monos</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.620626;0.629038;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.61908;0.627813;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-64" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to monosp</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to monosp</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="294.4" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.629038;0.637618;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.627813;0.636211;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-65" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to monospa</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to monospa</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="304" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.637618;0.645861;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.636211;0.64528;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-66" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to monospac</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to monospac</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="313.6" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.645861;0.654441;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.64528;0.653846;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-67" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to monospace</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to monospace</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="323.2" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.654441;0.662853;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.653846;0.66258;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-68" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to monospace&apos;</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to monospace&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="332.8" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.662853;0.66319;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.66258;0.662412;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-69" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to monospace&apos;</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to monospace&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="332.8" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.66319;0.831595;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.662412;0.831374;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-70" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to monospace&apos;</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to monospace&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="332.8" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.831595;0.831763;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.831374;0.832046;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-71" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#282a36" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Using JetBrains Mono font&apos;</text>
 <text class="text fg" x="16" y="38.4">Using JetBrains Mono font</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;Or fallback to monospace&apos;</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;Or fallback to monospace&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="332.8" y="60.8" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.831763;1" dur="5.94s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.832046;1" dur="5.95s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

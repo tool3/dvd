@@ -78,7 +78,7 @@
 <rect class="cursor" x="35.2" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.005649;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.006141;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
@@ -91,13 +91,13 @@
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="25.6" y="56"> g</text>
+<text class="text fg" x="26" y="56"> g</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.005649;0.01119;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.006141;0.011836;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
@@ -110,13 +110,13 @@
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="25.6" y="56"> gi</text>
+<text class="text fg" x="26" y="56"> gi</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="54.4" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.01119;0.016626;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.011836;0.01753;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
@@ -129,13 +129,13 @@
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="25.6" y="56"> git</text>
+<text class="text fg" x="26" y="56"> git</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="64" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.016626;0.022168;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.01753;0.023336;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
@@ -148,13 +148,13 @@
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="25.6" y="56"> git</text>
+<text class="text fg" x="26" y="56"> git</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.022168;0.027603;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.023336;0.029142;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
@@ -167,13 +167,13 @@
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="25.6" y="56"> git s</text>
+<text class="text fg" x="26" y="56"> git s</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.027603;0.033145;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.029142;0.03506;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
@@ -186,13 +186,13 @@
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="25.6" y="56"> git st</text>
+<text class="text fg" x="26" y="56"> git st</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="92.8" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.033145;0.038367;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.03506;0.040643;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
@@ -205,13 +205,13 @@
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="25.6" y="56"> git sta</text>
+<text class="text fg" x="26" y="56"> git sta</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.038367;0.044016;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.040643;0.046673;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
@@ -224,13 +224,13 @@
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="25.6" y="56"> git stat</text>
+<text class="text fg" x="26" y="56"> git stat</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="112" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.044016;0.049345;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.046673;0.052255;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
@@ -243,13 +243,13 @@
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="25.6" y="56"> git statu</text>
+<text class="text fg" x="26" y="56"> git statu</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="121.6" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.049345;0.05478;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.052255;0.057838;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
@@ -262,13 +262,13 @@
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="25.6" y="56"> git status</text>
+<text class="text fg" x="26" y="56"> git status</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="131.2" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.05478;0.054567;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.057838;0.057727;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
@@ -281,13 +281,13 @@
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="25.6" y="56"> git status</text>
+<text class="text fg" x="26" y="56"> git status</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="131.2" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.054567;0.09741;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.057727;0.102948;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
@@ -300,13 +300,13 @@
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="25.6" y="56"> git status</text>
+<text class="text fg" x="26" y="56"> git status</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="131.2" y="56" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.09741;0.108281;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.102948;0.114448;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
@@ -319,10 +319,10 @@
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="25.6" y="56"> git status</text>
+<text class="text fg" x="26" y="56"> git status</text>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.108281;0.111691;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.114448;0.117798;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
@@ -334,20 +334,19 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.111691;0.124161;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.117798;0.130974;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
@@ -359,16 +358,15 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="324.8">❯</text>
 </g>
@@ -376,7 +374,7 @@
 <rect class="cursor" x="35.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.124161;0.232975;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.130974;0.24531;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
@@ -388,16 +386,15 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="324.8">❯</text>
 </g>
@@ -405,7 +402,7 @@
 <rect class="cursor" x="35.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.232975;0.240009;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.24531;0.253238;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
@@ -417,25 +414,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> g</text>
+<text class="text fg" x="26" y="324.8"> g</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.240009;0.245124;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.253238;0.259044;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
@@ -447,25 +443,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> gi</text>
+<text class="text fg" x="26" y="324.8"> gi</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="54.4" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.245124;0.250773;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.259044;0.264627;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
@@ -477,25 +472,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git</text>
+<text class="text fg" x="26" y="324.8"> git</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="64" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.250773;0.256101;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.264627;0.270322;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
@@ -507,25 +501,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git</text>
+<text class="text fg" x="26" y="324.8"> git</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.256101;0.261643;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.270322;0.276128;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
@@ -537,25 +530,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git a</text>
+<text class="text fg" x="26" y="324.8"> git a</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.261643;0.267398;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.276128;0.281822;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
@@ -567,25 +559,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git ad</text>
+<text class="text fg" x="26" y="324.8"> git ad</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="92.8" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.267398;0.272301;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.281822;0.287405;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
@@ -597,25 +588,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git add</text>
+<text class="text fg" x="26" y="324.8"> git add</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.272301;0.277949;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.287405;0.2931;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
@@ -627,25 +617,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git add</text>
+<text class="text fg" x="26" y="324.8"> git add</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="112" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.277949;0.283491;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.2931;0.298906;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
@@ -657,25 +646,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git add .</text>
+<text class="text fg" x="26" y="324.8"> git add .</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="121.6" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.283491;0.283065;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.298906;0.298459;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
@@ -687,25 +675,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git add .</text>
+<text class="text fg" x="26" y="324.8"> git add .</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="121.6" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.283065;0.32804;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.298459;0.34636;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
@@ -717,25 +704,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/figlet.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="257.6">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="145.6">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="190.4">Untracked files:</text>
+<text class="text fg" x="16" y="212.8">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="235.2">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="257.6">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="302.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git add .</text>
+<text class="text fg" x="26" y="324.8"> git add .</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="121.6" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.32804;0.340936;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.34636;0.359089;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
@@ -747,21 +733,20 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/font-sizes.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="235.2">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   examples/svgs/ls-colors.svg</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="123.2">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="168">Untracked files:</text>
+<text class="text fg" x="16" y="190.4">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="212.8">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="235.2">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="280">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="302.4">❯</text>
-<text class="text fg" x="25.6" y="302.4"> git add .</text>
+<text class="text fg" x="26" y="302.4"> git add .</text>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.340936;0.358734;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.359089;0.379299;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
@@ -773,24 +758,23 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.358734;0.413194;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.379299;0.436467;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
@@ -802,24 +786,23 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.413194;0.419375;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.436467;0.443725;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
@@ -831,25 +814,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> g</text>
+<text class="text fg" x="26" y="324.8"> g</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.419375;0.424811;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.443725;0.449531;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
@@ -861,25 +843,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> gi</text>
+<text class="text fg" x="26" y="324.8"> gi</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="54.4" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.424811;0.430246;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.449531;0.455226;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
@@ -891,25 +872,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git</text>
+<text class="text fg" x="26" y="324.8"> git</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="64" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.430246;0.435788;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.455226;0.46092;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
@@ -921,25 +901,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git</text>
+<text class="text fg" x="26" y="324.8"> git</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.435788;0.441117;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.46092;0.466615;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
@@ -951,25 +930,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git c</text>
+<text class="text fg" x="26" y="324.8"> git c</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.441117;0.446659;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.466615;0.472309;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
@@ -981,25 +959,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git co</text>
+<text class="text fg" x="26" y="324.8"> git co</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="92.8" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.446659;0.452307;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.472309;0.477892;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
@@ -1011,25 +988,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git com</text>
+<text class="text fg" x="26" y="324.8"> git com</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.452307;0.457743;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.477892;0.483475;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
@@ -1041,25 +1017,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git comm</text>
+<text class="text fg" x="26" y="324.8"> git comm</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="112" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.457743;0.463178;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.483475;0.489281;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
@@ -1071,25 +1046,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commi</text>
+<text class="text fg" x="26" y="324.8"> git commi</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="121.6" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.463178;0.468827;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.489281;0.494975;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-40" visibility="hidden">
@@ -1101,25 +1075,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit</text>
+<text class="text fg" x="26" y="324.8"> git commit</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="131.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.468827;0.473729;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.494975;0.500558;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-41" visibility="hidden">
@@ -1131,25 +1104,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit</text>
+<text class="text fg" x="26" y="324.8"> git commit</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="140.8" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.473729;0.479271;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.500558;0.506364;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-42" visibility="hidden">
@@ -1161,25 +1133,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -</text>
+<text class="text fg" x="26" y="324.8"> git commit -</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.479271;0.484813;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.506364;0.512171;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-43" visibility="hidden">
@@ -1191,25 +1162,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m</text>
+<text class="text fg" x="26" y="324.8"> git commit -m</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="160" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.484813;0.490248;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.512171;0.517865;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-44" visibility="hidden">
@@ -1221,25 +1191,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m</text>
+<text class="text fg" x="26" y="324.8"> git commit -m</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="169.6" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.490248;0.495684;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.517865;0.52356;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-45" visibility="hidden">
@@ -1251,25 +1220,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="179.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.495684;0.501226;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.52356;0.528808;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-46" visibility="hidden">
@@ -1281,25 +1249,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;A</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;A</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="188.8" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.501226;0.506661;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.528808;0.534725;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-47" visibility="hidden">
@@ -1311,25 +1278,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Ad</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Ad</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="198.4" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.506661;0.51199;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.534725;0.54042;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-48" visibility="hidden">
@@ -1341,25 +1307,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="208" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.51199;0.517532;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.54042;0.546114;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-49" visibility="hidden">
@@ -1371,25 +1336,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.517532;0.52286;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.546114;0.551697;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-50" visibility="hidden">
@@ -1401,25 +1365,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add n</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add n</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="227.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.52286;0.528402;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.551697;0.557392;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-51" visibility="hidden">
@@ -1431,25 +1394,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add ne</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add ne</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="236.8" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.528402;0.533625;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.557392;0.563086;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-52" visibility="hidden">
@@ -1461,25 +1423,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add new</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="246.4" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.533625;0.539167;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.563086;0.568892;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-53" visibility="hidden">
@@ -1491,25 +1452,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add new</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="256" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.539167;0.544602;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.568892;0.574587;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-54" visibility="hidden">
@@ -1521,25 +1481,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add new f</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new f</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="265.6" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.544602;0.550144;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.574587;0.58017;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-55" visibility="hidden">
@@ -1551,25 +1510,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add new fe</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new fe</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="275.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.550144;0.555792;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.58017;0.585976;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-56" visibility="hidden">
@@ -1581,25 +1539,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add new fea</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new fea</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.555792;0.561228;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.585976;0.59167;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-57" visibility="hidden">
@@ -1611,25 +1568,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add new feat</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new feat</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="294.4" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.561228;0.566876;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.59167;0.597477;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-58" visibility="hidden">
@@ -1641,25 +1597,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add new featu</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new featu</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="304" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.566876;0.572312;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.597477;0.603171;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-59" visibility="hidden">
@@ -1671,25 +1626,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add new featur</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new featur</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="313.6" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.572312;0.577854;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.603171;0.608866;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-60" visibility="hidden">
@@ -1701,25 +1655,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add new feature</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new feature</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="323.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.577854;0.583182;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.608866;0.614783;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-61" visibility="hidden">
@@ -1731,25 +1684,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add new feature&apos;</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new feature&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="332.8" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.583182;0.582863;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.614783;0.614225;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-62" visibility="hidden">
@@ -1761,25 +1713,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add new feature&apos;</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new feature&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="332.8" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.582863;0.627518;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.614225;0.662014;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-63" visibility="hidden">
@@ -1791,25 +1742,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/git-log.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="212.8">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
 <text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text fg" x="25.6" y="280"> git add .</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
-<text class="text fg" x="25.6" y="324.8"> git commit -m &apos;Add new feature&apos;</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new feature&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="332.8" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.627518;0.639028;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.662014;0.887003;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-64" visibility="hidden">
@@ -1821,21 +1771,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/header-footer-test.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/htop-like.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="168">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="190.4">        modified:   src/executor/cd-executor.ts</text>
-<text class="text fg" x="16" y="235.2">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
-<text class="text f13" x="16" y="257.6">❯</text>
-<text class="text fg" x="25.6" y="257.6"> git add .</text>
-<text class="text f13" x="16" y="302.4">❯</text>
-<text class="text fg" x="25.6" y="302.4"> git commit -m &apos;Add new feature&apos;</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
+<text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
+<text class="text f13" x="16" y="280">❯</text>
+<text class="text fg" x="26" y="280"> git add .</text>
+<text class="text f13" x="16" y="324.8">❯</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new feature&apos;</text>
+</g>
+<g class="cursor-layer">
+<rect class="cursor" x="332.8" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.639028;0.643184;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.887003;0.888343;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-65" visibility="hidden">
@@ -1847,171 +1800,24 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/>
 <text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
 <g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   src/executor/cd-executor.ts</text>
-<text class="text fg" x="16" y="190.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
-<text class="text f13" x="16" y="212.8">❯</text>
-<text class="text fg" x="25.6" y="212.8"> git add .</text>
-<text class="text f13" x="16" y="257.6">❯</text>
-<text class="text fg" x="25.6" y="257.6"> git commit -m &apos;Add new feature&apos;</text>
-<text class="text fg" x="16" y="280">[master 155d97b] Add new feature</text>
-<text class="text fg" x="16" y="302.4"> 25 files changed, 9048 insertions(+), 9308 deletions(-)</text>
-</g>
-<text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.643184;0.654908;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
-  </g>
-
-  <g id="frame-66" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="724" height="400" fill="#1e1e1e" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="724" height="40" fill="#242526" rx="8" ry="8"/>
-<rect x="0" y="32" width="724" height="8" fill="#242526"/>
-<circle cx="22" cy="20" r="6" fill="#ff5f56"/>
-<circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
-<circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
-<g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/keyboard-navigation-demo.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="145.6">        modified:   src/executor/cd-executor.ts</text>
-<text class="text fg" x="16" y="190.4">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
-<text class="text f13" x="16" y="212.8">❯</text>
-<text class="text fg" x="25.6" y="212.8"> git add .</text>
-<text class="text f13" x="16" y="257.6">❯</text>
-<text class="text fg" x="25.6" y="257.6"> git commit -m &apos;Add new feature&apos;</text>
-<text class="text fg" x="16" y="280">[master 155d97b] Add new feature</text>
-<text class="text fg" x="16" y="302.4"> 25 files changed, 9048 insertions(+), 9308 deletions(-)</text>
-<text class="text f13" x="16" y="324.8">❯</text>
-</g>
-<g class="cursor-layer">
-<rect class="cursor" x="35.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
-</g>
-<text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.654908;0.666525;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
-  </g>
-
-  <g id="frame-67" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="724" height="400" fill="#1e1e1e" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="724" height="40" fill="#242526" rx="8" ry="8"/>
-<rect x="0" y="32" width="724" height="8" fill="#242526"/>
-<circle cx="22" cy="20" r="6" fill="#ff5f56"/>
-<circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
-<circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
-<g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/ls-colors.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="123.2">        modified:   src/executor/cd-executor.ts</text>
-<text class="text fg" x="16" y="168">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
-<text class="text f13" x="16" y="190.4">❯</text>
-<text class="text fg" x="25.6" y="190.4"> git add .</text>
-<text class="text f13" x="16" y="235.2">❯</text>
-<text class="text fg" x="25.6" y="235.2"> git commit -m &apos;Add new feature&apos;</text>
-<text class="text fg" x="16" y="257.6">[master 155d97b] Add new feature</text>
-<text class="text fg" x="16" y="280"> 25 files changed, 9048 insertions(+), 9308 deletions(-)</text>
-<text class="text f13" x="16" y="302.4">❯</text>
-<text class="text f13" x="16" y="324.8">❯</text>
-</g>
-<g class="cursor-layer">
-<rect class="cursor" x="35.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
-</g>
-<text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.666525;0.678248;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
-  </g>
-
-  <g id="frame-68" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="724" height="400" fill="#1e1e1e" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="724" height="40" fill="#242526" rx="8" ry="8"/>
-<rect x="0" y="32" width="724" height="8" fill="#242526"/>
-<circle cx="22" cy="20" r="6" fill="#ff5f56"/>
-<circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
-<circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
-<g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
-<text class="text fg" x="16" y="145.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
-<text class="text f13" x="16" y="168">❯</text>
-<text class="text fg" x="25.6" y="168"> git add .</text>
-<text class="text f13" x="16" y="212.8">❯</text>
-<text class="text fg" x="25.6" y="212.8"> git commit -m &apos;Add new feature&apos;</text>
-<text class="text fg" x="16" y="235.2">[master 155d97b] Add new feature</text>
-<text class="text fg" x="16" y="257.6"> 25 files changed, 9048 insertions(+), 9308 deletions(-)</text>
+<text class="text fg" x="16" y="56">        modified:   src/executor/cd-executor.ts</text>
+<text class="text fg" x="16" y="78.4">        modified:   src/parser/cd-parser.ts</text>
+<text class="text fg" x="16" y="100.8">        modified:   src/pipeline/svg-emitter.ts</text>
+<text class="text fg" x="16" y="145.6">Untracked files:</text>
+<text class="text fg" x="16" y="168">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</text>
+<text class="text fg" x="16" y="190.4">        examples/multiline.cd</text>
+<text class="text fg" x="16" y="212.8">        examples/svgs/multiline.svg</text>
+<text class="text fg" x="16" y="257.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
 <text class="text f13" x="16" y="280">❯</text>
-<text class="text f13" x="16" y="302.4">❯</text>
+<text class="text fg" x="26" y="280"> git add .</text>
 <text class="text f13" x="16" y="324.8">❯</text>
+<text class="text fg" x="26" y="324.8"> git commit -m &apos;Add new feature&apos;</text>
 </g>
 <g class="cursor-layer">
-<rect class="cursor" x="35.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
+<rect class="cursor" x="332.8" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
 <text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.678248;0.892572;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
-  </g>
-
-  <g id="frame-69" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="724" height="400" fill="#1e1e1e" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="724" height="40" fill="#242526" rx="8" ry="8"/>
-<rect x="0" y="32" width="724" height="8" fill="#242526"/>
-<circle cx="22" cy="20" r="6" fill="#ff5f56"/>
-<circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
-<circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
-<g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
-<text class="text fg" x="16" y="145.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
-<text class="text f13" x="16" y="168">❯</text>
-<text class="text fg" x="25.6" y="168"> git add .</text>
-<text class="text f13" x="16" y="212.8">❯</text>
-<text class="text fg" x="25.6" y="212.8"> git commit -m &apos;Add new feature&apos;</text>
-<text class="text fg" x="16" y="235.2">[master 155d97b] Add new feature</text>
-<text class="text fg" x="16" y="257.6"> 25 files changed, 9048 insertions(+), 9308 deletions(-)</text>
-<text class="text f13" x="16" y="280">❯</text>
-<text class="text f13" x="16" y="302.4">❯</text>
-<text class="text f13" x="16" y="324.8">❯</text>
-</g>
-<g class="cursor-layer">
-<rect class="cursor" x="35.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
-</g>
-<text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.892572;0.893424;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
-  </g>
-
-  <g id="frame-70" visibility="hidden">
-    <rect class="window-bg" x="0" y="0" width="724" height="400" fill="#1e1e1e" rx="8" ry="8"/>
-<g class="chrome"><rect class="header-bg" x="0" y="0" width="724" height="40" fill="#242526" rx="8" ry="8"/>
-<rect x="0" y="32" width="724" height="8" fill="#242526"/>
-<circle cx="22" cy="20" r="6" fill="#ff5f56"/>
-<circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
-<circle cx="62" cy="20" r="6" fill="#27c93f"/>
-<text class="text fg" x="362" y="20" text-anchor="middle" style="dominant-baseline: central">my-project</text></g>
-<g class="text-layer">
-<text class="text fg" x="16" y="56">        modified:   examples/svgs/neofetch-fixed-dimensions.svg</text>
-<text class="text fg" x="16" y="78.4">        modified:   examples/svgs/selection-test.svg</text>
-<text class="text fg" x="16" y="100.8">        modified:   src/executor/cd-executor.ts</text>
-<text class="text fg" x="16" y="145.6">no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)</text>
-<text class="text f13" x="16" y="168">❯</text>
-<text class="text fg" x="25.6" y="168"> git add .</text>
-<text class="text f13" x="16" y="212.8">❯</text>
-<text class="text fg" x="25.6" y="212.8"> git commit -m &apos;Add new feature&apos;</text>
-<text class="text fg" x="16" y="235.2">[master 155d97b] Add new feature</text>
-<text class="text fg" x="16" y="257.6"> 25 files changed, 9048 insertions(+), 9308 deletions(-)</text>
-<text class="text f13" x="16" y="280">❯</text>
-<text class="text f13" x="16" y="302.4">❯</text>
-<text class="text f13" x="16" y="324.8">❯</text>
-</g>
-<g class="cursor-layer">
-<rect class="cursor" x="35.2" y="324.8" width="9.6" height="22.4" fill="#c9d1d9"/>
-</g>
-<text class="text dim" x="708" y="372.8" text-anchor="end" fill="#c9d1d9">git ops</text>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.893424;1" dur="9.38s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.888343;1" dur="8.96s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

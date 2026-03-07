@@ -8,8 +8,9 @@ Set Template macos
 Set Title "ASCII Art Demo"
 Set TypingSpeed 10
 Set FontSize 14
+Set LineHeight 1
 
-Type "echo -e ' ____  __     __ ____  \\n   |  _ \\\\ \\\\ \\\\   / /|  _ \\\\ \\n   | | | | \\\\ \\\\ / / | | | |\\n   | |_| |  \\\\ V /  | |_| |\\n   |____/    \\\\_/   |____/ '"
+Type "echo -e '    ____  __     __ ____  \\n   |  _ \\\\ \\\\ \\\\   / /|  _ \\\\ \\n   | | | | \\\\ \\\\ / / | | | |\\n   | |_| |  \\\\ V /  | |_| |\\n   |____/    \\\\_/   |____/ '"
 Sleep 500ms
 Enter
 Sleep 2s

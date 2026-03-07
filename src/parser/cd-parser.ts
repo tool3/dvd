@@ -4,6 +4,9 @@
  * Inspired by VHS .tape format but for animated SVGs
  */
 
+// Placeholder for newlines inside backtick strings (won't appear in normal content)
+const BACKTICK_NEWLINE = '\x00BTNL\x00';
+
 export type CDCommand =
   | { type: 'Output'; path: string }
   | { type: 'Require'; program: string }
@@ -66,8 +69,17 @@ export const parseRegex = (pattern: string): RegExp => {
 
 /**
  * Parse a quoted string, handling escape sequences
+ * Supports both double quotes ("...") and backticks (`...`)
+ * Backtick strings preserve literal content (no escape processing)
  */
 export const parseQuotedString = (str: string): string => {
+  // Handle backtick strings (literal, no escape processing)
+  if (str.startsWith('`') && str.endsWith('`')) {
+    // Restore newlines from placeholder
+    return str.slice(1, -1).replace(new RegExp(BACKTICK_NEWLINE, 'g'), '\n');
+  }
+
+  // Handle double-quoted strings with escape processing
   if (!str.startsWith('"') || !str.endsWith('"')) {
     throw new Error(`Expected quoted string, got: ${str}`);
   }
@@ -89,11 +101,13 @@ export const parseQuotedString = (str: string): string => {
 
 /**
  * Tokenize a line into command and arguments
+ * Handles both double quotes and backticks
  */
 export const tokenizeLine = (line: string): string[] => {
   const tokens: string[] = [];
   let current = '';
-  let inQuotes = false;
+  let inDoubleQuotes = false;
+  let inBackticks = false;
   let escaped = false;
 
   for (let i = 0; i < line.length; i++) {
@@ -105,19 +119,26 @@ export const tokenizeLine = (line: string): string[] => {
       continue;
     }
 
-    if (char === '\\') {
+    // Only process escapes in double quotes, not backticks
+    if (char === '\\' && !inBackticks) {
       current += char;
       escaped = true;
       continue;
     }
 
-    if (char === '"') {
-      inQuotes = !inQuotes;
+    if (char === '"' && !inBackticks) {
+      inDoubleQuotes = !inDoubleQuotes;
       current += char;
       continue;
     }
 
-    if (!inQuotes && /\s/.test(char)) {
+    if (char === '`' && !inDoubleQuotes) {
+      inBackticks = !inBackticks;
+      current += char;
+      continue;
+    }
+
+    if (!inDoubleQuotes && !inBackticks && /\s/.test(char)) {
       if (current) {
         tokens.push(current);
         current = '';
@@ -311,10 +332,60 @@ export const parseCommand = (line: string, lineNumber: number): CDCommand => {
 };
 
 /**
+ * Pre-process content to join multi-line backtick strings
+ * Returns content with backtick blocks collapsed to single lines
+ * (newlines inside backticks are replaced with a placeholder)
+ */
+const preprocessMultilineBackticks = (content: string): string => {
+  const result: string[] = [];
+  const lines = content.split('\n');
+  let inBacktickBlock = false;
+  let blockLines: string[] = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+
+    if (!inBacktickBlock) {
+      // Check if this line starts a backtick block
+      const backtickCount = (line.match(/`/g) || []).length;
+
+      if (backtickCount === 1) {
+        // Opening backtick without closing - start multi-line block
+        inBacktickBlock = true;
+        blockLines = [line];
+      } else {
+        // Either no backticks or matched pair on same line
+        result.push(line);
+      }
+    } else {
+      // We're inside a backtick block
+      blockLines.push(line);
+
+      const backtickCount = (line.match(/`/g) || []).length;
+      if (backtickCount >= 1) {
+        // Found closing backtick - join lines with placeholder and add to result
+        result.push(blockLines.join(BACKTICK_NEWLINE));
+        inBacktickBlock = false;
+        blockLines = [];
+      }
+    }
+  }
+
+  // Handle unclosed backtick block (treat as regular lines)
+  if (inBacktickBlock) {
+    result.push(...blockLines);
+  }
+
+  return result.join('\n');
+};
+
+/**
  * Parse a complete .cd script
  */
 export const parseCD = (content: string): CDScript => {
-  const lines = content.split('\n');
+  // Pre-process to handle multi-line backtick strings
+  const processedContent = preprocessMultilineBackticks(content);
+  const lines = processedContent.split('\n');
   const commands: CDCommand[] = [];
   const settings = new Map<string, string>();
   const requirements: string[] = [];

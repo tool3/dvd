@@ -71,983 +71,983 @@
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.008763;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.008736;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> e</text>
+<text class="text fg" x="26" y="16"> e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.008763;0.017361;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.008736;0.017142;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> ec</text>
+<text class="text fg" x="26" y="16"> ec</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="54.4" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.017361;0.025628;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.017142;0.025713;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> ech</text>
+<text class="text fg" x="26" y="16"> ech</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="64" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.025628;0.034226;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.025713;0.033954;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo</text>
+<text class="text fg" x="26" y="16"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.034226;0.042659;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.033954;0.042525;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo</text>
+<text class="text fg" x="26" y="16"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.042659;0.050761;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.042525;0.051261;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="92.8" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.050761;0.059028;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.051261;0.059832;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;T</text>
+<text class="text fg" x="26" y="16"> echo &apos;T</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.059028;0.067626;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.059832;0.068073;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Th</text>
+<text class="text fg" x="26" y="16"> echo &apos;Th</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="112" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.067626;0.075893;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.068073;0.076809;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Thi</text>
+<text class="text fg" x="26" y="16"> echo &apos;Thi</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="121.6" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.075893;0.084491;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.076809;0.08505;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This</text>
+<text class="text fg" x="26" y="16"> echo &apos;This</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="131.2" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.084491;0.092593;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.08505;0.093456;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This</text>
+<text class="text fg" x="26" y="16"> echo &apos;This</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="140.8" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.092593;0.10086;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.093456;0.102027;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This u</text>
+<text class="text fg" x="26" y="16"> echo &apos;This u</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.10086;0.109458;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.102027;0.110433;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This us</text>
+<text class="text fg" x="26" y="16"> echo &apos;This us</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="160" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.109458;0.117725;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.110433;0.11884;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This use</text>
+<text class="text fg" x="26" y="16"> echo &apos;This use</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="169.6" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.117725;0.126157;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.11884;0.127246;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="179.2" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.126157;0.134425;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.127246;0.135322;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="188.8" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.134425;0.143022;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.135322;0.143564;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="198.4" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.143022;0.151124;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.143564;0.151805;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="208" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.151124;0.159557;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.151805;0.160376;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a b</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a b</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.159557;0.168155;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.160376;0.168947;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a ba</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a ba</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="227.2" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.168155;0.176587;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.168947;0.177353;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="236.8" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.176587;0.185185;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.177353;0.185594;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="246.4" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.185185;0.193618;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.185594;0.193836;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar c</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar c</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="256" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.193618;0.20205;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.193836;0.202242;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cu</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cu</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="265.6" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.20205;0.210648;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.202242;0.210648;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cur</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cur</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="275.2" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.210648;0.219081;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.210648;0.218889;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar curs</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar curs</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.219081;0.227513;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.218889;0.22746;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar curso</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar curso</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="294.4" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.227513;0.235946;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.22746;0.236031;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="304" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.235946;0.244544;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.236031;0.244272;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="313.6" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.244544;0.244378;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.244272;0.244107;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="313.6" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.244378;0.327381;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.244107;0.327345;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="313.6" y="16" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.327381;0.344246;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.327345;0.344322;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.344246;0.345569;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.344322;0.346464;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.345569;0.362599;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.346464;0.363606;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.362599;0.371362;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.363606;0.372342;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> e</text>
+<text class="text fg" x="26" y="60.8"> e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.371362;0.37963;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.372342;0.380583;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> ec</text>
+<text class="text fg" x="26" y="60.8"> ec</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="54.4" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.37963;0.388228;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.380583;0.38899;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> ech</text>
+<text class="text fg" x="26" y="60.8"> ech</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="64" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.388228;0.39666;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.38899;0.397396;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo</text>
+<text class="text fg" x="26" y="60.8"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.39666;0.405258;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.397396;0.406132;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo</text>
+<text class="text fg" x="26" y="60.8"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.405258;0.41369;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.406132;0.414538;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-40" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="92.8" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.41369;0.422288;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.414538;0.422944;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-41" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;w</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;w</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.422288;0.430556;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.422944;0.431515;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-42" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;wi</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;wi</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="112" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.430556;0.438823;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.431515;0.439921;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-43" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;wit</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;wit</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="121.6" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.438823;0.447255;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.439921;0.448327;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-44" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="131.2" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.447255;0.455688;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.448327;0.456568;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-45" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="140.8" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.455688;0.464286;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.456568;0.46481;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-46" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.464286;0.472553;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.46481;0.473216;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-47" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="160" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.472553;0.481151;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.473216;0.481457;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-48" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a c</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a c</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="169.6" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.481151;0.489749;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.481457;0.490193;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-49" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a cu</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a cu</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="179.2" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.489749;0.498347;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.490193;0.498764;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-50" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a cus</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a cus</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="188.8" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.498347;0.506779;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.498764;0.507335;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-51" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a cust</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a cust</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="198.4" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.506779;0.515377;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.507335;0.515741;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-52" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custo</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="208" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.515377;0.523975;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.515741;0.524642;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-53" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.523975;0.532242;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.524642;0.532553;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-54" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="227.2" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.532242;0.540675;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.532553;0.541124;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-55" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom g</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom g</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="236.8" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.540675;0.549107;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.541124;0.54953;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-56" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom gr</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom gr</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="246.4" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.549107;0.557374;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.54953;0.557772;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-57" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom gre</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom gre</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="256" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.557374;0.566138;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.557772;0.566178;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-58" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom gree</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom gree</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="265.6" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.566138;0.574405;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.566178;0.574584;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-59" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="275.2" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.574405;0.583003;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.574584;0.58332;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-60" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.583003;0.591435;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.58332;0.591561;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-61" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green c</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green c</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="294.4" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.591435;0.599702;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.591561;0.599802;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-62" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green co</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green co</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="304" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.599702;0.6083;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.599802;0.608044;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-63" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green col</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green col</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="313.6" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.6083;0.616898;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.608044;0.61645;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-64" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green colo</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green colo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="323.2" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.616898;0.625165;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.61645;0.624691;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-65" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green color</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green color</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="332.8" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.625165;0.633763;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.624691;0.633097;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-66" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green color&apos;</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green color&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="342.4" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.633763;0.633929;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.633097;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-67" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green color&apos;</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green color&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="342.4" y="60.8" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.633929;0.650794;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.633097;0.650404;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-68" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green color&apos;</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green color&apos;</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.650794;0.651455;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.650404;0.651228;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-69" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green color&apos;</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green color&apos;</text>
 <text class="text fg" x="16" y="83.2">with a custom green color</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.651455;0.66832;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.651228;0.6687;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-70" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green color&apos;</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green color&apos;</text>
 <text class="text fg" x="16" y="83.2">with a custom green color</text>
 <text class="text f13" x="16" y="105.6">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="105.6" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.66832;0.834325;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.6687;0.834515;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-71" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green color&apos;</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green color&apos;</text>
 <text class="text fg" x="16" y="83.2">with a custom green color</text>
 <text class="text f13" x="16" y="105.6">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="105.6" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.834325;0.834656;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.834515;0.835174;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-72" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="500" height="200" fill="#1a1b26" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;This uses a bar cursor&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;This uses a bar cursor&apos;</text>
 <text class="text fg" x="16" y="38.4">This uses a bar cursor</text>
 <text class="text f13" x="16" y="60.8">❯</text>
-<text class="text fg" x="25.6" y="60.8"> echo &apos;with a custom green color&apos;</text>
+<text class="text fg" x="26" y="60.8"> echo &apos;with a custom green color&apos;</text>
 <text class="text fg" x="16" y="83.2">with a custom green color</text>
 <text class="text f13" x="16" y="105.6">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="105.6" width="2" height="22.4" fill="#50fa7b"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.834656;1" dur="6.05s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.835174;1" dur="6.07s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

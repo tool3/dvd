@@ -81,7 +81,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.005282;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.005295;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
@@ -98,12 +98,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> e</text>
+<text class="text fg" x="24" y="56"> e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="41.2" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.005282;0.010173;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.005295;0.010198;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
@@ -120,12 +120,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> ec</text>
+<text class="text fg" x="24" y="56"> ec</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="49.6" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.010173;0.01526;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.010198;0.015297;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
@@ -142,12 +142,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> ech</text>
+<text class="text fg" x="24" y="56"> ech</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="58" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.01526;0.020248;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.015297;0.0202;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
@@ -164,12 +164,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo</text>
+<text class="text fg" x="24" y="56"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.020248;0.025237;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.0202;0.025495;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
@@ -186,12 +186,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo</text>
+<text class="text fg" x="24" y="56"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="74.8" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.025237;0.030617;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.025495;0.0303;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
@@ -208,12 +208,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.030617;0.035313;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.0303;0.035399;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
@@ -230,12 +230,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;T</text>
+<text class="text fg" x="24" y="56"> echo &apos;T</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="91.6" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.035313;0.040888;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.035399;0.040498;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
@@ -252,12 +252,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Te</text>
+<text class="text fg" x="24" y="56"> echo &apos;Te</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="100" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.040888;0.045877;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.040498;0.045303;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
@@ -274,12 +274,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Tes</text>
+<text class="text fg" x="24" y="56"> echo &apos;Tes</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="108.4" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.045877;0.050866;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.045303;0.050304;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
@@ -296,12 +296,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Test</text>
+<text class="text fg" x="24" y="56"> echo &apos;Test</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.050866;0.055952;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.050304;0.055109;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
@@ -318,12 +318,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testi</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testi</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="125.2" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.055952;0.061039;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.055109;0.060208;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
@@ -340,12 +340,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testin</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testin</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="133.6" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.061039;0.066223;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.060208;0.065307;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
@@ -362,12 +362,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="142" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.066223;0.071114;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.065307;0.0707;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
@@ -384,12 +384,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.071114;0.076103;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.0707;0.075407;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
@@ -406,12 +406,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing h</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing h</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="158.8" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.076103;0.081092;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.075407;0.080114;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
@@ -428,12 +428,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing he</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing he</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.081092;0.089113;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.080114;0.085115;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
@@ -450,12 +450,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing hea</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing hea</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="175.6" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.089113;0.094297;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.085115;0.090312;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
@@ -472,12 +472,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing head</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing head</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="184" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.094297;0.098895;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.090312;0.095215;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
@@ -494,12 +494,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing heade</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing heade</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="192.4" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.098895;0.103981;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.095215;0.100118;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
@@ -516,12 +516,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="200.8" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.103981;0.109068;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.100118;0.105021;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
@@ -538,12 +538,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="209.2" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.109068;0.113861;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.105021;0.11012;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
@@ -560,12 +560,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header a</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header a</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.113861;0.119045;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.11012;0.115317;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
@@ -582,12 +582,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header an</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header an</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="226" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.119045;0.123936;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.115317;0.12022;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
@@ -604,12 +604,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="234.4" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.123936;0.128925;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.12022;0.125123;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
@@ -626,12 +626,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="242.8" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.128925;0.133914;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.125123;0.130222;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
@@ -648,12 +648,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and f</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and f</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="251.2" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.133914;0.138902;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.130222;0.135125;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
@@ -670,12 +670,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and fo</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and fo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="259.6" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.138902;0.144087;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.135125;0.140126;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
@@ -692,12 +692,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and foo</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and foo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="268" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.144087;0.149173;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.140126;0.145421;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
@@ -714,12 +714,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and foot</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and foot</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="276.4" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.149173;0.154162;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.145421;0.150226;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
@@ -736,12 +736,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and foote</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and foote</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.154162;0.159151;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.150226;0.155227;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
@@ -758,12 +758,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="293.2" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.159151;0.16414;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.155227;0.160129;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
@@ -780,12 +780,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="301.6" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.16414;0.169031;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.160129;0.165228;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
@@ -802,12 +802,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer c</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer c</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="310" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.169031;0.173922;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.165228;0.169935;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
@@ -824,12 +824,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer co</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer co</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="318.4" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.173922;0.179106;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.169935;0.174838;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
@@ -846,12 +846,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer con</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer con</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="326.8" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.179106;0.184193;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.174838;0.179741;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
@@ -868,12 +868,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer conf</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer conf</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="335.2" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.184193;0.188986;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.179741;0.18484;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
@@ -890,12 +890,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer confi</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer confi</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="343.6" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.188986;0.194072;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.18484;0.190037;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
@@ -912,12 +912,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="352" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.194072;0.199159;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.190037;0.195136;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
@@ -934,12 +934,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="360.4" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.199159;0.199061;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.195136;0.195038;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-40" visibility="hidden">
@@ -956,12 +956,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="360.4" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.199061;0.248557;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.195038;0.244852;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-41" visibility="hidden">
@@ -978,12 +978,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="360.4" y="56" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.248557;0.259219;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.244852;0.255148;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-42" visibility="hidden">
@@ -1000,9 +1000,9 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.259219;0.260687;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.255148;0.256325;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-43" visibility="hidden">
@@ -1019,10 +1019,10 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.260687;0.271153;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.256325;0.267111;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-44" visibility="hidden">
@@ -1039,14 +1039,14 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.271153;0.276533;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.267111;0.272701;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-45" visibility="hidden">
@@ -1063,15 +1063,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> e</text>
+<text class="text fg" x="24" y="95.2"> e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="41.2" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.276533;0.281816;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.272701;0.277898;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-46" visibility="hidden">
@@ -1088,15 +1088,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> ec</text>
+<text class="text fg" x="24" y="95.2"> ec</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="49.6" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.281816;0.286511;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.277898;0.282801;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-47" visibility="hidden">
@@ -1113,15 +1113,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> ech</text>
+<text class="text fg" x="24" y="95.2"> ech</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="58" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.286511;0.2915;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.282801;0.287998;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-48" visibility="hidden">
@@ -1138,15 +1138,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo</text>
+<text class="text fg" x="24" y="95.2"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.2915;0.29639;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.287998;0.293097;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-49" visibility="hidden">
@@ -1163,15 +1163,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo</text>
+<text class="text fg" x="24" y="95.2"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="74.8" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.29639;0.301086;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.293097;0.297509;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-50" visibility="hidden">
@@ -1188,15 +1188,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.301086;0.30627;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.297509;0.30251;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-51" visibility="hidden">
@@ -1213,15 +1213,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;H</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;H</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="91.6" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.30627;0.311259;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.30251;0.307609;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-52" visibility="hidden">
@@ -1238,15 +1238,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;He</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;He</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="100" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.311259;0.316345;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.307609;0.312708;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-53" visibility="hidden">
@@ -1263,15 +1263,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Hea</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Hea</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="108.4" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.316345;0.321334;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.312708;0.317709;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-54" visibility="hidden">
@@ -1288,15 +1288,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Head</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Head</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.321334;0.326323;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.317709;0.322416;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-55" visibility="hidden">
@@ -1313,15 +1313,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Heade</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Heade</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="125.2" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.326323;0.331312;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.322416;0.327515;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-56" visibility="hidden">
@@ -1338,15 +1338,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="133.6" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.331312;0.3363;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.327515;0.332908;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-57" visibility="hidden">
@@ -1363,15 +1363,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="142" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.3363;0.341289;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.332908;0.337419;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-58" visibility="hidden">
@@ -1388,15 +1388,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header h</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header h</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.341289;0.34618;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.337419;0.342714;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-59" visibility="hidden">
@@ -1413,15 +1413,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header ha</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header ha</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="158.8" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.34618;0.351267;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.342714;0.347617;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-60" visibility="hidden">
@@ -1438,15 +1438,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.351267;0.356256;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.347617;0.352716;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-61" visibility="hidden">
@@ -1463,15 +1463,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="175.6" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.356256;0.361146;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.352716;0.357325;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-62" visibility="hidden">
@@ -1488,15 +1488,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has c</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has c</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="184" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.361146;0.366037;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.357325;0.36213;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-63" visibility="hidden">
@@ -1513,15 +1513,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has cu</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has cu</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="192.4" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.366037;0.371124;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.36213;0.367033;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-64" visibility="hidden">
@@ -1538,15 +1538,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has cus</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has cus</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="200.8" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.371124;0.376113;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.367033;0.372132;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-65" visibility="hidden">
@@ -1563,15 +1563,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has cust</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has cust</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="209.2" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.376113;0.381199;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.372132;0.377427;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-66" visibility="hidden">
@@ -1588,15 +1588,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custo</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.381199;0.386286;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.377427;0.382428;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-67" visibility="hidden">
@@ -1613,15 +1613,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="226" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.386286;0.391177;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.382428;0.387233;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-68" visibility="hidden">
@@ -1638,15 +1638,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="234.4" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.391177;0.396263;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.387233;0.39243;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-69" visibility="hidden">
@@ -1663,15 +1663,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom b</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom b</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="242.8" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.396263;0.401252;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.39243;0.397235;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-70" visibility="hidden">
@@ -1688,15 +1688,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom ba</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom ba</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="251.2" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.401252;0.406339;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.397235;0.402236;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-71" visibility="hidden">
@@ -1713,15 +1713,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom bac</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom bac</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="259.6" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.406339;0.41123;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.402236;0.407335;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-72" visibility="hidden">
@@ -1738,15 +1738,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom back</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom back</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="268" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.41123;0.416414;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.407335;0.41214;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-73" visibility="hidden">
@@ -1763,15 +1763,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom backg</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom backg</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="276.4" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.416414;0.421403;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.41214;0.417239;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-74" visibility="hidden">
@@ -1788,15 +1788,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom backgr</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom backgr</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.421403;0.426196;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.417239;0.42224;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-75" visibility="hidden">
@@ -1813,15 +1813,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom backgro</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom backgro</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="293.2" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.426196;0.43138;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.42224;0.427143;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-76" visibility="hidden">
@@ -1838,15 +1838,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom backgrou</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom backgrou</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="301.6" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.43138;0.436271;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.427143;0.432242;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-77" visibility="hidden">
@@ -1863,15 +1863,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom backgroun</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom backgroun</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="310" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.436271;0.441456;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.432242;0.437046;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-78" visibility="hidden">
@@ -1888,15 +1888,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="318.4" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.441456;0.446151;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.437046;0.442146;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-79" visibility="hidden">
@@ -1913,15 +1913,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="326.8" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.446151;0.451042;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.442146;0.447146;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-80" visibility="hidden">
@@ -1938,15 +1938,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background a</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background a</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="335.2" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.451042;0.456324;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.447146;0.452147;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-81" visibility="hidden">
@@ -1963,15 +1963,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background an</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background an</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="343.6" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.456324;0.461019;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.452147;0.457247;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-82" visibility="hidden">
@@ -1988,15 +1988,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="352" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.461019;0.466106;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.457247;0.462149;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-83" visibility="hidden">
@@ -2013,15 +2013,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="360.4" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.466106;0.471192;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.462149;0.46715;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-84" visibility="hidden">
@@ -2038,15 +2038,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and b</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and b</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="368.8" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.471192;0.476181;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.46715;0.472053;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-85" visibility="hidden">
@@ -2063,15 +2063,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and bo</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and bo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="377.2" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.476181;0.48117;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.472053;0.477152;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-86" visibility="hidden">
@@ -2088,15 +2088,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and bor</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and bor</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="385.6" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.48117;0.486256;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.477152;0.482251;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-87" visibility="hidden">
@@ -2113,15 +2113,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and bord</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and bord</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="394" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.486256;0.491343;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.482251;0.48686;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-88" visibility="hidden">
@@ -2138,15 +2138,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and borde</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and borde</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="402.4" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.491343;0.496332;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.48686;0.492057;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-89" visibility="hidden">
@@ -2163,15 +2163,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="410.8" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.496332;0.501223;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.492057;0.497352;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-90" visibility="hidden">
@@ -2188,15 +2188,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="419.2" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.501223;0.501125;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.497352;0.49696;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-91" visibility="hidden">
@@ -2213,15 +2213,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="419.2" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.501125;0.550719;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.49696;0.547362;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-92" visibility="hidden">
@@ -2238,15 +2238,15 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="419.2" y="95.2" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.550719;0.561186;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.547362;0.557953;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-93" visibility="hidden">
@@ -2263,12 +2263,12 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.561186;0.561968;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.557953;0.559325;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-94" visibility="hidden">
@@ -2285,13 +2285,13 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.561968;0.572435;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.559325;0.569818;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-95" visibility="hidden">
@@ -2308,17 +2308,17 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="32.8" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.572435;0.578206;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.569818;0.575505;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-96" visibility="hidden">
@@ -2335,18 +2335,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> e</text>
+<text class="text fg" x="24" y="134.4"> e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="41.2" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.578206;0.583293;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.575505;0.5808;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-97" visibility="hidden">
@@ -2363,18 +2363,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> ec</text>
+<text class="text fg" x="24" y="134.4"> ec</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="49.6" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.583293;0.588086;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.5808;0.585899;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-98" visibility="hidden">
@@ -2391,18 +2391,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> ech</text>
+<text class="text fg" x="24" y="134.4"> ech</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="58" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.588086;0.592879;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.585899;0.591096;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-99" visibility="hidden">
@@ -2419,18 +2419,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo</text>
+<text class="text fg" x="24" y="134.4"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.592879;0.597965;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.591096;0.596195;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-100" visibility="hidden">
@@ -2447,18 +2447,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo</text>
+<text class="text fg" x="24" y="134.4"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="74.8" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.597965;0.602954;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.596195;0.601098;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-101" visibility="hidden">
@@ -2475,18 +2475,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.602954;0.608041;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.601098;0.606393;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-102" visibility="hidden">
@@ -2503,18 +2503,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;F</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;F</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="91.6" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.608041;0.613323;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.606393;0.611002;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-103" visibility="hidden">
@@ -2531,18 +2531,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Fo</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Fo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="100" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.613323;0.618018;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.611002;0.615807;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-104" visibility="hidden">
@@ -2559,18 +2559,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Foo</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Foo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="108.4" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.618018;0.623007;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.615807;0.620808;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-105" visibility="hidden">
@@ -2587,18 +2587,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Foot</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Foot</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.623007;0.6278;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.620808;0.625907;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-106" visibility="hidden">
@@ -2615,18 +2615,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Foote</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Foote</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="125.2" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.6278;0.632789;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.625907;0.631104;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-107" visibility="hidden">
@@ -2643,18 +2643,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="133.6" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.632789;0.637778;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.631104;0.636007;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-108" visibility="hidden">
@@ -2671,18 +2671,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="142" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.637778;0.642962;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.636007;0.641204;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-109" visibility="hidden">
@@ -2699,18 +2699,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer h</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer h</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.642962;0.647853;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.641204;0.646303;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-110" visibility="hidden">
@@ -2727,18 +2727,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer ha</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer ha</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="158.8" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.647853;0.652939;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.646303;0.651402;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-111" visibility="hidden">
@@ -2755,18 +2755,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.652939;0.658026;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.651402;0.656403;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-112" visibility="hidden">
@@ -2783,18 +2783,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="175.6" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.658026;0.663113;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.656403;0.661404;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-113" visibility="hidden">
@@ -2811,18 +2811,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has c</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has c</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="184" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.663113;0.668199;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.661404;0.666307;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-114" visibility="hidden">
@@ -2839,18 +2839,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has cu</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has cu</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="192.4" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.668199;0.673188;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.666307;0.671504;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-115" visibility="hidden">
@@ -2867,18 +2867,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has cus</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has cus</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="200.8" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.673188;0.678372;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.671504;0.676603;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-116" visibility="hidden">
@@ -2895,18 +2895,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has cust</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has cust</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="209.2" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.678372;0.683361;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.676603;0.681506;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-117" visibility="hidden">
@@ -2923,18 +2923,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custo</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.683361;0.688056;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.681506;0.686017;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-118" visibility="hidden">
@@ -2951,18 +2951,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="226" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.688056;0.692947;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.686017;0.691018;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-119" visibility="hidden">
@@ -2979,18 +2979,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="234.4" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.692947;0.698034;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.691018;0.696117;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-120" visibility="hidden">
@@ -3007,18 +3007,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom b</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom b</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="242.8" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.698034;0.70312;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.696117;0.701314;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-121" visibility="hidden">
@@ -3035,18 +3035,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom ba</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom ba</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="251.2" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.70312;0.708305;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.701314;0.706315;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-122" visibility="hidden">
@@ -3063,18 +3063,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom bac</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom bac</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="259.6" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.708305;0.713391;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.706315;0.711022;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-123" visibility="hidden">
@@ -3091,18 +3091,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom back</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom back</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="268" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.713391;0.718478;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.711022;0.716121;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-124" visibility="hidden">
@@ -3119,18 +3119,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom backg</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom backg</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="276.4" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.718478;0.722978;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.716121;0.721318;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-125" visibility="hidden">
@@ -3147,18 +3147,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom backgr</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom backgr</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.722978;0.728162;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.721318;0.726221;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-126" visibility="hidden">
@@ -3175,18 +3175,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom backgro</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom backgro</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="293.2" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.728162;0.732955;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.726221;0.73132;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-127" visibility="hidden">
@@ -3203,18 +3203,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom backgrou</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom backgrou</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="301.6" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.732955;0.738042;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.73132;0.736321;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-128" visibility="hidden">
@@ -3231,18 +3231,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom backgroun</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom backgroun</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="310" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.738042;0.743324;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.736321;0.741224;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-129" visibility="hidden">
@@ -3259,18 +3259,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="318.4" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.743324;0.748117;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.741224;0.746225;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-130" visibility="hidden">
@@ -3287,18 +3287,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="326.8" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.748117;0.75291;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.746225;0.751226;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-131" visibility="hidden">
@@ -3315,18 +3315,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background a</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background a</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="335.2" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.75291;0.757997;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.751226;0.756325;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-132" visibility="hidden">
@@ -3343,18 +3343,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background an</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background an</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="343.6" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.757997;0.762888;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.756325;0.761228;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-133" visibility="hidden">
@@ -3371,18 +3371,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background and</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background and</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="352" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.762888;0.767974;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.761228;0.766425;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-134" visibility="hidden">
@@ -3399,18 +3399,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background and</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background and</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="360.4" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.767974;0.772865;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.766425;0.771426;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-135" visibility="hidden">
@@ -3427,18 +3427,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background and b</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background and b</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="368.8" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.772865;0.777854;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.771426;0.776427;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-136" visibility="hidden">
@@ -3455,18 +3455,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background and bo</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background and bo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="377.2" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.777854;0.782745;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.776427;0.78133;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-137" visibility="hidden">
@@ -3483,18 +3483,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background and bor</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background and bor</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="385.6" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.782745;0.787929;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.78133;0.786233;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-138" visibility="hidden">
@@ -3511,18 +3511,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background and bord</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background and bord</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="394" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.787929;0.793114;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.786233;0.79143;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-139" visibility="hidden">
@@ -3539,18 +3539,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background and borde</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background and borde</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="402.4" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.793114;0.798102;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.79143;0.796529;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-140" visibility="hidden">
@@ -3567,18 +3567,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background and border</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background and border</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="410.8" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.798102;0.803385;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.796529;0.801726;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-141" visibility="hidden">
@@ -3595,18 +3595,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background and border&apos;</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background and border&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="419.2" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.803385;0.803091;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.801726;0.801236;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-142" visibility="hidden">
@@ -3623,18 +3623,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background and border&apos;</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background and border&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="419.2" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.803091;0.901692;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.801236;0.901059;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-143" visibility="hidden">
@@ -3651,18 +3651,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background and border&apos;</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background and border&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="419.2" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.901692;0.902181;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.901059;0.901942;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-144" visibility="hidden">
@@ -3679,18 +3679,18 @@
 <line x1="0" y1="320" x2="600" y2="320" stroke="#6272a4" stroke-width="1"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="24.4" y="56"> echo &apos;Testing header and footer config&apos;</text>
+<text class="text fg" x="24" y="56"> echo &apos;Testing header and footer config&apos;</text>
 <text class="text fg" x="16" y="75.6">Testing header and footer config</text>
 <text class="text f13" x="16" y="95.2">❯</text>
-<text class="text fg" x="24.4" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
+<text class="text fg" x="24" y="95.2"> echo &apos;Header has custom background and border&apos;</text>
 <text class="text fg" x="16" y="114.8">Header has custom background and border</text>
 <text class="text f13" x="16" y="134.4">❯</text>
-<text class="text fg" x="24.4" y="134.4"> echo &apos;Footer has custom background and border&apos;</text>
+<text class="text fg" x="24" y="134.4"> echo &apos;Footer has custom background and border&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="419.2" y="134.4" width="8.4" height="19.6" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.902181;1" dur="10.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.901942;1" dur="10.20s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

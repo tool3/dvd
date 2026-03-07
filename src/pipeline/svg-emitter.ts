@@ -24,6 +24,14 @@ function r(n: number): number {
 }
 
 /**
+ * Round X coordinate to integer for better text alignment
+ * Sub-pixel positioning can cause inconsistent character spacing in browsers
+ */
+function rx(n: number): number {
+  return Math.round(n);
+}
+
+/**
  * Format a number for SVG output - removes unnecessary decimal places
  * 37.0 -> "37", 37.6 -> "37.6", 37.65 -> "37.7"
  */
@@ -446,10 +454,11 @@ export function emit(
   }
 
   // Text layer
+  // Use rx() for x-coordinates to round to half-pixels for better text alignment
   parts.push('<g class="text-layer">');
   for (const row of rows) {
     for (const span of row) {
-      const x = r(padding + span.col * charWidth);
+      const x = rx(padding + span.col * charWidth);
       const y = r(contentStartY + span.row * lineHeight);
 
       const classes = ['text', ...styleToClasses(span.style)];
@@ -861,10 +870,11 @@ function generateFrameContent(frame: FrameData, config: EmitterOptions & FrameRe
   }
 
   // Text layer
+  // Use rx() for x-coordinates to round to half-pixels for better text alignment
   parts.push('<g class="text-layer">');
   for (const row of rows) {
     for (const span of row) {
-      const x = r(padding + span.col * charWidth);
+      const x = rx(padding + span.col * charWidth);
       const y = r(contentStartY + span.row * lineHeight);
 
       const classes = ['text', ...styleToClasses(span.style)];

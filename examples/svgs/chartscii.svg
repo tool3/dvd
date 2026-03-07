@@ -71,467 +71,467 @@
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.011345;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.011354;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> n</text>
+<text class="text fg" x="26" y="16"> n</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.011345;0.022059;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.011354;0.022288;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> np</text>
+<text class="text fg" x="26" y="16"> np</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="54.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.022059;0.032773;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.022288;0.032801;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx</text>
+<text class="text fg" x="26" y="16"> npx</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="64" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.032773;0.043487;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.032801;0.043734;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx</text>
+<text class="text fg" x="26" y="16"> npx</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.043487;0.054202;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.043734;0.054247;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx c</text>
+<text class="text fg" x="26" y="16"> npx c</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.054202;0.064916;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.054247;0.06476;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx ch</text>
+<text class="text fg" x="26" y="16"> npx ch</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="92.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.064916;0.07563;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.06476;0.075273;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx cha</text>
+<text class="text fg" x="26" y="16"> npx cha</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.07563;0.086345;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.075273;0.086417;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx char</text>
+<text class="text fg" x="26" y="16"> npx char</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="112" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.086345;0.097059;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.086417;0.097561;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chart</text>
+<text class="text fg" x="26" y="16"> npx chart</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="121.6" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.097059;0.107773;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.097561;0.108074;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx charts</text>
+<text class="text fg" x="26" y="16"> npx charts</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="131.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.107773;0.118487;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.108074;0.118377;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartsc</text>
+<text class="text fg" x="26" y="16"> npx chartsc</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="140.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.118487;0.129202;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.118377;0.1291;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartsci</text>
+<text class="text fg" x="26" y="16"> npx chartsci</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.129202;0.140126;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.1291;0.140034;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii</text>
+<text class="text fg" x="26" y="16"> npx chartscii</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="160" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.140126;0.15105;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.140034;0.150967;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-</text>
+<text class="text fg" x="26" y="16"> npx chartscii-</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="169.6" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.15105;0.161765;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.150967;0.162321;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-c</text>
+<text class="text fg" x="26" y="16"> npx chartscii-c</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="179.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.161765;0.172689;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.162321;0.172624;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cl</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cl</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="188.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.172689;0.183193;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.172624;0.183978;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="198.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.183193;0.194118;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.183978;0.194281;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="208" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.194118;0.204832;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.194281;0.204794;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli c</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli c</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.204832;0.215966;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.204794;0.215517;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli cr</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli cr</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="227.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.215966;0.226261;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.215517;0.226241;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli cre</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli cre</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="236.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.226261;0.237605;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.226241;0.236754;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli crea</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli crea</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="246.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.237605;0.247689;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.236754;0.247477;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli creat</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli creat</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="256" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.247689;0.258824;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.247477;0.2582;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="265.6" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.258824;0.269538;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.2582;0.268923;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="275.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.269538;0.279832;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.268923;0.279437;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.279832;0.290756;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.279437;0.290791;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="294.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.290756;0.301261;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.290791;0.301093;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(s</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(s</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="304" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.301261;0.312185;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.301093;0.311817;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(se</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(se</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="313.6" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.312185;0.323109;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.311817;0.32254;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(seq</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(seq</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="323.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.323109;0.333824;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.32254;0.333684;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(seq</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(seq</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="332.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.333824;0.344538;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.333684;0.344407;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(seq 1</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(seq 1</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="342.4" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.344538;0.355462;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.344407;0.35513;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(seq 1</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(seq 1</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="352" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.355462;0.365546;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.35513;0.365433;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(seq 1 1</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(seq 1 1</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="361.6" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.365546;0.376471;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.365433;0.375946;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(seq 1 10</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(seq 1 10</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="371.2" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.376471;0.386975;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.375946;0.386669;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(seq 1 10)</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(seq 1 10)</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="380.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.386975;0.386765;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.386669;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(seq 1 10)</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(seq 1 10)</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="380.8" y="16" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.386765;0.408824;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.386669;0.408537;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(seq 1 10)</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(seq 1 10)</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.408824;0.55084;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.408537;0.544155;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(seq 1 10)</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(seq 1 10)</text>
 <text class="text fg" x="16" y="60.8">1  ╢█████</text>
 <text class="text fg" x="16" y="83.2">2  ╢██████████</text>
 <text class="text fg" x="16" y="105.6">3  ╢███████████████</text>
@@ -544,14 +544,14 @@
 <text class="text fg" x="16" y="262.4">10 ╢██████████████████████████████████████████████████</text>
 <text class="text fg" x="16" y="284.8">   ╚══════════════════════════════════════════════════</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.55084;0.57479;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.544155;0.570437;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-40" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(seq 1 10)</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(seq 1 10)</text>
 <text class="text fg" x="16" y="60.8">1  ╢█████</text>
 <text class="text fg" x="16" y="83.2">2  ╢██████████</text>
 <text class="text fg" x="16" y="105.6">3  ╢███████████████</text>
@@ -568,14 +568,14 @@
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="307.2" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.57479;0.787815;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.570437;0.786165;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-41" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(seq 1 10)</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(seq 1 10)</text>
 <text class="text fg" x="16" y="60.8">1  ╢█████</text>
 <text class="text fg" x="16" y="83.2">2  ╢██████████</text>
 <text class="text fg" x="16" y="105.6">3  ╢███████████████</text>
@@ -592,14 +592,14 @@
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="307.2" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.787815;0.789916;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.786165;0.789739;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-42" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="800" height="400" fill="#272822" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f10" x="16" y="16">$</text>
-<text class="text fg" x="25.6" y="16"> npx chartscii-cli create $(seq 1 10)</text>
+<text class="text fg" x="26" y="16"> npx chartscii-cli create $(seq 1 10)</text>
 <text class="text fg" x="16" y="60.8">1  ╢█████</text>
 <text class="text fg" x="16" y="83.2">2  ╢██████████</text>
 <text class="text fg" x="16" y="105.6">3  ╢███████████████</text>
@@ -616,7 +616,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="307.2" width="9.6" height="22.4" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.789916;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.789739;1" dur="4.76s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

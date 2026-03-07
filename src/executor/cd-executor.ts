@@ -102,6 +102,8 @@ interface ExecutorContext {
 
   // Execution state
   isExecutingCommand: boolean;
+  // Track if we're on a continuation line (no prompt prefix)
+  isMultiLineContinuation: boolean;
 
   // Style overrides
   headerBackground?: string;
@@ -134,6 +136,10 @@ interface ExecutorContext {
   lineHeight: number;
   // Track if user explicitly set lineHeight (for cursor alignment)
   hasCustomLineHeight: boolean;
+
+  // Character width ratio (charWidth = fontSize * ratio, default 0.6)
+  // Adjust this if your font has different character proportions
+  charWidthRatio: number;
 
   // Shell to use for command execution (default: user's $SHELL or /bin/sh)
   shell: string;
@@ -200,10 +206,14 @@ export class CDExecutor {
       scroll: !!options.height, // Enable scroll when height is fixed (content can exceed it)
       scrollOffset: 0,
       isExecutingCommand: false,
+      isMultiLineContinuation: false,
 
       // Line height multiplier (default 1.4)
       lineHeight: 1.4,
       hasCustomLineHeight: false,
+
+      // Character width ratio (default 0.6)
+      charWidthRatio: 0.6,
 
       // Shell: default to user's $SHELL, fallback to /bin/sh
       shell: process.env.SHELL || '/bin/sh',
@@ -220,7 +230,7 @@ export class CDExecutor {
     // Build display line with or without prompt
     let displayLine: string;
 
-    if (this.context.isExecutingCommand) {
+    if (this.context.isExecutingCommand || this.context.isMultiLineContinuation) {
       displayLine = this.context.currentLine;
     } else {
       displayLine = this.context.promptPrefix + this.context.currentLine;
@@ -229,7 +239,7 @@ export class CDExecutor {
     buffer[this.context.cursorY] = displayLine;
 
     // Calculate layout constants
-    const charWidth = this.context.fontSize * 0.6;
+    const charWidth = this.context.fontSize * this.context.charWidthRatio;
     const lineHeight = this.context.fontSize * this.context.lineHeight;
     const padding = this.context.padding ?? 16;
     const headerHeight = this.context.template === 'minimal' ? 0 : 40;
@@ -426,6 +436,8 @@ export class CDExecutor {
         // Line height
         lineHeight: this.context.fontSize * this.context.lineHeight,
         hasCustomLineHeight: this.context.hasCustomLineHeight,
+        // Character width
+        charWidth: this.context.fontSize * this.context.charWidthRatio,
       }
     );
 
@@ -498,6 +510,27 @@ export class CDExecutor {
     }
 
     for (const char of text) {
+      // Handle newline character - move to next line
+      if (char === '\n') {
+        // Store current line (with prompt only on first line, not continuations)
+        const prefix = this.context.isMultiLineContinuation ? '' : this.context.promptPrefix;
+        this.context.lines[this.context.cursorY] = prefix + this.context.currentLine;
+        this.context.cursorY++;
+        this.context.cursorX = 0;
+        this.context.currentLine = '';
+        this.context.isMultiLineContinuation = true; // Subsequent lines are continuations
+
+        if (!this.context.lines[this.context.cursorY]) {
+          this.context.lines[this.context.cursorY] = '';
+        }
+
+        await this.sleep(delay);
+        const captureStart = Date.now();
+        this.captureFrame(true, true);
+        this.context.captureOverhead += Date.now() - captureStart;
+        continue;
+      }
+
       const before = this.context.currentLine.substring(0, this.context.cursorX);
       const after = this.context.currentLine.substring(this.context.cursorX);
       this.context.currentLine = before + char + after;
@@ -516,12 +549,44 @@ export class CDExecutor {
   }
 
   private async executeEnter(): Promise<void> {
-    const command = this.context.currentLine.trim();
+    // Build command from all lines if we're in a multi-line continuation
+    let command: string;
+    if (this.context.isMultiLineContinuation) {
+      // Collect all continuation lines into one command
+      // Find the start of the multi-line input (line with prompt)
+      let startLine = this.context.cursorY;
+      while (startLine > 0 && !this.context.lines[startLine - 1]?.includes(this.stripAnsi(this.context.promptPrefix).trim())) {
+        startLine--;
+      }
+      // The line before startLine should have the prompt
+      if (startLine > 0) startLine--;
 
-    this.context.lines[this.context.cursorY] = this.context.promptPrefix + this.context.currentLine;
+      // Combine all lines from startLine to current
+      const allLines: string[] = [];
+      for (let i = startLine; i < this.context.cursorY; i++) {
+        let line = this.context.lines[i] || '';
+        // Strip prompt from first line
+        if (i === startLine) {
+          const promptLen = this.stripAnsi(this.context.promptPrefix).length;
+          const stripped = this.stripAnsi(line);
+          // Find where the actual content starts after the prompt
+          line = stripped.substring(promptLen);
+        }
+        allLines.push(line);
+      }
+      allLines.push(this.context.currentLine);
+      command = allLines.join('\n').trim();
+    } else {
+      command = this.context.currentLine.trim();
+    }
+
+    // Store the final line (with or without prompt)
+    const prefix = this.context.isMultiLineContinuation ? '' : this.context.promptPrefix;
+    this.context.lines[this.context.cursorY] = prefix + this.context.currentLine;
     this.context.cursorY++;
     this.context.cursorX = 0;
     this.context.currentLine = '';
+    this.context.isMultiLineContinuation = false; // Reset for next command
 
     if (!this.context.lines[this.context.cursorY]) {
       this.context.lines[this.context.cursorY] = '';
@@ -995,7 +1060,9 @@ export class CDExecutor {
       // Build detailed command description
       let cmdDescription: string = cmd.type;
       if (cmd.type === 'Type') {
-        const preview = cmd.text.length > 20 ? cmd.text.slice(0, 20) + '...' : cmd.text;
+        // Sanitize preview: replace newlines with ↵ symbol for display
+        const sanitized = cmd.text.replace(/\n/g, '↵');
+        const preview = sanitized.length > 30 ? sanitized.slice(0, 30) + '...' : sanitized;
         cmdDescription = `Type \x1b[2m"${preview}"\x1b[0m`;
       } else if (cmd.type === 'Key') {
         cmdDescription = cmd.key + (cmd.count && cmd.count > 1 ? ` \x1b[2m×${cmd.count}\x1b[0m` : '');
@@ -1134,6 +1201,10 @@ export class CDExecutor {
       case 'Shell':
         this.context.shell = value;
         break;
+      // Character width ratio for font tuning
+      case 'CharWidthRatio':
+        this.context.charWidthRatio = parseFloat(value);
+        break;
     }
   }
 
@@ -1214,7 +1285,7 @@ export class CDExecutor {
   }
 
   private updateGridDimensions(): void {
-    const charWidth = this.context.fontSize * 0.6;
+    const charWidth = this.context.fontSize * this.context.charWidthRatio;
     const lineHeight = this.context.fontSize * this.context.lineHeight;
     const padding = this.context.padding ?? 16;
     const headerHeight = this.context.template === 'minimal' ? 0 : 40;
@@ -1228,7 +1299,7 @@ export class CDExecutor {
     const padding = this.context.padding ?? 16;
     const headerHeight = this.context.template === 'minimal' ? 0 : 40;
     const lineHeight = this.context.fontSize * this.context.lineHeight;
-    const charWidth = this.context.fontSize * 0.6;
+    const charWidth = this.context.fontSize * this.context.charWidthRatio;
 
     if (this.context.autoWidth) {
       // Add 1 extra character for cursor at end of line
@@ -1269,6 +1340,7 @@ export class CDExecutor {
         cursorBlink: this.context.cursorBlink,
         lineHeight: this.context.fontSize * this.context.lineHeight,
         hasCustomLineHeight: this.context.hasCustomLineHeight,
+        charWidth: this.context.fontSize * this.context.charWidthRatio,
         cursorStyle: this.context.cursorStyle,
         cursorColor: this.context.cursorColor,
         selection: frameData.selection,

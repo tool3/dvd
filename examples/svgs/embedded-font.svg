@@ -84,7 +84,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="37.6" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.008111;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.008101;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
@@ -97,12 +97,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> n</text>
+<text class="text fg" x="27" y="56"> n</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="48.4" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.008111;0.015917;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.008101;0.015744;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
@@ -115,12 +115,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> no</text>
+<text class="text fg" x="27" y="56"> no</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="59.2" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.015917;0.023416;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.015744;0.02354;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
@@ -133,12 +133,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> nod</text>
+<text class="text fg" x="27" y="56"> nod</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="70" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.023416;0.031068;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.02354;0.031489;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
@@ -151,12 +151,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node</text>
+<text class="text fg" x="27" y="56"> node</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="80.8" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.031068;0.039027;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.031489;0.039285;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
@@ -169,12 +169,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node</text>
+<text class="text fg" x="27" y="56"> node</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="91.6" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.039027;0.046832;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.039285;0.046928;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
@@ -187,12 +187,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -</text>
+<text class="text fg" x="27" y="56"> node -</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.046832;0.054484;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.046928;0.054876;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
@@ -205,12 +205,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e</text>
+<text class="text fg" x="27" y="56"> node -e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="113.2" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.054484;0.06229;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.054876;0.062519;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
@@ -223,12 +223,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e</text>
+<text class="text fg" x="27" y="56"> node -e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="124" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.06229;0.070095;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.062519;0.070315;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
@@ -241,12 +241,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="134.8" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.070095;0.0779;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.070315;0.077958;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
@@ -259,12 +259,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;c</text>
+<text class="text fg" x="27" y="56"> node -e &quot;c</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="145.6" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.0779;0.085859;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.077958;0.085601;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
@@ -277,12 +277,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;co</text>
+<text class="text fg" x="27" y="56"> node -e &quot;co</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="156.4" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.085859;0.093511;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.085601;0.093397;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
@@ -295,12 +295,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;con</text>
+<text class="text fg" x="27" y="56"> node -e &quot;con</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.093511;0.101469;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.093397;0.101345;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
@@ -313,12 +313,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;cons</text>
+<text class="text fg" x="27" y="56"> node -e &quot;cons</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="178" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.101469;0.108968;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.101345;0.108988;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
@@ -331,12 +331,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;conso</text>
+<text class="text fg" x="27" y="56"> node -e &quot;conso</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="188.8" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.108968;0.116774;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.108988;0.116937;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
@@ -349,12 +349,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;consol</text>
+<text class="text fg" x="27" y="56"> node -e &quot;consol</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="199.6" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.116774;0.124579;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.116937;0.124732;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
@@ -367,12 +367,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="210.4" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.124579;0.132537;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.124732;0.132528;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
@@ -385,12 +385,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="221.2" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.132537;0.14019;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.132528;0.140171;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
@@ -403,12 +403,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.l</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.l</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="232" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.14019;0.147995;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.140171;0.14812;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
@@ -421,12 +421,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.lo</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.lo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="242.8" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.147995;0.1558;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.14812;0.156068;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
@@ -439,12 +439,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="253.6" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.1558;0.163759;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.156068;0.164017;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
@@ -457,12 +457,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="264.4" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.163759;0.171564;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.164017;0.171507;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
@@ -475,12 +475,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="275.2" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.171564;0.179522;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.171507;0.179456;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
@@ -493,12 +493,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;g</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;g</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="286" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.179522;0.187175;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.179456;0.18771;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
@@ -511,12 +511,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;gr</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;gr</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="296.8" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.187175;0.19498;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.18771;0.195353;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
@@ -529,12 +529,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;gre</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;gre</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="307.6" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.19498;0.202938;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.195353;0.202843;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
@@ -547,12 +547,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;gree</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;gree</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="318.4" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.202938;0.210744;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.202843;0.210792;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
@@ -565,12 +565,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greet</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greet</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="329.2" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.210744;0.218702;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.210792;0.218588;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
@@ -583,12 +583,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greeti</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greeti</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="340" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.218702;0.226661;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.218588;0.225925;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
@@ -601,12 +601,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetin</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetin</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="350.8" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.226661;0.234313;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.225925;0.233873;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
@@ -619,12 +619,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greeting</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greeting</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="361.6" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.234313;0.241965;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.233873;0.241516;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
@@ -637,12 +637,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="372.4" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.241965;0.24977;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.241516;0.249465;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
@@ -655,12 +655,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="383.2" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.24977;0.257576;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.249465;0.257108;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
@@ -673,12 +673,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="394" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.257576;0.265381;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.257108;0.265209;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
@@ -691,12 +691,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="404.8" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.265381;0.273033;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.265209;0.272547;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
@@ -709,12 +709,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="415.6" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.273033;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.272547;0.272699;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
@@ -727,12 +727,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="415.6" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.273033;0.350168;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.272699;0.349893;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
@@ -745,12 +745,12 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="415.6" y="56" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.350168;0.366085;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.349893;0.36579;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
@@ -763,9 +763,9 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.366085;0.371901;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.36579;0.372057;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
@@ -778,10 +778,10 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.371901;0.387971;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.372057;0.388108;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-40" visibility="hidden">
@@ -794,14 +794,14 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="37.6" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.387971;0.395929;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.388108;0.396362;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-41" visibility="hidden">
@@ -814,15 +814,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> /</text>
+<text class="text fg" x="27" y="106.4"> /</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="48.4" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.395929;0.403734;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.396362;0.404311;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-42" visibility="hidden">
@@ -835,15 +835,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> //</text>
+<text class="text fg" x="27" y="106.4"> //</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="59.2" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.403734;0.41154;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.404311;0.411954;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-43" visibility="hidden">
@@ -856,15 +856,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> //</text>
+<text class="text fg" x="27" y="106.4"> //</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="70" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.41154;0.419345;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.411954;0.419902;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-44" visibility="hidden">
@@ -877,15 +877,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // F</text>
+<text class="text fg" x="27" y="106.4"> // F</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="80.8" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.419345;0.42715;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.419902;0.427392;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-45" visibility="hidden">
@@ -898,15 +898,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Fo</text>
+<text class="text fg" x="27" y="106.4"> // Fo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="91.6" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.42715;0.434956;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.427392;0.435188;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-46" visibility="hidden">
@@ -919,15 +919,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Fon</text>
+<text class="text fg" x="27" y="106.4"> // Fon</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.434956;0.442761;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.435188;0.442984;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-47" visibility="hidden">
@@ -940,15 +940,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font</text>
+<text class="text fg" x="27" y="106.4"> // Font</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="113.2" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.442761;0.450719;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.442984;0.450932;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-48" visibility="hidden">
@@ -961,15 +961,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font</text>
+<text class="text fg" x="27" y="106.4"> // Font</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="124" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.450719;0.458372;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.450932;0.458881;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-49" visibility="hidden">
@@ -982,15 +982,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font i</text>
+<text class="text fg" x="27" y="106.4"> // Font i</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="134.8" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.458372;0.466177;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.458881;0.467594;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-50" visibility="hidden">
@@ -1003,15 +1003,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is</text>
+<text class="text fg" x="27" y="106.4"> // Font is</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="145.6" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.466177;0.473829;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.467594;0.474473;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-51" visibility="hidden">
@@ -1024,15 +1024,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is</text>
+<text class="text fg" x="27" y="106.4"> // Font is</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="156.4" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.473829;0.481788;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.474473;0.482574;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-52" visibility="hidden">
@@ -1045,15 +1045,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is e</text>
+<text class="text fg" x="27" y="106.4"> // Font is e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.481788;0.489593;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.482574;0.490523;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-53" visibility="hidden">
@@ -1066,15 +1066,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is em</text>
+<text class="text fg" x="27" y="106.4"> // Font is em</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="178" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.489593;0.497551;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.490523;0.498624;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-54" visibility="hidden">
@@ -1087,15 +1087,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is emb</text>
+<text class="text fg" x="27" y="106.4"> // Font is emb</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="188.8" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.497551;0.50551;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.498624;0.505961;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-55" visibility="hidden">
@@ -1108,15 +1108,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embe</text>
+<text class="text fg" x="27" y="106.4"> // Font is embe</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="199.6" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.50551;0.513774;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.505961;0.513299;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-56" visibility="hidden">
@@ -1129,15 +1129,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embed</text>
+<text class="text fg" x="27" y="106.4"> // Font is embed</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="210.4" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.513774;0.521426;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.513299;0.520942;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-57" visibility="hidden">
@@ -1150,15 +1150,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedd</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedd</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="221.2" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.521426;0.529232;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.520942;0.52889;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-58" visibility="hidden">
@@ -1171,15 +1171,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedde</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedde</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="232" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.529232;0.536884;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.52889;0.536839;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-59" visibility="hidden">
@@ -1192,15 +1192,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="242.8" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.536884;0.544842;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.536839;0.545093;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-60" visibility="hidden">
@@ -1213,15 +1213,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="253.6" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.544842;0.552495;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.545093;0.552583;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-61" visibility="hidden">
@@ -1234,15 +1234,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded -</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded -</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="264.4" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.552495;0.560453;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.552583;0.560685;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-62" visibility="hidden">
@@ -1255,15 +1255,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded -</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded -</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="275.2" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.560453;0.568717;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.560685;0.568481;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-63" visibility="hidden">
@@ -1276,15 +1276,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - w</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - w</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="286" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.568717;0.57637;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.568481;0.576124;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-64" visibility="hidden">
@@ -1297,15 +1297,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - wo</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - wo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="296.8" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.57637;0.584634;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.576124;0.584225;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-65" visibility="hidden">
@@ -1318,15 +1318,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - wor</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - wor</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="307.6" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.584634;0.592133;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.584225;0.592479;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-66" visibility="hidden">
@@ -1339,15 +1339,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - work</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - work</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="318.4" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.592133;0.599786;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.592479;0.599511;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-67" visibility="hidden">
@@ -1360,15 +1360,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="329.2" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.599786;0.607744;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.599511;0.607307;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-68" visibility="hidden">
@@ -1381,15 +1381,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="340" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.607744;0.615396;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.607307;0.615102;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-69" visibility="hidden">
@@ -1402,15 +1402,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works e</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="350.8" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.615396;0.623202;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.615102;0.622745;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-70" visibility="hidden">
@@ -1423,15 +1423,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works ev</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works ev</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="361.6" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.623202;0.63116;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.622745;0.630083;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-71" visibility="hidden">
@@ -1444,15 +1444,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works eve</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works eve</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="372.4" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.63116;0.638812;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.630083;0.637725;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-72" visibility="hidden">
@@ -1465,15 +1465,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works ever</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works ever</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="383.2" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.638812;0.646771;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.637725;0.645521;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-73" visibility="hidden">
@@ -1486,15 +1486,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works every</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works every</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="394" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.646771;0.654576;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.645521;0.653317;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-74" visibility="hidden">
@@ -1507,15 +1507,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works everyw</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works everyw</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="404.8" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.654576;0.662534;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.653317;0.661113;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-75" visibility="hidden">
@@ -1528,15 +1528,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works everywh</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works everywh</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="415.6" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.662534;0.670187;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.661113;0.669061;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-76" visibility="hidden">
@@ -1549,15 +1549,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works everywhe</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works everywhe</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="426.4" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.670187;0.677686;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.669061;0.67701;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-77" visibility="hidden">
@@ -1570,15 +1570,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works everywher</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works everywher</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="437.2" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.677686;0.685644;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.67701;0.684653;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-78" visibility="hidden">
@@ -1591,15 +1591,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works everywhere</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works everywhere</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="448" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.685644;0.693603;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.684653;0.692602;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-79" visibility="hidden">
@@ -1612,15 +1612,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works everywhere!</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works everywhere!</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="458.8" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.693603;0.693297;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.692602;0.692449;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-80" visibility="hidden">
@@ -1633,15 +1633,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works everywhere!</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works everywhere!</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="458.8" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.693297;0.846801;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.692449;0.84653;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-81" visibility="hidden">
@@ -1654,15 +1654,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works everywhere!</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works everywhere!</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="458.8" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.846801;0.846954;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.84653;0.847142;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-82" visibility="hidden">
@@ -1675,15 +1675,15 @@
 <text class="text fg" x="300" y="20" text-anchor="middle" style="dominant-baseline: central">Embedded Font Demo</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="26.8" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
+<text class="text fg" x="27" y="56"> node -e &quot;console.log(&apos;greetings!&apos;)&quot;</text>
 <text class="text fg" x="16" y="81.2">greetings!</text>
 <text class="text f13" x="16" y="106.4">❯</text>
-<text class="text fg" x="26.8" y="106.4"> // Font is embedded - works everywhere!</text>
+<text class="text fg" x="27" y="106.4"> // Font is embedded - works everywhere!</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="458.8" y="106.4" width="10.8" height="25.2" fill="#f8f8f2"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.846954;1" dur="6.53s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.847142;1" dur="6.54s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

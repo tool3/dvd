@@ -71,476 +71,476 @@
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.010048;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.010174;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> e</text>
+<text class="text fg" x="26" y="16"> e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.010048;0.019539;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.010174;0.019793;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> ec</text>
+<text class="text fg" x="26" y="16"> ec</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="54.4" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.019539;0.029029;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.019793;0.029042;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> ech</text>
+<text class="text fg" x="26" y="16"> ech</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="64" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.029029;0.038333;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.029042;0.038846;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo</text>
+<text class="text fg" x="26" y="16"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.038333;0.048009;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.038846;0.04865;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo</text>
+<text class="text fg" x="26" y="16"> echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="83.2" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.048009;0.057499;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.04865;0.058454;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="92.8" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.057499;0.066803;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.058454;0.068257;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;C</text>
+<text class="text fg" x="26" y="16"> echo &apos;C</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.066803;0.076293;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.068257;0.077321;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Cu</text>
+<text class="text fg" x="26" y="16"> echo &apos;Cu</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="112" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.076293;0.085783;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.077321;0.086755;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Cus</text>
+<text class="text fg" x="26" y="16"> echo &apos;Cus</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="121.6" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.085783;0.09546;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.086755;0.096189;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Cust</text>
+<text class="text fg" x="26" y="16"> echo &apos;Cust</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="131.2" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.09546;0.10495;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.096189;0.106178;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custo</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="140.8" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.10495;0.114626;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.106178;0.115612;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="150.4" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.114626;0.124116;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.115612;0.125231;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="160" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.124116;0.13342;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.125231;0.134295;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom c</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom c</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="169.6" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.13342;0.14291;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.134295;0.143914;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cy</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cy</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="179.2" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.14291;0.1524;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.143914;0.152978;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cya</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cya</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="188.8" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.1524;0.162077;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.152978;0.162227;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="198.4" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.162077;0.171381;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.162227;0.171661;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="208" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.171381;0.180871;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.171661;0.181465;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan a</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan a</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.180871;0.190361;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.181465;0.190899;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan ar</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan ar</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="227.2" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.190361;0.199851;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.190899;0.200518;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arr</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arr</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="236.8" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.199851;0.209341;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.200518;0.209582;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arro</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arro</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="246.4" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.209341;0.218645;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.209582;0.219201;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="256" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.218645;0.228322;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.219201;0.229005;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="265.6" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.228322;0.237812;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.229005;0.238254;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow p</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow p</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="275.2" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.237812;0.247302;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.238254;0.246948;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow pr</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow pr</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="284.8" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.247302;0.256978;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.246948;0.256197;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow pro</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow pro</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="294.4" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.256978;0.266282;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.256197;0.265816;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow prom</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow prom</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="304" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.266282;0.275772;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.265816;0.27525;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow promp</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow promp</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="313.6" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.275772;0.285262;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.27525;0.285054;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow prompt</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow prompt</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="323.2" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.285262;0.294939;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.285054;0.295228;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow prompt!</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow prompt!</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="332.8" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.294939;0.304243;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.295228;0.303552;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="342.4" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.304243;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.303552;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="342.4" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.304243;0.397841;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.303552;0.397521;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="342.4" y="16" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.397841;0.417194;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.397521;0.417314;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.417194;0.419613;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.417314;0.420089;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
 <text class="text fg" x="16" y="38.4">Custom cyan arrow prompt!</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.419613;0.439338;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.420089;0.440807;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
 <text class="text fg" x="16" y="38.4">Custom cyan arrow prompt!</text>
 <text class="text f6" x="16" y="60.8">➜</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="60.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.439338;0.812802;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.440807;0.813541;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
 <text class="text fg" x="16" y="38.4">Custom cyan arrow prompt!</text>
 <text class="text f6" x="16" y="60.8">➜</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="60.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.812802;0.813919;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.813541;0.81502;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="368" height="108" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f6" x="16" y="16">➜</text>
-<text class="text fg" x="25.6" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
+<text class="text fg" x="26" y="16"> echo &apos;Custom cyan arrow prompt!&apos;</text>
 <text class="text fg" x="16" y="38.4">Custom cyan arrow prompt!</text>
 <text class="text f6" x="16" y="60.8">➜</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="35.2" y="60.8" width="9.6" height="22.4" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.813919;1" dur="5.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.81502;1" dur="5.41s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

@@ -77,7 +77,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.006076;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.005974;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
@@ -90,12 +90,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> f</text>
+<text class="text fg" x="23" y="56"> f</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="37.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.006076;0.0115;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.005974;0.011308;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
@@ -108,12 +108,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> fo</text>
+<text class="text fg" x="23" y="56"> fo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.0115;0.017142;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.011308;0.016748;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
@@ -126,12 +126,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for</text>
+<text class="text fg" x="23" y="56"> for</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="52" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.017142;0.022567;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.016748;0.022296;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
@@ -144,12 +144,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for</text>
+<text class="text fg" x="23" y="56"> for</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="59.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.022567;0.028209;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.022296;0.027736;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
@@ -162,12 +162,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i</text>
+<text class="text fg" x="23" y="56"> for i</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.028209;0.03385;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.027736;0.033497;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
@@ -180,12 +180,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i</text>
+<text class="text fg" x="23" y="56"> for i</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.03385;0.039384;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.033497;0.038831;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
@@ -198,12 +198,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i i</text>
+<text class="text fg" x="23" y="56"> for i i</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="80.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.039384;0.045025;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.038831;0.044271;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
@@ -216,12 +216,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in</text>
+<text class="text fg" x="23" y="56"> for i in</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="88" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.045025;0.050559;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.044271;0.049819;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
@@ -234,12 +234,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in</text>
+<text class="text fg" x="23" y="56"> for i in</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="95.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.050559;0.0562;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.049819;0.055259;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
@@ -252,12 +252,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {</text>
+<text class="text fg" x="23" y="56"> for i in {</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.0562;0.061842;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.055259;0.0607;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
@@ -270,12 +270,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0</text>
+<text class="text fg" x="23" y="56"> for i in {0</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="109.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.061842;0.067267;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.0607;0.066034;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
@@ -288,12 +288,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0.</text>
+<text class="text fg" x="23" y="56"> for i in {0.</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.067267;0.072909;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.066034;0.071474;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
@@ -306,12 +306,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..</text>
+<text class="text fg" x="23" y="56"> for i in {0..</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="124" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.072909;0.078225;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.071474;0.076808;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
@@ -324,12 +324,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..2</text>
+<text class="text fg" x="23" y="56"> for i in {0..2</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="131.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.078225;0.083867;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.076808;0.082355;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
@@ -342,12 +342,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..25</text>
+<text class="text fg" x="23" y="56"> for i in {0..25</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="138.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.083867;0.089292;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.082355;0.087903;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
@@ -360,12 +360,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255</text>
+<text class="text fg" x="23" y="56"> for i in {0..255</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="145.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.089292;0.094933;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.087903;0.09313;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
@@ -378,12 +378,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="152.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.094933;0.100575;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.09313;0.098571;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
@@ -396,12 +396,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255};</text>
+<text class="text fg" x="23" y="56"> for i in {0..255};</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="160" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.100575;0.106108;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.098571;0.104011;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
@@ -414,12 +414,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255};</text>
+<text class="text fg" x="23" y="56"> for i in {0..255};</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="167.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.106108;0.111642;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.104011;0.109452;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
@@ -432,12 +432,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; d</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; d</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="174.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.111642;0.117392;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.109452;0.114999;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
@@ -450,12 +450,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="181.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.117392;0.122817;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.114999;0.12044;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
@@ -468,12 +468,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="188.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.122817;0.128458;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.12044;0.125773;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
@@ -486,12 +486,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do p</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do p</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="196" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.128458;0.134426;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.125773;0.131214;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
@@ -504,12 +504,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do pr</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do pr</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="203.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.134426;0.139308;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.131214;0.136548;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
@@ -522,12 +522,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do pri</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do pri</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="210.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.139308;0.144624;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.136548;0.141988;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
@@ -540,12 +540,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do prin</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do prin</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.144624;0.150157;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.141988;0.147642;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
@@ -558,12 +558,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do print</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do print</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="224.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.150157;0.155908;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.147642;0.15319;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
@@ -576,12 +576,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="232" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.155908;0.161441;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.15319;0.15863;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
@@ -594,12 +594,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="239.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.161441;0.167083;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.15863;0.163857;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
@@ -612,12 +612,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="246.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.167083;0.172507;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.163857;0.169298;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
@@ -630,12 +630,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="253.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.172507;0.178149;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.169298;0.174739;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
@@ -648,12 +648,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="260.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.178149;0.183791;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.174739;0.179966;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
@@ -666,12 +666,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="268" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.183791;0.189324;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.179966;0.185513;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
@@ -684,12 +684,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[4</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[4</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="275.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.189324;0.194966;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.185513;0.19106;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
@@ -702,12 +702,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="282.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.194966;0.200499;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.19106;0.196501;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
@@ -720,12 +720,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="289.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.200499;0.206032;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.196501;0.202048;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
@@ -738,12 +738,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="296.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.206032;0.211566;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.202048;0.207382;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
@@ -756,12 +756,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="304" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.211566;0.217316;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.207382;0.212929;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
@@ -774,12 +774,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="311.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.217316;0.222849;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.212929;0.218263;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-40" visibility="hidden">
@@ -792,12 +792,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%s</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%s</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="318.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.222849;0.228165;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.218263;0.223917;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-41" visibility="hidden">
@@ -810,12 +810,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="325.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.228165;0.233699;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.223917;0.229144;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-42" visibility="hidden">
@@ -828,12 +828,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="332.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.233699;0.23934;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.229144;0.234692;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-43" visibility="hidden">
@@ -846,12 +846,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="340" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.23934;0.244982;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.234692;0.240026;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-44" visibility="hidden">
@@ -864,12 +864,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="347.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.244982;0.250407;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.240026;0.245466;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-45" visibility="hidden">
@@ -882,12 +882,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="354.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.250407;0.25594;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.245466;0.251013;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-46" visibility="hidden">
@@ -900,12 +900,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="361.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.25594;0.261473;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.251013;0.256561;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-47" visibility="hidden">
@@ -918,12 +918,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="368.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.261473;0.267007;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.256561;0.261681;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-48" visibility="hidden">
@@ -936,12 +936,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="376" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.267007;0.272431;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.261681;0.267122;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-49" visibility="hidden">
@@ -954,12 +954,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="383.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.272431;0.278182;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.267122;0.272776;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-50" visibility="hidden">
@@ -972,12 +972,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="390.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.278182;0.283715;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.272776;0.277683;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-51" visibility="hidden">
@@ -990,12 +990,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="397.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.283715;0.289248;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.277683;0.283124;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-52" visibility="hidden">
@@ -1008,12 +1008,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos;</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="404.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.289248;0.294998;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.283124;0.288564;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-53" visibility="hidden">
@@ -1026,12 +1026,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos;</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="412" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.294998;0.300532;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.288564;0.294325;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-54" visibility="hidden">
@@ -1044,12 +1044,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="419.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.300532;0.306173;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.294325;0.299765;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-55" visibility="hidden">
@@ -1062,12 +1062,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="426.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.306173;0.311598;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.299765;0.305206;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-56" visibility="hidden">
@@ -1080,12 +1080,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="433.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.311598;0.317023;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.305206;0.310646;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-57" visibility="hidden">
@@ -1098,12 +1098,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="440.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.317023;0.322665;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.310646;0.3163;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-58" visibility="hidden">
@@ -1116,12 +1116,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="448" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.322665;0.328306;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.3163;0.321741;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-59" visibility="hidden">
@@ -1134,12 +1134,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i;</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="455.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.328306;0.333406;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.321741;0.326862;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-60" visibility="hidden">
@@ -1152,12 +1152,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i;</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="462.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.333406;0.339047;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.326862;0.331982;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-61" visibility="hidden">
@@ -1170,12 +1170,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="469.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.339047;0.344581;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.331982;0.337529;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-62" visibility="hidden">
@@ -1188,12 +1188,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="476.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.344581;0.350114;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.337529;0.34297;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-63" visibility="hidden">
@@ -1206,12 +1206,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="484" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.350114;0.355647;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.34297;0.348517;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-64" visibility="hidden">
@@ -1224,12 +1224,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $(</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $(</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="491.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.355647;0.36118;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.348517;0.354064;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-65" visibility="hidden">
@@ -1242,12 +1242,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="498.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.36118;0.366822;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.354064;0.359292;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-66" visibility="hidden">
@@ -1260,12 +1260,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $(((</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $(((</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="505.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.366822;0.372355;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.359292;0.364839;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-67" visibility="hidden">
@@ -1278,12 +1278,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="512.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.372355;0.37778;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.364839;0.370386;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-68" visibility="hidden">
@@ -1296,12 +1296,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="520" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.37778;0.383422;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.370386;0.37604;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-69" visibility="hidden">
@@ -1314,12 +1314,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="527.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.383422;0.388955;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.37604;0.381481;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-70" visibility="hidden">
@@ -1332,12 +1332,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i +</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i +</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="534.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.388955;0.394597;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.381481;0.387028;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-71" visibility="hidden">
@@ -1350,12 +1350,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i +</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i +</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="541.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.394597;0.400022;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.387028;0.392682;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-72" visibility="hidden">
@@ -1368,12 +1368,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="548.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.400022;0.405663;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.392682;0.398229;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-73" visibility="hidden">
@@ -1386,12 +1386,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1)</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1)</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="556" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.405663;0.411197;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.398229;0.403776;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-74" visibility="hidden">
@@ -1404,12 +1404,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1)</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1)</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="563.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.411197;0.41673;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.403776;0.40911;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-75" visibility="hidden">
@@ -1422,12 +1422,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) %</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) %</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="570.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.41673;0.422372;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.40911;0.414551;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-76" visibility="hidden">
@@ -1440,12 +1440,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) %</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) %</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="577.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.422372;0.427796;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.414551;0.419778;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-77" visibility="hidden">
@@ -1458,12 +1458,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 1</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 1</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="584.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.427796;0.433438;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.419778;0.425112;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-78" visibility="hidden">
@@ -1476,12 +1476,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="592" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.433438;0.43908;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.425112;0.430553;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-79" visibility="hidden">
@@ -1494,12 +1494,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="599.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.43908;0.444613;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.430553;0.4361;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-80" visibility="hidden">
@@ -1512,12 +1512,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16))</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16))</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="606.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.444613;0.449929;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.4361;0.441647;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-81" visibility="hidden">
@@ -1530,12 +1530,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16))</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16))</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="613.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.449929;0.455571;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.441647;0.447088;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-82" visibility="hidden">
@@ -1548,12 +1548,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="620.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.455571;0.461213;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.447088;0.452742;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-83" visibility="hidden">
@@ -1566,12 +1566,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -e</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="628" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.461213;0.467072;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.452742;0.457542;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-84" visibility="hidden">
@@ -1584,12 +1584,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="635.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.467072;0.472713;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.457542;0.463089;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-85" visibility="hidden">
@@ -1602,12 +1602,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="642.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.472713;0.477921;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.463089;0.46853;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-86" visibility="hidden">
@@ -1620,12 +1620,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="649.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.477921;0.483237;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.46853;0.474184;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-87" visibility="hidden">
@@ -1638,12 +1638,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="656.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.483237;0.488662;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.474184;0.479731;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-88" visibility="hidden">
@@ -1656,12 +1656,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ]</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ]</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="664" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.488662;0.494412;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.479731;0.485278;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-89" visibility="hidden">
@@ -1674,12 +1674,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ]</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ]</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="671.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.494412;0.500163;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.485278;0.490932;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-90" visibility="hidden">
@@ -1692,12 +1692,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="678.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.500163;0.505696;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.490932;0.49616;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-91" visibility="hidden">
@@ -1710,12 +1710,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp;</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="685.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.505696;0.511229;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.49616;0.501707;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-92" visibility="hidden">
@@ -1728,12 +1728,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp;</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="692.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.511229;0.516871;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.501707;0.507147;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-93" visibility="hidden">
@@ -1746,12 +1746,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; e</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; e</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="700" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.516871;0.522187;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.507147;0.512588;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-94" visibility="hidden">
@@ -1764,12 +1764,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; ec</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; ec</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="707.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.522187;0.527612;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.512588;0.518242;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-95" visibility="hidden">
@@ -1782,12 +1782,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; ech</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; ech</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="714.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.527612;0.533037;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.518242;0.523683;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-96" visibility="hidden">
@@ -1800,12 +1800,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="721.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.533037;0.53857;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.523683;0.529123;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-97" visibility="hidden">
@@ -1818,12 +1818,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo;</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="728.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.53857;0.544212;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.529123;0.534564;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-98" visibility="hidden">
@@ -1836,12 +1836,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo;</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="736" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.544212;0.549745;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.534564;0.539898;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-99" visibility="hidden">
@@ -1854,12 +1854,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; d</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; d</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="743.2" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.549745;0.555387;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.539898;0.545338;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-100" visibility="hidden">
@@ -1872,12 +1872,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; do</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; do</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="750.4" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.555387;0.560703;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.545338;0.550779;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-101" visibility="hidden">
@@ -1890,12 +1890,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; don</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; don</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="757.6" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.560703;0.566236;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.550779;0.556326;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-102" visibility="hidden">
@@ -1908,12 +1908,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="764.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.566236;0.566345;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.556326;0.556113;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-103" visibility="hidden">
@@ -1926,12 +1926,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="764.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.566345;0.621569;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.556113;0.612012;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-104" visibility="hidden">
@@ -1944,12 +1944,12 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="764.8" y="56" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.621569;0.633937;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.612012;0.62364;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-105" visibility="hidden">
@@ -1962,9 +1962,9 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.633937;0.635673;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.62364;0.62492;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-106" visibility="hidden">
@@ -1977,9 +1977,9 @@
 <text class="text fg" x="394" y="20" text-anchor="middle" style="dominant-baseline: central">ANSI Color Table</text></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.635673;0.643051;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.62492;0.631321;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-107" visibility="hidden">
@@ -2250,7 +2250,7 @@
 </g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
 <text class="text fg" x="16" y="72.8">   0 </text>
 <text class="text fg" x="52" y="72.8">   1 </text>
 <text class="text fg" x="88" y="72.8">   2 </text>
@@ -2508,7 +2508,7 @@
 <text class="text fg" x="520" y="324.8"> 254 </text>
 <text class="text fg" x="556" y="324.8"> 255 </text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.643051;0.66117;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.631321;0.655217;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-108" visibility="hidden">
@@ -2779,7 +2779,7 @@
 </g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
 <text class="text fg" x="16" y="72.8">   0 </text>
 <text class="text fg" x="52" y="72.8">   1 </text>
 <text class="text fg" x="88" y="72.8">   2 </text>
@@ -3041,7 +3041,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="341.6" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.66117;0.885212;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.655217;0.881907;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-109" visibility="hidden">
@@ -3312,7 +3312,7 @@
 </g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
 <text class="text fg" x="16" y="72.8">   0 </text>
 <text class="text fg" x="52" y="72.8">   1 </text>
 <text class="text fg" x="88" y="72.8">   2 </text>
@@ -3574,7 +3574,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="341.6" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.885212;0.891505;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.881907;0.893322;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-110" visibility="hidden">
@@ -3845,7 +3845,7 @@
 </g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="23.2" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
+<text class="text fg" x="23" y="56"> for i in {0..255}; do printf &apos;\e[48;5;%sm %3s \e[0m&apos; $i $i; [ $((($i + 1) % 16)) -eq 0 ] &amp;&amp; echo; done</text>
 <text class="text fg" x="16" y="72.8">   0 </text>
 <text class="text fg" x="52" y="72.8">   1 </text>
 <text class="text fg" x="88" y="72.8">   2 </text>
@@ -4107,7 +4107,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="341.6" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.891505;1" dur="9.22s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.893322;1" dur="9.37s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

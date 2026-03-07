@@ -5,13 +5,10 @@ Output examples/svgs/figlet.svg
 Set Theme dark
 Set Template macos
 Set Title "FIGLET Art Demo"
-Set LineHeight 1
 
-Type "figlet -f larry3d dvd | lolcat -f -p 1"
+Type "figlet -f isometric3 dvd | lolcat -f -F 0.15 -S 10 -t"
 Sleep 500ms
 Enter
 
-Type "figlet -f isometric3 dvd | lolcat -f"
-Sleep 500ms
-Enter
+Type "Welcome to DVD!"
 Sleep 2s

@@ -81,7 +81,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="52" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.006284;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.006363;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
@@ -103,7 +103,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="61" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.006284;0.012112;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.006363;0.012044;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
@@ -125,7 +125,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="70" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.012112;0.017939;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.012044;0.017953;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
@@ -147,7 +147,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="79" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.017939;0.02388;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.017953;0.023861;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
@@ -169,7 +169,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="88" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.02388;0.029822;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.023861;0.029997;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
@@ -191,7 +191,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="97" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.029822;0.035649;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.029997;0.035905;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
@@ -213,7 +213,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="106" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.035649;0.041476;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.035905;0.042041;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
@@ -235,7 +235,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="115" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.041476;0.047532;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.042041;0.047381;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
@@ -257,7 +257,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="124" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.047532;0.053245;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.047381;0.053517;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
@@ -279,7 +279,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="133" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.053245;0.058844;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.053517;0.059425;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
@@ -301,7 +301,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="142" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.058844;0.064785;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.059425;0.06522;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
@@ -323,7 +323,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="151" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.064785;0.070612;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.06522;0.071015;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
@@ -345,7 +345,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="160" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.070612;0.076668;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.071015;0.076809;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
@@ -367,7 +367,7 @@
 <g class="cursor-layer">
 <rect class="cursor-active" x="169" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.076668;0.07644;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.076809;0.076469;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
@@ -389,7 +389,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="169" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.07644;0.122829;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.076469;0.122941;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
@@ -411,7 +411,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="169" y="56" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.122829;0.134941;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.122941;0.134871;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
@@ -430,7 +430,7 @@
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.134941;0.137112;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.134871;0.136916;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
@@ -448,9 +448,9 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.137112;0.149566;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.136916;0.149983;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
@@ -468,13 +468,13 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="52" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.149566;0.265311;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.149983;0.26497;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
@@ -492,13 +492,13 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="52" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.265311;0.271709;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.26497;0.271446;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
@@ -516,14 +516,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> W</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="61" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.271709;0.277651;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.271446;0.277355;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
@@ -541,14 +541,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Wr</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="70" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.277651;0.283364;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.277355;0.28315;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
@@ -566,14 +566,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Wri</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="79" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.283364;0.289534;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.28315;0.289058;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
@@ -591,14 +591,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Writ</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="88" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.289534;0.295018;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.289058;0.295194;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
@@ -616,14 +616,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="97" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.295018;0.301074;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.295194;0.300534;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
@@ -641,14 +641,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="106" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.301074;0.308272;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.300534;0.306329;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
@@ -666,14 +666,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-H</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="115" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.308272;0.3133;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.306329;0.312237;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
@@ -691,14 +691,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Ho</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="124" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.3133;0.318899;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.312237;0.318259;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
@@ -716,14 +716,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Hos</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="133" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.318899;0.324954;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.318259;0.324168;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
@@ -741,14 +741,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="142" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.324954;0.330553;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.324168;0.329735;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
@@ -766,14 +766,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="151" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.330553;0.336609;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.329735;0.33553;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
@@ -791,14 +791,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="160" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.336609;0.342093;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.33553;0.341438;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
@@ -816,14 +816,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;H</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="169" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.342093;0.348035;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.341438;0.347347;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
@@ -841,14 +841,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;He</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="178" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.348035;0.353862;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.347347;0.353255;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
@@ -866,14 +866,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hel</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="187" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.353862;0.359803;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.353255;0.358936;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
@@ -891,14 +891,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hell</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="196" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.359803;0.365745;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.358936;0.364959;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
@@ -916,14 +916,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="205" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.365745;0.371686;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.364959;0.370867;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-37" visibility="hidden">
@@ -941,14 +941,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="214" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.371686;0.377285;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.370867;0.376548;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-38" visibility="hidden">
@@ -966,14 +966,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello f</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="223" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.377285;0.383112;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.376548;0.382229;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-39" visibility="hidden">
@@ -991,14 +991,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello fr</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="232" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.383112;0.389397;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.382229;0.388365;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-40" visibility="hidden">
@@ -1016,14 +1016,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello fro</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="241" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.389397;0.394881;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.388365;0.394273;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-41" visibility="hidden">
@@ -1041,14 +1041,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="250" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.394881;0.400823;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.394273;0.400182;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-42" visibility="hidden">
@@ -1066,14 +1066,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="259" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.400823;0.406764;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.400182;0.405295;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-43" visibility="hidden">
@@ -1091,14 +1091,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from W</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="268" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.406764;0.412706;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.405295;0.411317;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-44" visibility="hidden">
@@ -1116,14 +1116,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Wi</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="277" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.412706;0.418304;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.411317;0.417112;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-45" visibility="hidden">
@@ -1141,14 +1141,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Win</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="286" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.418304;0.423789;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.417112;0.42302;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-46" visibility="hidden">
@@ -1166,14 +1166,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Wind</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="295" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.423789;0.429616;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.42302;0.429156;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-47" visibility="hidden">
@@ -1191,14 +1191,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="304" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.429616;0.435672;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.429156;0.434951;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-48" visibility="hidden">
@@ -1216,14 +1216,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Window</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="313" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.435672;0.441385;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.434951;0.440745;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-49" visibility="hidden">
@@ -1241,14 +1241,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="322" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.441385;0.447783;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.440745;0.446427;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-50" visibility="hidden">
@@ -1266,14 +1266,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="331" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.447783;0.453154;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.446427;0.452335;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-51" visibility="hidden">
@@ -1291,14 +1291,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="340" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.453154;0.458981;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.452335;0.457675;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-52" visibility="hidden">
@@ -1316,14 +1316,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="349" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.458981;0.464922;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.457675;0.463356;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-53" visibility="hidden">
@@ -1341,14 +1341,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="358" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.464922;0.47075;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.463356;0.469378;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-54" visibility="hidden">
@@ -1366,14 +1366,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -F</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="367" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.47075;0.476577;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.469378;0.475287;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-55" visibility="hidden">
@@ -1391,14 +1391,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -Fo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="376" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.476577;0.482176;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.475287;0.481195;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-56" visibility="hidden">
@@ -1416,14 +1416,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -For</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="385" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.482176;0.488117;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.481195;0.487217;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-57" visibility="hidden">
@@ -1441,14 +1441,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -Fore</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="394" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.488117;0.493944;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.487217;0.492899;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-58" visibility="hidden">
@@ -1466,14 +1466,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -Foreg</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="403" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.493944;0.499886;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.492899;0.49858;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-59" visibility="hidden">
@@ -1491,14 +1491,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -Foregr</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="412" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.499886;0.505599;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.49858;0.504488;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-60" visibility="hidden">
@@ -1516,14 +1516,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -Foregro</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="421" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.505599;0.511426;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.504488;0.510397;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-61" visibility="hidden">
@@ -1541,14 +1541,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -Foregrou</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="430" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.511426;0.517025;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.510397;0.516191;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-62" visibility="hidden">
@@ -1566,14 +1566,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -Foregroun</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="439" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.517025;0.522852;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.516191;0.521986;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-63" visibility="hidden">
@@ -1591,14 +1591,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -Foreground</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="448" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.522852;0.528908;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.521986;0.527781;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-64" visibility="hidden">
@@ -1616,14 +1616,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundC</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="457" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.528908;0.534735;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.527781;0.533462;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-65" visibility="hidden">
@@ -1641,14 +1641,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundCo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="466" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.534735;0.540791;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.533462;0.539143;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-66" visibility="hidden">
@@ -1666,14 +1666,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundCol</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="475" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.540791;0.546504;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.539143;0.544938;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-67" visibility="hidden">
@@ -1691,14 +1691,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColo</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="484" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.546504;0.552217;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.544938;0.550733;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-68" visibility="hidden">
@@ -1716,14 +1716,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColor</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="493" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.552217;0.558158;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.550733;0.556528;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-69" visibility="hidden">
@@ -1741,14 +1741,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColor</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="502" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.558158;0.5641;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.556528;0.562322;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-70" visibility="hidden">
@@ -1766,14 +1766,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColor C</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="511" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.5641;0.569698;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.562322;0.568004;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-71" visibility="hidden">
@@ -1791,14 +1791,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColor Cy</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="520" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.569698;0.57564;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.568004;0.573798;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-72" visibility="hidden">
@@ -1816,14 +1816,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColor Cya</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="529" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.57564;0.581924;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.573798;0.579593;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-73" visibility="hidden">
@@ -1841,14 +1841,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColor Cyan</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="538" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.581924;0.581353;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.579593;0.579139;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-74" visibility="hidden">
@@ -1866,14 +1866,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColor Cyan</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="538" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.581353;0.628314;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.579139;0.626861;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-75" visibility="hidden">
@@ -1891,14 +1891,14 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColor Cyan</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="538" y="98" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.628314;0.640882;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.626861;0.639359;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-76" visibility="hidden">
@@ -1916,11 +1916,11 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColor Cyan</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.640882;0.642367;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.639359;0.641291;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-77" visibility="hidden">
@@ -1938,12 +1938,12 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColor Cyan</text>
-<text class="text fg" x="16" y="119">/bin/sh: Write-Host: command not found</text>
+<text class="text fg" x="16" y="119">zsh:1: command not found: Write-Host</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.642367;0.65505;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.641291;0.654812;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-78" visibility="hidden">
@@ -1961,16 +1961,16 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColor Cyan</text>
-<text class="text fg" x="16" y="119">/bin/sh: Write-Host: command not found</text>
+<text class="text fg" x="16" y="119">zsh:1: command not found: Write-Host</text>
 <text class="text f2" x="16" y="140">PS&gt;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="52" y="140" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.65505;0.884826;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.654812;0.884786;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-79" visibility="hidden">
@@ -1988,16 +1988,16 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColor Cyan</text>
-<text class="text fg" x="16" y="119">/bin/sh: Write-Host: command not found</text>
+<text class="text fg" x="16" y="119">zsh:1: command not found: Write-Host</text>
 <text class="text f2" x="16" y="140">PS&gt;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="52" y="140" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.884826;0.88574;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.884786;0.886377;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-80" visibility="hidden">
@@ -2015,16 +2015,16 @@
 <g class="text-layer">
 <text class="text f2" x="16" y="56">PS&gt;</text>
 <text class="text fg" x="43" y="56"> Get-ChildItem</text>
-<text class="text fg" x="16" y="77">/bin/sh: Get-ChildItem: command not found</text>
+<text class="text fg" x="16" y="77">zsh:1: command not found: Get-ChildItem</text>
 <text class="text f2" x="16" y="98">PS&gt;</text>
 <text class="text fg" x="43" y="98"> Write-Host &apos;Hello from Windows!&apos; -ForegroundColor Cyan</text>
-<text class="text fg" x="16" y="119">/bin/sh: Write-Host: command not found</text>
+<text class="text fg" x="16" y="119">zsh:1: command not found: Write-Host</text>
 <text class="text f2" x="16" y="140">PS&gt;</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="52" y="140" width="9" height="21" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.88574;1" dur="8.75s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.886377;1" dur="8.80s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

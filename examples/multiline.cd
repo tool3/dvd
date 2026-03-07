@@ -1,0 +1,24 @@
+# Multi-line Type test
+Output examples/svgs/multiline.svg
+
+Set Theme dark
+Set Template macos
+Set Title "Multiline"
+Set TypingSpeed 10
+
+Type `echo '          
+
+ /$$$$$$$  /$$    /$$ /$$$$$$$ 
+| $$__  $$| $$   | $$| $$__  $$
+| $$  \ $$| $$   | $$| $$  \ $$
+| $$  | $$|  $$ / $$/| $$  | $$
+| $$  | $$ \  $$ $$/ | $$  | $$
+| $$  | $$  \  $$$/  | $$  | $$
+| $$$$$$$/   \  $/   | $$$$$$$/
+|_______/     \_/    |_______/  
+                                     
+' | lolcat -f`
+
+Sleep 500ms
+Enter
+Sleep 2s

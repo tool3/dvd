@@ -72,7 +72,7 @@
 <g class="cursor-layer">
 <rect class="cursor" x="44.8" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.01461;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.014873;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
@@ -84,12 +84,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> T</text>
+<text class="text fg" x="30" y="56"> T</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="59.2" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.01461;0.028409;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.014873;0.028664;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
@@ -101,12 +101,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Te</text>
+<text class="text fg" x="30" y="56"> Te</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.028409;0.042208;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.028664;0.041915;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
@@ -118,12 +118,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Tes</text>
+<text class="text fg" x="30" y="56"> Tes</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="88" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.042208;0.056006;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.041915;0.055976;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
@@ -135,12 +135,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test</text>
+<text class="text fg" x="30" y="56"> Test</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="102.4" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.056006;0.069535;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.055976;0.070308;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
@@ -152,12 +152,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test</text>
+<text class="text fg" x="30" y="56"> Test</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="116.8" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.069535;0.083333;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.070308;0.083559;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
@@ -169,12 +169,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test c</text>
+<text class="text fg" x="30" y="56"> Test c</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="131.2" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.083333;0.097403;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.083559;0.09762;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
@@ -186,12 +186,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cu</text>
+<text class="text fg" x="30" y="56"> Test cu</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="145.6" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.097403;0.111201;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.09762;0.111952;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
@@ -203,12 +203,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cur</text>
+<text class="text fg" x="30" y="56"> Test cur</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="160" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.111201;0.125;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.111952;0.125203;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
@@ -220,12 +220,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test curs</text>
+<text class="text fg" x="30" y="56"> Test curs</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="174.4" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.125;0.138528;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.125203;0.138994;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
@@ -237,12 +237,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test curso</text>
+<text class="text fg" x="30" y="56"> Test curso</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="188.8" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.138528;0.152597;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.138994;0.152785;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
@@ -254,12 +254,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor</text>
+<text class="text fg" x="30" y="56"> Test cursor</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="203.2" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.152597;0.166396;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.152785;0.166847;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
@@ -271,12 +271,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor</text>
+<text class="text fg" x="30" y="56"> Test cursor</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="217.6" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.166396;0.180195;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.166847;0.180909;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
@@ -288,12 +288,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor a</text>
+<text class="text fg" x="30" y="56"> Test cursor a</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="232" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.180195;0.194264;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.180909;0.19497;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
@@ -305,12 +305,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor al</text>
+<text class="text fg" x="30" y="56"> Test cursor al</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="246.4" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.194264;0.208063;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.19497;0.208221;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
@@ -322,12 +322,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor ali</text>
+<text class="text fg" x="30" y="56"> Test cursor ali</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="260.8" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.208063;0.221861;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.208221;0.222553;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
@@ -339,12 +339,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alig</text>
+<text class="text fg" x="30" y="56"> Test cursor alig</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="275.2" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.221861;0.235931;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.222553;0.235803;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
@@ -356,12 +356,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor align</text>
+<text class="text fg" x="30" y="56"> Test cursor align</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="289.6" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.235931;0.249729;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.235803;0.248783;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
@@ -373,12 +373,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignm</text>
+<text class="text fg" x="30" y="56"> Test cursor alignm</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="304" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.249729;0.263528;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.248783;0.262845;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
@@ -390,12 +390,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignme</text>
+<text class="text fg" x="30" y="56"> Test cursor alignme</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="318.4" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.263528;0.277327;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.262845;0.276636;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
@@ -407,12 +407,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignmen</text>
+<text class="text fg" x="30" y="56"> Test cursor alignmen</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="332.8" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.277327;0.291126;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.276636;0.290698;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
@@ -424,12 +424,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="347.2" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.291126;0.304924;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.290698;0.3053;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-22" visibility="hidden">
@@ -441,12 +441,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="361.6" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.304924;0.318723;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.3053;0.31828;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-23" visibility="hidden">
@@ -458,12 +458,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment T</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment T</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="376" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.318723;0.332522;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.31828;0.332071;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-24" visibility="hidden">
@@ -475,12 +475,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment TT</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment TT</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="390.4" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.332522;0.34605;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.332071;0.346133;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-25" visibility="hidden">
@@ -492,12 +492,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment TTT</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment TTT</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="404.8" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.34605;0.359848;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.346133;0.359924;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-26" visibility="hidden">
@@ -509,12 +509,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment TTT</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment TTT</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="419.2" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.359848;0.373647;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.359924;0.373716;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-27" visibility="hidden">
@@ -526,12 +526,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment TTT Y</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment TTT Y</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="433.6" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.373647;0.387446;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.373716;0.387507;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-28" visibility="hidden">
@@ -543,12 +543,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment TTT YY</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment TTT YY</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="448" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.387446;0.401245;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.387507;0.401028;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-29" visibility="hidden">
@@ -560,12 +560,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment TTT YYY</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment TTT YYY</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="462.4" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.401245;0.415043;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.401028;0.414278;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-30" visibility="hidden">
@@ -577,12 +577,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment TTT YYY</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment TTT YYY</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="476.8" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.415043;0.428842;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.414278;0.427258;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-31" visibility="hidden">
@@ -594,12 +594,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment TTT YYY M</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment TTT YYY M</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="491.2" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.428842;0.44237;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.427258;0.44159;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-32" visibility="hidden">
@@ -611,12 +611,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment TTT YYY MM</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment TTT YYY MM</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="505.6" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.44237;0.456439;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.44159;0.455652;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-33" visibility="hidden">
@@ -628,12 +628,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment TTT YYY MMM</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment TTT YYY MMM</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="520" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.456439;0.45671;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.455652;0.456193;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-34" visibility="hidden">
@@ -645,12 +645,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment TTT YYY MMM</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment TTT YYY MMM</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="520" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.45671;0.728626;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.456193;0.728772;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-35" visibility="hidden">
@@ -662,12 +662,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment TTT YYY MMM</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment TTT YYY MMM</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="520" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.728626;0.729437;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.728772;0.729584;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-36" visibility="hidden">
@@ -679,12 +679,12 @@
 <circle cx="62" cy="20" r="6" fill="#27c93f"/></g>
 <g class="text-layer">
 <text class="text f13" x="16" y="56">❯</text>
-<text class="text fg" x="30.4" y="56"> Test cursor alignment TTT YYY MMM</text>
+<text class="text fg" x="30" y="56"> Test cursor alignment TTT YYY MMM</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="520" y="59.6" width="14.4" height="24" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.729437;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.729584;1" dur="3.70s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>

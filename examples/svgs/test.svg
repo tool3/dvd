@@ -71,158 +71,158 @@
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="16" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.015214;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="visible;hidden;hidden" keyTimes="0;0.01586;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-1" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="688" height="343" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> n</text>
+<text class="text fg" x="23" y="16"> n</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="37.6" y="16" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.015214;0.029046;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.01586;0.029259;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-2" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="688" height="343" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> np</text>
+<text class="text fg" x="23" y="16"> np</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="44.8" y="16" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.029046;0.043154;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.029259;0.043205;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-3" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="688" height="343" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm</text>
+<text class="text fg" x="23" y="16"> npm</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="52" y="16" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.043154;0.057538;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.043205;0.057698;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-4" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="688" height="343" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm</text>
+<text class="text fg" x="23" y="16"> npm</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="59.2" y="16" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.057538;0.072199;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.057698;0.071097;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-5" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="688" height="343" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm t</text>
+<text class="text fg" x="23" y="16"> npm t</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="66.4" y="16" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.072199;0.08686;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.071097;0.08641;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-6" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="688" height="343" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm te</text>
+<text class="text fg" x="23" y="16"> npm te</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="73.6" y="16" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.08686;0.100968;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.08641;0.099535;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-7" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="688" height="343" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm tes</text>
+<text class="text fg" x="23" y="16"> npm tes</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="80.8" y="16" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.100968;0.114799;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.099535;0.114028;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-8" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="688" height="343" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor-active" x="88" y="16" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden" keyTimes="0;0.114799;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.114028;0.112934;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-9" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="688" height="343" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="88" y="16" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.114799;0.255048;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.112934;0.252119;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-10" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="688" height="343" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="88" y="16" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.255048;0.284924;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.252119;0.281105;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-11" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="688" height="343" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.284924;0.311203;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.281105;0.306262;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-12" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="688" height="343" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 <text class="text fg" x="16" y="49.6">&gt; dvd-cli@1.0.0 test</text>
 <text class="text fg" x="16" y="66.4">&gt; vitest run</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.311203;0.344398;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.306262;0.337982;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-13" visibility="hidden">
     <rect class="window-bg" x="0" y="0" width="688" height="343" fill="#1e1e1e" rx="8" ry="8"/>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 <text class="text fg" x="16" y="49.6">&gt; dvd-cli@1.0.0 test</text>
 <text class="text fg" x="16" y="66.4">&gt; vitest run</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.344398;0.346058;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.337982;0.339349;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-14" visibility="hidden">
@@ -232,14 +232,14 @@
 </g>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 <text class="text fg" x="16" y="49.6">&gt; dvd-cli@1.0.0 test</text>
 <text class="text fg" x="16" y="66.4">&gt; vitest run</text>
 <text class="text bold fg" x="16" y="116.8"> RUN </text>
-<text class="text f6" x="59.2" y="116.8">v4.0.18</text>
-<text class="text f8" x="116.8" y="116.8">/Users/talhayut/projects/dvd</text>
+<text class="text f6" x="59" y="116.8">v4.0.18</text>
+<text class="text f8" x="117" y="116.8">/Users/talhayut/projects/dvd</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.346058;0.375657;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.339349;0.369155;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-15" visibility="hidden">
@@ -249,19 +249,19 @@
 </g>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 <text class="text fg" x="16" y="49.6">&gt; dvd-cli@1.0.0 test</text>
 <text class="text fg" x="16" y="66.4">&gt; vitest run</text>
 <text class="text bold fg" x="16" y="116.8"> RUN </text>
-<text class="text f6" x="59.2" y="116.8">v4.0.18</text>
-<text class="text f8" x="116.8" y="116.8">/Users/talhayut/projects/dvd</text>
-<text class="text f2" x="23.2" y="150.4">✓</text>
-<text class="text fg" x="30.4" y="150.4"> src/parser/cd-parser.test.ts</text>
-<text class="text dim fg" x="246.4" y="150.4">(33 tests)</text>
-<text class="text f2" x="318.4" y="150.4"> 4</text>
-<text class="text dim f2" x="332.8" y="150.4">ms</text>
+<text class="text f6" x="59" y="116.8">v4.0.18</text>
+<text class="text f8" x="117" y="116.8">/Users/talhayut/projects/dvd</text>
+<text class="text f2" x="23" y="150.4">✓</text>
+<text class="text fg" x="30" y="150.4"> src/parser/cd-parser.test.ts</text>
+<text class="text dim fg" x="246" y="150.4">(33 tests)</text>
+<text class="text f2" x="318" y="150.4"> 4</text>
+<text class="text dim f2" x="333" y="150.4">ms</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.375657;0.380636;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.369155;0.372983;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-16" visibility="hidden">
@@ -271,24 +271,24 @@
 </g>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 <text class="text fg" x="16" y="49.6">&gt; dvd-cli@1.0.0 test</text>
 <text class="text fg" x="16" y="66.4">&gt; vitest run</text>
 <text class="text bold fg" x="16" y="116.8"> RUN </text>
-<text class="text f6" x="59.2" y="116.8">v4.0.18</text>
-<text class="text f8" x="116.8" y="116.8">/Users/talhayut/projects/dvd</text>
-<text class="text f2" x="23.2" y="150.4">✓</text>
-<text class="text fg" x="30.4" y="150.4"> src/parser/cd-parser.test.ts</text>
-<text class="text dim fg" x="246.4" y="150.4">(33 tests)</text>
-<text class="text f2" x="318.4" y="150.4"> 4</text>
-<text class="text dim f2" x="332.8" y="150.4">ms</text>
-<text class="text f2" x="23.2" y="167.2">✓</text>
-<text class="text fg" x="30.4" y="167.2"> src/pipeline/vterminal.test.ts</text>
-<text class="text dim fg" x="260.8" y="167.2">(23 tests)</text>
-<text class="text f2" x="332.8" y="167.2"> 10</text>
-<text class="text dim f2" x="354.4" y="167.2">ms</text>
+<text class="text f6" x="59" y="116.8">v4.0.18</text>
+<text class="text f8" x="117" y="116.8">/Users/talhayut/projects/dvd</text>
+<text class="text f2" x="23" y="150.4">✓</text>
+<text class="text fg" x="30" y="150.4"> src/parser/cd-parser.test.ts</text>
+<text class="text dim fg" x="246" y="150.4">(33 tests)</text>
+<text class="text f2" x="318" y="150.4"> 4</text>
+<text class="text dim f2" x="333" y="150.4">ms</text>
+<text class="text f2" x="23" y="167.2">✓</text>
+<text class="text fg" x="30" y="167.2"> src/pipeline/vterminal.test.ts</text>
+<text class="text dim fg" x="261" y="167.2">(23 tests)</text>
+<text class="text f2" x="333" y="167.2"> 10</text>
+<text class="text dim f2" x="354" y="167.2">ms</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.380636;0.386722;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.372983;0.379546;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-17" visibility="hidden">
@@ -298,29 +298,29 @@
 </g>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 <text class="text fg" x="16" y="49.6">&gt; dvd-cli@1.0.0 test</text>
 <text class="text fg" x="16" y="66.4">&gt; vitest run</text>
 <text class="text bold fg" x="16" y="116.8"> RUN </text>
-<text class="text f6" x="59.2" y="116.8">v4.0.18</text>
-<text class="text f8" x="116.8" y="116.8">/Users/talhayut/projects/dvd</text>
-<text class="text f2" x="23.2" y="150.4">✓</text>
-<text class="text fg" x="30.4" y="150.4"> src/parser/cd-parser.test.ts</text>
-<text class="text dim fg" x="246.4" y="150.4">(33 tests)</text>
-<text class="text f2" x="318.4" y="150.4"> 4</text>
-<text class="text dim f2" x="332.8" y="150.4">ms</text>
-<text class="text f2" x="23.2" y="167.2">✓</text>
-<text class="text fg" x="30.4" y="167.2"> src/pipeline/vterminal.test.ts</text>
-<text class="text dim fg" x="260.8" y="167.2">(23 tests)</text>
-<text class="text f2" x="332.8" y="167.2"> 10</text>
-<text class="text dim f2" x="354.4" y="167.2">ms</text>
-<text class="text f2" x="23.2" y="184">✓</text>
-<text class="text fg" x="30.4" y="184"> src/pipeline/coalescer.test.ts</text>
-<text class="text dim fg" x="260.8" y="184">(14 tests)</text>
-<text class="text f2" x="332.8" y="184"> 11</text>
-<text class="text dim f2" x="354.4" y="184">ms</text>
+<text class="text f6" x="59" y="116.8">v4.0.18</text>
+<text class="text f8" x="117" y="116.8">/Users/talhayut/projects/dvd</text>
+<text class="text f2" x="23" y="150.4">✓</text>
+<text class="text fg" x="30" y="150.4"> src/parser/cd-parser.test.ts</text>
+<text class="text dim fg" x="246" y="150.4">(33 tests)</text>
+<text class="text f2" x="318" y="150.4"> 4</text>
+<text class="text dim f2" x="333" y="150.4">ms</text>
+<text class="text f2" x="23" y="167.2">✓</text>
+<text class="text fg" x="30" y="167.2"> src/pipeline/vterminal.test.ts</text>
+<text class="text dim fg" x="261" y="167.2">(23 tests)</text>
+<text class="text f2" x="333" y="167.2"> 10</text>
+<text class="text dim f2" x="354" y="167.2">ms</text>
+<text class="text f2" x="23" y="184">✓</text>
+<text class="text fg" x="30" y="184"> src/pipeline/coalescer.test.ts</text>
+<text class="text dim fg" x="261" y="184">(14 tests)</text>
+<text class="text f2" x="333" y="184"> 10</text>
+<text class="text dim f2" x="354" y="184">ms</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.386722;0.391701;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.379546;0.383921;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-18" visibility="hidden">
@@ -330,40 +330,40 @@
 </g>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 <text class="text fg" x="16" y="49.6">&gt; dvd-cli@1.0.0 test</text>
 <text class="text fg" x="16" y="66.4">&gt; vitest run</text>
 <text class="text bold fg" x="16" y="116.8"> RUN </text>
-<text class="text f6" x="59.2" y="116.8">v4.0.18</text>
-<text class="text f8" x="116.8" y="116.8">/Users/talhayut/projects/dvd</text>
-<text class="text f2" x="23.2" y="150.4">✓</text>
-<text class="text fg" x="30.4" y="150.4"> src/parser/cd-parser.test.ts</text>
-<text class="text dim fg" x="246.4" y="150.4">(33 tests)</text>
-<text class="text f2" x="318.4" y="150.4"> 4</text>
-<text class="text dim f2" x="332.8" y="150.4">ms</text>
-<text class="text f2" x="23.2" y="167.2">✓</text>
-<text class="text fg" x="30.4" y="167.2"> src/pipeline/vterminal.test.ts</text>
-<text class="text dim fg" x="260.8" y="167.2">(23 tests)</text>
-<text class="text f2" x="332.8" y="167.2"> 10</text>
-<text class="text dim f2" x="354.4" y="167.2">ms</text>
-<text class="text f2" x="23.2" y="184">✓</text>
-<text class="text fg" x="30.4" y="184"> src/pipeline/coalescer.test.ts</text>
-<text class="text dim fg" x="260.8" y="184">(14 tests)</text>
-<text class="text f2" x="332.8" y="184"> 11</text>
-<text class="text dim f2" x="354.4" y="184">ms</text>
+<text class="text f6" x="59" y="116.8">v4.0.18</text>
+<text class="text f8" x="117" y="116.8">/Users/talhayut/projects/dvd</text>
+<text class="text f2" x="23" y="150.4">✓</text>
+<text class="text fg" x="30" y="150.4"> src/parser/cd-parser.test.ts</text>
+<text class="text dim fg" x="246" y="150.4">(33 tests)</text>
+<text class="text f2" x="318" y="150.4"> 4</text>
+<text class="text dim f2" x="333" y="150.4">ms</text>
+<text class="text f2" x="23" y="167.2">✓</text>
+<text class="text fg" x="30" y="167.2"> src/pipeline/vterminal.test.ts</text>
+<text class="text dim fg" x="261" y="167.2">(23 tests)</text>
+<text class="text f2" x="333" y="167.2"> 10</text>
+<text class="text dim f2" x="354" y="167.2">ms</text>
+<text class="text f2" x="23" y="184">✓</text>
+<text class="text fg" x="30" y="184"> src/pipeline/coalescer.test.ts</text>
+<text class="text dim fg" x="261" y="184">(14 tests)</text>
+<text class="text f2" x="333" y="184"> 10</text>
+<text class="text dim f2" x="354" y="184">ms</text>
 <text class="text dim fg" x="16" y="217.6"> Test Files</text>
-<text class="text bold f2" x="109.6" y="217.6">3 passed</text>
-<text class="text f8" x="167.2" y="217.6"> (3)</text>
+<text class="text bold f2" x="110" y="217.6">3 passed</text>
+<text class="text f8" x="167" y="217.6"> (3)</text>
 <text class="text dim fg" x="16" y="234.4">      Tests</text>
-<text class="text bold f2" x="109.6" y="234.4">70 passed</text>
-<text class="text f8" x="174.4" y="234.4"> (70)</text>
+<text class="text bold f2" x="110" y="234.4">70 passed</text>
+<text class="text f8" x="174" y="234.4"> (70)</text>
 <text class="text dim fg" x="16" y="251.2">   Start at</text>
-<text class="text fg" x="102.4" y="251.2"> 14:16:31</text>
+<text class="text fg" x="102" y="251.2"> 17:06:32</text>
 <text class="text dim fg" x="16" y="268">   Duration</text>
-<text class="text fg" x="102.4" y="268"> 143ms</text>
-<text class="text dim fg" x="145.6" y="268"> (transform 141ms, setup 0ms, import 169ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="102" y="268"> 141ms</text>
+<text class="text dim fg" x="146" y="268"> (transform 144ms, setup 0ms, import 172ms, tests 24ms, environment 0ms)</text>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.391701;0.430152;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.383921;0.426853;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-19" visibility="hidden">
@@ -373,44 +373,44 @@
 </g>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 <text class="text fg" x="16" y="49.6">&gt; dvd-cli@1.0.0 test</text>
 <text class="text fg" x="16" y="66.4">&gt; vitest run</text>
 <text class="text bold fg" x="16" y="116.8"> RUN </text>
-<text class="text f6" x="59.2" y="116.8">v4.0.18</text>
-<text class="text f8" x="116.8" y="116.8">/Users/talhayut/projects/dvd</text>
-<text class="text f2" x="23.2" y="150.4">✓</text>
-<text class="text fg" x="30.4" y="150.4"> src/parser/cd-parser.test.ts</text>
-<text class="text dim fg" x="246.4" y="150.4">(33 tests)</text>
-<text class="text f2" x="318.4" y="150.4"> 4</text>
-<text class="text dim f2" x="332.8" y="150.4">ms</text>
-<text class="text f2" x="23.2" y="167.2">✓</text>
-<text class="text fg" x="30.4" y="167.2"> src/pipeline/vterminal.test.ts</text>
-<text class="text dim fg" x="260.8" y="167.2">(23 tests)</text>
-<text class="text f2" x="332.8" y="167.2"> 10</text>
-<text class="text dim f2" x="354.4" y="167.2">ms</text>
-<text class="text f2" x="23.2" y="184">✓</text>
-<text class="text fg" x="30.4" y="184"> src/pipeline/coalescer.test.ts</text>
-<text class="text dim fg" x="260.8" y="184">(14 tests)</text>
-<text class="text f2" x="332.8" y="184"> 11</text>
-<text class="text dim f2" x="354.4" y="184">ms</text>
+<text class="text f6" x="59" y="116.8">v4.0.18</text>
+<text class="text f8" x="117" y="116.8">/Users/talhayut/projects/dvd</text>
+<text class="text f2" x="23" y="150.4">✓</text>
+<text class="text fg" x="30" y="150.4"> src/parser/cd-parser.test.ts</text>
+<text class="text dim fg" x="246" y="150.4">(33 tests)</text>
+<text class="text f2" x="318" y="150.4"> 4</text>
+<text class="text dim f2" x="333" y="150.4">ms</text>
+<text class="text f2" x="23" y="167.2">✓</text>
+<text class="text fg" x="30" y="167.2"> src/pipeline/vterminal.test.ts</text>
+<text class="text dim fg" x="261" y="167.2">(23 tests)</text>
+<text class="text f2" x="333" y="167.2"> 10</text>
+<text class="text dim f2" x="354" y="167.2">ms</text>
+<text class="text f2" x="23" y="184">✓</text>
+<text class="text fg" x="30" y="184"> src/pipeline/coalescer.test.ts</text>
+<text class="text dim fg" x="261" y="184">(14 tests)</text>
+<text class="text f2" x="333" y="184"> 10</text>
+<text class="text dim f2" x="354" y="184">ms</text>
 <text class="text dim fg" x="16" y="217.6"> Test Files</text>
-<text class="text bold f2" x="109.6" y="217.6">3 passed</text>
-<text class="text f8" x="167.2" y="217.6"> (3)</text>
+<text class="text bold f2" x="110" y="217.6">3 passed</text>
+<text class="text f8" x="167" y="217.6"> (3)</text>
 <text class="text dim fg" x="16" y="234.4">      Tests</text>
-<text class="text bold f2" x="109.6" y="234.4">70 passed</text>
-<text class="text f8" x="174.4" y="234.4"> (70)</text>
+<text class="text bold f2" x="110" y="234.4">70 passed</text>
+<text class="text f8" x="174" y="234.4"> (70)</text>
 <text class="text dim fg" x="16" y="251.2">   Start at</text>
-<text class="text fg" x="102.4" y="251.2"> 14:16:31</text>
+<text class="text fg" x="102" y="251.2"> 17:06:32</text>
 <text class="text dim fg" x="16" y="268">   Duration</text>
-<text class="text fg" x="102.4" y="268"> 143ms</text>
-<text class="text dim fg" x="145.6" y="268"> (transform 141ms, setup 0ms, import 169ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="102" y="268"> 141ms</text>
+<text class="text dim fg" x="146" y="268"> (transform 144ms, setup 0ms, import 172ms, tests 24ms, environment 0ms)</text>
 <text class="text f13" x="16" y="301.6">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="301.6" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.430152;0.717289;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.426853;0.716161;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-20" visibility="hidden">
@@ -420,44 +420,44 @@
 </g>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 <text class="text fg" x="16" y="49.6">&gt; dvd-cli@1.0.0 test</text>
 <text class="text fg" x="16" y="66.4">&gt; vitest run</text>
 <text class="text bold fg" x="16" y="116.8"> RUN </text>
-<text class="text f6" x="59.2" y="116.8">v4.0.18</text>
-<text class="text f8" x="116.8" y="116.8">/Users/talhayut/projects/dvd</text>
-<text class="text f2" x="23.2" y="150.4">✓</text>
-<text class="text fg" x="30.4" y="150.4"> src/parser/cd-parser.test.ts</text>
-<text class="text dim fg" x="246.4" y="150.4">(33 tests)</text>
-<text class="text f2" x="318.4" y="150.4"> 4</text>
-<text class="text dim f2" x="332.8" y="150.4">ms</text>
-<text class="text f2" x="23.2" y="167.2">✓</text>
-<text class="text fg" x="30.4" y="167.2"> src/pipeline/vterminal.test.ts</text>
-<text class="text dim fg" x="260.8" y="167.2">(23 tests)</text>
-<text class="text f2" x="332.8" y="167.2"> 10</text>
-<text class="text dim f2" x="354.4" y="167.2">ms</text>
-<text class="text f2" x="23.2" y="184">✓</text>
-<text class="text fg" x="30.4" y="184"> src/pipeline/coalescer.test.ts</text>
-<text class="text dim fg" x="260.8" y="184">(14 tests)</text>
-<text class="text f2" x="332.8" y="184"> 11</text>
-<text class="text dim f2" x="354.4" y="184">ms</text>
+<text class="text f6" x="59" y="116.8">v4.0.18</text>
+<text class="text f8" x="117" y="116.8">/Users/talhayut/projects/dvd</text>
+<text class="text f2" x="23" y="150.4">✓</text>
+<text class="text fg" x="30" y="150.4"> src/parser/cd-parser.test.ts</text>
+<text class="text dim fg" x="246" y="150.4">(33 tests)</text>
+<text class="text f2" x="318" y="150.4"> 4</text>
+<text class="text dim f2" x="333" y="150.4">ms</text>
+<text class="text f2" x="23" y="167.2">✓</text>
+<text class="text fg" x="30" y="167.2"> src/pipeline/vterminal.test.ts</text>
+<text class="text dim fg" x="261" y="167.2">(23 tests)</text>
+<text class="text f2" x="333" y="167.2"> 10</text>
+<text class="text dim f2" x="354" y="167.2">ms</text>
+<text class="text f2" x="23" y="184">✓</text>
+<text class="text fg" x="30" y="184"> src/pipeline/coalescer.test.ts</text>
+<text class="text dim fg" x="261" y="184">(14 tests)</text>
+<text class="text f2" x="333" y="184"> 10</text>
+<text class="text dim f2" x="354" y="184">ms</text>
 <text class="text dim fg" x="16" y="217.6"> Test Files</text>
-<text class="text bold f2" x="109.6" y="217.6">3 passed</text>
-<text class="text f8" x="167.2" y="217.6"> (3)</text>
+<text class="text bold f2" x="110" y="217.6">3 passed</text>
+<text class="text f8" x="167" y="217.6"> (3)</text>
 <text class="text dim fg" x="16" y="234.4">      Tests</text>
-<text class="text bold f2" x="109.6" y="234.4">70 passed</text>
-<text class="text f8" x="174.4" y="234.4"> (70)</text>
+<text class="text bold f2" x="110" y="234.4">70 passed</text>
+<text class="text f8" x="174" y="234.4"> (70)</text>
 <text class="text dim fg" x="16" y="251.2">   Start at</text>
-<text class="text fg" x="102.4" y="251.2"> 14:16:31</text>
+<text class="text fg" x="102" y="251.2"> 17:06:32</text>
 <text class="text dim fg" x="16" y="268">   Duration</text>
-<text class="text fg" x="102.4" y="268"> 143ms</text>
-<text class="text dim fg" x="145.6" y="268"> (transform 141ms, setup 0ms, import 169ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="102" y="268"> 141ms</text>
+<text class="text dim fg" x="146" y="268"> (transform 144ms, setup 0ms, import 172ms, tests 24ms, environment 0ms)</text>
 <text class="text f13" x="16" y="301.6">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="301.6" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.717289;0.723375;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;hidden;hidden" keyTimes="0;0.716161;0.726552;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
 
   <g id="frame-21" visibility="hidden">
@@ -467,44 +467,44 @@
 </g>
 <g class="text-layer">
 <text class="text f13" x="16" y="16">❯</text>
-<text class="text fg" x="23.2" y="16"> npm test</text>
+<text class="text fg" x="23" y="16"> npm test</text>
 <text class="text fg" x="16" y="49.6">&gt; dvd-cli@1.0.0 test</text>
 <text class="text fg" x="16" y="66.4">&gt; vitest run</text>
 <text class="text bold fg" x="16" y="116.8"> RUN </text>
-<text class="text f6" x="59.2" y="116.8">v4.0.18</text>
-<text class="text f8" x="116.8" y="116.8">/Users/talhayut/projects/dvd</text>
-<text class="text f2" x="23.2" y="150.4">✓</text>
-<text class="text fg" x="30.4" y="150.4"> src/parser/cd-parser.test.ts</text>
-<text class="text dim fg" x="246.4" y="150.4">(33 tests)</text>
-<text class="text f2" x="318.4" y="150.4"> 4</text>
-<text class="text dim f2" x="332.8" y="150.4">ms</text>
-<text class="text f2" x="23.2" y="167.2">✓</text>
-<text class="text fg" x="30.4" y="167.2"> src/pipeline/vterminal.test.ts</text>
-<text class="text dim fg" x="260.8" y="167.2">(23 tests)</text>
-<text class="text f2" x="332.8" y="167.2"> 10</text>
-<text class="text dim f2" x="354.4" y="167.2">ms</text>
-<text class="text f2" x="23.2" y="184">✓</text>
-<text class="text fg" x="30.4" y="184"> src/pipeline/coalescer.test.ts</text>
-<text class="text dim fg" x="260.8" y="184">(14 tests)</text>
-<text class="text f2" x="332.8" y="184"> 11</text>
-<text class="text dim f2" x="354.4" y="184">ms</text>
+<text class="text f6" x="59" y="116.8">v4.0.18</text>
+<text class="text f8" x="117" y="116.8">/Users/talhayut/projects/dvd</text>
+<text class="text f2" x="23" y="150.4">✓</text>
+<text class="text fg" x="30" y="150.4"> src/parser/cd-parser.test.ts</text>
+<text class="text dim fg" x="246" y="150.4">(33 tests)</text>
+<text class="text f2" x="318" y="150.4"> 4</text>
+<text class="text dim f2" x="333" y="150.4">ms</text>
+<text class="text f2" x="23" y="167.2">✓</text>
+<text class="text fg" x="30" y="167.2"> src/pipeline/vterminal.test.ts</text>
+<text class="text dim fg" x="261" y="167.2">(23 tests)</text>
+<text class="text f2" x="333" y="167.2"> 10</text>
+<text class="text dim f2" x="354" y="167.2">ms</text>
+<text class="text f2" x="23" y="184">✓</text>
+<text class="text fg" x="30" y="184"> src/pipeline/coalescer.test.ts</text>
+<text class="text dim fg" x="261" y="184">(14 tests)</text>
+<text class="text f2" x="333" y="184"> 10</text>
+<text class="text dim f2" x="354" y="184">ms</text>
 <text class="text dim fg" x="16" y="217.6"> Test Files</text>
-<text class="text bold f2" x="109.6" y="217.6">3 passed</text>
-<text class="text f8" x="167.2" y="217.6"> (3)</text>
+<text class="text bold f2" x="110" y="217.6">3 passed</text>
+<text class="text f8" x="167" y="217.6"> (3)</text>
 <text class="text dim fg" x="16" y="234.4">      Tests</text>
-<text class="text bold f2" x="109.6" y="234.4">70 passed</text>
-<text class="text f8" x="174.4" y="234.4"> (70)</text>
+<text class="text bold f2" x="110" y="234.4">70 passed</text>
+<text class="text f8" x="174" y="234.4"> (70)</text>
 <text class="text dim fg" x="16" y="251.2">   Start at</text>
-<text class="text fg" x="102.4" y="251.2"> 14:16:31</text>
+<text class="text fg" x="102" y="251.2"> 17:06:32</text>
 <text class="text dim fg" x="16" y="268">   Duration</text>
-<text class="text fg" x="102.4" y="268"> 143ms</text>
-<text class="text dim fg" x="145.6" y="268"> (transform 141ms, setup 0ms, import 169ms, tests 25ms, environment 0ms)</text>
+<text class="text fg" x="102" y="268"> 141ms</text>
+<text class="text dim fg" x="146" y="268"> (transform 144ms, setup 0ms, import 172ms, tests 24ms, environment 0ms)</text>
 <text class="text f13" x="16" y="301.6">❯</text>
 </g>
 <g class="cursor-layer">
 <rect class="cursor" x="30.4" y="301.6" width="7.2" height="16.8" fill="#c9d1d9"/>
 </g>
-    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.723375;1" dur="3.62s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
+    <animate attributeName="visibility" values="hidden;visible;visible" keyTimes="0;0.726552;1" dur="3.66s" repeatCount="indefinite" calcMode="discrete" fill="freeze"/>
   </g>
   </g>
 </svg>
