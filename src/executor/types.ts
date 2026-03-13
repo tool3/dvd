@@ -120,6 +120,11 @@ export interface ExecutorContext {
   shell: string;
 
   animationSpeed: number;
+
+  loopStyle: 'loop' | 'reverse' | 'rewind' | 'fade';
+  loopPause: number;
+  fadeDuration: number;
+  rewindSpeed: number;
 }
 
 

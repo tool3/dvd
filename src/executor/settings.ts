@@ -124,6 +124,21 @@ export const applySetting = (ctx: ExecutorContext, key: string, value: string): 
     AnimationSpeed: () => {
       ctx.animationSpeed = parseInt(value, 10);
     },
+    LoopStyle: () => {
+      const style = value.toLowerCase();
+      if (style === 'loop' || style === 'reverse' || style === 'rewind' || style === 'fade') {
+        ctx.loopStyle = style;
+      }
+    },
+    LoopPause: () => {
+      ctx.loopPause = parseInt(value, 10);
+    },
+    FadeDuration: () => {
+      ctx.fadeDuration = parseInt(value, 10);
+    },
+    RewindSpeed: () => {
+      ctx.rewindSpeed = parseFloat(value);
+    },
   };
 
   const handler = handlers[key];

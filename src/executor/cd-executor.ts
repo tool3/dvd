@@ -215,6 +215,22 @@ export class CDExecutor {
     return this.context.frames;
   }
 
+  getLoopStyle(): 'loop' | 'reverse' | 'rewind' | 'fade' {
+    return this.context.loopStyle;
+  }
+
+  getLoopPause(): number {
+    return this.context.loopPause;
+  }
+
+  getFadeDuration(): number {
+    return this.context.fadeDuration;
+  }
+
+  getRewindSpeed(): number {
+    return this.context.rewindSpeed;
+  }
+
   async cleanup(): Promise<void> {
     // Nothing to clean up
   }
@@ -279,6 +295,11 @@ const createContext = (options: CDExecutorOptions): ExecutorContext => {
     shell: process.env.SHELL || '/bin/sh',
 
     animationSpeed: 50,
+
+    loopStyle: 'loop',
+    loopPause: 0,
+    fadeDuration: 1500,
+    rewindSpeed: 5,
   };
 };
 

@@ -20,7 +20,11 @@ interface RenderArgs {
   verbose?: boolean;
   loop?: boolean;
   'pause-at-end'?: number;
+  'loop-pause'?: number;
+  'fade-duration'?: number;
+  'rewind-speed'?: number;
   fps?: number;
+  'loop-style'?: 'loop' | 'reverse' | 'rewind' | 'fade';
 }
 
 
@@ -155,10 +159,20 @@ export const renderCommand = async (args: RenderArgs): Promise<void> => {
       spinner.update('Generating animated SVG');
     }
 
+    // Use CLI options if provided, otherwise use script's settings
+    const loopStyle = args['loop-style'] || executor.getLoopStyle();
+    const loopPause = args['loop-pause'] ?? executor.getLoopPause();
+    const fadeDuration = args['fade-duration'] ?? executor.getFadeDuration();
+    const rewindSpeed = args['rewind-speed'] ?? executor.getRewindSpeed();
+
     const animationOptions: AnimationOptions = {
       fps: args.fps,
       loop: args.loop !== false,
-      pauseAtEnd: args['pause-at-end'] || 1000,
+      pauseAtEnd: args['pause-at-end'] ?? 1000,
+      loopStyle,
+      loopPause,
+      fadeDuration,
+      rewindSpeed,
     };
 
     let svg = await createAnimatedSVG(frames, animationOptions);
