@@ -111,6 +111,16 @@ const getBorderRadius = (svg: string): number => {
   return rxMatch ? parseInt(rxMatch[1], 10) : 0;
 };
 
+const getHeaderHeight = (svg: string): number => {
+  const headerMatch = svg.match(/class="header-bg"[^>]*height="(\d+)"/);
+  return headerMatch ? parseInt(headerMatch[1], 10) : 0;
+};
+
+const getFooterHeight = (svg: string): number => {
+  const footerMatch = svg.match(/class="footer-bg"[^>]*height="(\d+)"/);
+  return footerMatch ? parseInt(footerMatch[1], 10) : 0;
+};
+
 
 //#region Frame Deduplication
 
@@ -146,6 +156,8 @@ export const createAnimatedSVG = async (
   const { width, height } = getSVGDimensions(animationFrames[0].svg);
   const bgColor = getBackgroundColor(animationFrames[0].svg);
   const borderRadius = getBorderRadius(animationFrames[0].svg);
+  const headerHeight = getHeaderHeight(animationFrames[0].svg);
+  const footerHeight = getFooterHeight(animationFrames[0].svg);
 
   const lastFrameTimestamp = frames[frames.length - 1].timestamp;
   const pauseAtEnd = options.pauseAtEnd ?? 1000;
@@ -356,8 +368,12 @@ export const createAnimatedSVG = async (
     const fadeOverlayTimes = `0;${fmtKeyTime(forwardEndTime)};${fmtKeyTime(fadeOutEnd)};1`;
     const fadeOverlayOpacity = '0;0;1;1';
 
+    // Only fade the content area, not header/footer
+    const fadeY = headerHeight;
+    const fadeHeight = height - headerHeight - footerHeight;
+
     frameAnimations.push(`
-  <rect id="fade-overlay" x="0" y="0" width="100%" height="100%" fill="${bgColor}" opacity="0">
+  <rect id="fade-overlay" x="0" y="${fadeY}" width="${width}" height="${fadeHeight}" fill="${bgColor}" opacity="0">
     <animate attributeName="opacity" values="${fadeOverlayOpacity}" keyTimes="${fadeOverlayTimes}" dur="${animationDurationS}s" repeatCount="${repeatCount}" fill="freeze"/>
   </rect>`);
   } else {

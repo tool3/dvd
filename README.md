@@ -1,6 +1,10 @@
 # DVD
 
 <p align="center">
+  <img alt="Demo" src="examples/svgs/dvd.svg" width="500">
+</p>
+<p align="center">to</p>
+<p align="center">
   <img alt="Demo" src="examples/svgs/figlet.svg" width="500">
 </p>
 

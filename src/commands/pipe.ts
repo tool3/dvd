@@ -19,6 +19,10 @@ interface PipeArgs {
   verbose?: boolean;
   loop?: boolean;
   'pause-at-end'?: number;
+  'loop-pause'?: number;
+  'fade-duration'?: number;
+  'rewind-speed'?: number;
+  'loop-style'?: 'loop' | 'reverse' | 'rewind' | 'fade';
   title?: string;
   theme?: string;
   width?: number;
@@ -370,6 +374,10 @@ export const pipeCommand = async (args: PipeArgs): Promise<void> => {
     const animationOptions: AnimationOptions = {
       loop: args.loop !== false,
       pauseAtEnd: args['pause-at-end'] || 1000,
+      loopStyle: args['loop-style'] || 'loop',
+      loopPause: args['loop-pause'] ?? 0,
+      fadeDuration: args['fade-duration'] ?? 1500,
+      rewindSpeed: args['rewind-speed'] ?? 5,
     };
 
     let svg = await createAnimatedSVG(frames, animationOptions);

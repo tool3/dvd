@@ -1,0 +1,13 @@
+# Reverse with pause loop style demo
+Output examples/svgs/loop-style-reverse-pause.svg
+
+Set FontSize 14
+Set Title "Reverse with Pause"
+Set LoopStyle reverse
+Set LoopPause 2000
+
+Type "echo 'Hello world'"
+Sleep 500ms
+Enter
+Type "echo 'Reverse then pause...'"
+Sleep 1s

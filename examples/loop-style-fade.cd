@@ -1,0 +1,12 @@
+# Fade loop style demo
+Output examples/svgs/loop-style-fade.svg
+
+Set FontSize 14
+Set Title "Fade Loop Style"
+Set LoopStyle fade
+
+Type "echo 'Hello world'"
+Sleep 500ms
+Enter
+Type "echo 'Fade to black...'"
+Sleep 1s

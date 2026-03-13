@@ -1,0 +1,14 @@
+# Rewind with speed and pause loop style demo
+Output examples/svgs/loop-style-rewind.svg
+
+Set FontSize 14
+Set Title "Rewind (10x speed)"
+Set LoopStyle rewind
+Set RewindSpeed 10
+Set LoopPause 1500
+
+Type "echo 'Hello world'"
+Sleep 500ms
+Enter
+Type "echo 'Fast rewind then pause...'"
+Sleep 1s
