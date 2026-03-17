@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/og-image.svg" alt="DVD - Terminal Recordings" width="800">
+  <img src="intro.svg" alt="DVD - Terminal Recordings" width="800">
 </p>
 
 <p align="center">
@@ -10,10 +10,6 @@
   <a href="https://www.npmjs.com/package/dvd-cli"><img src="https://img.shields.io/npm/v/dvd-cli.svg" alt="npm version"></a>
   <a href="https://www.npmjs.com/package/dvd-cli"><img src="https://img.shields.io/npm/dm/dvd-cli.svg" alt="npm downloads"></a>
   <a href="https://github.com/tool3/dvd/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/dvd-cli.svg" alt="license"></a>
-</p>
-
-<p align="center">
-  <img src="examples/svgs/everyday/demo.svg" width="600">
 </p>
 
 DVD lets you create animated SVG terminal recordings from declarative `.cd` scripts.
@@ -557,28 +553,44 @@ dvd validate script.cd                 # Validate without rendering
 |--------|-------|-------------|---------|
 | `--output` | `-o` | Output file path | `<input>.svg` |
 | `--verbose` | `-v` | Show detailed output | `false` |
+| `--optimize` | `-O` | Optimize SVG output | `true` |
 | `--loop` | `-l` | Loop the animation | `true` |
 | `--loop-style` | `-L` | `loop`, `reverse`, `rewind`, `fade` | `loop` |
-| `--loop-pause` | | Pause before loop restarts (ms) | `0` |
+| `--loop-pause` | `-P` | Pause before loop restarts (ms) | `0` |
 | `--pause-at-end` | `-p` | Pause at end before looping (ms) | `1000` |
-| `--fade-duration` | | Fade duration for fade style (ms) | `1500` |
-| `--rewind-speed` | | Speed multiplier for rewind | `5` |
+| `--fade-duration` | `-F` | Fade duration for fade style (ms) | `1500` |
+| `--rewind-speed` | `-r` | Speed multiplier for rewind | `5` |
+| `--fps` | `-f` | Frames per second | |
+| `--playback-speed` | `-S` | Animation playback speed multiplier | `1` |
 | `--theme` | `-T` | Color theme | `dark` |
-| `--template` | | `macos`, `windows`, `minimal` | `macos` |
+| `--template` | `-m` | `macos`, `windows`, `minimal` | `macos` |
 | `--title` | `-t` | Window title | |
 | `--width` | `-W` | Width in pixels | auto |
 | `--height` | `-H` | Height in pixels | auto |
-| `--font-size` | | Font size in pixels | `14` |
-| `--font-family` | | Font family name | |
-| `--line-height` | | Line height multiplier | `1.4` |
-| `--padding` | | Content padding (px) | `16` |
-| `--border-radius` | | Border radius (px) | `8` |
-| `--border-color` | | Border color (hex) | |
-| `--border-width` | | Border width (px) | |
-| `--cursor-style` | | `block`, `bar`, `underline` | `block` |
-| `--cursor-color` | | Cursor color (hex) | |
-| `--cursor-blink` | | Enable cursor blink | `true` |
-| `--watermark` | | Watermark text | |
+| `--font-size` | `-s` | Font size in pixels | `14` |
+| `--font-family` | `-y` | Font family name | |
+| `--line-height` | `-Y` | Line height multiplier | `1.4` |
+| `--letter-spacing` | `-a` | Letter spacing in pixels | `0` |
+| `--padding` | `-d` | Content padding (px) | `16` |
+| `--border-radius` | `-R` | Border radius (px) | `8` |
+| `--border-color` | `-C` | Border color (hex) | |
+| `--border-width` | `-B` | Border width (px) | |
+| `--background` | `-A` | Outer background color or gradient | |
+| `--background-padding` | `-n` | Padding around terminal window (px) | `0` |
+| `--cursor-style` | `-c` | `block`, `bar`, `underline` | `block` |
+| `--cursor-color` | `-k` | Cursor color (hex) | |
+| `--cursor-blink` | `-K` | Enable cursor blink | `true` |
+| `--header-background` | `-b` | Header background color (hex) | |
+| `--header-height` | `-e` | Header height in pixels | |
+| `--header-border` | `-D` | Show header border | |
+| `--header-border-color` | `-E` | Header border color (hex) | |
+| `--header-border-width` | `-G` | Header border width (px) | |
+| `--footer-background` | `-g` | Footer background color (hex) | |
+| `--footer-height` | `-i` | Footer height in pixels | |
+| `--footer-border` | `-I` | Show footer border | |
+| `--footer-border-color` | `-J` | Footer border color (hex) | |
+| `--footer-border-width` | `-j` | Footer border width (px) | |
+| `--watermark` | `-w` | Watermark text | |
 
 ---
 

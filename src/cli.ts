@@ -41,6 +41,7 @@ const createParser = () =>
       default: true,
     })
     .option('optimize', {
+      alias: 'O',
       type: 'boolean',
       describe: 'Optimize SVG output (use --no-optimize for pretty-printed output)',
       default: true,
@@ -52,6 +53,7 @@ const createParser = () =>
       describe: 'Animation loop style (default: loop, or from .cd file)',
     })
     .option('rewind-speed', {
+      alias: 'r',
       type: 'number',
       describe: 'Speed multiplier for rewind loop style (default: 5)',
     })
@@ -61,10 +63,12 @@ const createParser = () =>
       describe: 'Pause duration at end (ms) (default: 1000)',
     })
     .option('loop-pause', {
+      alias: 'P',
       type: 'number',
       describe: 'Pause duration before loop restarts (ms) (default: 0)',
     })
     .option('fade-duration', {
+      alias: 'F',
       type: 'number',
       describe: 'Fade duration for fade loop style (ms) (default: 1500)',
     })
@@ -96,115 +100,141 @@ const createParser = () =>
       default: 'dark',
     })
     .option('font-size', {
+      alias: 's',
       type: 'number',
       describe: 'Font size in pixels',
       default: 14,
     })
     .option('line-height', {
+      alias: 'Y',
       type: 'number',
       describe: 'Line height multiplier',
       default: 1.4,
     })
     .option('template', {
+      alias: 'm',
       type: 'string',
       choices: ['macos', 'windows', 'minimal'],
       describe: 'Window template style',
       default: 'macos',
     })
     .option('padding', {
+      alias: 'd',
       type: 'number',
       describe: 'Content padding in pixels',
       default: 16,
     })
     .option('border-radius', {
+      alias: 'R',
       type: 'number',
       describe: 'Window border radius in pixels',
       default: 8,
     })
     .option('border-color', {
+      alias: 'C',
       type: 'string',
       describe: 'Border color (hex)',
     })
     .option('border-width', {
+      alias: 'B',
       type: 'number',
       describe: 'Border width in pixels',
     })
     .option('font-family', {
+      alias: 'y',
       type: 'string',
       describe: 'Custom font family name',
     })
     .option('watermark', {
+      alias: 'w',
       type: 'string',
       describe: 'Watermark text',
     })
     .option('cursor-style', {
+      alias: 'c',
       type: 'string',
       choices: ['block', 'bar', 'underline'],
       describe: 'Cursor style',
       default: 'block',
     })
     .option('cursor-color', {
+      alias: 'k',
       type: 'string',
       describe: 'Cursor color (hex)',
     })
     .option('cursor-blink', {
+      alias: 'K',
       type: 'boolean',
       describe: 'Enable cursor blinking',
       default: true,
     })
     .option('header-background', {
+      alias: 'b',
       type: 'string',
       describe: 'Header background color (hex)',
     })
     .option('header-height', {
+      alias: 'e',
       type: 'number',
       describe: 'Header height in pixels',
     })
     .option('header-border', {
+      alias: 'D',
       type: 'boolean',
       describe: 'Show header border',
     })
     .option('header-border-color', {
+      alias: 'E',
       type: 'string',
       describe: 'Header border color (hex)',
     })
     .option('header-border-width', {
+      alias: 'G',
       type: 'number',
       describe: 'Header border width in pixels',
     })
     .option('footer-background', {
+      alias: 'g',
       type: 'string',
       describe: 'Footer background color (hex)',
     })
     .option('footer-height', {
+      alias: 'i',
       type: 'number',
       describe: 'Footer height in pixels',
     })
     .option('footer-border', {
+      alias: 'I',
       type: 'boolean',
       describe: 'Show footer border',
     })
     .option('footer-border-color', {
+      alias: 'J',
       type: 'string',
       describe: 'Footer border color (hex)',
     })
     .option('footer-border-width', {
+      alias: 'j',
       type: 'number',
       describe: 'Footer border width in pixels',
     })
     .option('letter-spacing', {
+      alias: 'a',
       type: 'number',
       describe: 'Letter spacing in pixels (default: 0)',
     })
     .option('background', {
+      alias: 'A',
       type: 'string',
       describe: 'Outer background color or gradient, e.g. "#ff0000" or "gradient(#ff0000, #0000ff)"',
     })
     .option('background-padding', {
+      alias: 'n',
       type: 'number',
       describe: 'Padding around terminal window in pixels (default: 0)',
     })
     .option('playback-speed', {
+      alias: 'S',
       type: 'number',
       describe: 'Animation playback speed multiplier (default: 1)',
     })
