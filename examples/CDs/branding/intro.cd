@@ -9,6 +9,7 @@ Set LoopStyle fade
 Set Background "gradient(hotpink, #8A00C4:horizontal)"
 Set BackgroundPadding 25
 Set CursorStyle bar
+Set WorkingDirectory "examples/CDs/branding"
 
 Type "cat welcome.txt | lolcat -f"
 Sleep 500ms

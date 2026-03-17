@@ -122,6 +122,10 @@ export const applySetting = (ctx: ExecutorContext, key: string, value: string): 
     Shell: () => {
       ctx.shell = value;
     },
+    WorkingDirectory: () => {
+      // Support $PWD or absolute paths
+      ctx.workingDirectory = value === '$PWD' ? process.cwd() : value;
+    },
     CharWidthRatio: () => {
       ctx.charWidthRatio = parseFloat(value);
     },

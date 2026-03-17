@@ -109,6 +109,7 @@ export const executeShellCommand = async (
   return new Promise((resolve) => {
     const child = spawn(ctx.shell, ['-c', command], {
       env: { ...process.env, FORCE_COLOR: '1', CLICOLOR_FORCE: '1' },
+      cwd: ctx.workingDirectory,
       stdio: ['pipe', 'pipe', 'pipe'],
     });
 

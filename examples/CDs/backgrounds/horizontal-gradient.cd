@@ -5,7 +5,7 @@ Output examples/svgs/backgrounds/horizontal-gradient.svg
 Set FontSize 16
 Set Template macos
 Set Theme dracula
-Set Background "gradient(#764ba2, #f093fb:horizontal)"
+Set Background "gradient(#ff1b6b, #45caff:horizontal)"
 Set BackgroundPadding 25
 
 Type "echo 'Horizontal gradient!'"

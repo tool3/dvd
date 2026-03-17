@@ -119,6 +119,7 @@ export interface ExecutorContext {
   letterSpacing: number;
 
   shell: string;
+  workingDirectory?: string;
 
   animationSpeed: number;
 
