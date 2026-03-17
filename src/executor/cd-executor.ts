@@ -62,7 +62,7 @@ export class CDExecutor {
       this.recalculateDimensionsAndRerender();
     }
 
-    return this.context.frames;
+    return this.getFrames();
   }
 
 
@@ -157,10 +157,12 @@ export class CDExecutor {
     const headerHeight = this.context.template === 'minimal' ? 0 : 40;
     const lineHeight = this.context.fontSize * this.context.lineHeight;
     const charWidth = this.context.fontSize * this.context.charWidthRatio;
+    // Account for letter-spacing in width calculation
+    const effectiveCharWidth = charWidth + this.context.letterSpacing;
 
     if (this.context.autoWidth) {
       this.context.width = Math.ceil(
-        padding + (this.context.maxLineLength + 1) * charWidth + padding
+        padding + (this.context.maxLineLength + 1) * effectiveCharWidth + padding
       );
       if (this.context.width < 200) this.context.width = 200;
     }
@@ -204,6 +206,9 @@ export class CDExecutor {
         embedFont: this.context.embedFont,
         fontData: this.context.fontData,
         fontFamily: this.context.fontFamily,
+        letterSpacing: this.context.letterSpacing,
+        background: this.context.background,
+        backgroundPadding: this.context.backgroundPadding,
       });
 
       this.context.frames[i].svg = svg;
@@ -216,6 +221,14 @@ export class CDExecutor {
   //#region Public Methods
 
   getFrames(): TerminalFrame[] {
+    // Apply playback speed to timestamps
+    const speed = this.context.playbackSpeed;
+    if (speed !== 1 && speed > 0) {
+      return this.context.frames.map(frame => ({
+        ...frame,
+        timestamp: Math.round(frame.timestamp / speed),
+      }));
+    }
     return this.context.frames;
   }
 
@@ -295,6 +308,7 @@ const createContext = (options: CDExecutorOptions): ExecutorContext => {
     hasCustomLineHeight: false,
 
     charWidthRatio: 0.6,
+    letterSpacing: 0,
 
     shell: process.env.SHELL || '/bin/sh',
 
@@ -304,6 +318,10 @@ const createContext = (options: CDExecutorOptions): ExecutorContext => {
     loopPause: 0,
     fadeDuration: 1500,
     rewindSpeed: 5,
+
+    backgroundPadding: 0,
+
+    playbackSpeed: 1,
   };
 };
 

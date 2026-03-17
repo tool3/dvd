@@ -1,0 +1,15 @@
+# Letter Spacing Demo
+
+Output examples/svgs/fonts/letter-spacing.svg
+
+Set FontSize 20
+Set Template macos
+Set Theme dracula
+Set LetterSpacing 3
+
+Type "Spaced out text looks like this"
+Sleep 1s
+Enter
+
+Type "Normal spacing would be 0"
+Sleep 1s

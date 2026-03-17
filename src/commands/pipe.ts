@@ -8,8 +8,10 @@ import { createGridState, processInput } from '../pipeline/vterminal';
 import { coalesce } from '../pipeline/coalescer';
 import { emit } from '../pipeline/svg-emitter';
 import { themes } from '../pipeline';
+import { parseGradient } from '../executor/gradient-parser';
 import type { TerminalFrame } from '../executor/cd-executor';
 import type { AnimationOptions } from '../animator/svg-animator';
+import type { Gradient } from '../types';
 
 
 //#region Types
@@ -49,6 +51,10 @@ interface PipeArgs {
   footerBorder?: boolean;
   footerBorderColor?: string;
   footerBorderWidth?: number;
+  letterSpacing?: number;
+  background?: string;
+  backgroundPadding?: number;
+  playbackSpeed?: number;
 }
 
 interface StdinResult {
@@ -83,6 +89,9 @@ interface RenderFrameOptions {
   footerBorder?: boolean;
   footerBorderColor?: string;
   footerBorderWidth?: number;
+  letterSpacing?: number;
+  background?: string | Gradient;
+  backgroundPadding?: number;
 }
 
 
@@ -174,8 +183,10 @@ const renderFrame = (content: string, options: RenderFrameOptions): string => {
   const charWidth = options.fontSize * 0.6;
   const lineHeightPx = options.fontSize * options.lineHeight;
   const headerHeight = options.headerHeight ?? 40;
+  // Reserve space for watermark so terminal content doesn't overlap
+  const watermarkHeight = options.watermark ? lineHeightPx : 0;
   const gridWidth = Math.floor((options.width - options.padding * 2) / charWidth);
-  const gridHeight = Math.floor((options.height - headerHeight - options.padding * 2) / lineHeightPx);
+  const gridHeight = Math.floor((options.height - headerHeight - options.padding * 2 - watermarkHeight) / lineHeightPx);
 
   let grid = createGridState(gridWidth, gridHeight);
   grid = processInput(grid, content);
@@ -210,6 +221,9 @@ const renderFrame = (content: string, options: RenderFrameOptions): string => {
     footerBorder: options.footerBorder,
     footerBorderColor: options.footerBorderColor,
     footerBorderWidth: options.footerBorderWidth,
+    letterSpacing: options.letterSpacing,
+    background: options.background,
+    backgroundPadding: options.backgroundPadding,
   });
 
   return svg;
@@ -290,6 +304,9 @@ export const pipeCommand = async (args: PipeArgs): Promise<void> => {
       footerBorder: args.footerBorder,
       footerBorderColor: args.footerBorderColor,
       footerBorderWidth: args.footerBorderWidth,
+      letterSpacing: args.letterSpacing,
+      background: args.background ? parseGradient(args.background) : undefined,
+      backgroundPadding: args.backgroundPadding,
     };
 
     let width = args.width;
@@ -315,14 +332,18 @@ export const pipeCommand = async (args: PipeArgs): Promise<void> => {
       }
 
       const charWidth = fontSize * 0.6;
+      const letterSpacingPx = args.letterSpacing ?? 0;
+      const effectiveCharWidth = charWidth + letterSpacingPx;
       const lineHeightPx = fontSize * lineHeight;
       const headerHeight = 40;
+      // Add extra space for watermark if present
+      const watermarkHeight = args.watermark ? lineHeightPx : 0;
 
       if (!width) {
-        width = Math.ceil(maxLineLength * charWidth + padding * 2);
+        width = Math.ceil(maxLineLength * effectiveCharWidth + padding * 2);
       }
       if (!height) {
-        height = Math.ceil(maxLineCount * lineHeightPx + headerHeight + padding * 2);
+        height = Math.ceil(maxLineCount * lineHeightPx + headerHeight + padding * 2 + watermarkHeight);
       }
 
       if (args.verbose) {
@@ -365,6 +386,14 @@ export const pipeCommand = async (args: PipeArgs): Promise<void> => {
 
     if (args.verbose) {
       console.log(`Rendered ${frames.length} frames`);
+    }
+
+    // Apply playback speed to frame timestamps
+    const speed = args.playbackSpeed ?? 1;
+    if (speed !== 1 && speed > 0) {
+      for (const frame of frames) {
+        frame.timestamp = Math.round(frame.timestamp / speed);
+      }
     }
 
     if (!args.verbose) {

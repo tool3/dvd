@@ -2,10 +2,12 @@
 
 import { readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
+import type { Theme } from '../types';
 import type { ExecutorContext, WatermarkConfig } from './types';
 import { parseEscapes } from './types';
 import { themes as pipelineThemes } from '../pipeline';
 import { themes as shellfieThemes } from 'shellfie';
+import { parseGradient } from './gradient-parser';
 
 
 //#region Setting Application
@@ -123,6 +125,9 @@ export const applySetting = (ctx: ExecutorContext, key: string, value: string): 
     CharWidthRatio: () => {
       ctx.charWidthRatio = parseFloat(value);
     },
+    LetterSpacing: () => {
+      ctx.letterSpacing = parseFloat(value);
+    },
     AnimationSpeed: () => {
       ctx.animationSpeed = parseInt(value, 10);
     },
@@ -141,6 +146,15 @@ export const applySetting = (ctx: ExecutorContext, key: string, value: string): 
     RewindSpeed: () => {
       ctx.rewindSpeed = parseFloat(value);
     },
+    Background: () => {
+      ctx.background = parseGradient(value);
+    },
+    BackgroundPadding: () => {
+      ctx.backgroundPadding = parseInt(value, 10);
+    },
+    PlaybackSpeed: () => {
+      ctx.playbackSpeed = parseFloat(value);
+    },
   };
 
   const handler = handlers[key];
@@ -150,7 +164,52 @@ export const applySetting = (ctx: ExecutorContext, key: string, value: string): 
 
 //#region Theme Resolution
 
+const parseJsonTheme = (jsonStr: string): Partial<Theme> | null => {
+  try {
+    const parsed = JSON.parse(jsonStr);
+    if (typeof parsed === 'object' && parsed !== null) {
+      return parsed as Partial<Theme>;
+    }
+  } catch {
+    // Not valid JSON
+  }
+  return null;
+};
+
 export const resolveTheme = (ctx: ExecutorContext, themeName: string): void => {
+  // Check if this is a JSON theme definition
+  const trimmed = themeName.trim();
+  if (trimmed.startsWith('{')) {
+    const jsonTheme = parseJsonTheme(trimmed);
+    if (jsonTheme) {
+      // Merge with current theme (or default) to fill in missing colors
+      ctx.theme = {
+        name: jsonTheme.name || 'custom',
+        background: jsonTheme.background || ctx.theme.background,
+        foreground: jsonTheme.foreground || ctx.theme.foreground,
+        cursor: jsonTheme.cursor || ctx.theme.cursor,
+        selection: jsonTheme.selection || ctx.theme.selection,
+        black: jsonTheme.black || ctx.theme.black,
+        red: jsonTheme.red || ctx.theme.red,
+        green: jsonTheme.green || ctx.theme.green,
+        yellow: jsonTheme.yellow || ctx.theme.yellow,
+        blue: jsonTheme.blue || ctx.theme.blue,
+        magenta: jsonTheme.magenta || ctx.theme.magenta,
+        cyan: jsonTheme.cyan || ctx.theme.cyan,
+        white: jsonTheme.white || ctx.theme.white,
+        brightBlack: jsonTheme.brightBlack || ctx.theme.brightBlack,
+        brightRed: jsonTheme.brightRed || ctx.theme.brightRed,
+        brightGreen: jsonTheme.brightGreen || ctx.theme.brightGreen,
+        brightYellow: jsonTheme.brightYellow || ctx.theme.brightYellow,
+        brightBlue: jsonTheme.brightBlue || ctx.theme.brightBlue,
+        brightMagenta: jsonTheme.brightMagenta || ctx.theme.brightMagenta,
+        brightCyan: jsonTheme.brightCyan || ctx.theme.brightCyan,
+        brightWhite: jsonTheme.brightWhite || ctx.theme.brightWhite,
+      };
+      return;
+    }
+  }
+
   const pipelineTheme = pipelineThemes[themeName as keyof typeof pipelineThemes];
   if (pipelineTheme) {
     ctx.theme = pipelineTheme;

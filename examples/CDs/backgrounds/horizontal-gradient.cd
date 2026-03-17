@@ -1,0 +1,16 @@
+# Horizontal Gradient Background Demo
+
+Output examples/svgs/backgrounds/horizontal-gradient.svg
+
+Set FontSize 16
+Set Template macos
+Set Theme dracula
+Set Background "gradient(#764ba2, #f093fb:horizontal)"
+Set BackgroundPadding 25
+
+Type "echo 'Horizontal gradient!'"
+Sleep 500ms
+Enter
+
+Type "Three colors: purple to pink"
+Sleep 1s

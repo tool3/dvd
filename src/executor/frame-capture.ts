@@ -217,6 +217,9 @@ export const captureFrame = (
       lineHeight: ctx.fontSize * ctx.lineHeight,
       hasCustomLineHeight: ctx.hasCustomLineHeight,
       charWidth: ctx.fontSize * ctx.charWidthRatio,
+      letterSpacing: ctx.letterSpacing,
+      background: ctx.background,
+      backgroundPadding: ctx.backgroundPadding,
     }
   );
 

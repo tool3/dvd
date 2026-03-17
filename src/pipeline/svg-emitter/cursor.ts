@@ -20,6 +20,7 @@ export interface CursorConfig {
   charUnderCursor?: string;
   backgroundColor?: string;
   fontFamily?: string;
+  letterSpacing?: number;
 }
 
 
@@ -40,9 +41,12 @@ export const renderCursor = (config: CursorConfig): string => {
     charUnderCursor,
     backgroundColor,
     fontFamily,
+    letterSpacing = 0,
   } = config;
 
-  const cursorX = r(padding + cursor.col * charWidth);
+  // Account for letter-spacing: each character takes charWidth + letterSpacing
+  const effectiveCharWidth = charWidth + letterSpacing;
+  const cursorX = r(padding + cursor.col * effectiveCharWidth);
   // Text baseline Y (same as text-layer rendering)
   const textY = r(contentStartY + cursor.row * lineHeight);
   // When custom lineHeight is provided, offset cursor to align with capital letters

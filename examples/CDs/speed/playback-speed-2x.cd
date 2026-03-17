@@ -1,0 +1,16 @@
+# Playback Speed 2x Demo
+# This animation plays at 2x speed (twice as fast)
+
+Output examples/svgs/speed/playback-speed-2x.svg
+
+Set FontSize 16
+Set Template macos
+Set Theme dracula
+Set PlaybackSpeed 2
+
+Type "echo 'This plays at 2x speed!'"
+Sleep 500ms
+Enter
+
+Type "Everything happens faster"
+Sleep 1s

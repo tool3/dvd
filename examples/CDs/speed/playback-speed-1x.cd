@@ -1,0 +1,16 @@
+# Playback Speed 1x Demo (Normal Speed)
+# This animation plays at normal 1x speed
+
+Output examples/svgs/speed/playback-speed-1x.svg
+
+Set FontSize 16
+Set Template macos
+Set Theme dracula
+Set PlaybackSpeed 1
+
+Type "echo 'This plays at 1x speed!'"
+Sleep 500ms
+Enter
+
+Type "Everything happens normal"
+Sleep 1s

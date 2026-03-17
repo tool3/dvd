@@ -192,6 +192,22 @@ const createParser = () =>
       type: 'number',
       describe: 'Footer border width in pixels',
     })
+    .option('letter-spacing', {
+      type: 'number',
+      describe: 'Letter spacing in pixels (default: 0)',
+    })
+    .option('background', {
+      type: 'string',
+      describe: 'Outer background color or gradient, e.g. "#ff0000" or "gradient(#ff0000, #0000ff)"',
+    })
+    .option('background-padding', {
+      type: 'number',
+      describe: 'Padding around terminal window in pixels (default: 0)',
+    })
+    .option('playback-speed', {
+      type: 'number',
+      describe: 'Animation playback speed multiplier (default: 1)',
+    })
     .command(
       'new [name]',
       'Create a new .cd script from template',
@@ -318,6 +334,10 @@ const run = async (): Promise<void> => {
         footerBorder: argv['footer-border'],
         footerBorderColor: argv['footer-border-color'],
         footerBorderWidth: argv['footer-border-width'],
+        letterSpacing: argv['letter-spacing'],
+        background: argv.background,
+        backgroundPadding: argv['background-padding'],
+        playbackSpeed: argv['playback-speed'],
       });
     } catch (err) {
       console.error(err instanceof Error ? err.message : String(err));

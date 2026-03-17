@@ -1,0 +1,16 @@
+# Solid Color Background Demo
+
+Output examples/svgs/backgrounds/solid-background.svg
+
+Set FontSize 16
+Set Template macos
+Set Theme dracula
+Set Background "#ff6b6b"
+Set BackgroundPadding 30
+
+Type "echo 'Solid color background!'"
+Sleep 500ms
+Enter
+
+Type "Nice padding around the terminal"
+Sleep 1s

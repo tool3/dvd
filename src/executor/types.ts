@@ -1,6 +1,6 @@
 //#region Imports
 
-import type { GridState, Theme, SpanRow } from '../types';
+import type { GridState, Theme, SpanRow, Gradient } from '../types';
 import type { FrameData } from '../pipeline/svg-emitter';
 import type { WatermarkConfig, WatermarkStyle } from 'shellfie';
 
@@ -116,6 +116,7 @@ export interface ExecutorContext {
   hasCustomLineHeight: boolean;
 
   charWidthRatio: number;
+  letterSpacing: number;
 
   shell: string;
 
@@ -125,6 +126,11 @@ export interface ExecutorContext {
   loopPause: number;
   fadeDuration: number;
   rewindSpeed: number;
+
+  background?: string | Gradient;
+  backgroundPadding: number;
+
+  playbackSpeed: number;
 }
 
 

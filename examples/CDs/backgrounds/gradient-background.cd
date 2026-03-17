@@ -1,0 +1,16 @@
+# Gradient Background Demo
+
+Output examples/svgs/backgrounds/gradient-background.svg
+
+Set FontSize 16
+Set Template macos
+Set Theme dracula
+Set Background "gradient(#ff6b6b, #4ecdc4)"
+Set BackgroundPadding 20
+
+Type "echo 'Hello from a gradient background!'"
+Sleep 500ms
+Enter
+
+Type "This looks pretty cool"
+Sleep 1s

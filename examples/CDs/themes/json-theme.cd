@@ -1,0 +1,15 @@
+# JSON Theme Demo
+# This demonstrates setting a custom theme via JSON
+
+Output examples/svgs/themes/json-theme.svg
+
+Set FontSize 16
+Set Template macos
+Set Theme {"name": "neon", "background": "#0a0a1a", "foreground": "#00ff9f", "cursor": "#ff00ff", "black": "#1a1a2e", "red": "#ff2e63", "green": "#00ff9f", "yellow": "#ffcc00", "blue": "#00d4ff", "magenta": "#ff00ff", "cyan": "#00ffd5", "white": "#e0e0e0", "brightBlack": "#3a3a5e", "brightRed": "#ff5c8a", "brightGreen": "#50ffb8", "brightYellow": "#ffdd33", "brightBlue": "#33e5ff", "brightMagenta": "#ff66ff", "brightCyan": "#66ffe8", "brightWhite": "#ffffff"}
+
+Type "echo 'Custom neon theme!'"
+Sleep 500ms
+Enter
+
+Type "This is a custom JSON theme"
+Sleep 1s

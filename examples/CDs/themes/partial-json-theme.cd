@@ -1,0 +1,16 @@
+# Partial JSON Theme Demo
+# Only overrides background and foreground, inherits other colors
+
+Output examples/svgs/themes/partial-json-theme.svg
+
+Set FontSize 16
+Set Template macos
+Set Theme dracula
+Set Theme {"background": "#1a0a2e", "foreground": "#ff79c6", "cursor": "#50fa7b"}
+
+Type "echo 'Partial theme override!'"
+Sleep 500ms
+Enter
+
+Type "Only BG, FG, and cursor changed"
+Sleep 1s

@@ -36,8 +36,22 @@ const extractDynamicContent = (svg: string, frameId: string): string => {
   let content = contentMatch[1];
   content = content.replace(/<style>[\s\S]*?<\/style>/g, '');
   content = content.replace(/<defs>[\s\S]*?<\/defs>/g, '');
-  content = content.replace(/^\s*<g clip-path="[^"]*">\s*/g, '');
-  content = content.replace(/\s*<\/g>\s*$/g, '');
+  // Remove outer background rect (solid color or gradient)
+  content = content.replace(/<rect x="0" y="0" width="\d+" height="\d+" fill="[^"]*"\/>/g, '');
+  // Count how many wrapper groups we need to remove (translate group and/or clip-path group)
+  let closingTagsToRemove = 0;
+  if (/<g transform="translate\(\d+, \d+\)">/.test(content)) {
+    content = content.replace(/<g transform="translate\(\d+, \d+\)">/g, '');
+    closingTagsToRemove++;
+  }
+  if (/<g clip-path="[^"]*">/.test(content)) {
+    content = content.replace(/<g clip-path="[^"]*">/g, '');
+    closingTagsToRemove++;
+  }
+  // Remove exactly the number of closing </g> tags we need from the end
+  for (let i = 0; i < closingTagsToRemove; i++) {
+    content = content.replace(/\s*<\/g>\s*$/, '');
+  }
   content = content.replace(/<rect class="window-bg"[^>]*\/>/g, '');
   content = content.replace(/<g class="chrome">[\s\S]*?<\/g>/g, '');
   content = content.replace(/<g class="footer">[\s\S]*?<\/g>/g, '');
@@ -101,6 +115,32 @@ const getSVGDimensions = (svg: string): { width: number; height: number } => {
   };
 };
 
+const extractGradientDefs = (svg: string): string => {
+  const defsMatch = svg.match(/<defs>([\s\S]*?)<\/defs>/);
+  if (!defsMatch) return '';
+
+  const defsContent = defsMatch[1];
+  const gradientMatch = defsContent.match(/<linearGradient[^>]*id="bg-gradient"[^>]*>[\s\S]*?<\/linearGradient>/);
+  return gradientMatch ? gradientMatch[0] : '';
+};
+
+const extractBackgroundPadding = (svg: string): number => {
+  // Look for a translate transform on a group that wraps the terminal content
+  const translateMatch = svg.match(/<g transform="translate\((\d+), \d+\)">/);
+  return translateMatch ? parseInt(translateMatch[1], 10) : 0;
+};
+
+const extractOuterBackground = (svg: string): { fill: string; isGradient: boolean } | null => {
+  // Look for a rect that fills the entire outer area (before the terminal window group)
+  // This rect appears after defs but before the translate group
+  const bgMatch = svg.match(/<rect x="0" y="0" width="\d+" height="\d+" fill="([^"]+)"\/>/);
+  if (bgMatch) {
+    const fill = bgMatch[1];
+    return { fill, isGradient: fill.startsWith('url(#') };
+  }
+  return null;
+};
+
 const getBackgroundColor = (svg: string): string => {
   const bgMatch = svg.match(/class="window-bg"[^>]*fill="([^"]*)"/);
   return bgMatch ? bgMatch[1] : '#282a36';
@@ -153,7 +193,15 @@ export const createAnimatedSVG = async (
   const loopStyle = options.loopStyle || 'loop';
 
   const animationFrames = deduplicateFrames(frames);
-  const { width, height } = getSVGDimensions(animationFrames[0].svg);
+  const { width: totalWidth, height: totalHeight } = getSVGDimensions(animationFrames[0].svg);
+  const bgPadding = extractBackgroundPadding(animationFrames[0].svg);
+  const outerBackground = extractOuterBackground(animationFrames[0].svg);
+  const gradientDef = extractGradientDefs(animationFrames[0].svg);
+
+  // Calculate terminal window dimensions (without background padding)
+  const width = totalWidth - bgPadding * 2;
+  const height = totalHeight - bgPadding * 2;
+
   const bgColor = getBackgroundColor(animationFrames[0].svg);
   const borderRadius = getBorderRadius(animationFrames[0].svg);
   const headerHeight = getHeaderHeight(animationFrames[0].svg);
@@ -437,7 +485,11 @@ export const createAnimatedSVG = async (
   }
 
   const defsContent: string[] = [];
+  if (gradientDef) {
+    defsContent.push(gradientDef);
+  }
   if (borderRadius > 0) {
+    // clipPath rect at (0,0) because it's applied AFTER the translate transform
     defsContent.push(`<clipPath id="rounded-corners"><rect x="0" y="0" width="${width}" height="${height}" rx="${borderRadius}" ry="${borderRadius}"/></clipPath>`);
   }
   if (watermarkDefs) {
@@ -450,15 +502,26 @@ export const createAnimatedSVG = async (
   const chromeSection = chrome ? `<g class="chrome">${chrome}</g>` : '';
   const footerSection = footer ? `<g class="footer">${footer}</g>` : '';
 
-  return `<svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
+  // Build outer background rect if present
+  const outerBgRect = outerBackground
+    ? `<rect x="0" y="0" width="${totalWidth}" height="${totalHeight}" fill="${outerBackground.fill}"/>`
+    : '';
+
+  // Wrap terminal content in translate group if there's background padding
+  const translateStart = bgPadding > 0 ? `<g transform="translate(${bgPadding}, ${bgPadding})">` : '';
+  const translateEnd = bgPadding > 0 ? '</g>' : '';
+
+  return `<svg width="${totalWidth}" height="${totalHeight}" xmlns="http://www.w3.org/2000/svg">
   ${clipPathDef}
   <style>
     ${baseStyles}
   </style>
 
+  ${outerBgRect}
+  ${translateStart}
   ${clipStart}
   <!-- Static background (never animated) -->
-  <rect width="100%" height="100%" fill="${bgColor}"${bgRx} />
+  <rect width="${width}" height="${height}" fill="${bgColor}"${bgRx} />
 
   <!-- Static chrome (title bar) -->
   ${chromeSection}
@@ -470,6 +533,7 @@ export const createAnimatedSVG = async (
   ${footerSection}
   ${watermark}
   ${clipEnd}
+  ${translateEnd}
 </svg>`;
 };
 

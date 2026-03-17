@@ -1,0 +1,16 @@
+# Playback Speed 0.5x Demo
+# This animation plays at half speed (2x slower)
+
+Output examples/svgs/speed/playback-speed-half.svg
+
+Set FontSize 16
+Set Template macos
+Set Theme dracula
+Set PlaybackSpeed 0.5
+
+Type "echo 'This plays slowly'"
+Sleep 500ms
+Enter
+
+Type "Half speed = 2x slower"
+Sleep 1s

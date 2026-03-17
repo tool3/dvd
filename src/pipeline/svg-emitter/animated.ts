@@ -1,12 +1,34 @@
 //#region Imports
 
-import type { SpanRow, Theme, EmitterOptions, CursorPosition } from '../../types';
+import type { SpanRow, Theme, EmitterOptions, CursorPosition, Gradient } from '../../types';
 import { coalesceBackgrounds, mergeVerticalBackgrounds, type RenderConfig } from '../coalescer';
 import { r, fmt, escapeXml } from './utils';
 import { generateStylesheet, styleToClasses, getColorClass } from './stylesheet';
 import { generateChrome, generateFooter } from './chrome';
 import { isTruecolor } from './utils';
 import type { EmitResult } from './index';
+
+
+//#region Gradient Helpers
+
+const isGradient = (value: unknown): value is Gradient => {
+  return typeof value === 'object' && value !== null && (value as Gradient).type === 'gradient';
+};
+
+const generateGradientDef = (gradient: Gradient, id: string): string => {
+  const direction = gradient.direction ?? 'vertical';
+  const x1 = direction === 'horizontal' ? '0%' : '0%';
+  const y1 = direction === 'horizontal' ? '0%' : '0%';
+  const x2 = direction === 'horizontal' ? '100%' : '0%';
+  const y2 = direction === 'horizontal' ? '0%' : '100%';
+
+  const stops = gradient.colors.map((color, i) => {
+    const offset = gradient.colors.length === 1 ? 50 : (i / (gradient.colors.length - 1)) * 100;
+    return `<stop offset="${offset}%" stop-color="${color}"/>`;
+  }).join('');
+
+  return `<linearGradient id="${id}" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}">${stops}</linearGradient>`;
+};
 
 
 //#region Types
@@ -61,6 +83,12 @@ export const emitAnimated = (
   const loop = options.loop ?? true;
   const pauseAtEnd = options.pauseAtEnd ?? 0;
 
+  // Background padding (margin around terminal window)
+  const bgPadding = options.backgroundPadding ?? 0;
+  const totalWidth = width + bgPadding * 2;
+  const totalHeight = height + bgPadding * 2;
+  const hasBackground = options.background && bgPadding > 0;
+
   const lastFrame = frames[frames.length - 1];
   const totalDuration = lastFrame.timestamp + pauseAtEnd;
   const parts: string[] = [];
@@ -80,9 +108,14 @@ export const emitAnimated = (
   }
 
   parts.push(
-    `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">`
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${totalWidth}" height="${totalHeight}" viewBox="0 0 ${totalWidth} ${totalHeight}">`
   );
   parts.push('<defs>');
+
+  // Add gradient definition if needed
+  if (hasBackground && isGradient(options.background)) {
+    parts.push(generateGradientDef(options.background, 'bg-gradient'));
+  }
 
   // Add watermark defs to root defs section
   if (watermarkDefs) {
@@ -92,7 +125,7 @@ export const emitAnimated = (
   if (borderRadius > 0) {
     parts.push(
       `<clipPath id="rounded-corners">` +
-        `<rect x="0" y="0" width="${width}" height="${height}" rx="${borderRadius}" ry="${borderRadius}"/>` +
+        `<rect x="${bgPadding}" y="${bgPadding}" width="${width}" height="${height}" rx="${borderRadius}" ry="${borderRadius}"/>` +
         `</clipPath>`
     );
   }
@@ -118,6 +151,19 @@ export const emitAnimated = (
   parts.push(generateStylesheet(theme, options));
   parts.push(generateAnimationKeyframes(frames, totalDuration, loop));
   parts.push('</style>');
+
+  // Render outer background if present
+  if (hasBackground) {
+    const bgFill = isGradient(options.background) ? 'url(#bg-gradient)' : options.background;
+    parts.push(
+      `<rect x="0" y="0" width="${totalWidth}" height="${totalHeight}" fill="${bgFill}"/>`
+    );
+  }
+
+  // Start terminal window group (offset by background padding)
+  if (bgPadding > 0) {
+    parts.push(`<g transform="translate(${bgPadding}, ${bgPadding})">`);
+  }
 
   if (borderRadius > 0) parts.push(`<g clip-path="url(#rounded-corners)">`);
 
@@ -183,9 +229,15 @@ export const emitAnimated = (
   }
 
   if (borderRadius > 0) parts.push('</g>');
+
+  // Close terminal window group if we have background padding
+  if (bgPadding > 0) {
+    parts.push('</g>');
+  }
+
   parts.push('</svg>');
 
-  return { svg: parts.join('\n'), width, height };
+  return { svg: parts.join('\n'), width: totalWidth, height: totalHeight };
 };
 
 

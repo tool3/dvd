@@ -178,6 +178,15 @@ export interface Theme {
 }
 
 
+//#region Gradient Type
+
+export interface Gradient {
+  type: 'gradient';
+  colors: string[];
+  direction?: 'horizontal' | 'vertical';
+}
+
+
 //#region Emitter Options
 
 export interface EmitterOptions {
@@ -188,6 +197,7 @@ export interface EmitterOptions {
   fontSize: number;
   lineHeight?: number;
   charWidth?: number;
+  letterSpacing?: number;
   padding?: number;
   title?: string;
   watermark?: string | WatermarkConfig;
@@ -213,6 +223,8 @@ export interface EmitterOptions {
   cursorStyle?: 'block' | 'bar' | 'underline';
   cursorColor?: string;
   hasCustomLineHeight?: boolean;
+  background?: string | Gradient;
+  backgroundPadding?: number;
 }
 
 

@@ -1,6 +1,6 @@
 //#region Imports
 
-import type { SpanRow, CursorPosition, EmitterOptions } from '../../types';
+import type { SpanRow, CursorPosition, EmitterOptions, Gradient } from '../../types';
 import { coalesceBackgrounds, mergeVerticalBackgrounds, type RenderConfig } from '../coalescer';
 import { fmt, escapeXml } from './utils';
 import { generateStylesheet } from './stylesheet';
@@ -8,6 +8,47 @@ import { generateChrome, generateFooter } from './chrome';
 import { renderCursor, renderSelection } from './cursor';
 import { renderTextLayer } from './text-renderer';
 import { emitAnimated as emitAnimatedImpl, type FrameData, type AnimatedSVGOptions } from './animated';
+
+
+//#region Gradient Helpers
+
+const isGradient = (value: unknown): value is Gradient => {
+  return typeof value === 'object' && value !== null && (value as Gradient).type === 'gradient';
+};
+
+interface GradientOptions {
+  padding?: number;
+  totalWidth?: number;
+  totalHeight?: number;
+}
+
+const generateGradientDef = (gradient: Gradient, id: string, options?: GradientOptions): string => {
+  const direction = gradient.direction ?? 'vertical';
+  const x1 = direction === 'horizontal' ? '0%' : '0%';
+  const y1 = direction === 'horizontal' ? '0%' : '0%';
+  const x2 = direction === 'horizontal' ? '100%' : '0%';
+  const y2 = direction === 'horizontal' ? '0%' : '100%';
+
+  // Calculate offset adjustment to center gradient on terminal window (excluding padding)
+  const padding = options?.padding ?? 0;
+  const totalSize = direction === 'horizontal'
+    ? (options?.totalWidth ?? 0)
+    : (options?.totalHeight ?? 0);
+
+  // If we have padding and total size, adjust stops so gradient is centered on terminal
+  // padding/totalSize gives us the percentage offset from each edge
+  const paddingPercent = totalSize > 0 ? (padding / totalSize) * 100 : 0;
+  const rangePercent = 100 - (paddingPercent * 2); // The percentage range for the terminal
+
+  const stops = gradient.colors.map((color, i) => {
+    const baseOffset = gradient.colors.length === 1 ? 50 : (i / (gradient.colors.length - 1)) * 100;
+    // Map the 0-100% range to paddingPercent to (100-paddingPercent)
+    const adjustedOffset = paddingPercent + (baseOffset / 100) * rangePercent;
+    return `<stop offset="${adjustedOffset.toFixed(2)}%" stop-color="${color}"/>`;
+  }).join('');
+
+  return `<linearGradient id="${id}" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}">${stops}</linearGradient>`;
+};
 
 
 //#region Re-exports
@@ -49,16 +90,39 @@ export const emit = (
   const watermarkHeight = watermarkContent ? lineHeight : 0;
   const contentStartY = headerHeight + padding;
 
+  // Background padding (margin around terminal window)
+  const bgPadding = options.backgroundPadding ?? 0;
+  const totalWidth = width + bgPadding * 2;
+  const totalHeight = height + bgPadding * 2;
+  const hasBackground = options.background && bgPadding > 0;
+
   const parts: string[] = [];
 
   parts.push(
-    `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">`
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${totalWidth}" height="${totalHeight}" viewBox="0 0 ${totalWidth} ${totalHeight}">`
   );
   parts.push('<style>');
   parts.push(generateStylesheet(theme, options));
   parts.push('</style>');
 
-  if (borderRadius > 0) {
+  // Add gradient definition if needed
+  // Note: clipPath rect is at (0,0) because it's applied AFTER the translate transform
+  if (hasBackground && isGradient(options.background)) {
+    parts.push('<defs>');
+    parts.push(generateGradientDef(options.background, 'bg-gradient', {
+      padding: bgPadding,
+      totalWidth,
+      totalHeight,
+    }));
+    if (borderRadius > 0) {
+      parts.push(
+        `<clipPath id="rounded-corners">` +
+          `<rect x="0" y="0" width="${width}" height="${height}" rx="${borderRadius}" ry="${borderRadius}"/>` +
+          `</clipPath>`
+      );
+    }
+    parts.push('</defs>');
+  } else if (borderRadius > 0) {
     parts.push('<defs>');
     parts.push(
       `<clipPath id="rounded-corners">` +
@@ -66,11 +130,27 @@ export const emit = (
         `</clipPath>`
     );
     parts.push('</defs>');
+  }
+
+  // Render outer background if present
+  if (hasBackground) {
+    const bgFill = isGradient(options.background) ? 'url(#bg-gradient)' : options.background;
+    parts.push(
+      `<rect x="0" y="0" width="${totalWidth}" height="${totalHeight}" fill="${bgFill}"/>`
+    );
+  }
+
+  // Start terminal window group (offset by background padding)
+  if (bgPadding > 0) {
+    parts.push(`<g transform="translate(${bgPadding}, ${bgPadding})">`);
+  }
+
+  if (borderRadius > 0) {
     parts.push(`<g clip-path="url(#rounded-corners)">`);
   }
 
   parts.push(
-    `<rect class="window-bg" x="0" y="0" width="${width}" height="${height}" ` +
+    `<rect class="window-bg" x="${bgPadding > 0 ? 0 : 0}" y="${bgPadding > 0 ? 0 : 0}" width="${width}" height="${height}" ` +
       `fill="${theme.background}" rx="${borderRadius}" ry="${borderRadius}"/>`
   );
 
@@ -188,6 +268,7 @@ export const emit = (
         charUnderCursor,
         backgroundColor: theme.background,
         fontFamily: options.fontFamily,
+        letterSpacing: options.letterSpacing,
       })
     );
   }
@@ -223,9 +304,15 @@ export const emit = (
   }
 
   if (borderRadius > 0) parts.push('</g>');
+
+  // Close terminal window group if we have background padding
+  if (bgPadding > 0) {
+    parts.push('</g>');
+  }
+
   parts.push('</svg>');
 
-  return { svg: parts.join('\n'), width, height };
+  return { svg: parts.join('\n'), width: totalWidth, height: totalHeight };
 };
 
 

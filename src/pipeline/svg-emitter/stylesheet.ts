@@ -44,12 +44,14 @@ export const generateStylesheet = (
         ? `'${options.fontFamily}', monospace`
         : defaultFonts;
 
+  const letterSpacingStyle = options.letterSpacing ? `\n  letter-spacing: ${options.letterSpacing}px;` : '';
+
   lines.push(`.text {
   font-family: ${fontFamily};
   font-size: ${fontSize}px;
   dominant-baseline: text-before-edge;
   text-rendering: geometricPrecision;
-  white-space: pre;
+  white-space: pre;${letterSpacingStyle}
 }`);
 
   lines.push('.bold { font-weight: bold; }');
