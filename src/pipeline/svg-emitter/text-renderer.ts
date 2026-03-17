@@ -61,7 +61,9 @@ export const renderTextLayer = (rows: SpanRow[], config: TextRendererConfig): st
 
       if (containsCustomGlyphs(rawText)) {
         [...rawText].forEach((char, charOffset) => {
-          const charX = baseX + charOffset * charWidth;
+          // Use absolute column position to ensure consistent alignment across spans
+          const absoluteCol = span.col + charOffset;
+          const charX = padding + absoluteCol * charWidth;
           const glyphCtx: GlyphContext = {
             cellWidth: charWidth,
             cellHeight: lineHeight,

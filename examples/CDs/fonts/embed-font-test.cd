@@ -9,7 +9,7 @@ Set Theme nord
 Set Title "Embedded Font"
 
 # Embed the font file (woff2 format recommended)
-Set EmbedFont examples/fonts/JetBrainsMono-Regular.woff2
+Set EmbedFont examples/CDs/fonts/JetBrainsMono-Regular.woff2
 
 Type "echo 'JetBrains Mono embedded in SVG'"
 Sleep 500ms

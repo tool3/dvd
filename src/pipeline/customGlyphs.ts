@@ -11,6 +11,9 @@ export interface GlyphContext {
   heavyLineWidth: number;
 }
 
+// Round to 2 decimal places to avoid floating-point imprecision in SVG output
+const r = (n: number): number => Math.round(n * 100) / 100;
+
 export interface GlyphResult {
   svg: string;
   handled: boolean;
@@ -161,13 +164,15 @@ const renderBoxDrawing = (codePoint: number, ctx: GlyphContext): GlyphResult => 
   if (!segments) return { svg: '', handled: false };
 
   const { cellWidth, cellHeight, x, y, color, lineWidth, heavyLineWidth } = ctx;
-  const centerX = x + cellWidth / 2;
-  const centerY = y + cellHeight / 2;
+  const centerX = r(x + cellWidth / 2);
+  const centerY = r(y + cellHeight / 2);
+  const cellBottom = r(y + cellHeight);
+  const cellRight = r(x + cellWidth);
 
   const getWidth = (type: number): number =>
     type === 0 ? 0 : type === 1 ? lineWidth : type === 2 ? heavyLineWidth : lineWidth;
 
-  const doubleOffset = lineWidth * 1.5;
+  const doubleOffset = r(lineWidth * 1.5);
   const hasDoubleUp = segments.up === 3;
   const hasDoubleDown = segments.down === 3;
   const hasDoubleLeft = segments.left === 3;
@@ -182,56 +187,56 @@ const renderBoxDrawing = (codePoint: number, ctx: GlyphContext): GlyphResult => 
   if (segments.up > 0) {
     if (segments.up === 3) {
       paths.push(
-        `<line x1="${centerX - doubleOffset}" y1="${y}" x2="${centerX - doubleOffset}" y2="${centerY}" stroke="${color}" stroke-width="${lineWidth}"/>`,
-        `<line x1="${centerX + doubleOffset}" y1="${y}" x2="${centerX + doubleOffset}" y2="${centerY}" stroke="${color}" stroke-width="${lineWidth}"/>`
+        `<line x1="${r(centerX - doubleOffset)}" y1="${r(y)}" x2="${r(centerX - doubleOffset)}" y2="${centerY}" stroke="${color}" stroke-width="${lineWidth}"/>`,
+        `<line x1="${r(centerX + doubleOffset)}" y1="${r(y)}" x2="${r(centerX + doubleOffset)}" y2="${centerY}" stroke="${color}" stroke-width="${lineWidth}"/>`
       );
     } else {
       const w = getWidth(segments.up);
       // If there are double horizontal lines, stop the single vertical at the inner edge
-      const endY = (hasDoubleLeft || hasDoubleRight) ? centerY - doubleOffset : centerY;
-      paths.push(`<line x1="${centerX}" y1="${y}" x2="${centerX}" y2="${endY}" stroke="${color}" stroke-width="${w}"/>`);
+      const endY = (hasDoubleLeft || hasDoubleRight) ? r(centerY - doubleOffset) : centerY;
+      paths.push(`<line x1="${centerX}" y1="${r(y)}" x2="${centerX}" y2="${endY}" stroke="${color}" stroke-width="${w}"/>`);
     }
   }
 
   if (segments.down > 0) {
     if (segments.down === 3) {
       paths.push(
-        `<line x1="${centerX - doubleOffset}" y1="${centerY}" x2="${centerX - doubleOffset}" y2="${y + cellHeight}" stroke="${color}" stroke-width="${lineWidth}"/>`,
-        `<line x1="${centerX + doubleOffset}" y1="${centerY}" x2="${centerX + doubleOffset}" y2="${y + cellHeight}" stroke="${color}" stroke-width="${lineWidth}"/>`
+        `<line x1="${r(centerX - doubleOffset)}" y1="${centerY}" x2="${r(centerX - doubleOffset)}" y2="${cellBottom}" stroke="${color}" stroke-width="${lineWidth}"/>`,
+        `<line x1="${r(centerX + doubleOffset)}" y1="${centerY}" x2="${r(centerX + doubleOffset)}" y2="${cellBottom}" stroke="${color}" stroke-width="${lineWidth}"/>`
       );
     } else {
       const w = getWidth(segments.down);
       // If there are double horizontal lines, start the single vertical from the inner edge
-      const startY = (hasDoubleLeft || hasDoubleRight) ? centerY + doubleOffset : centerY;
-      paths.push(`<line x1="${centerX}" y1="${startY}" x2="${centerX}" y2="${y + cellHeight}" stroke="${color}" stroke-width="${w}"/>`);
+      const startY = (hasDoubleLeft || hasDoubleRight) ? r(centerY + doubleOffset) : centerY;
+      paths.push(`<line x1="${centerX}" y1="${startY}" x2="${centerX}" y2="${cellBottom}" stroke="${color}" stroke-width="${w}"/>`);
     }
   }
 
   if (segments.left > 0) {
     if (segments.left === 3) {
       paths.push(
-        `<line x1="${x}" y1="${centerY - doubleOffset}" x2="${centerX}" y2="${centerY - doubleOffset}" stroke="${color}" stroke-width="${lineWidth}"/>`,
-        `<line x1="${x}" y1="${centerY + doubleOffset}" x2="${centerX}" y2="${centerY + doubleOffset}" stroke="${color}" stroke-width="${lineWidth}"/>`
+        `<line x1="${r(x)}" y1="${r(centerY - doubleOffset)}" x2="${centerX}" y2="${r(centerY - doubleOffset)}" stroke="${color}" stroke-width="${lineWidth}"/>`,
+        `<line x1="${r(x)}" y1="${r(centerY + doubleOffset)}" x2="${centerX}" y2="${r(centerY + doubleOffset)}" stroke="${color}" stroke-width="${lineWidth}"/>`
       );
     } else {
       const w = getWidth(segments.left);
       // If there are double vertical lines, stop the single horizontal at the inner edge
-      const endX = (hasDoubleUp || hasDoubleDown) ? centerX - doubleOffset : centerX;
-      paths.push(`<line x1="${x}" y1="${centerY}" x2="${endX}" y2="${centerY}" stroke="${color}" stroke-width="${w}"/>`);
+      const endX = (hasDoubleUp || hasDoubleDown) ? r(centerX - doubleOffset) : centerX;
+      paths.push(`<line x1="${r(x)}" y1="${centerY}" x2="${endX}" y2="${centerY}" stroke="${color}" stroke-width="${w}"/>`);
     }
   }
 
   if (segments.right > 0) {
     if (segments.right === 3) {
       paths.push(
-        `<line x1="${centerX}" y1="${centerY - doubleOffset}" x2="${x + cellWidth}" y2="${centerY - doubleOffset}" stroke="${color}" stroke-width="${lineWidth}"/>`,
-        `<line x1="${centerX}" y1="${centerY + doubleOffset}" x2="${x + cellWidth}" y2="${centerY + doubleOffset}" stroke="${color}" stroke-width="${lineWidth}"/>`
+        `<line x1="${centerX}" y1="${r(centerY - doubleOffset)}" x2="${cellRight}" y2="${r(centerY - doubleOffset)}" stroke="${color}" stroke-width="${lineWidth}"/>`,
+        `<line x1="${centerX}" y1="${r(centerY + doubleOffset)}" x2="${cellRight}" y2="${r(centerY + doubleOffset)}" stroke="${color}" stroke-width="${lineWidth}"/>`
       );
     } else {
       const w = getWidth(segments.right);
       // If there are double vertical lines, start the single horizontal from the inner edge
-      const startX = (hasDoubleUp || hasDoubleDown) ? centerX + doubleOffset : centerX;
-      paths.push(`<line x1="${startX}" y1="${centerY}" x2="${x + cellWidth}" y2="${centerY}" stroke="${color}" stroke-width="${w}"/>`);
+      const startX = (hasDoubleUp || hasDoubleDown) ? r(centerX + doubleOffset) : centerX;
+      paths.push(`<line x1="${startX}" y1="${centerY}" x2="${cellRight}" y2="${centerY}" stroke="${color}" stroke-width="${w}"/>`);
     }
   }
 
@@ -241,12 +246,12 @@ const renderBoxDrawing = (codePoint: number, ctx: GlyphContext): GlyphResult => 
 
 const renderDoubleLineCorner = (segments: BoxSegments, ctx: GlyphContext, doubleOffset: number): GlyphResult => {
   const { cellWidth, cellHeight, x, y, color, lineWidth } = ctx;
-  const rx = x;
-  const ry = y;
-  const rBottom = y + cellHeight;
-  const rRight = x + cellWidth;
-  const centerX = x + cellWidth / 2;
-  const centerY = y + cellHeight / 2;
+  const rx = r(x);
+  const ry = r(y);
+  const rBottom = r(y + cellHeight);
+  const rRight = r(x + cellWidth);
+  const centerX = r(x + cellWidth / 2);
+  const centerY = r(y + cellHeight / 2);
   const paths: string[] = [];
 
   const hasUp = segments.up === 3;
@@ -254,10 +259,10 @@ const renderDoubleLineCorner = (segments: BoxSegments, ctx: GlyphContext, double
   const hasLeft = segments.left === 3;
   const hasRight = segments.right === 3;
 
-  const outerLeft = centerX - doubleOffset;
-  const outerRight = centerX + doubleOffset;
-  const outerTop = centerY - doubleOffset;
-  const outerBottom = centerY + doubleOffset;
+  const outerLeft = r(centerX - doubleOffset);
+  const outerRight = r(centerX + doubleOffset);
+  const outerTop = r(centerY - doubleOffset);
+  const outerBottom = r(centerY + doubleOffset);
 
   // Corner cases - use path elements for proper L-shaped corners
   if (hasUp && hasRight && !hasDown && !hasLeft) {
@@ -369,10 +374,10 @@ const renderDiagonalLine = (codePoint: number, ctx: GlyphContext): GlyphResult =
   const paths: string[] = [];
 
   if (codePoint === 0x2571 || codePoint === 0x2573) {
-    paths.push(`<line x1="${x}" y1="${y + cellHeight}" x2="${x + cellWidth}" y2="${y}" stroke="${color}" stroke-width="${lineWidth}"/>`);
+    paths.push(`<line x1="${r(x)}" y1="${r(y + cellHeight)}" x2="${r(x + cellWidth)}" y2="${r(y)}" stroke="${color}" stroke-width="${lineWidth}"/>`);
   }
   if (codePoint === 0x2572 || codePoint === 0x2573) {
-    paths.push(`<line x1="${x}" y1="${y}" x2="${x + cellWidth}" y2="${y + cellHeight}" stroke="${color}" stroke-width="${lineWidth}"/>`);
+    paths.push(`<line x1="${r(x)}" y1="${r(y)}" x2="${r(x + cellWidth)}" y2="${r(y + cellHeight)}" stroke="${color}" stroke-width="${lineWidth}"/>`);
   }
 
   return { svg: paths.join(''), handled: true };

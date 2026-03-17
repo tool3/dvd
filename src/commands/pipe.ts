@@ -319,15 +319,23 @@ export const pipeCommand = async (args: PipeArgs): Promise<void> => {
 
       for (const frame of frameContents) {
         const plainText = frame.replace(/\x1b\[[0-9;]*m/g, '');
-        const lines = plainText.split('\n').filter(l => l.length > 0);
+        const allLines = plainText.split('\n');
+        // For max line length, filter empty lines
+        const nonEmptyLines = allLines.filter(l => l.length > 0);
 
-        for (const line of lines) {
+        for (const line of nonEmptyLines) {
           if (line.length > maxLineLength) {
             maxLineLength = line.length;
           }
         }
-        if (lines.length > maxLineCount) {
-          maxLineCount = lines.length;
+        // For row count, count ALL lines (including empty) to preserve vertical spacing
+        // But trim trailing empty lines that might be artifacts
+        let lineCount = allLines.length;
+        while (lineCount > 0 && allLines[lineCount - 1].length === 0) {
+          lineCount--;
+        }
+        if (lineCount > maxLineCount) {
+          maxLineCount = lineCount;
         }
       }
 

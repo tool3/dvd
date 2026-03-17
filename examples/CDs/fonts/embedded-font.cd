@@ -11,8 +11,8 @@ Set Theme dracula
 Set Title "Embedded Font Demo"
 Set Template macos
 
-# Embed JetBrains Mono - a popular coding font with ligatures
-Set EmbedFont examples/fonts/JetBrainsMono-Regular.woff2
+# Embed Firacode - a popular coding font with ligatures
+Set EmbedFont examples/CDs/fonts/FiraCode-Regular.woff2
 
 Type "node -e \"console.log('greetings!')\""
 Sleep 500ms
