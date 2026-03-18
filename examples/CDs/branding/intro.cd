@@ -5,7 +5,7 @@ Output examples/svgs/branding/intro.svg
 Set FontSize 16
 Set Template macos
 Set Theme verminal
-Set LoopStyle fade
+# Set LoopStyle fade
 Set Background "gradient(hotpink, #8A00C4:horizontal)"
 Set BackgroundPadding 25
 Set CursorStyle bar

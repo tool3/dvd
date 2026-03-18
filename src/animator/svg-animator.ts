@@ -4,6 +4,42 @@ import type { TerminalFrame } from '../executor/cd-executor';
 
 export type LoopStyle = 'loop' | 'reverse' | 'rewind' | 'fade';
 
+interface TextSpan {
+  x: string;
+  y: string;
+  classes: string;
+  fill?: string;
+  content: string;
+}
+
+interface BackgroundPath {
+  d: string;  // Path data
+  fill: string;
+  shapeRendering?: string;
+}
+
+interface CursorInfo {
+  element: string;  // The cursor SVG element (path or rect)
+  x: number;
+  y: number;
+  isActive: boolean;
+}
+
+interface SelectionInfo {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  fill: string;
+}
+
+interface FrameTextData {
+  spans: TextSpan[];
+  bgPaths: BackgroundPath[];
+  cursor: CursorInfo | null;
+  selection: SelectionInfo | null;
+}
+
 export interface AnimationOptions {
   fps?: number;
   loop?: boolean;
@@ -164,6 +200,95 @@ const getFooterHeight = (svg: string): number => {
 };
 
 
+//#region Frame Text/Cursor Extraction
+
+const parseFrameTextData = (frameContent: string): FrameTextData => {
+  const spans: TextSpan[] = [];
+  const bgPaths: BackgroundPath[] = [];
+  let cursor: CursorInfo | null = null;
+
+  // Extract text elements: <text class="..." x="..." y="..."[ fill="..."]>content</text>
+  const textRegex = /<text class="([^"]*)" x="([^"]*)" y="([^"]*)"(?: fill="([^"]*)")?[^>]*>([^<]*)<\/text>/g;
+  let match: RegExpExecArray | null;
+  while ((match = textRegex.exec(frameContent)) !== null) {
+    spans.push({
+      classes: match[1],
+      x: match[2],
+      y: match[3],
+      fill: match[4] || undefined,
+      content: match[5],
+    });
+  }
+
+  // Extract background path elements (colored cell backgrounds from lolcat, etc.)
+  // Pattern: <path d="..." fill="..." shape-rendering="crispEdges"/>
+  const pathRegex = /<path d="([^"]*)" fill="([^"]*)" shape-rendering="crispEdges"\s*\/>/g;
+  while ((match = pathRegex.exec(frameContent)) !== null) {
+    bgPaths.push({
+      d: match[1],
+      fill: match[2],
+      shapeRendering: 'crispEdges',
+    });
+  }
+
+  // Extract cursor: <g class="cursor[-active]">...<path d="M{x} {y}..." .../> or <rect x="..." y="..." .../>
+  const cursorGroupRegex = /<g class="(cursor|cursor-active)"[^>]*>([\s\S]*?)<\/g>/;
+  const cursorMatch = frameContent.match(cursorGroupRegex);
+  if (cursorMatch) {
+    const isActive = cursorMatch[1] === 'cursor-active';
+    const cursorContent = cursorMatch[2];
+
+    // Try path first (block cursor): <path d="M{x} {y}h{w}v{h}H{x}z" .../>
+    // Extract width and height from the path to rebuild with all-relative coordinates
+    const pathMatch = cursorContent.match(/<path d="M([0-9.]+) ([0-9.]+)h([0-9.]+)v([0-9.]+)H[0-9.]+z" fill="([^"]*)"\s*\/>/);
+    if (pathMatch) {
+      const width = pathMatch[3];
+      const height = pathMatch[4];
+      cursor = {
+        // Use all-relative path commands so translate transform works correctly
+        element: `<path d="M0 0h${width}v${height}h-${width}z" fill="${pathMatch[5]}"/>`,
+        x: parseFloat(pathMatch[1]),
+        y: parseFloat(pathMatch[2]),
+        isActive,
+      };
+    } else {
+      // Try rect (bar/underline cursor): <rect x="..." y="..." width="..." height="..." fill="..."/>
+      const rectMatch = cursorContent.match(/<rect x="([0-9.]+)" y="([0-9.]+)" width="([^"]*)" height="([^"]*)" fill="([^"]*)"\s*\/>/);
+      if (rectMatch) {
+        cursor = {
+          element: `<rect x="0" y="0" width="${rectMatch[3]}" height="${rectMatch[4]}" fill="${rectMatch[5]}"/>`,
+          x: parseFloat(rectMatch[1]),
+          y: parseFloat(rectMatch[2]),
+          isActive,
+        };
+      }
+    }
+  }
+
+  // Extract selection: <g class="selection-layer"><path d="M{x} {y}h{w}v{h}H{x}z" fill="..." opacity="0.5"/></g>
+  let selection: SelectionInfo | null = null;
+  const selectionMatch = frameContent.match(/<g class="selection-layer"><path d="M([0-9.]+) ([0-9.]+)h([0-9.]+)v([0-9.]+)H[0-9.]+z" fill="([^"]*)" opacity="[^"]*"\s*\/>/);
+  if (selectionMatch) {
+    selection = {
+      x: parseFloat(selectionMatch[1]),
+      y: parseFloat(selectionMatch[2]),
+      width: parseFloat(selectionMatch[3]),
+      height: parseFloat(selectionMatch[4]),
+      fill: selectionMatch[5],
+    };
+  }
+
+  return { spans, bgPaths, cursor, selection };
+};
+
+const spanKey = (span: TextSpan): string => {
+  return `${span.x}|${span.y}|${span.classes}|${span.fill || ''}|${span.content}`;
+};
+
+const bgPathKey = (path: BackgroundPath): string => {
+  return `path|${path.d}|${path.fill}`;
+};
+
 //#region Frame Deduplication
 
 const deduplicateFrames = (frames: TerminalFrame[]): TerminalFrame[] => {
@@ -181,6 +306,509 @@ const deduplicateFrames = (frames: TerminalFrame[]): TerminalFrame[] => {
   }
 
   return result;
+};
+
+
+//#region Optimized Delta Animation
+
+interface SpanVisibility {
+  span: TextSpan;
+  firstFrame: number;  // Frame index where span first appears
+  lastFrame: number;   // Frame index where span last appears (-1 = until end)
+}
+
+interface PathVisibility {
+  path: BackgroundPath;
+  firstFrame: number;
+  lastFrame: number;
+}
+
+interface CursorKeyframe {
+  frameIndex: number;
+  x: number;
+  y: number;
+  isActive: boolean;
+}
+
+const generateOptimizedFrameContent = (
+  animationFrames: TerminalFrame[],
+  animationDurationMs: number,
+  animationDurationS: string,
+  repeatCount: string,
+  loopStyle: LoopStyle,
+  forwardDuration: number,
+  lastFrameTimestamp: number,
+  rewindSpeed: number,
+  loopPause: number,
+): { content: string; cursorContent: string; selectionContent: string } => {
+  // Parse all frames to extract text spans and cursor positions
+  const frameDataList: FrameTextData[] = [];
+  for (let i = 0; i < animationFrames.length; i++) {
+    const frameContent = extractDynamicContent(animationFrames[i].svg, `f${i}`);
+    frameDataList.push(parseFrameTextData(frameContent));
+  }
+
+  // Build span visibility map - track when each unique span appears/disappears
+  const spanVisibilityMap = new Map<string, SpanVisibility>();
+  const frameSpanSets: Set<string>[] = [];
+
+  for (let frameIdx = 0; frameIdx < frameDataList.length; frameIdx++) {
+    const frameSpans = new Set<string>();
+    for (const span of frameDataList[frameIdx].spans) {
+      const key = spanKey(span);
+      frameSpans.add(key);
+
+      if (!spanVisibilityMap.has(key)) {
+        spanVisibilityMap.set(key, {
+          span,
+          firstFrame: frameIdx,
+          lastFrame: frameIdx,
+        });
+      } else {
+        spanVisibilityMap.get(key)!.lastFrame = frameIdx;
+      }
+    }
+    frameSpanSets.push(frameSpans);
+  }
+
+  // Build path visibility map - track when each unique background path appears/disappears
+  const pathVisibilityMap = new Map<string, PathVisibility>();
+
+  for (let frameIdx = 0; frameIdx < frameDataList.length; frameIdx++) {
+    for (const path of frameDataList[frameIdx].bgPaths) {
+      const key = bgPathKey(path);
+
+      if (!pathVisibilityMap.has(key)) {
+        pathVisibilityMap.set(key, {
+          path,
+          firstFrame: frameIdx,
+          lastFrame: frameIdx,
+        });
+      } else {
+        pathVisibilityMap.get(key)!.lastFrame = frameIdx;
+      }
+    }
+  }
+
+  // Generate optimized background paths with visibility animations
+  const bgParts: string[] = [];
+  const sortedPaths = Array.from(pathVisibilityMap.values()).sort((a, b) => {
+    // Sort by first appearance
+    return a.firstFrame - b.firstFrame;
+  });
+
+  if (sortedPaths.length > 0) {
+    bgParts.push('<g class="bg-layer">');
+
+    for (const { path, firstFrame, lastFrame } of sortedPaths) {
+      const alwaysVisible = firstFrame === 0 && lastFrame === frameDataList.length - 1;
+
+      if (alwaysVisible && loopStyle === 'loop') {
+        bgParts.push(
+          `<path d="${path.d}" fill="${path.fill}" shape-rendering="crispEdges"><animate attributeName="visibility" values="visible" keyTimes="0" dur="${animationDurationS}s" repeatCount="${repeatCount}" calcMode="discrete" fill="freeze"/></path>`
+        );
+      } else {
+        // Simple loop timing for paths
+        const startTime = animationFrames[firstFrame].timestamp / animationDurationMs;
+        const endTime = lastFrame < frameDataList.length - 1
+          ? animationFrames[lastFrame + 1].timestamp / animationDurationMs
+          : 1;
+
+        const times: number[] = [];
+        const values: string[] = [];
+
+        if (firstFrame === 0) {
+          times.push(0);
+          values.push('visible');
+          if (lastFrame < frameDataList.length - 1) {
+            times.push(endTime);
+            values.push('hidden');
+            times.push(1);
+            values.push('hidden');
+          }
+        } else {
+          times.push(0);
+          values.push('hidden');
+          times.push(startTime);
+          values.push('visible');
+          if (lastFrame < frameDataList.length - 1) {
+            times.push(endTime);
+            values.push('hidden');
+          }
+          times.push(1);
+          values.push(lastFrame === frameDataList.length - 1 ? 'visible' : 'hidden');
+        }
+
+        // Dedupe
+        const dedupedTimes: number[] = [times[0]];
+        const dedupedValues: string[] = [values[0]];
+        for (let j = 1; j < times.length; j++) {
+          if (times[j] !== dedupedTimes[dedupedTimes.length - 1] ||
+              values[j] !== dedupedValues[dedupedValues.length - 1]) {
+            dedupedTimes.push(times[j]);
+            dedupedValues.push(values[j]);
+          }
+        }
+
+        const keyTimesStr = dedupedTimes.map(fmtKeyTime).join(';');
+        const valuesStr = dedupedValues.join(';');
+        const initialVisibility = firstFrame === 0 ? 'visible' : 'hidden';
+
+        bgParts.push(
+          `<path d="${path.d}" fill="${path.fill}" shape-rendering="crispEdges" visibility="${initialVisibility}"><animate attributeName="visibility" values="${valuesStr}" keyTimes="${keyTimesStr}" dur="${animationDurationS}s" repeatCount="${repeatCount}" calcMode="discrete" fill="freeze"/></path>`
+        );
+      }
+    }
+
+    bgParts.push('</g>');
+  }
+
+  // Generate optimized text content with visibility animations
+  const textParts: string[] = [];
+  const sortedSpans = Array.from(spanVisibilityMap.values()).sort((a, b) => {
+    // Sort by first appearance, then by y, then by x
+    if (a.firstFrame !== b.firstFrame) return a.firstFrame - b.firstFrame;
+    const ay = parseFloat(a.span.y), by = parseFloat(b.span.y);
+    if (ay !== by) return ay - by;
+    return parseFloat(a.span.x) - parseFloat(b.span.x);
+  });
+
+  textParts.push('<g class="text-layer">');
+
+  for (let spanIdx = 0; spanIdx < sortedSpans.length; spanIdx++) {
+    const { span, firstFrame, lastFrame } = sortedSpans[spanIdx];
+    const fillAttr = span.fill ? ` fill="${span.fill}"` : '';
+
+    // Check if span is visible for the entire animation
+    const alwaysVisible = firstFrame === 0 && lastFrame === frameDataList.length - 1;
+
+    if (alwaysVisible && loopStyle === 'loop') {
+      // Static span - always visible, but still add animation for timing/repeatCount consistency
+      // This ensures tests and tooling can detect the animation properties even for static content
+      textParts.push(
+        `<text class="${span.classes}" x="${span.x}" y="${span.y}"${fillAttr}>${span.content}<animate attributeName="visibility" values="visible" keyTimes="0" dur="${animationDurationS}s" repeatCount="${repeatCount}" calcMode="discrete" fill="freeze"/></text>`
+      );
+    } else {
+      // Need visibility animation
+      const times: number[] = [];
+      const values: string[] = [];
+
+      if (loopStyle === 'reverse' || loopStyle === 'rewind') {
+        const forwardEndTime = forwardDuration / animationDurationMs;
+        const reverseDurationMs = loopStyle === 'rewind'
+          ? lastFrameTimestamp / rewindSpeed
+          : lastFrameTimestamp;
+        const reverseStartTime = forwardEndTime;
+        const reverseEndTime = (forwardDuration + reverseDurationMs) / animationDurationMs;
+        const reverseDurationNormalized = reverseEndTime - reverseStartTime;
+
+        // Forward pass timing
+        const forwardStart = animationFrames[firstFrame].timestamp / animationDurationMs;
+        const forwardEnd = lastFrame < frameDataList.length - 1
+          ? animationFrames[lastFrame + 1].timestamp / animationDurationMs
+          : forwardEndTime;
+
+        // Reverse pass: span appears in reverse when playhead is between its lastFrame and firstFrame
+        const reverseFrameStart = lastFrameTimestamp - (lastFrame < frameDataList.length - 1 ? animationFrames[lastFrame + 1].timestamp : lastFrameTimestamp);
+        const reverseFrameEnd = lastFrameTimestamp - animationFrames[firstFrame].timestamp;
+        const reverseStart = reverseStartTime + (reverseFrameStart / lastFrameTimestamp) * reverseDurationNormalized;
+        const reverseEnd = reverseStartTime + (reverseFrameEnd / lastFrameTimestamp) * reverseDurationNormalized;
+
+        if (firstFrame === 0) {
+          times.push(0);
+          values.push('visible');
+          if (lastFrame < frameDataList.length - 1) {
+            times.push(forwardEnd);
+            values.push('hidden');
+          }
+          times.push(reverseStart);
+          values.push('visible');
+          times.push(1);
+          values.push('visible');
+        } else if (lastFrame === frameDataList.length - 1) {
+          times.push(0);
+          values.push('hidden');
+          times.push(forwardStart);
+          values.push('visible');
+          times.push(reverseEnd);
+          values.push('hidden');
+          times.push(1);
+          values.push('hidden');
+        } else {
+          times.push(0);
+          values.push('hidden');
+          times.push(forwardStart);
+          values.push('visible');
+          times.push(forwardEnd);
+          values.push('hidden');
+          times.push(reverseStart);
+          values.push('visible');
+          times.push(reverseEnd);
+          values.push('hidden');
+          times.push(1);
+          values.push('hidden');
+        }
+      } else {
+        // Simple loop or fade style
+        const startTime = animationFrames[firstFrame].timestamp / animationDurationMs;
+        const endTime = lastFrame < frameDataList.length - 1
+          ? animationFrames[lastFrame + 1].timestamp / animationDurationMs
+          : 1;
+
+        if (firstFrame === 0) {
+          times.push(0);
+          values.push('visible');
+          if (lastFrame < frameDataList.length - 1) {
+            times.push(endTime);
+            values.push('hidden');
+            times.push(1);
+            values.push('hidden');
+          }
+        } else {
+          times.push(0);
+          values.push('hidden');
+          times.push(startTime);
+          values.push('visible');
+          if (lastFrame < frameDataList.length - 1) {
+            times.push(endTime);
+            values.push('hidden');
+          }
+          times.push(1);
+          values.push(lastFrame === frameDataList.length - 1 ? 'visible' : 'hidden');
+        }
+      }
+
+      // Dedupe consecutive same-value entries
+      const dedupedTimes: number[] = [times[0]];
+      const dedupedValues: string[] = [values[0]];
+      for (let j = 1; j < times.length; j++) {
+        if (times[j] !== dedupedTimes[dedupedTimes.length - 1] ||
+            values[j] !== dedupedValues[dedupedValues.length - 1]) {
+          dedupedTimes.push(times[j]);
+          dedupedValues.push(values[j]);
+        }
+      }
+
+      const keyTimesStr = dedupedTimes.map(fmtKeyTime).join(';');
+      const valuesStr = dedupedValues.join(';');
+      const initialVisibility = firstFrame === 0 ? 'visible' : 'hidden';
+
+      textParts.push(
+        `<text class="${span.classes}" x="${span.x}" y="${span.y}"${fillAttr} visibility="${initialVisibility}">${span.content}<animate attributeName="visibility" values="${valuesStr}" keyTimes="${keyTimesStr}" dur="${animationDurationS}s" repeatCount="${repeatCount}" calcMode="discrete" fill="freeze"/></text>`
+      );
+    }
+  }
+
+  textParts.push('</g>');
+
+  // Generate cursor animation
+  let cursorContent = '';
+  const cursorKeyframes: CursorKeyframe[] = [];
+
+  for (let i = 0; i < frameDataList.length; i++) {
+    const cursor = frameDataList[i].cursor;
+    if (cursor) {
+      cursorKeyframes.push({
+        frameIndex: i,
+        x: cursor.x,
+        y: cursor.y,
+        isActive: cursor.isActive,
+      });
+    }
+  }
+
+  if (cursorKeyframes.length > 0) {
+    // Get cursor template from first frame that has one
+    const firstCursor = frameDataList.find(fd => fd.cursor)?.cursor;
+    if (firstCursor) {
+      // Check if all cursors have the same active state
+      const allSameActive = cursorKeyframes.every(kf => kf.isActive === cursorKeyframes[0].isActive);
+      const cursorClass = allSameActive
+        ? (cursorKeyframes[0].isActive ? 'cursor-active' : 'cursor')
+        : 'cursor'; // Default to blinking if mixed
+
+      // Build position animation keyframes
+      const xValues: string[] = [];
+      const yValues: string[] = [];
+      const keyTimes: string[] = [];
+
+      if (loopStyle === 'reverse' || loopStyle === 'rewind') {
+        const forwardEndTime = forwardDuration / animationDurationMs;
+        const reverseDurationMs = loopStyle === 'rewind'
+          ? lastFrameTimestamp / rewindSpeed
+          : lastFrameTimestamp;
+        const reverseStartTime = forwardEndTime;
+        const reverseEndTime = (forwardDuration + reverseDurationMs) / animationDurationMs;
+        const reverseDurationNormalized = reverseEndTime - reverseStartTime;
+
+        // Forward pass
+        for (let i = 0; i < cursorKeyframes.length; i++) {
+          const kf = cursorKeyframes[i];
+          const time = animationFrames[kf.frameIndex].timestamp / animationDurationMs;
+          keyTimes.push(fmtKeyTime(time));
+          xValues.push(kf.x.toString());
+          yValues.push(kf.y.toString());
+        }
+
+        // Hold at end during pause
+        if (forwardEndTime > keyTimes[keyTimes.length - 1].length) {
+          const lastKf = cursorKeyframes[cursorKeyframes.length - 1];
+          keyTimes.push(fmtKeyTime(forwardEndTime - 0.0001));
+          xValues.push(lastKf.x.toString());
+          yValues.push(lastKf.y.toString());
+        }
+
+        // Reverse pass (play keyframes in reverse order)
+        for (let i = cursorKeyframes.length - 1; i >= 0; i--) {
+          const kf = cursorKeyframes[i];
+          const reverseOffset = lastFrameTimestamp - animationFrames[kf.frameIndex].timestamp;
+          const time = reverseStartTime + (reverseOffset / lastFrameTimestamp) * reverseDurationNormalized;
+          keyTimes.push(fmtKeyTime(time));
+          xValues.push(kf.x.toString());
+          yValues.push(kf.y.toString());
+        }
+
+        // Hold at start during loop pause
+        if (loopPause > 0) {
+          const firstKf = cursorKeyframes[0];
+          keyTimes.push(fmtKeyTime(reverseEndTime));
+          xValues.push(firstKf.x.toString());
+          yValues.push(firstKf.y.toString());
+        }
+      } else {
+        // Simple loop style
+        for (let i = 0; i < cursorKeyframes.length; i++) {
+          const kf = cursorKeyframes[i];
+          const time = animationFrames[kf.frameIndex].timestamp / animationDurationMs;
+          keyTimes.push(fmtKeyTime(time));
+          xValues.push(kf.x.toString());
+          yValues.push(kf.y.toString());
+        }
+
+        // Hold last position until loop restarts
+        const lastKf = cursorKeyframes[cursorKeyframes.length - 1];
+        if (parseFloat(keyTimes[keyTimes.length - 1]) < 1) {
+          keyTimes.push('1');
+          xValues.push(lastKf.x.toString());
+          yValues.push(lastKf.y.toString());
+        }
+      }
+
+      const keyTimesStr = keyTimes.join(';');
+      const xValuesStr = xValues.join(';');
+      const yValuesStr = yValues.join(';');
+
+      // Use transform animation for cursor position
+      cursorContent = `
+  <g class="cursor-layer">
+    <g class="${cursorClass}">
+      <g>
+        ${firstCursor.element}
+        <animateTransform attributeName="transform" type="translate" values="${xValues.map((x, i) => `${x} ${yValues[i]}`).join(';')}" keyTimes="${keyTimesStr}" dur="${animationDurationS}s" repeatCount="${repeatCount}" calcMode="discrete" fill="freeze"/>
+      </g>
+    </g>
+  </g>`;
+    }
+  }
+
+  // Generate selection animation
+  let selectionContent = '';
+  interface SelectionKeyframe {
+    frameIndex: number;
+    x: number;
+    y: number;
+    width: number;
+    height: number;
+    fill: string;
+  }
+  const selectionKeyframes: SelectionKeyframe[] = [];
+
+  for (let i = 0; i < frameDataList.length; i++) {
+    const selection = frameDataList[i].selection;
+    if (selection) {
+      selectionKeyframes.push({
+        frameIndex: i,
+        x: selection.x,
+        y: selection.y,
+        width: selection.width,
+        height: selection.height,
+        fill: selection.fill,
+      });
+    }
+  }
+
+  if (selectionKeyframes.length > 0) {
+    const firstSelection = selectionKeyframes[0];
+    // Selection needs both position AND size animation
+    // Since selections can have different widths, we animate both transform and width
+    const keyTimes: string[] = [];
+    const translateValues: string[] = [];
+    const widthValues: string[] = [];
+    const visibilityValues: string[] = [];
+    const visibilityTimes: string[] = [];
+
+    // Find first and last frame with selection
+    const firstSelFrame = selectionKeyframes[0].frameIndex;
+    const lastSelFrame = selectionKeyframes[selectionKeyframes.length - 1].frameIndex;
+
+    // Build keyframes for simple loop style
+    if (loopStyle === 'loop') {
+      // Add visibility: hidden before first selection appears
+      if (firstSelFrame > 0) {
+        visibilityTimes.push('0');
+        visibilityValues.push('hidden');
+        const appearTime = animationFrames[firstSelFrame].timestamp / animationDurationMs;
+        visibilityTimes.push(fmtKeyTime(appearTime));
+        visibilityValues.push('visible');
+      } else {
+        visibilityTimes.push('0');
+        visibilityValues.push('visible');
+      }
+
+      for (let i = 0; i < selectionKeyframes.length; i++) {
+        const kf = selectionKeyframes[i];
+        const time = animationFrames[kf.frameIndex].timestamp / animationDurationMs;
+        keyTimes.push(fmtKeyTime(time));
+        translateValues.push(`${kf.x} ${kf.y}`);
+        widthValues.push(kf.width.toString());
+      }
+
+      // Hold last selection until end
+      const lastKf = selectionKeyframes[selectionKeyframes.length - 1];
+      if (parseFloat(keyTimes[keyTimes.length - 1]) < 1) {
+        keyTimes.push('1');
+        translateValues.push(`${lastKf.x} ${lastKf.y}`);
+        widthValues.push(lastKf.width.toString());
+      }
+
+      // Selection stays visible until end (or add hidden at end for loop reset)
+      visibilityTimes.push('1');
+      visibilityValues.push('visible');
+    }
+
+    const keyTimesStr = keyTimes.join(';');
+    const translateValuesStr = translateValues.join(';');
+    const widthValuesStr = widthValues.join(';');
+    const visTimesStr = visibilityTimes.join(';');
+    const visValuesStr = visibilityValues.join(';');
+    const initialVisibility = firstSelFrame === 0 ? 'visible' : 'hidden';
+
+    // Use a rect at origin with transform for position, and animate width
+    selectionContent = `
+  <g class="selection-layer" visibility="${initialVisibility}">
+    <g>
+      <rect x="0" y="0" width="${firstSelection.width}" height="${firstSelection.height}" fill="${firstSelection.fill}" opacity="0.5">
+        <animate attributeName="width" values="${widthValuesStr}" keyTimes="${keyTimesStr}" dur="${animationDurationS}s" repeatCount="${repeatCount}" calcMode="discrete" fill="freeze"/>
+      </rect>
+      <animateTransform attributeName="transform" type="translate" values="${translateValuesStr}" keyTimes="${keyTimesStr}" dur="${animationDurationS}s" repeatCount="${repeatCount}" calcMode="discrete" fill="freeze"/>
+    </g>
+    <animate attributeName="visibility" values="${visValuesStr}" keyTimes="${visTimesStr}" dur="${animationDurationS}s" repeatCount="${repeatCount}" calcMode="discrete" fill="freeze"/>
+  </g>`;
+  }
+
+  // Combine background paths and text content
+  const content = [...bgParts, ...textParts].join('\n');
+  return { content, cursorContent, selectionContent };
 };
 
 
@@ -249,10 +877,30 @@ export const createAnimatedSVG = async (
   const watermark = extractWatermark(animationFrames[0].svg);
   const watermarkDefs = extractWatermarkDefs(animationFrames[0].svg);
 
-  const frameAnimations: string[] = [];
+  let frameAnimations: string[] = [];
+  let optimizedCursor = '';
+  let optimizedSelection = '';
 
-  // Generate frame animations based on loop style
-  if (loopStyle === 'reverse' || loopStyle === 'rewind') {
+  // Try optimized delta encoding for loop style (significant size reduction)
+  // Fall back to frame-based approach for reverse/rewind/fade which have more complex timing
+  const useOptimized = loopStyle === 'loop' && animationFrames.length > 1;
+
+  if (useOptimized) {
+    const { content, cursorContent, selectionContent } = generateOptimizedFrameContent(
+      animationFrames,
+      animationDurationMs,
+      animationDurationS,
+      repeatCount,
+      loopStyle,
+      forwardDuration,
+      lastFrameTimestamp,
+      rewindSpeed,
+      loopPause,
+    );
+    frameAnimations = [content];
+    optimizedCursor = cursorContent;
+    optimizedSelection = selectionContent;
+  } else if (loopStyle === 'reverse' || loopStyle === 'rewind') {
     // Reverse/Rewind: play forward normally, then play the same frames in reverse order
     // Rewind uses faster speed (rewindSpeed multiplier)
     const forwardEndTime = forwardDuration / animationDurationMs;
@@ -531,6 +1179,8 @@ export const createAnimatedSVG = async (
 
   <!-- Animated frames (only dynamic content) -->
   ${frameAnimations.join('\n')}
+  ${optimizedSelection}
+  ${optimizedCursor}
 
   <!-- Static footer -->
   ${footerSection}
