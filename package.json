@@ -2,7 +2,6 @@
   "name": "dvd",
   "version": "1.0.0",
   "description": "Create beautiful animated SVGs from terminal recordings",
-  "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
@@ -20,7 +19,7 @@
   },
   "scripts": {
     "build": "npm run build:esm && npm run build:cjs",
-    "build:esm": "tsc",
+    "build:esm": "tsc -p tsconfig.esm.json",
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -36,7 +35,12 @@
   ],
   "author": "tool3",
   "license": "MIT",
+  "dependencies": {
+    "shellfie": "^2.2.0"
+  },
   "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.0",
     "vitest": "^2.0.0"
   }

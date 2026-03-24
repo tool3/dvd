@@ -602,17 +602,28 @@ export interface FilmstripAnimationContext {
   charWidth?: number;
   padding?: number;
   borderRadius?: number;
+  borderColor?: string;
+  borderWidth?: number;
   headerHeight?: number;
+  headerBackground?: string;
+  headerBorder?: boolean;
+  headerBorderColor?: string;
+  headerBorderWidth?: number;
   footerHeight?: number;
+  footerBackground?: string;
+  footerBorder?: boolean;
+  footerBorderColor?: string;
+  footerBorderWidth?: number;
   cursorStyle?: 'block' | 'bar' | 'underline';
   cursorColor?: string;
   cursorBlink?: boolean;
   fontFamily?: string;
+  letterSpacing?: number;
+  embedFont?: boolean;
+  fontData?: string;
   background?: string | Gradient;
   backgroundPadding?: number;
   backgroundRadius?: number;
-  headerBackground?: string;
-  footerBackground?: string;
   // When true, render block elements as geometric shapes for seamless display
   customGlyphs?: boolean;
   // When false, disable cursor rendering entirely (like svg-term --no-cursor)
@@ -656,17 +667,28 @@ export const createFilmstripSVG = (
     charWidth: ctx.charWidth,
     padding: ctx.padding,
     borderRadius: ctx.borderRadius,
+    borderColor: ctx.borderColor,
+    borderWidth: ctx.borderWidth,
     headerHeight: ctx.headerHeight,
+    headerBackground: ctx.headerBackground,
+    headerBorder: ctx.headerBorder,
+    headerBorderColor: ctx.headerBorderColor,
+    headerBorderWidth: ctx.headerBorderWidth,
     footerHeight: ctx.footerHeight,
+    footerBackground: ctx.footerBackground,
+    footerBorder: ctx.footerBorder,
+    footerBorderColor: ctx.footerBorderColor,
+    footerBorderWidth: ctx.footerBorderWidth,
     cursorStyle: ctx.cursorStyle,
     cursorColor: ctx.cursorColor,
     cursorBlink: ctx.cursorBlink,
     fontFamily: ctx.fontFamily,
+    letterSpacing: ctx.letterSpacing,
+    embedFont: ctx.embedFont,
+    fontData: ctx.fontData,
     background: ctx.background,
     backgroundPadding: ctx.backgroundPadding,
     backgroundRadius: ctx.backgroundRadius,
-    headerBackground: ctx.headerBackground,
-    footerBackground: ctx.footerBackground,
     customGlyphs: ctx.customGlyphs,
     showCursor: ctx.showCursor,
     loop: options.loop,

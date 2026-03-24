@@ -82,8 +82,9 @@ export const optimizeSvg = (svg: string): string => {
   // Remove empty class attributes
   result = result.replace(/\s+class=""/g, '');
 
-  // Don't remove visibility="visible" — SMIL <animate attributeName="visibility">
-  // needs the initial visibility attribute to be present for correct animation.
+  // Remove default visibility="visible" — SVG elements are visible by default.
+  // SMIL animate still works: the <animate> overrides the attribute at runtime.
+  result = result.replace(/(<[^a][^>]*)\s+visibility="visible"/g, '$1');
 
   // Remove shape-rendering="auto"
   result = result.replace(/\s+shape-rendering="auto"/g, '');
@@ -94,10 +95,8 @@ export const optimizeSvg = (svg: string): string => {
   // Remove opacity="1"
   result = result.replace(/\s+opacity="1"/g, '');
 
-  // Remove unnecessary whitespace between tags, but preserve text content
-  // Only remove whitespace between closing > and opening < (not </text> content)
-  // This preserves spaces that are part of text element content
-  result = result.replace(/>(\s+)<([a-zA-Z])/g, '><$2');
+  // Remove unnecessary whitespace between tags
+  result = result.replace(/>\s+</g, '><');
 
   // Collapse multiple spaces/newlines
   result = result.replace(/\n\s*\n/g, '\n');

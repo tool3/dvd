@@ -248,9 +248,11 @@ const registerRowSymbol = (
       color = span.style.fg;
     }
 
-    // Text style classes (bold, italic, etc.) — these are a tiny fixed set, not per-color
-    const styleClasses = getTextStyleClasses(span.style);
-    const classAttr = styleClasses.length > 0 ? ` class="${styleClasses.join(' ')}"` : '';
+    // Build class list: always "text" (carries font/rendering), plus style classes
+    const classes: string[] = ['text'];
+    classes.push(...getTextStyleClasses(span.style));
+    const classAttr = ` class="${classes.join(' ')}"`;
+
 
     // Use custom glyph rendering when enabled and text contains special chars
     if (customGlyphs && containsCustomGlyphs(rawText)) {
@@ -437,26 +439,29 @@ export const emitFilmstrip = (
     parts.push(`@font-face{font-family:'DVDMono';src:url(data:font/woff2;base64,${options.fontData}) format('woff2');font-weight:400;font-style:normal;font-display:block}`);
   }
 
-  // Font styling
-  const defaultFonts = "'SF Mono',Monaco,Consolas,Menlo,monospace";
+  // Font styling (matching master's emit() for consistent rendering)
+  const defaultFonts = "'SF Mono','Monaco','Menlo','Consolas',monospace";
   const fontFamily = options.embedFont && options.fontData
     ? "'DVDMono',monospace"
-    : options.fontFamily ? `'${options.fontFamily}',${defaultFonts}` : defaultFonts;
+    : options.fontFamily ? `'${options.fontFamily}',monospace` : defaultFonts;
   const letterSpacingStyle = options.letterSpacing ? `letter-spacing:${options.letterSpacing}px;` : '';
-  // Base text styling — colors are inline fill= attributes, not CSS classes
-  parts.push(`text{font-family:${fontFamily};font-size:${fontSize}px;dominant-baseline:text-before-edge;white-space:pre;${letterSpacingStyle}}`);
+  parts.push(`.text{font-family:${fontFamily};font-size:${fontSize}px;dominant-baseline:text-before-edge;text-rendering:geometricPrecision;white-space:pre;${letterSpacingStyle}}`);
 
-  // Text style classes (bold, italic, etc.)
+  // Color classes for foreground (matching master's stylesheet)
+  parts.push(`.fg{fill:${theme.foreground}}`);
+
+  // Text style classes
   parts.push('.bold{font-weight:700}.italic{font-style:italic}.uline{text-decoration:underline}.strike{text-decoration:line-through}.dim{opacity:0.5}');
 
-  // Cursor blink animation - .cursor blinks, .cursor-active stays solid (during typing)
-  // Use mix-blend-mode:difference to invert text color under the cursor
+  // Cursor blink animation (matching master — no mix-blend-mode)
   const cursorBlink = options.cursorBlink !== false;
   if (cursorBlink) {
-    parts.push(`@keyframes blink{0%,50%{opacity:1}50.01%,100%{opacity:0}}.cursor{animation:blink 1s step-end infinite;mix-blend-mode:difference}.cursor-active{opacity:1;mix-blend-mode:difference}`);
+    parts.push(`.cursor{animation:blink 1s step-end infinite}`);
+    parts.push(`@keyframes blink{0%,50%{opacity:1}50.01%,100%{opacity:0}}`);
   } else {
-    parts.push(`.cursor,.cursor-active{mix-blend-mode:difference}`);
+    parts.push(`.cursor{opacity:1}`);
   }
+  parts.push(`.cursor-active{opacity:1}`);
   parts.push('</style>');
 
   // Outer background (if padding)
@@ -470,6 +475,18 @@ export const emitFilmstrip = (
 
   // Terminal background
   parts.push(`<rect width="${width}" height="${height}" rx="${borderRadius}" fill="${theme.background}"/>`);
+
+  // Window border
+  const borderWidth = options.borderWidth ?? 0;
+  const borderColor = options.borderColor ?? theme.foreground;
+  if (borderWidth > 0) {
+    parts.push(
+      `<rect x="${borderWidth / 2}" y="${borderWidth / 2}" ` +
+        `width="${width - borderWidth}" height="${height - borderWidth}" ` +
+        `fill="none" stroke="${borderColor}" stroke-width="${borderWidth}" ` +
+        `rx="${borderRadius}" ry="${borderRadius}"/>`
+    );
+  }
 
   // Window chrome (header)
   if (template !== 'minimal' && headerHeight > 0) {
@@ -490,9 +507,9 @@ export const emitFilmstrip = (
       parts.push(`<circle cx="${buttonStartX + buttonSpacing * 2}" cy="${buttonY}" r="${buttonR}" fill="#27c93f"/>`);
     }
 
-    // Title
+    // Title (matching master: class="text fg" with dominant-baseline: central)
     if (options.title) {
-      parts.push(`<text x="${width / 2}" y="${headerHeight / 2}" text-anchor="middle" dominant-baseline="middle" fill="${theme.foreground}" font-size="${fontSize}">${escapeXml(options.title)}</text>`);
+      parts.push(`<text class="text fg" x="${width / 2}" y="${headerHeight / 2}" text-anchor="middle" style="dominant-baseline: central">${escapeXml(options.title)}</text>`);
     }
 
     // Header border (only if explicitly enabled)
@@ -554,7 +571,8 @@ export const emitFilmstrip = (
 
     // Cursor (only render if showCursor option is enabled)
     if (showCursor && frame.cursor && frame.cursorVisible) {
-      const cursorX = padding + frame.cursor.col * charWidth;
+      const effectiveCharWidth = charWidth + (options.letterSpacing ?? 0);
+      const cursorX = padding + frame.cursor.col * effectiveCharWidth;
       // Use effective cursor height to ensure minimum visual padding
       const effectiveCursorHeight = getEffectiveLineHeight(lineHeight, fontSize);
       // Center the cursor vertically on the row (may extend above/below)
@@ -599,21 +617,41 @@ export const emitFilmstrip = (
 
   parts.push('</g>'); // content clip group
 
-  // Watermark (rendered outside clip so it's always visible)
+  // Footer (matching master's generateFooter)
+  const footerHeight = options.footerHeight ?? 0;
+  if (footerHeight > 0) {
+    const footerY = height - footerHeight;
+    const footerBg = options.footerBackground ?? theme.background;
+    parts.push(`<rect x="0" y="${footerY}" width="${width}" height="${footerHeight}" fill="${footerBg}" rx="${borderRadius}" ry="${borderRadius}"/>`);
+    parts.push(`<rect x="0" y="${footerY}" width="${width}" height="${borderRadius}" fill="${footerBg}"/>`);
+    if (options.footerBorder) {
+      const fBorderColor = options.footerBorderColor ?? theme.foreground;
+      const fBorderWidth = options.footerBorderWidth ?? 1;
+      parts.push(`<line x1="0" y1="${footerY}" x2="${width}" y2="${footerY}" stroke="${fBorderColor}" stroke-width="${fBorderWidth}"/>`);
+    }
+  }
+
+  // Watermark (rendered outside clip so it's always visible, matching master's emit())
   if (watermarkContent) {
     const watermarkHeight = lineHeight;
     const watermarkY = height - padding - watermarkHeight / 2;
     const watermarkX = width - padding;
     const wmFontSize = Math.round(fontSize * 0.75);
+    const wmDefaultFonts = "'SF Mono','Monaco','Menlo','Ubuntu Mono','Consolas','Courier New',monospace";
+    const wmFontFamily = options.fontFamily ? `'${options.fontFamily}',monospace` : wmDefaultFonts;
 
     if (isWatermarkMarkup) {
+      // Scale markup watermarks relative to a reference width (matching master)
+      const referenceWidth = 320;
+      const scale = Math.min(1, width / referenceWidth);
+      const scaleTransform = scale < 1 ? ` scale(${scale.toFixed(3)})` : '';
       parts.push(
-        `<g transform="translate(${watermarkX}, ${watermarkY})" font-family="${fontFamily}" font-size="${wmFontSize}" fill="${theme.foreground}">${watermarkContent}</g>`
+        `<g transform="translate(${watermarkX}, ${watermarkY})${scaleTransform}" font-family="${wmFontFamily}" font-size="${wmFontSize}" fill="${theme.foreground}">${watermarkContent}</g>`
       );
     } else {
       parts.push(
-        `<text class="dim" x="${watermarkX}" y="${watermarkY}" ` +
-          `text-anchor="end" dominant-baseline="middle" fill="${theme.foreground}" font-size="${wmFontSize}">${escapeXml(watermarkContent)}</text>`
+        `<text class="text dim" x="${watermarkX}" y="${watermarkY}" ` +
+          `text-anchor="end" fill="${theme.foreground}">${escapeXml(watermarkContent)}</text>`
       );
     }
   }

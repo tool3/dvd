@@ -24,7 +24,7 @@ export { RecordingPlayer, generateFramesFromRecording, optimizeFrames } from './
 export type { Recording, CastEvent, CastHeader, FrameGenerationOptions } from './recorder/types';
 
 // CD script parsing
-export { parseCD as parseCDScript } from './parser/cd-parser';
+export { parseCD as parseCDScript, CDParseError } from './parser/cd-parser';
 export type { CDCommand, CDScript } from './parser/cd-parser';
 
 // Themes
@@ -32,3 +32,11 @@ export { themes } from './pipeline';
 
 // Utilities
 export { getCharWidth } from './utils/wcwidth';
+
+// High-level API
+export { dvd } from './api';
+export type { DVDOptions, DVDResult } from './api';
+
+// Executor
+export { CDExecutor } from './executor/cd-executor';
+export type { CDExecutorOptions, ExecutorContext, TerminalFrame, TerminalState } from './executor/types';
