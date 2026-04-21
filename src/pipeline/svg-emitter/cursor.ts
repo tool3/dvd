@@ -1,7 +1,7 @@
 //#region Imports
 
-import type { Theme, CursorPosition, EmitterOptions } from '../../types';
-import { r, fmt, escapeXml, getEffectiveLineHeight, getTextOffsetY, getCursorYOffset } from './utils';
+import type { CursorPosition } from '../../types';
+import { escapeXml, fmt, getCursorYOffset, getEffectiveLineHeight, getTextOffsetY, r } from './utils';
 
 
 //#region Cursor Config

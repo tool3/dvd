@@ -1,17 +1,17 @@
 //#region Imports
 
-import type { GridState, Theme, EmitterOptions } from '../types';
+import type { EmitterOptions, GridState, Theme } from '../types';
+import { coalesce } from './coalescer';
+import { emit, emitAnimated, emitFilmstripAnimated, type EmitResult, type FrameData } from './svg-emitter';
 import { createGridState, processInput } from './vterminal';
-import { coalesce, getCoalesceStats } from './coalescer';
-import { emit, emitAnimated, emitFilmstripAnimated, type FrameData, type EmitResult, type FilmstripOptions } from './svg-emitter';
 
 
 //#region Re-exports
 
 export * from '../types';
-export * from './vterminal';
 export * from './coalescer';
 export * from './svg-emitter';
+export * from './vterminal';
 
 
 //#region High-Level Pipeline API

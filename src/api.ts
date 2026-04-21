@@ -11,10 +11,10 @@ import { CDExecutor } from './executor/cd-executor';
 import type { TerminalFrame } from './executor/types';
 import type { CDCommand, CDScript } from './parser/cd-parser';
 import { parseCD } from './parser/cd-parser';
+import { themes } from './pipeline';
+import { processRawOutput } from './pipeline/raw-output';
 import type { FrameData } from './pipeline/svg-emitter';
 import { emit } from './pipeline/svg-emitter';
-import { processRawOutput } from './pipeline/raw-output';
-import { themes } from './pipeline';
 import type { Theme } from './types';
 
 

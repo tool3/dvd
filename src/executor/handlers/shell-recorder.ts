@@ -2,15 +2,14 @@
 
 import { spawn } from 'node:child_process';
 import { StringDecoder } from 'node:string_decoder';
-import type { ExecutorContext, CDExecutorOptions } from '../types';
-import { sleep, stripAnsi } from '../types';
-import { captureFrame } from '../frame-capture';
-import { createRecorder, generateFramesFromRecording } from '../../recorder';
-import type { Recording, DVDCastExtensions } from '../../recorder';
-import { createGridState, processInput } from '../../pipeline/vterminal';
 import { coalesce } from '../../pipeline/coalescer';
 import type { FrameData } from '../../pipeline/svg-emitter';
-import type { Cell, Color, SpanRow } from '../../types';
+import { createGridState, processInput } from '../../pipeline/vterminal';
+import type { Recording } from '../../recorder';
+import { createRecorder } from '../../recorder';
+import type { Cell, Color, GridState, SpanRow } from '../../types';
+import { captureFrame } from '../frame-capture';
+import type { CDExecutorOptions, ExecutorContext } from '../types';
 
 
 //#region ANSI Color Conversion
@@ -656,14 +655,46 @@ const appendFrameToContext = (
   }
 
   if (ctx.autoHeight) {
-    const maxRow = frameData.rows.reduce(
+    const maxSpanRow = frameData.rows.reduce(
       (max, row) => Math.max(max, ...row.map((span) => span.row)),
       0
     );
+    // Fold in cursor row so trailing blank rows (where the cursor rests
+    // after a command that ends with a newline) contribute to canvas height.
+    const maxRow = Math.max(maxSpanRow, frameData.cursor?.row ?? 0);
     if (maxRow + 1 > ctx.maxVisualRow) {
       ctx.maxVisualRow = maxRow + 1;
     }
   }
+};
+
+/**
+ * Derive the set of ANSI-preserved lines and the end-of-output row index
+ * from a replayed terminal grid.
+ *
+ * The end row is the max of (grid cursor row, last-non-empty row + 1). The
+ * cursor is the real resting position after the command, so it naturally
+ * includes trailing blank lines emitted by the program (e.g., neofetch's
+ * trailing newline). We still fall back to last-content if some full-screen
+ * app repositioned the cursor above its drawn output.
+ */
+export const deriveOutputLines = (grid: GridState): { lines: string[]; endRow: number } => {
+  const lines: string[] = [];
+  for (let row = 0; row < grid.cells.length; row++) {
+    const line = cellsToAnsiString(grid.cells[row]);
+    lines.push(line.trimEnd());
+  }
+
+  let lastContentLine = -1;
+  for (let i = lines.length - 1; i >= 0; i--) {
+    if (lines[i].length > 0) {
+      lastContentLine = i;
+      break;
+    }
+  }
+
+  const endRow = Math.max(grid.cursor.row, lastContentLine + 1);
+  return { lines, endRow };
 };
 
 /**
@@ -684,33 +715,15 @@ const updateContextFromRecording = (
     }
   }
 
-  // Convert grid cells to lines with ANSI codes preserved
-  const lines: string[] = [];
-  for (let row = 0; row < grid.cells.length; row++) {
-    // Convert cells to ANSI string to preserve colors
-    const line = cellsToAnsiString(grid.cells[row]);
-    lines.push(line.trimEnd());
-  }
+  const { lines, endRow } = deriveOutputLines(grid);
 
-  // Find the last line with actual content
-  let lastContentLine = -1;
-  for (let i = lines.length - 1; i >= 0; i--) {
-    if (lines[i].length > 0) {
-      lastContentLine = i;
-      break;
-    }
-  }
-
-  // Include all lines up to the last content line
-  // Don't artificially limit based on cursor position as content may exist beyond cursor
-  const lastLine = lastContentLine >= 0 ? lastContentLine : 0;
-
-  // Update context lines up to last line
-  for (let i = 0; i <= lastLine; i++) {
+  // Write rows [0, endRow) into ctx.lines, preserving any trailing blank
+  // rows that are part of the command's output (cursor sits at endRow).
+  for (let i = 0; i < endRow; i++) {
     ctx.lines[outputStartLine + i] = lines[i] || '';
   }
 
-  ctx.cursorY = outputStartLine + lastLine + 1;
+  ctx.cursorY = outputStartLine + endRow;
   ctx.cursorX = 0;
 
   // Ensure lines array extends to cursor position
