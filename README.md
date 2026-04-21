@@ -11,39 +11,42 @@ npm install dvd
 ## Quick Start
 
 ```typescript
-import { dvd } from 'dvd';
+import dvd from 'dvd';
 
-const result = await dvd({
-  cdScript: `
-    Type "echo hello world"
-    Enter
-    Sleep 500ms
-  `,
-  theme: 'dracula',
-  template: 'macos',
-});
+const result = await dvd(`
+  Type "echo hello world"
+  Enter
+  Sleep 500ms
+`, { theme: 'dracula', template: 'macos' });
 
 // result.svg — animated SVG string ready to write or serve
 ```
 
 ## Usage
 
-### From programmatic steps
-
-Build animations in code without .cd files:
+The `dvd()` function takes two arguments: **input** and **options**.
 
 ```typescript
-import { dvd } from 'dvd';
+const result = await dvd(input, options);
+```
 
-const result = await dvd({
-  steps: [
-    { type: 'Type', text: 'npm install dvd' },
-    { type: 'Key', key: 'Enter' },
-    { type: 'Sleep', duration: 2000 },
-    { type: 'Type', text: 'echo "done!"' },
-    { type: 'Key', key: 'Enter' },
-    { type: 'Sleep', duration: 1000 },
-  ],
+### Input types
+
+#### CD script string
+
+The most common input — a `.cd` script as a string:
+
+```typescript
+import dvd from 'dvd';
+
+const result = await dvd(`
+  Type "npm install dvd"
+  Enter
+  Sleep 2000ms
+  Type "echo done!"
+  Enter
+  Sleep 1000ms
+`, {
   theme: 'tokyoNight',
   template: 'macos',
   title: 'Installation',
@@ -53,38 +56,79 @@ const result = await dvd({
 writeFileSync('install.svg', result.svg);
 ```
 
-### From a .cd script string
+#### Programmatic steps
+
+Build animations in code without .cd files:
 
 ```typescript
-import { readFileSync, writeFileSync } from 'fs';
-import { dvd } from 'dvd';
+import dvd from 'dvd';
 
-const script = readFileSync('demo.cd', 'utf-8');
-const result = await dvd({ cdScript: script });
+const result = await dvd([
+  { type: 'Type', text: 'npm install dvd' },
+  { type: 'Key', key: 'Enter' },
+  { type: 'Sleep', duration: 2000 },
+  { type: 'Type', text: 'echo "done!"' },
+  { type: 'Key', key: 'Enter' },
+  { type: 'Sleep', duration: 1000 },
+], {
+  theme: 'tokyoNight',
+  template: 'macos',
+});
 
-writeFileSync('demo.svg', result.svg);
+writeFileSync('install.svg', result.svg);
+```
+
+#### Raw terminal output
+
+Feed raw terminal output (with ANSI escape codes) directly. DVD auto-detects animation patterns like cursor resets, terminal resets, and clear-line sequences, splits into frames, and renders:
+
+```typescript
+import dvd from 'dvd';
+
+// Output captured from a command like: node spinner.js 2>&1
+const rawOutput = '\x1b[2K\x1b[0GLoading...\x1b[2K\x1b[0GLoading......\x1b[2K\x1b[0GDone!';
+
+const result = await dvd({ raw: rawOutput }, {
+  theme: 'dracula',
+  template: 'macos',
+  title: 'Spinner',
+});
+
+writeFileSync('spinner.svg', result.svg);
+```
+
+If you know how long the original output took, pass `totalDuration` for accurate frame timing:
+
+```typescript
+const result = await dvd({ raw: rawOutput, totalDuration: 3000 }, options);
+```
+
+#### Pre-parsed script
+
+If you've already parsed a CDScript object:
+
+```typescript
+import dvd, { parseCDScript } from 'dvd';
+
+const script = parseCDScript(readFileSync('demo.cd', 'utf-8'));
+const result = await dvd({ script }, { theme: 'nord' });
 ```
 
 ### SMIL mode (smooth mobile playback)
 
-The default filmstrip renderer produces smaller files with row deduplication. For buttery smooth 60/120fps playback on mobile Safari/Chrome, use SMIL mode — it renders each frame as a standalone SVG group with SMIL visibility animation:
+The default filmstrip renderer produces smaller files with row deduplication. For buttery smooth 60/120fps playback on mobile Safari/Chrome, use SMIL mode:
 
 ```typescript
-const result = await dvd({
-  cdScript: script,
-  smil: true,  // larger files, smoother on mobile
-});
+const result = await dvd(`
+  Type "hello"
+  Enter
+`, { smil: true });
 ```
 
 ### Styling options
 
 ```typescript
-const result = await dvd({
-  steps: [
-    { type: 'Type', text: 'ls -la' },
-    { type: 'Key', key: 'Enter' },
-    { type: 'Sleep', duration: 1000 },
-  ],
+const result = await dvd(steps, {
   // Window chrome
   theme: 'catppuccinMocha',
   template: 'macos',       // 'macos' | 'windows' | 'minimal'
@@ -116,9 +160,7 @@ const result = await dvd({
 ### Animation options
 
 ```typescript
-const result = await dvd({
-  cdScript: script,
-
+const result = await dvd(script, {
   // Loop behavior
   loop: true,
   loopStyle: 'fade',        // 'loop' | 'reverse' | 'rewind' | 'fade'
@@ -141,8 +183,7 @@ const result = await dvd({
 ### Progress tracking
 
 ```typescript
-const result = await dvd({
-  cdScript: script,
+const result = await dvd(script, {
   onProgress: (current, total, description) => {
     console.log(`[${current}/${total}] ${description}`);
   },
@@ -152,7 +193,7 @@ const result = await dvd({
 ### Working with the result
 
 ```typescript
-const result = await dvd({ cdScript: script });
+const result = await dvd(script);
 
 result.svg;                    // animated SVG string
 result.metadata.frameCount;    // number of frames
@@ -186,6 +227,23 @@ const { svg } = emit(rows, cursor, cursorVisible, options);
 
 // Animated filmstrip
 const { svg } = emitFilmstripAnimated(frameDataArray, options);
+```
+
+### Raw output processing
+
+```typescript
+import { processRawOutput, detectAnimationType, splitIntoFrames, themes } from 'dvd';
+
+// Detect animation pattern
+const animationType = detectAnimationType(rawOutput); // 'terminal-reset' | 'cursor-up' | ...
+
+// Split into frame strings
+const frameStrings = splitIntoFrames(rawOutput, animationType);
+
+// Or process end-to-end into frame data ready for rendering
+const { frameData, width, height } = processRawOutput(rawOutput, {
+  theme: themes.dracula,
+});
 ```
 
 ### Cast file rendering

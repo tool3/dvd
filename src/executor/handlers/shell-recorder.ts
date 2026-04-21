@@ -296,6 +296,57 @@ const mergeRows = (preCommandRows: SpanRow[], recordingRows: SpanRow[], outputSt
 };
 
 /**
+ * Apply scroll viewport clipping to rows.
+ * When scroll is enabled and content exceeds the visible area, only return
+ * rows that fit in the viewport, offset so they render at the correct Y positions.
+ */
+const applyScrollClip = (
+  rows: SpanRow[],
+  cursorRow: number,
+  ctx: ExecutorContext
+): { clippedRows: SpanRow[]; adjustedCursorRow: number } => {
+  if (!ctx.scroll) {
+    return { clippedRows: rows, adjustedCursorRow: cursorRow };
+  }
+
+  const charWidth = ctx.fontSize * ctx.charWidthRatio;
+  const lineHeightPx = ctx.fontSize * ctx.lineHeight;
+  const headerHeight = ctx.template === 'minimal' ? 0 : (ctx.headerHeight ?? 40);
+  const padding = ctx.padding ?? 16;
+  const visibleLines = Math.floor((ctx.height - headerHeight - padding * 2) / lineHeightPx);
+
+  // Find the highest row index with content
+  let maxRow = 0;
+  for (const row of rows) {
+    for (const span of row) {
+      maxRow = Math.max(maxRow, span.row);
+    }
+  }
+
+  // Calculate scroll offset — show the bottom of content when it overflows
+  let scrollOffset = 0;
+  if (cursorRow >= visibleLines) {
+    scrollOffset = cursorRow - visibleLines + 1;
+  }
+
+  // Filter and re-index rows to viewport
+  const clippedRows: SpanRow[] = [];
+  for (const row of rows) {
+    if (row.length === 0) continue;
+    const rowIdx = row[0].row;
+    if (rowIdx >= scrollOffset && rowIdx < scrollOffset + visibleLines) {
+      const newRow = rowIdx - scrollOffset;
+      clippedRows.push(row.map(span => ({ ...span, row: newRow })));
+    }
+  }
+
+  return {
+    clippedRows,
+    adjustedCursorRow: Math.max(0, cursorRow - scrollOffset),
+  };
+};
+
+/**
  * Check if output contains animation escape sequences (like lolcat uses).
  * Lolcat and similar tools use terminal reset (\x1bc) or cursor restore (\x1b8)
  * to create animation effects.
@@ -338,25 +389,56 @@ const generateRecordingFrames = (
     return generateAnimatedFrames(recording, ctx, baseTimestamp, outputStartLine, preCommandRows);
   }
 
-  // Non-animated: create a fresh grid and apply all output
+  // Non-animated: replay output incrementally, capturing a frame each time the
+  // line count changes (matching master's inline line-by-line capture behavior).
+  // This prevents a jarring "jump" where all output appears in a single frame.
   let grid = createGridState(recording.header.width, recording.header.height);
+  let prevLineCount = 0;
 
-  for (const [, , data] of outputEvents) {
+  for (const [timestamp, , data] of outputEvents) {
     grid = processInput(grid, data);
+
+    // Count lines with content
+    let currentLineCount = 0;
+    for (let r = 0; r < grid.cells.length; r++) {
+      const hasContent = grid.cells[r].some(cell => cell.char !== ' ' || (cell.bg && cell.bg.mode !== 'default'));
+      if (hasContent) currentLineCount = r + 1;
+    }
+
+    // Capture frame when a new line appears (like master's processLineByLineOutput)
+    if (currentLineCount > prevLineCount) {
+      const recordingRows = coalesce(grid, ctx.theme);
+      const mergedRows = mergeRows(preCommandRows, recordingRows, outputStartLine);
+      const cursorRow = grid.cursor.row + outputStartLine;
+      const { clippedRows, adjustedCursorRow } = applyScrollClip(mergedRows, cursorRow, ctx);
+
+      frames.push({
+        rows: clippedRows,
+        cursor: { row: adjustedCursorRow, col: grid.cursor.col },
+        cursorVisible: false,
+        timestamp: baseTimestamp + timestamp * 1000,
+        activeCursor: false,
+      });
+      prevLineCount = currentLineCount;
+    }
   }
 
-  // Capture single frame with final output (like a real terminal)
-  const finalTimestamp = outputEvents[outputEvents.length - 1][0];
-  const recordingRows = coalesce(grid, ctx.theme);
-  const rows = mergeRows(preCommandRows, recordingRows, outputStartLine);
+  // Always capture final frame with complete output
+  if (frames.length === 0 || prevLineCount > 0) {
+    const finalTimestamp = outputEvents[outputEvents.length - 1][0];
+    const recordingRows = coalesce(grid, ctx.theme);
+    const mergedRows = mergeRows(preCommandRows, recordingRows, outputStartLine);
+    const cursorRow = grid.cursor.row + outputStartLine;
+    const { clippedRows, adjustedCursorRow } = applyScrollClip(mergedRows, cursorRow, ctx);
 
-  frames.push({
-    rows,
-    cursor: { row: grid.cursor.row + outputStartLine, col: grid.cursor.col },
-    cursorVisible: false,
-    timestamp: baseTimestamp + finalTimestamp * 1000,
-    activeCursor: false,
-  });
+    frames.push({
+      rows: clippedRows,
+      cursor: { row: adjustedCursorRow, col: grid.cursor.col },
+      cursorVisible: false,
+      timestamp: baseTimestamp + finalTimestamp * 1000,
+      activeCursor: false,
+    });
+  }
 
   return frames;
 };
@@ -406,12 +488,14 @@ const generateAnimatedFrames = (
       grid = processInput(grid, animationFrames[i]);
 
       const recordingRows = coalesce(grid, ctx.theme);
-      const rows = mergeRows(preCommandRows, recordingRows, outputStartLine);
+      const mergedRows = mergeRows(preCommandRows, recordingRows, outputStartLine);
+      const cursorRow = grid.cursor.row + outputStartLine;
+      const { clippedRows, adjustedCursorRow } = applyScrollClip(mergedRows, cursorRow, ctx);
       const frameTimestamp = baseTimestamp + firstTimestamp * 1000 + i * frameInterval;
 
       frames.push({
-        rows,
-        cursor: { row: grid.cursor.row + outputStartLine, col: grid.cursor.col },
+        rows: clippedRows,
+        cursor: { row: adjustedCursorRow, col: grid.cursor.col },
         cursorVisible: false,
         timestamp: frameTimestamp,
         activeCursor: false,
@@ -483,12 +567,14 @@ const generateAnimatedFrames = (
         const hasVisibleContent = segment.replace(/\x1b\[[0-9;]*m/g, '').replace(/\x1b\[\?[0-9;]*[hl]/g, '').trim().length > 0;
         if (hasVisibleContent) {
           const recordingRows = coalesce(grid, ctx.theme);
-          const rows = mergeRows(preCommandRows, recordingRows, outputStartLine);
+          const mergedRows = mergeRows(preCommandRows, recordingRows, outputStartLine);
+          const cursorRow = grid.cursor.row + outputStartLine;
+          const { clippedRows, adjustedCursorRow } = applyScrollClip(mergedRows, cursorRow, ctx);
           const frameTimestamp = baseTimestamp + firstTimestamp * 1000 + frameIndex * frameInterval;
 
           frames.push({
-            rows,
-            cursor: { row: grid.cursor.row + outputStartLine, col: grid.cursor.col },
+            rows: clippedRows,
+            cursor: { row: adjustedCursorRow, col: grid.cursor.col },
             cursorVisible: false,
             timestamp: frameTimestamp,
             activeCursor: false,
@@ -507,12 +593,14 @@ const generateAnimatedFrames = (
     grid = processInput(grid, allOutput);
 
     const recordingRows = coalesce(grid, ctx.theme);
-    const rows = mergeRows(preCommandRows, recordingRows, outputStartLine);
+    const mergedRows = mergeRows(preCommandRows, recordingRows, outputStartLine);
+    const cursorRow = grid.cursor.row + outputStartLine;
+    const { clippedRows, adjustedCursorRow } = applyScrollClip(mergedRows, cursorRow, ctx);
     const lastTimestamp = outputEvents[outputEvents.length - 1][0];
 
     frames.push({
-      rows,
-      cursor: { row: grid.cursor.row + outputStartLine, col: grid.cursor.col },
+      rows: clippedRows,
+      cursor: { row: adjustedCursorRow, col: grid.cursor.col },
       cursorVisible: false,
       timestamp: baseTimestamp + lastTimestamp * 1000,
       activeCursor: false,
@@ -628,6 +716,17 @@ const updateContextFromRecording = (
   // Ensure lines array extends to cursor position
   while (ctx.lines.length <= ctx.cursorY) {
     ctx.lines.push('');
+  }
+
+  // Update scroll offset so next captureFrame renders the correct viewport
+  if (ctx.scroll) {
+    const lineHeightPx = ctx.fontSize * ctx.lineHeight;
+    const headerHeight = ctx.template === 'minimal' ? 0 : (ctx.headerHeight ?? 40);
+    const padding = ctx.padding ?? 16;
+    const visibleLines = Math.floor((ctx.height - headerHeight - padding * 2) / lineHeightPx);
+    if (ctx.cursorY >= visibleLines) {
+      ctx.scrollOffset = ctx.cursorY - visibleLines + 1;
+    }
   }
 
   // Update maxLines for auto-height

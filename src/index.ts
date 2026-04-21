@@ -33,10 +33,17 @@ export { themes } from './pipeline';
 // Utilities
 export { getCharWidth } from './utils/wcwidth';
 
+// Raw output processing
+export { processRawOutput, detectAnimationType, splitIntoFrames } from './pipeline/raw-output';
+export type { AnimationType, RawOutputResult, RawOutputOptions } from './pipeline/raw-output';
+
 // High-level API
-export { dvd } from './api';
-export type { DVDOptions, DVDResult } from './api';
+import dvd from './api';
+export type { DVDInput, DVDOptions, DVDResult, RawInput, ScriptInput } from './api';
 
 // Executor
 export { CDExecutor } from './executor/cd-executor';
 export type { CDExecutorOptions, ExecutorContext, TerminalFrame, TerminalState } from './executor/types';
+
+
+export default dvd;
