@@ -33,7 +33,7 @@ export interface DVDCastExtensions {
   cursorColor?: string;
   promptPrefix: string;
   background?: string;
-  backgroundPadding?: number;
+  backgroundPadding?: number | string;
   backgroundRadius?: number;
   watermark?: string;
   borderRadius?: number;

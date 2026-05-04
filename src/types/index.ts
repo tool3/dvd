@@ -241,7 +241,7 @@ export interface EmitterOptions {
   cursorColor?: string;
   hasCustomLineHeight?: boolean;
   background?: string | Gradient;
-  backgroundPadding?: number;
+  backgroundPadding?: number | string;
   backgroundRadius?: number;
 }
 

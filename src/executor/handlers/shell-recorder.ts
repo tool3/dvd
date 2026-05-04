@@ -59,7 +59,7 @@ const colorsEqual = (a: Color, b: Color): boolean => {
 /**
  * Convert grid row cells to an ANSI-colored string
  */
-const cellsToAnsiString = (cells: Cell[]): string => {
+export const cellsToAnsiString = (cells: Cell[]): string => {
   let result = '';
   let currentFg: Color = { mode: 'default' };
   let currentBg: Color = { mode: 'default' };
@@ -69,8 +69,37 @@ const cellsToAnsiString = (cells: Cell[]): string => {
   let currentUnderline = false;
 
   for (const cell of cells) {
-    if (!cell.char || cell.char === ' ' && cell.fg.mode === 'default' && cell.bg.mode === 'default') {
-      // Plain space with default colors - just add it
+    // Skip wide-char placeholder cells. vterminal writes { char: '',
+    // width: 1 } in the column AFTER a width-2 cell (emoji, CJK) so the
+    // cursor advances correctly. Emitting anything for the placeholder
+    // inserts a bogus space into the ANSI stream, which re-parses as a
+    // visible gap between wide chars on the final captureFrame
+    // (emoji-test "🚀❤️😎🙈✌🏼" → "🚀 ❤️ 😎 🙈 ✌🏼").
+    if (cell.char === '' && cell.width === 1) continue;
+
+    // The shortcut is "emit bare char" — safe only when:
+    //   (a) the cell itself has NO styling (no coloring AND no attributes
+    //       like dim/bold/italic/underline), AND
+    //   (b) no SGR state is currently active from a previous cell.
+    // Missing (a) drops the cell's own attribute (e.g., a dim space in
+    // vitest's "\x1b[2m   Duration \x1b[22m" flashes white on round-trip).
+    // Missing (b) leaks the previous SGR onto this cell (e.g., the space
+    // after vitest's inverse " RUN " gets painted cyan).
+    const cellHasNoStyle =
+      cell.fg.mode === 'default' &&
+      cell.bg.mode === 'default' &&
+      !cell.bold &&
+      !cell.dim &&
+      !cell.italic &&
+      !cell.underline;
+    const noActiveStyle =
+      currentFg.mode === 'default' &&
+      currentBg.mode === 'default' &&
+      !currentBold &&
+      !currentDim &&
+      !currentItalic &&
+      !currentUnderline;
+    if ((!cell.char || cell.char === ' ') && cellHasNoStyle && noActiveStyle) {
       result += cell.char || ' ';
       continue;
     }
@@ -154,7 +183,20 @@ export const executeShellCommandWithRecording = async (
 ): Promise<void> => {
   return new Promise((resolve) => {
     const recorder = createRecorder();
+
+    // Logical start line — tracks ctx.lines[] indices (re-wrapped by the
+    // final captureFrame through vterminal).
     const outputStartLine = ctx.cursorY;
+
+    // Visual start line — the rendered row where shell output should appear
+    // in merge frames. When the typed command visually wrapped across rows,
+    // this is greater than outputStartLine by the wrap delta. We derive it
+    // from the last pre-command frame's visual cursor position.
+    const lastFrame = ctx.frames[ctx.frames.length - 1];
+    const visualOutputStartLine = lastFrame
+      ? lastFrame.state.cursorY + 1
+      : outputStartLine;
+
     const commandStartTime = Date.now() - ctx.startTime - ctx.captureOverhead;
 
     // Calculate terminal dimensions
@@ -208,12 +250,14 @@ export const executeShellCommandWithRecording = async (
 
       const recording = recorder.getRecording();
 
-      // Generate frames from the recording
+      // Generate frames from the recording.
+      // Use the VISUAL start line so mergeRows preserves pre-command
+      // content that the typed line wrapped onto (ansi-colors long Type).
       const recordingFrames = generateRecordingFrames(
         recording,
         ctx,
         commandStartTime,
-        outputStartLine
+        visualOutputStartLine
       );
 
       // Append frames to context
@@ -221,7 +265,9 @@ export const executeShellCommandWithRecording = async (
         appendFrameToContext(ctx, options, frameData);
       }
 
-      // Update context state based on final terminal state
+      // Update context state based on final terminal state.
+      // Uses the LOGICAL start line — ctx.lines is indexed by logical row,
+      // and the final captureFrame re-wraps through vterminal.
       updateContextFromRecording(ctx, recording, outputStartLine);
 
       ctx.isExecutingCommand = false;
@@ -615,11 +661,26 @@ const generateAnimatedFrames = (
 /**
  * Append a FrameData to the context's frames array
  */
-const appendFrameToContext = (
+export const appendFrameToContext = (
   ctx: ExecutorContext,
   _options: CDExecutorOptions,
   frameData: FrameData
 ): void => {
+  // Clamp the incoming timestamp to stay monotonic relative to what's
+  // already in the array. Shell-recorder merge frames are timed from
+  // commandStartTime + recording-event-ts, but the pre-Enter captureFrame
+  // from executeEnter runs in the ctx.startTime/captureOverhead timebase.
+  // Because captureOverhead is updated AFTER that captureFrame returns,
+  // commandStartTime can land a few ms before the pre-Enter frame's
+  // timestamp, producing out-of-order entries. The filmstrip/SMIL animator
+  // then normalizes timestamps into keyTimes and plays the pre-Enter
+  // frame AFTER the first merge frame — the shell output momentarily
+  // disappears (see templates.cd "echo Enter flash").
+  if (frameData.timestamp <= ctx.lastFrameTimestamp) {
+    frameData = { ...frameData, timestamp: ctx.lastFrameTimestamp + 1 };
+  }
+  ctx.lastFrameTimestamp = frameData.timestamp;
+
   // Store frameData for later SVG generation (during re-render)
   ctx.frameData.push(frameData);
 

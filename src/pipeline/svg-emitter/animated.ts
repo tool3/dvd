@@ -7,6 +7,7 @@ import { generateStylesheet } from './stylesheet';
 import { generateChrome, generateFooter } from './chrome';
 import type { EmitResult } from './index';
 import { renderTextLayer, type TextRendererConfig } from './text-renderer';
+import { normalizePadding, paddingHasAny } from '../../utils/padding';
 
 
 //#region Gradient Helpers
@@ -95,12 +96,13 @@ export const emitAnimated = (
   const loop = options.loop ?? true;
   const pauseAtEnd = options.pauseAtEnd ?? 0;
 
-  // Background padding (margin around terminal window)
-  const bgPadding = options.backgroundPadding ?? 0;
+  // Background padding (margin around terminal window) — supports CSS-like shorthand
+  const bgPad = normalizePadding(options.backgroundPadding);
+  const hasBgOffset = paddingHasAny(bgPad);
   const bgRadius = options.backgroundRadius ?? 12;
-  const totalWidth = width + bgPadding * 2;
-  const totalHeight = height + bgPadding * 2;
-  const hasBackground = options.background && bgPadding > 0;
+  const totalWidth = width + bgPad.left + bgPad.right;
+  const totalHeight = height + bgPad.top + bgPad.bottom;
+  const hasBackground = !!options.background && hasBgOffset;
 
   const lastFrame = frames[frames.length - 1];
   const totalDuration = lastFrame.timestamp + pauseAtEnd;
@@ -138,7 +140,7 @@ export const emitAnimated = (
   if (borderRadius > 0) {
     parts.push(
       `<clipPath id="rounded-corners">` +
-        `<rect x="${bgPadding}" y="${bgPadding}" width="${width}" height="${height}" rx="${borderRadius}" ry="${borderRadius}"/>` +
+        `<rect x="${bgPad.left}" y="${bgPad.top}" width="${width}" height="${height}" rx="${borderRadius}" ry="${borderRadius}"/>` +
         `</clipPath>`
     );
   }
@@ -171,8 +173,8 @@ export const emitAnimated = (
   }
 
   // Start terminal window group (offset by background padding)
-  if (bgPadding > 0) {
-    parts.push(`<g transform="translate(${bgPadding}, ${bgPadding})">`);
+  if (hasBgOffset) {
+    parts.push(`<g transform="translate(${bgPad.left}, ${bgPad.top})">`);
   }
 
   if (borderRadius > 0) parts.push(`<g clip-path="url(#rounded-corners)">`);
@@ -241,7 +243,7 @@ export const emitAnimated = (
   if (borderRadius > 0) parts.push('</g>');
 
   // Close terminal window group if we have background padding
-  if (bgPadding > 0) {
+  if (hasBgOffset) {
     parts.push('</g>');
   }
 

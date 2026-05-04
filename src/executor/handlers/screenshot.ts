@@ -5,6 +5,7 @@ import { resolve } from 'node:path';
 import type { ExecutorContext } from '../types';
 import type { Gradient } from '../../types';
 import { shellfie, isGradient, type shellfieOptions, type Theme as ShellfieTheme, type Gradient as ShellfieGradient } from 'shellfie';
+import { normalizePadding } from '../../utils/padding';
 
 
 //#region Screenshot Handler
@@ -118,9 +119,10 @@ const buildShellfieOptions = (
       ? convertToShellfieGradient(ctx.background)
       : ctx.background;
 
+    const bgPad = normalizePadding(ctx.backgroundPadding);
     options.background = {
       color: bgColor,
-      padding: ctx.backgroundPadding,
+      padding: Math.max(bgPad.top, bgPad.right, bgPad.bottom, bgPad.left),
       borderRadius: ctx.backgroundRadius,
     };
   }

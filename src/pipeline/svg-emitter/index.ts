@@ -3,6 +3,7 @@
 import type { SpanRow, CursorPosition, EmitterOptions, Gradient } from '../../types';
 import { coalesceBackgrounds, mergeVerticalBackgrounds, type RenderConfig } from '../coalescer';
 import { fmt, escapeXml } from './utils';
+import { normalizePadding, paddingHasAny } from '../../utils/padding';
 import { generateStylesheet } from './stylesheet';
 import { generateChrome, generateFooter } from './chrome';
 import { renderCursor, renderSelection } from './cursor';
@@ -18,7 +19,10 @@ const isGradient = (value: unknown): value is Gradient => {
 };
 
 interface GradientOptions {
-  padding?: number;
+  // Outer padding around the terminal window — used to keep the gradient
+  // centered on the terminal area rather than the whole canvas.
+  padStart?: number;
+  padEnd?: number;
   totalWidth?: number;
   totalHeight?: number;
 }
@@ -40,23 +44,22 @@ const generateGradientDef = (gradient: Gradient, id: string, options?: GradientO
   const { x1, y1, x2, y2 } = getGradientCoords(direction);
 
   // Calculate offset adjustment to center gradient on terminal window (excluding padding)
-  const padding = options?.padding ?? 0;
+  const padStart = options?.padStart ?? 0;
+  const padEnd = options?.padEnd ?? 0;
   const totalSize = direction === 'horizontal'
     ? (options?.totalWidth ?? 0)
     : (options?.totalHeight ?? 0);
 
-  // If we have padding and total size, adjust stops so gradient is centered on terminal
-  // padding/totalSize gives us the percentage offset from each edge
-  const paddingPercent = totalSize > 0 ? (padding / totalSize) * 100 : 0;
-  const rangePercent = 100 - (paddingPercent * 2); // The percentage range for the terminal
+  const startPercent = totalSize > 0 ? (padStart / totalSize) * 100 : 0;
+  const endPercent = totalSize > 0 ? 100 - (padEnd / totalSize) * 100 : 100;
+  const rangePercent = endPercent - startPercent;
 
   // Apply reverse if specified
   const colors = gradient.reverse ? [...gradient.colors].reverse() : gradient.colors;
 
   const stops = colors.map((color, i) => {
     const baseOffset = colors.length === 1 ? 50 : (i / (colors.length - 1)) * 100;
-    // Map the 0-100% range to paddingPercent to (100-paddingPercent)
-    const adjustedOffset = paddingPercent + (baseOffset / 100) * rangePercent;
+    const adjustedOffset = startPercent + (baseOffset / 100) * rangePercent;
     return `<stop offset="${adjustedOffset.toFixed(2)}%" stop-color="${color}"/>`;
   }).join('');
 
@@ -104,12 +107,12 @@ export const emit = (
   const watermarkHeight = watermarkContent ? lineHeight : 0;
   const contentStartY = headerHeight + padding;
 
-  // Background padding (margin around terminal window)
-  const bgPadding = options.backgroundPadding ?? 0;
+  // Background padding (margin around terminal window) — supports CSS-like shorthand
+  const bgPad = normalizePadding(options.backgroundPadding);
   const bgRadius = options.backgroundRadius ?? 12;
-  const totalWidth = width + bgPadding * 2;
-  const totalHeight = height + bgPadding * 2;
-  const hasBackground = options.background && bgPadding > 0;
+  const totalWidth = width + bgPad.left + bgPad.right;
+  const totalHeight = height + bgPad.top + bgPad.bottom;
+  const hasBackground = !!options.background && paddingHasAny(bgPad);
 
   const parts: string[] = [];
 
@@ -124,8 +127,10 @@ export const emit = (
   // Note: clipPath rect is at (0,0) because it's applied AFTER the translate transform
   if (hasBackground && isGradient(options.background)) {
     parts.push('<defs>');
+    const direction = (options.background as Gradient).direction ?? 'vertical';
     parts.push(generateGradientDef(options.background, 'bg-gradient', {
-      padding: bgPadding,
+      padStart: direction === 'horizontal' ? bgPad.left : bgPad.top,
+      padEnd: direction === 'horizontal' ? bgPad.right : bgPad.bottom,
       totalWidth,
       totalHeight,
     }));
@@ -156,8 +161,9 @@ export const emit = (
   }
 
   // Start terminal window group (offset by background padding)
-  if (bgPadding > 0) {
-    parts.push(`<g transform="translate(${bgPadding}, ${bgPadding})">`);
+  const hasBgOffset = paddingHasAny(bgPad);
+  if (hasBgOffset) {
+    parts.push(`<g transform="translate(${bgPad.left}, ${bgPad.top})">`);
   }
 
   if (borderRadius > 0) {
@@ -165,7 +171,7 @@ export const emit = (
   }
 
   parts.push(
-    `<rect class="window-bg" x="${bgPadding > 0 ? 0 : 0}" y="${bgPadding > 0 ? 0 : 0}" width="${width}" height="${height}" ` +
+    `<rect class="window-bg" x="0" y="0" width="${width}" height="${height}" ` +
       `fill="${theme.background}" rx="${borderRadius}" ry="${borderRadius}"/>`
   );
 
@@ -317,7 +323,7 @@ export const emit = (
   if (borderRadius > 0) parts.push('</g>');
 
   // Close terminal window group if we have background padding
-  if (bgPadding > 0) {
+  if (hasBgOffset) {
     parts.push('</g>');
   }
 

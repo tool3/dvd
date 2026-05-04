@@ -7,6 +7,7 @@ import type { EmitResult } from './index';
 import type { FrameData } from './animated';
 import { containsCustomGlyphs, isCustomGlyph, renderCustomGlyph, type GlyphContext } from '../customGlyphs';
 import { getCharWidth } from '../../utils/wcwidth';
+import { normalizePadding, paddingHasAny } from '../../utils/padding';
 
 
 //#region Types
@@ -334,12 +335,12 @@ export const emitFilmstrip = (
   const fadeDuration = options.fadeDuration ?? 1500;
   const rewindSpeed = options.rewindSpeed ?? 5;
 
-  // Background padding
-  const bgPadding = options.backgroundPadding ?? 0;
+  // Background padding (CSS-like shorthand supported)
+  const bgPad = normalizePadding(options.backgroundPadding);
   const bgRadius = options.backgroundRadius ?? 12;
-  const totalWidth = width + bgPadding * 2;
-  const totalHeight = height + bgPadding * 2;
-  const hasBackground = !!(options.background && bgPadding > 0);
+  const totalWidth = width + bgPad.left + bgPad.right;
+  const totalHeight = height + bgPad.top + bgPad.bottom;
+  const hasBackground = !!options.background && paddingHasAny(bgPad);
 
   const lastFrame = frames[frames.length - 1];
   const forwardDuration = lastFrame.timestamp + pauseAtEnd;
@@ -470,8 +471,8 @@ export const emitFilmstrip = (
     parts.push(`<rect width="${totalWidth}" height="${totalHeight}" rx="${bgRadius}" fill="${bgFill}"/>`);
   }
 
-  // Terminal window group - offset by bgPadding
-  parts.push(`<g transform="translate(${bgPadding},${bgPadding})">`);
+  // Terminal window group - offset by background padding
+  parts.push(`<g transform="translate(${bgPad.left},${bgPad.top})">`);
 
   // Terminal background
   parts.push(`<rect width="${width}" height="${height}" rx="${borderRadius}" fill="${theme.background}"/>`);

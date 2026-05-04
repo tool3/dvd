@@ -622,7 +622,7 @@ export interface FilmstripAnimationContext {
   embedFont?: boolean;
   fontData?: string;
   background?: string | Gradient;
-  backgroundPadding?: number;
+  backgroundPadding?: number | string;
   backgroundRadius?: number;
   // When true, render block elements as geometric shapes for seamless display
   customGlyphs?: boolean;

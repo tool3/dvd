@@ -153,7 +153,10 @@ export const applySetting = (ctx: ExecutorContext, key: string, value: string): 
       ctx.background = parseGradient(value);
     },
     BackgroundPadding: () => {
-      ctx.backgroundPadding = parseInt(value, 10);
+      // Accept CSS-like shorthand: "16", "100 50", "10 20 30 40".
+      // A single number stays a number; multi-value strings pass through to the renderer.
+      const trimmed = value.trim();
+      ctx.backgroundPadding = /\s/.test(trimmed) ? trimmed : parseInt(trimmed, 10);
     },
     BackgroundRadius: () => {
       ctx.backgroundRadius = parseInt(value, 10);

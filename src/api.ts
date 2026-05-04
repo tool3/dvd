@@ -77,7 +77,7 @@ export interface DVDOptions {
 
   // Background
   background?: string;
-  backgroundPadding?: number;
+  backgroundPadding?: number | string;
   backgroundRadius?: number;
 
   // Animation

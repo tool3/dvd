@@ -61,7 +61,7 @@ export interface CDExecutorOptions {
   footerBorderWidth?: number;
   letterSpacing?: number;
   background?: string;
-  backgroundPadding?: number;
+  backgroundPadding?: number | string;
   backgroundRadius?: number;
   onFrame?: (frame: TerminalFrame) => void;
   onProgress?: (current: number, total: number, description?: string) => void;
@@ -155,7 +155,7 @@ export interface ExecutorContext {
   rewindSpeed: number;
 
   background?: string | Gradient;
-  backgroundPadding: number;
+  backgroundPadding: number | string;
   backgroundRadius: number;
 
   playbackSpeed: number;
