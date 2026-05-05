@@ -40,6 +40,7 @@
   "author": "tool3",
   "license": "MIT",
   "dependencies": {
+    "dvdrw": "^1.0.5",
     "shellfie": "^2.2.0"
   },
   "devDependencies": {
