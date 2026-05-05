@@ -9,12 +9,10 @@ import { writeFileSync } from 'node:fs';
 import dvd from '../src';
 
 const SCRIPT = `
-  Type "echo hello"
-  Enter
+  Type "echo 'hello'"
   Sleep 200ms
-  Type "hello"
   Enter
-  Sleep 800ms
+  Sleep 1000ms
 `;
 
 (async () => {

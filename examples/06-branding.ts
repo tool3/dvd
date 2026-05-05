@@ -11,18 +11,19 @@ import dvd from '../src';
 
 (async () => {
   const result = await dvd(`
-    Type@40ms "import dvd from 'dvdrw' \\"
+    Type "echo -e '\\x1b[1;35m  dvdrw\\x1b[0m \\x1b[2m·\\x1b[0m animated svg terminal recordings'"
+    Sleep 300ms
     Enter
     Sleep 200ms
-    Type@40ms "const { svg } = await dvd(steps, {"
+    Type "echo -e '  \\x1b[2m──────────────────────────────────\\x1b[0m'"
     Enter
-    Type@40ms "  theme: 'tokyoNight',"
+    Type "echo -e '  \\x1b[32m●\\x1b[0m programmatic api'"
     Enter
-    Type@40ms "  background: 'gradient(#7c5fff, #ff6ec7)',"
+    Type "echo -e '  \\x1b[32m●\\x1b[0m raw stdout capture'"
     Enter
-    Type@40ms "})"
+    Type "echo -e '  \\x1b[32m●\\x1b[0m no ffmpeg, no browser'"
     Enter
-    Sleep 1200ms
+    Sleep 1500ms
   `, {
     theme: 'tokyoNight',
     template: 'macos',

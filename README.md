@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/dvdrw"><img src="https://img.shields.io/npm/v/dvdrw?color=cb3837&label=npm" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/dvdrw"><img src="https://img.shields.io/badge/npm-v10-blue" alt="npm version"></a>
   <a href="https://www.npmjs.com/package/dvdrw"><img src="https://img.shields.io/npm/dm/dvdrw" alt="npm downloads"></a>
   <a href="https://github.com/tool3/dvd/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-orange" alt="license"></a>
   <a href="https://github.com/tool3/dvd-cli"><img src="https://img.shields.io/badge/cli-dvd--cli-7c5fff" alt="cli"></a>
@@ -93,12 +93,14 @@ const { svg } = await dvd(`
 When the content of your animation is computed at runtime — a generated test report, a stream of deploy events, a templated demo — skip the script and pass an array.
 
 ```typescript
+// Each Type+Enter is sent through a real shell, so wrap any styled output
+// in `echo -e "..."` rather than typing raw ANSI as a command.
 const steps = [
-  { type: 'Type', text: 'npm test' },
+  { type: 'Type', text: 'echo -e "\\x1b[2m$\\x1b[0m npm test"' },
   { type: 'Key', key: 'Enter' },
   { type: 'Sleep', duration: 600 },
   ...tests.flatMap((t) => [
-    { type: 'Type', text: `\x1b[32m  ✓\x1b[0m ${t.name} \x1b[2m(${t.ms}ms)\x1b[0m` },
+    { type: 'Type', text: `echo -e "\\x1b[32m  ✓\\x1b[0m ${t.name} \\x1b[2m(${t.ms}ms)\\x1b[0m"` },
     { type: 'Key', key: 'Enter' },
     { type: 'Sleep', duration: 200 },
   ]),

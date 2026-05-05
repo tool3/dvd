@@ -9,23 +9,19 @@ import { writeFileSync } from 'node:fs';
 import dvd, { type DVDOptions } from '../src';
 
 const SCRIPT = `
-  Type "deploy"
+  Type "echo -e '\\x1b[2m$\\x1b[0m deploy'"
   Sleep 200ms
   Enter
   Sleep 300ms
-  Type "\\x1b[36m→\\x1b[0m building     "
-  Sleep 250ms
-  Type "\\x1b[32mok\\x1b[0m"
+  Type "echo -e '\\x1b[36m→\\x1b[0m building     \\x1b[32mok\\x1b[0m'"
   Enter
-  Type "\\x1b[36m→\\x1b[0m testing      "
-  Sleep 250ms
-  Type "\\x1b[32mok\\x1b[0m"
+  Sleep 200ms
+  Type "echo -e '\\x1b[36m→\\x1b[0m testing      \\x1b[32mok\\x1b[0m'"
   Enter
-  Type "\\x1b[36m→\\x1b[0m publishing   "
-  Sleep 250ms
-  Type "\\x1b[32mok\\x1b[0m"
+  Sleep 200ms
+  Type "echo -e '\\x1b[36m→\\x1b[0m publishing   \\x1b[32mok\\x1b[0m'"
   Enter
-  Sleep 600ms
+  Sleep 800ms
 `;
 
 const STYLES: { name: string; opts: DVDOptions }[] = [

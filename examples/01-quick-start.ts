@@ -10,14 +10,14 @@ import dvd from '../src';
 
 (async () => {
   const result = await dvd(`
-    Type "npm install dvdrw"
-    Sleep 400ms
-    Enter
-    Sleep 800ms
-    Type "node -p \\"require('dvdrw').themes.dracula.name\\""
+    Type "echo 'hello from dvdrw'"
     Sleep 300ms
     Enter
     Sleep 600ms
+    Type "echo -e '\\x1b[35m∙\\x1b[0m animated svg, no ffmpeg, no browser'"
+    Sleep 300ms
+    Enter
+    Sleep 800ms
   `, {
     theme: 'dracula',
     template: 'macos',

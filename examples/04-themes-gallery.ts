@@ -10,17 +10,17 @@ import { writeFileSync } from 'node:fs';
 import dvd from '../src';
 
 const SCRIPT = `
-  Type "git log --oneline -3"
-  Sleep 300ms
+  Type "echo -e '\\x1b[2m$\\x1b[0m git log --oneline -3'"
+  Sleep 200ms
   Enter
   Sleep 400ms
-  Type "ddabf1d \\x1b[33m1.0.5\\x1b[0m"
+  Type "echo -e '\\x1b[33mddabf1d\\x1b[0m \\x1b[1m1.0.5\\x1b[0m \\x1b[2m(2 days ago)\\x1b[0m'"
   Enter
-  Type "160a232 \\x1b[36mdocs\\x1b[0m: license"
+  Type "echo -e '\\x1b[33m160a232\\x1b[0m \\x1b[36mdocs\\x1b[0m: license \\x1b[2m(3 days ago)\\x1b[0m'"
   Enter
-  Type "27c843d \\x1b[33m1.0.4\\x1b[0m"
+  Type "echo -e '\\x1b[33m27c843d\\x1b[0m \\x1b[1m1.0.4\\x1b[0m \\x1b[2m(4 days ago)\\x1b[0m'"
   Enter
-  Sleep 1000ms
+  Sleep 1200ms
 `;
 
 const THEMES = [
