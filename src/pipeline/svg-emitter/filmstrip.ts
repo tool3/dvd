@@ -320,7 +320,7 @@ export const emitFilmstrip = (
   // Analyze frames to find unique visual states
   const uniqueFrames = analyzeFrames(frames);
 
-  const { theme, template, width, height, fontSize } = options;
+  const { theme, template, width: rawWidth, height: rawHeight, fontSize } = options;
   const lineHeight = options.lineHeight ?? fontSize * 1.4;
   const charWidth = options.charWidth ?? fontSize * 0.6;
   const padding = options.padding ?? 16;
@@ -338,6 +338,23 @@ export const emitFilmstrip = (
   // Background padding (CSS-like shorthand supported)
   const bgPad = normalizePadding(options.backgroundPadding);
   const bgRadius = options.backgroundRadius ?? 12;
+
+  // Grow the terminal window to ensure the watermark always fits inside it
+  const wmRawContent = typeof options.watermark === 'string' ? options.watermark : (options.watermark as WatermarkConfig)?.content;
+  const wmIsMarkup = typeof options.watermark === 'object'
+    ? ((options.watermark as WatermarkConfig).type === 'markup' || wmRawContent?.trimStart().startsWith('<'))
+    : wmRawContent?.trimStart().startsWith('<');
+  const wmFontSizeReserved = wmRawContent ? Math.round(fontSize * 0.75) : 0;
+  const wmContentWidth = (wmRawContent && !wmIsMarkup)
+    ? Math.ceil(wmRawContent.length * wmFontSizeReserved * 0.6)
+    : (wmRawContent && wmIsMarkup ? Math.min(rawWidth, 320) : 0);
+  const wmExtraBottom = wmRawContent ? lineHeight + padding : 0;
+  const wmExtraRight = wmRawContent
+    ? Math.max(0, wmContentWidth + padding * 2 - rawWidth)
+    : 0;
+  const width = rawWidth + wmExtraRight;
+  const height = rawHeight + wmExtraBottom;
+
   const totalWidth = width + bgPad.left + bgPad.right;
   const totalHeight = height + bgPad.top + bgPad.bottom;
   const hasBackground = !!options.background && paddingHasAny(bgPad);
@@ -632,17 +649,15 @@ export const emitFilmstrip = (
     }
   }
 
-  // Watermark (rendered outside clip so it's always visible, matching master's emit())
+  // Watermark (rendered inside the terminal window in the reserved bottom strip)
   if (watermarkContent) {
-    const watermarkHeight = lineHeight;
-    const watermarkY = height - padding - watermarkHeight / 2;
-    const watermarkX = width - padding;
     const wmFontSize = Math.round(fontSize * 0.75);
     const wmDefaultFonts = "'SF Mono','Monaco','Menlo','Ubuntu Mono','Consolas','Courier New',monospace";
     const wmFontFamily = options.fontFamily ? `'${options.fontFamily}',monospace` : wmDefaultFonts;
+    const watermarkX = width - padding;
+    const watermarkY = rawHeight + padding / 2;
 
     if (isWatermarkMarkup) {
-      // Scale markup watermarks relative to a reference width (matching master)
       const referenceWidth = 320;
       const scale = Math.min(1, width / referenceWidth);
       const scaleTransform = scale < 1 ? ` scale(${scale.toFixed(3)})` : '';
@@ -651,7 +666,7 @@ export const emitFilmstrip = (
       );
     } else {
       parts.push(
-        `<text class="text dim" x="${watermarkX}" y="${watermarkY}" ` +
+        `<text class="text dim" x="${watermarkX}" y="${watermarkY}" font-size="${wmFontSize}" ` +
           `text-anchor="end" fill="${theme.foreground}">${escapeXml(watermarkContent)}</text>`
       );
     }

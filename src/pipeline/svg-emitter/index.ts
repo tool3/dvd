@@ -91,7 +91,7 @@ export const emit = (
   cursorVisible: boolean,
   options: EmitterOptions
 ): EmitResult => {
-  const { theme, template, width, height, fontSize, title, watermark } = options;
+  const { theme, template, width: rawWidth, height: rawHeight, fontSize, title, watermark } = options;
   const lineHeight = options.lineHeight ?? fontSize * 1.4;
   const charWidth = options.charWidth ?? fontSize * 0.6;
   const padding = options.padding ?? 16;
@@ -105,7 +105,19 @@ export const emit = (
     ? (watermark.type === 'markup' || watermarkContent?.trimStart().startsWith('<'))
     : watermarkContent?.trimStart().startsWith('<');
   const watermarkHeight = watermarkContent ? lineHeight : 0;
+  const wmFontSize = watermarkContent ? Math.round(fontSize * 0.75) : 0;
+  const wmContentWidth = (watermarkContent && !isWatermarkMarkup)
+    ? Math.ceil(watermarkContent.length * wmFontSize * 0.6)
+    : (watermarkContent && isWatermarkMarkup ? Math.min(rawWidth, 320) : 0);
   const contentStartY = headerHeight + padding;
+
+  // Grow the terminal window to ensure the watermark always fits inside it
+  const wmExtraBottom = watermarkContent ? watermarkHeight + padding : 0;
+  const wmExtraRight = watermarkContent
+    ? Math.max(0, wmContentWidth + padding * 2 - rawWidth)
+    : 0;
+  const width = rawWidth + wmExtraRight;
+  const height = rawHeight + wmExtraBottom;
 
   // Background padding (margin around terminal window) — supports CSS-like shorthand
   const bgPad = normalizePadding(options.backgroundPadding);
@@ -290,22 +302,21 @@ export const emit = (
     );
   }
 
+  // Render watermark inside the terminal window (in the reserved bottom strip)
   if (watermarkContent) {
-    const watermarkY = height - padding - watermarkHeight / 2;
-    const watermarkX = width - padding;
-    const wmFontSize = Math.round(fontSize * 0.75);
     const defaultFonts = "'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Courier New', monospace";
     const fontFamily = options.fontFamily ? `'${options.fontFamily}', monospace` : defaultFonts;
+    const watermarkX = width - padding;
+    const watermarkY = rawHeight + padding / 2;
 
     if (options.footerBackground) {
       parts.push(
-        `<rect x="0" y="${height - watermarkHeight - padding}" width="${width}" ` +
-          `height="${watermarkHeight + padding}" fill="${options.footerBackground}"/>`
+        `<rect x="0" y="${rawHeight}" width="${width}" ` +
+          `height="${wmExtraBottom}" fill="${options.footerBackground}"/>`
       );
     }
 
     if (isWatermarkMarkup) {
-      // Scale markup watermarks relative to a reference width (320px is shellfie's typical width)
       const referenceWidth = 320;
       const scale = Math.min(1, width / referenceWidth);
       const scaleTransform = scale < 1 ? ` scale(${scale.toFixed(3)})` : '';
@@ -314,7 +325,7 @@ export const emit = (
       );
     } else {
       parts.push(
-        `<text class="text dim" x="${watermarkX}" y="${watermarkY}" ` +
+        `<text class="text dim" x="${watermarkX}" y="${watermarkY}" font-size="${wmFontSize}" ` +
           `text-anchor="end" fill="${theme.foreground}">${escapeXml(watermarkContent)}</text>`
       );
     }

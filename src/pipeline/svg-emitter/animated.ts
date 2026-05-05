@@ -84,7 +84,7 @@ export const emitAnimated = (
   if (frames.length === 1)
     return staticEmit(frames[0].rows, frames[0].cursor, frames[0].cursorVisible, options);
 
-  const { theme, template, width, height, fontSize } = options;
+  const { theme, template, width: rawWidth, height: rawHeight, fontSize } = options;
   const lineHeight = options.lineHeight ?? fontSize * 1.4;
   const charWidth = options.charWidth ?? fontSize * 0.6;
   const padding = options.padding ?? 16;
@@ -100,6 +100,23 @@ export const emitAnimated = (
   const bgPad = normalizePadding(options.backgroundPadding);
   const hasBgOffset = paddingHasAny(bgPad);
   const bgRadius = options.backgroundRadius ?? 12;
+
+  // Grow the terminal window to ensure the watermark always fits inside it
+  const rawWatermarkContentForSizing = typeof options.watermark === 'string' ? options.watermark : options.watermark?.content;
+  const isWmMarkupForSizing = typeof options.watermark === 'object'
+    ? (options.watermark.type === 'markup' || rawWatermarkContentForSizing?.trimStart().startsWith('<'))
+    : rawWatermarkContentForSizing?.trimStart().startsWith('<');
+  const wmFontSize = rawWatermarkContentForSizing ? Math.round(fontSize * 0.75) : 0;
+  const wmContentWidth = (rawWatermarkContentForSizing && !isWmMarkupForSizing)
+    ? Math.ceil(rawWatermarkContentForSizing.length * wmFontSize * 0.6)
+    : (rawWatermarkContentForSizing && isWmMarkupForSizing ? Math.min(rawWidth, 320) : 0);
+  const wmExtraBottom = rawWatermarkContentForSizing ? lineHeight + padding : 0;
+  const wmExtraRight = rawWatermarkContentForSizing
+    ? Math.max(0, wmContentWidth + padding * 2 - rawWidth)
+    : 0;
+  const width = rawWidth + wmExtraRight;
+  const height = rawHeight + wmExtraBottom;
+
   const totalWidth = width + bgPad.left + bgPad.right;
   const totalHeight = height + bgPad.top + bgPad.bottom;
   const hasBackground = !!options.background && hasBgOffset;
@@ -219,14 +236,12 @@ export const emitAnimated = (
     parts.push(`<use href="#f${i}" class="frame frame-${i}"/>`);
   });
 
-  // Use watermarkContent extracted earlier (with defs removed for markup)
+  // Render watermark inside the terminal window (in the reserved bottom strip)
   if (watermarkContent) {
-    const watermarkHeight = lineHeight;
-    const watermarkY = height - padding - watermarkHeight / 2;
-    const watermarkX = width - padding;
-    const wmFontSize = Math.round(fontSize * 0.75);
     const defaultFonts = "'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Courier New', monospace";
     const fontFamily = options.fontFamily ? `'${options.fontFamily}', monospace` : defaultFonts;
+    const watermarkX = width - padding;
+    const watermarkY = rawHeight + padding / 2;
 
     if (isMarkup) {
       parts.push(
@@ -234,7 +249,7 @@ export const emitAnimated = (
       );
     } else {
       parts.push(
-        `<text class="text dim" x="${watermarkX}" y="${watermarkY}" ` +
+        `<text class="text dim" x="${watermarkX}" y="${watermarkY}" font-size="${wmFontSize}" ` +
           `text-anchor="end" fill="${theme.foreground}">${escapeXml(watermarkContent)}</text>`
       );
     }
