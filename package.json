@@ -17,6 +17,10 @@
       }
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tool3/shellfie"
+  },
   "scripts": {
     "build": "npm run build:esm && npm run build:cjs",
     "build:esm": "tsc -p tsconfig.esm.json",
