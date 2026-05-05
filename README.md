@@ -5,13 +5,13 @@ Create beautiful animated SVGs from terminal recordings. No ffmpeg, no browser, 
 ## Install
 
 ```bash
-npm install dvd
+npm install dvdrw
 ```
 
 ## Quick Start
 
 ```typescript
-import dvd from 'dvd';
+import dvd from 'dvdrw';
 
 const result = await dvd(`
   Type "echo hello world"
@@ -37,7 +37,7 @@ const result = await dvd(input, options);
 The most common input — a `.cd` script as a string:
 
 ```typescript
-import dvd from 'dvd';
+import dvd from 'dvdrw';
 
 const result = await dvd(`
   Type "npm install dvd"
@@ -61,7 +61,7 @@ writeFileSync('install.svg', result.svg);
 Build animations in code without .cd files:
 
 ```typescript
-import dvd from 'dvd';
+import dvd from 'dvdrw';
 
 const result = await dvd([
   { type: 'Type', text: 'npm install dvd' },
@@ -83,7 +83,7 @@ writeFileSync('install.svg', result.svg);
 Feed raw terminal output (with ANSI escape codes) directly. DVD auto-detects animation patterns like cursor resets, terminal resets, and clear-line sequences, splits into frames, and renders:
 
 ```typescript
-import dvd from 'dvd';
+import dvd from 'dvdrw';
 
 // Output captured from a command like: node spinner.js 2>&1
 const rawOutput = '\x1b[2K\x1b[0GLoading...\x1b[2K\x1b[0GLoading......\x1b[2K\x1b[0GDone!';
@@ -108,7 +108,7 @@ const result = await dvd({ raw: rawOutput, totalDuration: 3000 }, options);
 If you've already parsed a CDScript object:
 
 ```typescript
-import dvd, { parseCDScript } from 'dvd';
+import dvd, { parseCDScript } from 'dvdrw';
 
 const script = parseCDScript(readFileSync('demo.cd', 'utf-8'));
 const result = await dvd({ script }, { theme: 'nord' });
@@ -210,7 +210,7 @@ For advanced use cases, the individual building blocks are exported:
 ### Terminal emulation
 
 ```typescript
-import { createGridState, processInput, coalesce, themes } from 'dvd';
+import { createGridState, processInput, coalesce, themes } from 'dvdrw';
 
 const grid = createGridState(80, 24);
 const processed = processInput(grid, '\x1b[31mHello\x1b[0m World');
@@ -220,7 +220,7 @@ const rows = coalesce(processed, themes.dark);
 ### SVG emission
 
 ```typescript
-import { emit, emitFilmstripAnimated } from 'dvd';
+import { emit, emitFilmstripAnimated } from 'dvdrw';
 
 // Single frame
 const { svg } = emit(rows, cursor, cursorVisible, options);
@@ -232,7 +232,7 @@ const { svg } = emitFilmstripAnimated(frameDataArray, options);
 ### Raw output processing
 
 ```typescript
-import { processRawOutput, detectAnimationType, splitIntoFrames, themes } from 'dvd';
+import { processRawOutput, detectAnimationType, splitIntoFrames, themes } from 'dvdrw';
 
 // Detect animation pattern
 const animationType = detectAnimationType(rawOutput); // 'terminal-reset' | 'cursor-up' | ...
@@ -249,7 +249,7 @@ const { frameData, width, height } = processRawOutput(rawOutput, {
 ### Cast file rendering
 
 ```typescript
-import { parseCastFile, generateFramesFromRecording, createFilmstripSVG, themes } from 'dvd';
+import { parseCastFile, generateFramesFromRecording, createFilmstripSVG, themes } from 'dvdrw';
 
 const recording = parseCastFile(castContent);
 const frames = generateFramesFromRecording(recording, {
@@ -271,7 +271,7 @@ const svg = createFilmstripSVG({
 ### Executor (script execution)
 
 ```typescript
-import { CDExecutor, parseCDScript } from 'dvd';
+import { CDExecutor, parseCDScript } from 'dvdrw';
 
 const script = parseCDScript(`
   Type "hello"
