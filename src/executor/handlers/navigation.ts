@@ -85,6 +85,12 @@ export const executeShortcut = async (
     return;
   }
 
+  // Handle Ctrl+U - kill from start of line to cursor (readline unix-line-discard)
+  if (ctrl && !alt && !shift && !cmd && key === 'U') {
+    await executeKillToStart(ctx, options);
+    return;
+  }
+
   if (shift && !alt && !metaKey) {
     if (key === 'Left' || key === 'Right') {
       await executeSelectionMove(ctx, options, key === 'Right', shift);
@@ -102,8 +108,54 @@ export const executeShortcut = async (
       await executeLineNavigation(ctx, options, key === 'Right');
     } else if (key === 'Backspace') {
       await executeWordDelete(ctx, options);
+    } else if (key === 'K') {
+      if (cmd) {
+        await executeKillLine(ctx, options);
+      } else {
+        await executeKillToEnd(ctx, options);
+      }
     }
   }
+};
+
+
+//#region Kill Line Handlers
+
+const executeKillLine = async (
+  ctx: ExecutorContext,
+  options: CDExecutorOptions
+): Promise<void> => {
+  ctx.currentLine = '';
+  ctx.cursorX = 0;
+  clearSelection(ctx);
+
+  await sleep(50);
+  captureFrame(ctx, options, true, true);
+};
+
+const executeKillToEnd = async (
+  ctx: ExecutorContext,
+  options: CDExecutorOptions
+): Promise<void> => {
+  const cursorIndex = graphemeToIndex(ctx.currentLine, ctx.cursorX);
+  ctx.currentLine = ctx.currentLine.substring(0, cursorIndex);
+  clearSelection(ctx);
+
+  await sleep(50);
+  captureFrame(ctx, options, true, true);
+};
+
+const executeKillToStart = async (
+  ctx: ExecutorContext,
+  options: CDExecutorOptions
+): Promise<void> => {
+  const cursorIndex = graphemeToIndex(ctx.currentLine, ctx.cursorX);
+  ctx.currentLine = ctx.currentLine.substring(cursorIndex);
+  ctx.cursorX = 0;
+  clearSelection(ctx);
+
+  await sleep(50);
+  captureFrame(ctx, options, true, true);
 };
 
 
