@@ -17,6 +17,7 @@ import {
   executeScreenshot,
 } from './handlers';
 import { applySetting, resolveTheme } from './settings';
+import { parseGradient } from 'shellfie';
 
 
 //#region Re-exports for backward compatibility
@@ -215,8 +216,13 @@ export class CDExecutor {
     if (opts.footerBorderColor !== undefined) this.context.footerBorderColor = opts.footerBorderColor;
     if (opts.footerBorderWidth !== undefined) this.context.footerBorderWidth = opts.footerBorderWidth;
 
-    // Background overrides
-    if (opts.background !== undefined) this.context.background = opts.background;
+    // Background overrides — accept the source `gradient(...)` syntax (same as
+    // `Set Background` in .cd files) so programmatic callers don't need to
+    // parse it themselves.
+    if (opts.background !== undefined) {
+      this.context.background =
+        typeof opts.background === 'string' ? parseGradient(opts.background) : opts.background;
+    }
     if (opts.backgroundPadding !== undefined) this.context.backgroundPadding = opts.backgroundPadding;
     if (opts.backgroundRadius !== undefined) this.context.backgroundRadius = opts.backgroundRadius;
 

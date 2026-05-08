@@ -60,7 +60,7 @@ export interface CDExecutorOptions {
   footerBorderColor?: string;
   footerBorderWidth?: number;
   letterSpacing?: number;
-  background?: string;
+  background?: string | Gradient;
   backgroundPadding?: number | string;
   backgroundRadius?: number;
   onFrame?: (frame: TerminalFrame) => void;

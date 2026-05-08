@@ -15,7 +15,15 @@ import { themes } from './pipeline';
 import { processRawOutput } from './pipeline/raw-output';
 import type { FrameData } from './pipeline/svg-emitter';
 import { emit } from './pipeline/svg-emitter';
-import type { Theme } from './types';
+import type { Gradient, Theme } from './types';
+import { parseGradient } from 'shellfie';
+
+const normalizeBackground = (
+  value: string | Gradient | undefined,
+): string | Gradient | undefined => {
+  if (value === undefined) return undefined;
+  return typeof value === 'string' ? parseGradient(value) : value;
+};
 
 
 //#region Types
@@ -76,7 +84,7 @@ export interface DVDOptions {
   footerBorderWidth?: number;
 
   // Background
-  background?: string;
+  background?: string | Gradient;
   backgroundPadding?: number | string;
   backgroundRadius?: number;
 
@@ -210,7 +218,7 @@ const dvdFromRawOutput = async (input: RawInput, options: DVDOptions): Promise<D
         footerBorder: options.footerBorder,
         footerBorderColor: options.footerBorderColor,
         footerBorderWidth: options.footerBorderWidth,
-        background: options.background,
+        background: normalizeBackground(options.background),
         backgroundPadding: options.backgroundPadding,
         backgroundRadius: options.backgroundRadius,
       });
@@ -263,7 +271,7 @@ const dvdFromRawOutput = async (input: RawInput, options: DVDOptions): Promise<D
       cursorBlink: options.cursorBlink,
       fontFamily: options.fontFamily,
       letterSpacing: options.letterSpacing,
-      background: options.background,
+      background: normalizeBackground(options.background),
       backgroundPadding: options.backgroundPadding,
       backgroundRadius: options.backgroundRadius,
       customGlyphs: customGlyphs ?? true,
