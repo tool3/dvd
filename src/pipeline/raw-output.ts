@@ -60,17 +60,14 @@ export const splitIntoFrames = (content: string, animationType: AnimationType): 
 
   if (animationType === 'cursor-up') {
     const frames: string[] = [];
-    const parts = content.split(/\x1b\[\d+A/);
-
-    for (const part of parts) {
-      if (part.trim()) {
-        // Strip leading newline — artifact of previous frame's trailing newline
-        // and cursor-up repositioning
-        const cleaned = part.startsWith('\n') ? part.slice(1) : part;
-        frames.push(cleaned);
-      }
+    for (const part of content.split(/\x1b\[\d+A/)) {
+      // Drop genuinely empty splits (consecutive CUUs, leading/trailing
+      // separators) but keep whitespace-only frames and any leading newlines —
+      // those are part of the program's intentional vertical spacing
+      // (chartscii charts, ascii-art frames with deliberate top margin).
+      if (part.length === 0) continue;
+      frames.push(part);
     }
-
     return frames.length > 0 ? frames : [content];
   }
 

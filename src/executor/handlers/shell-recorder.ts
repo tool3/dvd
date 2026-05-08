@@ -394,15 +394,51 @@ const applyScrollClip = (
 /**
  * Check if output contains animation escape sequences (like lolcat uses).
  * Lolcat and similar tools use terminal reset (\x1bc) or cursor restore (\x1b8)
- * to create animation effects.
+ * to create animation effects. chartscii's `-e` (and many progress libs)
+ * instead emit `\x1b[<n>A` (CUU) between frames to redraw in place — without
+ * detecting that here we'd fall through to line-by-line capture, which only
+ * snapshots when line count *grows*, so any in-place redraw collapses to
+ * "first frame + final frame".
  */
+// Cursor-up (CUU) sequence: `\x1b[<n>A` — used by chartscii's animations and
+// many progress bars to overwrite previous lines. Match `\d+` (not `\d*`) so
+// we don't conflate with bare `\x1b[A` (default-1 arrow keys in stdin echo)
+// and to align with detectAnimationType() in pipeline/raw-output.ts, which
+// already handles the stdin/pipe path.
+const CURSOR_UP_RE = /\x1b\[\d+A/;
+
+/**
+ * Split cursor-up animation output into discrete frames.
+ *
+ * chartscii's pattern is `<frame>\x1b[<n>A<frame>\x1b[<n>A…`, so each split
+ * segment is one full frame. We drop genuinely empty splits (consecutive
+ * CUUs, leading/trailing separators) but otherwise pass content through
+ * untouched — leading newlines and pure-whitespace rows are part of the
+ * frame's intentional vertical spacing and must be preserved.
+ */
+const splitCursorUpFrames = (content: string): string[] => {
+  const frames: string[] = [];
+  for (const part of content.split(CURSOR_UP_RE_GLOBAL)) {
+    if (part.length === 0) continue;
+    frames.push(part);
+  }
+  return frames;
+};
+
+const CURSOR_UP_RE_GLOBAL = /\x1b\[\d+A/g;
+
 const isAnimatedOutput = (events: Recording['events']): boolean => {
   const allOutput = events
     .filter(([, eventType]) => eventType === 'o')
     .map(([, , data]) => data)
     .join('');
 
-  return allOutput.includes('\x1bc') || allOutput.includes('\x1b8') || allOutput.includes('\x1b[?25l');
+  return (
+    allOutput.includes('\x1bc') ||
+    allOutput.includes('\x1b8') ||
+    allOutput.includes('\x1b[?25l') ||
+    CURSOR_UP_RE.test(allOutput)
+  );
 };
 
 /**
@@ -515,11 +551,64 @@ const generateAnimatedFrames = (
   // Determine animation type
   const usesTerminalReset = allOutput.includes('\x1bc');
   const usesCursorRestore = allOutput.includes('\x1b8');
+  const usesCursorUp = !usesTerminalReset && !usesCursorRestore && CURSOR_UP_RE.test(allOutput);
 
   if (usesTerminalReset) {
     // Terminal reset clears screen - each frame is independent
     const animationFrames = allOutput.split('\x1bc').filter(f => f.trim());
     if (animationFrames.length === 0) return frames;
+
+    const firstTimestamp = outputEvents[0][0];
+    const lastTimestamp = outputEvents[outputEvents.length - 1][0];
+    const totalDuration = (lastTimestamp - firstTimestamp) * 1000;
+    const frameInterval = animationFrames.length > 1
+      ? totalDuration / (animationFrames.length - 1)
+      : ctx.animationSpeed;
+
+    for (let i = 0; i < animationFrames.length; i++) {
+      let grid = createGridState(recording.header.width, recording.header.height);
+      grid = processInput(grid, animationFrames[i]);
+
+      const recordingRows = coalesce(grid, ctx.theme);
+      const mergedRows = mergeRows(preCommandRows, recordingRows, outputStartLine);
+      const cursorRow = grid.cursor.row + outputStartLine;
+      const { clippedRows, adjustedCursorRow } = applyScrollClip(mergedRows, cursorRow, ctx);
+      const frameTimestamp = baseTimestamp + firstTimestamp * 1000 + i * frameInterval;
+
+      frames.push({
+        rows: clippedRows,
+        cursor: { row: adjustedCursorRow, col: grid.cursor.col },
+        cursorVisible: false,
+        timestamp: frameTimestamp,
+        activeCursor: false,
+      });
+    }
+  } else if (usesCursorUp) {
+    // Cursor-up redraw (chartscii -e, many progress libs):
+    //   <frame N>\x1b[<lineCount>A<frame N+1>\x1b[<lineCount>A...
+    // Each frame overwrites the previous. We split on CUU and replay each
+    // segment through a fresh grid — that matches splitIntoFrames() in
+    // pipeline/raw-output.ts and avoids carrying overdraw artifacts between
+    // frames when chartscii sometimes ends a frame with a trailing \n.
+    const animationFrames = splitCursorUpFrames(allOutput);
+    if (animationFrames.length === 0) {
+      // Detector fired but split came up empty — fall back to the non-animated path.
+      let grid = createGridState(recording.header.width, recording.header.height);
+      grid = processInput(grid, allOutput);
+      const recordingRows = coalesce(grid, ctx.theme);
+      const mergedRows = mergeRows(preCommandRows, recordingRows, outputStartLine);
+      const cursorRow = grid.cursor.row + outputStartLine;
+      const { clippedRows, adjustedCursorRow } = applyScrollClip(mergedRows, cursorRow, ctx);
+      const lastTimestamp = outputEvents[outputEvents.length - 1][0];
+      frames.push({
+        rows: clippedRows,
+        cursor: { row: adjustedCursorRow, col: grid.cursor.col },
+        cursorVisible: false,
+        timestamp: baseTimestamp + lastTimestamp * 1000,
+        activeCursor: false,
+      });
+      return frames;
+    }
 
     const firstTimestamp = outputEvents[0][0];
     const lastTimestamp = outputEvents[outputEvents.length - 1][0];
