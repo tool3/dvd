@@ -1,6 +1,6 @@
 {
   "name": "dvdrw",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Create beautiful animated SVGs from terminal recordings",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
