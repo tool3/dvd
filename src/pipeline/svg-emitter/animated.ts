@@ -155,9 +155,18 @@ export const emitAnimated = (
   }
 
   if (borderRadius > 0) {
+    // The clipPath is referenced from inside the <g transform="translate(bgPad…)">
+    // group rendered below. Under `clipPathUnits="userSpaceOnUse"` the
+    // clipPath coords live in the *referencing element*'s user space —
+    // which already has the translate applied — so coords must start at
+    // (0, 0). Using (bgPad.left, bgPad.top) here double-counts the
+    // offset and the mask drifts off the visible terminal whenever
+    // `backgroundPadding > 0`, exposing the outer background colour over
+    // the top-left of the terminal. The filmstrip and static emitters
+    // both use (0, 0); this brings the SMIL emitter into line.
     parts.push(
       `<clipPath id="rounded-corners">` +
-        `<rect x="${bgPad.left}" y="${bgPad.top}" width="${width}" height="${height}" rx="${borderRadius}" ry="${borderRadius}"/>` +
+        `<rect x="0" y="0" width="${width}" height="${height}" rx="${borderRadius}" ry="${borderRadius}"/>` +
         `</clipPath>`
     );
   }
