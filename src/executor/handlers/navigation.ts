@@ -77,17 +77,25 @@ export const executeShortcut = async (
   cmd: boolean,
   key: string
 ): Promise<void> => {
+  // Normalize single-letter keys so `Ctrl+k` and `Ctrl+K` behave the same.
+  const normKey = key.length === 1 ? key.toUpperCase() : key;
   const metaKey = cmd || ctrl;
 
   // Handle Ctrl+C - cancel current input like a real terminal
-  if (ctrl && !alt && !shift && !cmd && key === 'C') {
+  if (ctrl && !alt && !shift && !cmd && normKey === 'C') {
     await executeCtrlC(ctx, options);
     return;
   }
 
-  // Handle Ctrl+U - kill from start of line to cursor (readline unix-line-discard)
-  if (ctrl && !alt && !shift && !cmd && key === 'U') {
-    await executeKillToStart(ctx, options);
+  // Handle Ctrl+U - clear the entire current line
+  if (ctrl && !alt && !shift && !cmd && normKey === 'U') {
+    await executeClearLine(ctx, options);
+    return;
+  }
+
+  // Handle Ctrl+K / Cmd+K - clear the entire terminal
+  if (metaKey && !alt && !shift && normKey === 'K') {
+    await executeClearTerminal(ctx, options);
     return;
   }
 
@@ -108,20 +116,14 @@ export const executeShortcut = async (
       await executeLineNavigation(ctx, options, key === 'Right');
     } else if (key === 'Backspace') {
       await executeWordDelete(ctx, options);
-    } else if (key === 'K') {
-      if (cmd) {
-        await executeKillLine(ctx, options);
-      } else {
-        await executeKillToEnd(ctx, options);
-      }
     }
   }
 };
 
 
-//#region Kill Line Handlers
+//#region Clear Handlers
 
-const executeKillLine = async (
+const executeClearLine = async (
   ctx: ExecutorContext,
   options: CDExecutorOptions
 ): Promise<void> => {
@@ -133,25 +135,15 @@ const executeKillLine = async (
   captureFrame(ctx, options, true, true);
 };
 
-const executeKillToEnd = async (
+const executeClearTerminal = async (
   ctx: ExecutorContext,
   options: CDExecutorOptions
 ): Promise<void> => {
-  const cursorIndex = graphemeToIndex(ctx.currentLine, ctx.cursorX);
-  ctx.currentLine = ctx.currentLine.substring(0, cursorIndex);
-  clearSelection(ctx);
-
-  await sleep(50);
-  captureFrame(ctx, options, true, true);
-};
-
-const executeKillToStart = async (
-  ctx: ExecutorContext,
-  options: CDExecutorOptions
-): Promise<void> => {
-  const cursorIndex = graphemeToIndex(ctx.currentLine, ctx.cursorX);
-  ctx.currentLine = ctx.currentLine.substring(cursorIndex);
-  ctx.cursorX = 0;
+  // Mirror `clear` / Ctrl+L: wipe scrollback, keep the in-flight input so the
+  // user's current line redraws at the top.
+  ctx.lines = [''];
+  ctx.cursorY = 0;
+  ctx.scrollOffset = 0;
   clearSelection(ctx);
 
   await sleep(50);

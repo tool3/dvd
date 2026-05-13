@@ -73,6 +73,16 @@ export const applyCommand = (state: GridState, command: VTerminalCommand): GridS
       return handleEraseInDisplay(state, command.mode);
     case 'eraseInLine':
       return handleEraseInLine(state, command.mode);
+    case 'insertChars':
+      return handleInsertChars(state, command.count);
+    case 'deleteChars':
+      return handleDeleteChars(state, command.count);
+    case 'eraseChars':
+      return handleEraseChars(state, command.count);
+    case 'insertLines':
+      return handleInsertLines(state, command.count);
+    case 'deleteLines':
+      return handleDeleteLines(state, command.count);
     case 'sgr':
       return handleSGR(state, command.params);
     case 'scrollUp':
@@ -305,6 +315,95 @@ const handleEraseInLine = (state: GridState, mode: 0 | 1 | 2): GridState => {
     case 2: eraseRange(0, width); break;
   }
 
+  return { ...state, cells: newCells };
+};
+
+
+//#region Cell-level Insert / Delete / Erase
+
+/**
+ * DCH — Delete N characters at the cursor. The cells from `cursor.col`
+ * to `width - 1 - N` are replaced by what was N cells to their right;
+ * the last N cells are filled with blanks. Cursor doesn't move.
+ *
+ * Without this, zsh autosuggest / readline history-edit sequences
+ * (e.g. `CSI 12 P` mid-line) leave the original characters behind and
+ * the rendered line shows ghost text at the tail.
+ */
+const handleDeleteChars = (state: GridState, count: number): GridState => {
+  const { cursor, width, attributes } = state;
+  const n = Math.max(0, Math.min(count, width - cursor.col));
+  if (n === 0) return state;
+  const newCells = cloneCells(state.cells);
+  const row = newCells[cursor.row];
+  const blank: Cell = { ...DEFAULT_CELL, bg: attributes.bg };
+  for (let c = cursor.col; c < width - n; c++) row[c] = row[c + n];
+  for (let c = width - n; c < width; c++) row[c] = { ...blank };
+  return { ...state, cells: newCells };
+};
+
+/**
+ * ICH — Insert N blank cells at the cursor. The cells from `cursor.col`
+ * to `width - 1 - N` are shifted right by N positions; the freshly
+ * vacated cells become blanks. Cells that would fall off the right
+ * edge are dropped.
+ */
+const handleInsertChars = (state: GridState, count: number): GridState => {
+  const { cursor, width, attributes } = state;
+  const n = Math.max(0, Math.min(count, width - cursor.col));
+  if (n === 0) return state;
+  const newCells = cloneCells(state.cells);
+  const row = newCells[cursor.row];
+  const blank: Cell = { ...DEFAULT_CELL, bg: attributes.bg };
+  for (let c = width - 1; c >= cursor.col + n; c--) row[c] = row[c - n];
+  for (let c = cursor.col; c < cursor.col + n; c++) row[c] = { ...blank };
+  return { ...state, cells: newCells };
+};
+
+/**
+ * ECH — Erase N characters starting at the cursor, without shifting
+ * anything. The cells become blanks; cells past N are untouched. The
+ * cursor does not move.
+ */
+const handleEraseChars = (state: GridState, count: number): GridState => {
+  const { cursor, width, attributes } = state;
+  const n = Math.max(0, Math.min(count, width - cursor.col));
+  if (n === 0) return state;
+  const newCells = cloneCells(state.cells);
+  const row = newCells[cursor.row];
+  const blank: Cell = { ...DEFAULT_CELL, bg: attributes.bg };
+  for (let c = cursor.col; c < cursor.col + n; c++) row[c] = { ...blank };
+  return { ...state, cells: newCells };
+};
+
+/**
+ * IL — Insert N blank lines at the cursor row. Lines from `cursor.row`
+ * down shift down by N; the bottom N rows are dropped. Implemented as
+ * a small wrapper around the existing row-clone primitive so the
+ * scrollback contract stays consistent with scrollDown.
+ */
+const handleInsertLines = (state: GridState, count: number): GridState => {
+  const { cursor, height, width } = state;
+  const n = Math.max(0, Math.min(count, height - cursor.row));
+  if (n === 0) return state;
+  const newCells = cloneCells(state.cells);
+  for (let r = height - 1; r >= cursor.row + n; r--) newCells[r] = newCells[r - n];
+  for (let r = cursor.row; r < cursor.row + n; r++) newCells[r] = createEmptyRow(width);
+  return { ...state, cells: newCells };
+};
+
+/**
+ * DL — Delete N lines starting at the cursor row. Lines below shift up;
+ * blank rows fill the bottom. Mirrors `scrollUp` but anchored to the
+ * cursor row rather than the top of the screen.
+ */
+const handleDeleteLines = (state: GridState, count: number): GridState => {
+  const { cursor, height, width } = state;
+  const n = Math.max(0, Math.min(count, height - cursor.row));
+  if (n === 0) return state;
+  const newCells = cloneCells(state.cells);
+  for (let r = cursor.row; r < height - n; r++) newCells[r] = newCells[r + n];
+  for (let r = height - n; r < height; r++) newCells[r] = createEmptyRow(width);
   return { ...state, cells: newCells };
 };
 
@@ -628,6 +727,19 @@ const interpretCSI = (params: string, _intermediate: string, final: string): VTe
     case 'f': return { type: 'cursorPosition', row: p1 - 1, col: p2 - 1 };
     case 'J': return { type: 'eraseInDisplay', mode: (paramList[0] || 0) as 0 | 1 | 2 | 3 };
     case 'K': return { type: 'eraseInLine', mode: (paramList[0] || 0) as 0 | 1 | 2 };
+    // Cell-level inserts / deletes / erases at the cursor. These are
+    // emitted by readline-style editors (zsh autosuggest, bash
+    // history-substring search) when they patch a partially-typed
+    // command in-place. Without them, the line keeps the original
+    // characters past where the edit "should" have shifted them.
+    case '@': return { type: 'insertChars', count: p1 };
+    case 'P': return { type: 'deleteChars', count: p1 };
+    case 'X': return { type: 'eraseChars', count: p1 };
+    // Line-level inserts / deletes — much rarer in interactive shells
+    // but trivially in scope; full-screen apps (less, vim's split
+    // mode, …) emit them.
+    case 'L': return { type: 'insertLines', count: p1 };
+    case 'M': return { type: 'deleteLines', count: p1 };
     case 'S': return { type: 'scrollUp', count: p1 };
     case 'T': return { type: 'scrollDown', count: p1 };
     case 'm': return { type: 'sgr', params: paramList.length ? paramList : [0] };

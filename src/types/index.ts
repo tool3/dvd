@@ -125,6 +125,16 @@ export type VTerminalCommand =
   | { type: 'restoreCursor' }
   | { type: 'eraseInDisplay'; mode: 0 | 1 | 2 | 3 }
   | { type: 'eraseInLine'; mode: 0 | 1 | 2 }
+  // CSI Ps @  — Insert N blank cells at cursor (rest of row shifts right)
+  | { type: 'insertChars'; count: number }
+  // CSI Ps P  — Delete N cells at cursor (rest of row shifts left, end blanks)
+  | { type: 'deleteChars'; count: number }
+  // CSI Ps X  — Erase N cells at cursor (overwrite with blanks; no shift)
+  | { type: 'eraseChars'; count: number }
+  // CSI Ps L  — Insert N blank lines above cursor (rest of screen shifts down)
+  | { type: 'insertLines'; count: number }
+  // CSI Ps M  — Delete N lines at cursor (rest shifts up, blank lines at bottom)
+  | { type: 'deleteLines'; count: number }
   | { type: 'sgr'; params: number[] }
   | { type: 'scrollUp'; count: number }
   | { type: 'scrollDown'; count: number }
