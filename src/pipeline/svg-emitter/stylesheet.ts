@@ -51,6 +51,7 @@ export const generateStylesheet = (
   font-size: ${fontSize}px;
   dominant-baseline: text-before-edge;
   text-rendering: geometricPrecision;
+  font-variant-emoji: text;
   white-space: pre;${letterSpacingStyle}
 }`);
 

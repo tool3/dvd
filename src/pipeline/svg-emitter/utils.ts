@@ -27,6 +27,45 @@ export const escapeXml = (text: string): string =>
     .replace(/'/g, '&apos;');
 
 
+//#region Emoji-Presentation Suppression
+
+// Dual-presentation codepoints (text-default per Unicode, but display as color
+// emoji on iOS Safari unless explicitly overridden). Apple Color Emoji has a
+// different em-box / baseline than monospace fonts, so when these glyphs swap
+// frame-to-frame the surrounding lines visibly jitter. Appending U+FE0E
+// (VARIATION SELECTOR-15) forces text presentation everywhere, even on
+// browsers that don't yet support `font-variant-emoji: text`.
+//
+// We only wrap codepoints that match `\p{Emoji}` AND NOT `\p{Emoji_Presentation}`
+// — i.e. emoji-capable but text-default. Pure emoji-default chars (🎉, ✅, …)
+// stay untouched, since forcing text presentation on those risks `.notdef`
+// tofu when the active font has no text glyph.
+const VS_15 = String.fromCodePoint(0xFE0E);
+const VS_16 = String.fromCodePoint(0xFE0F);
+const ANY_NON_ASCII_RE = /[^\x00-\x7F]/;
+const DUAL_PRESENTATION_RE = /\p{Emoji}/u;
+const EMOJI_DEFAULT_RE = /\p{Emoji_Presentation}/u;
+
+export const forceTextPresentation = (text: string): string => {
+  if (!ANY_NON_ASCII_RE.test(text)) return text;
+
+  let result = '';
+  const chars = Array.from(text);
+  for (let i = 0; i < chars.length; i++) {
+    const ch = chars[i];
+    result += ch;
+    const cp = ch.codePointAt(0)!;
+    if (cp <= 0x7F) continue;
+    const next = chars[i + 1];
+    if (next === VS_15 || next === VS_16) continue;
+    if (EMOJI_DEFAULT_RE.test(ch)) continue;
+    if (!DUAL_PRESENTATION_RE.test(ch)) continue;
+    result += VS_15;
+  }
+  return result;
+};
+
+
 //#region Color Utilities
 
 export const isTruecolor = (color: string | null): boolean =>

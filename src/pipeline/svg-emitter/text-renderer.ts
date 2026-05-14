@@ -1,7 +1,7 @@
 //#region Imports
 
 import type { SpanRow, Theme } from '../../types';
-import { r, rx, fmt, escapeXml, isTruecolor, getTextOffsetY, getCursorYOffset } from './utils';
+import { r, rx, fmt, escapeXml, forceTextPresentation, isTruecolor, getTextOffsetY, getCursorYOffset } from './utils';
 import { styleToClasses, getColorClass, getColorFromClass } from './stylesheet';
 import { containsCustomGlyphs, renderCustomGlyph, type GlyphContext } from '../customGlyphs';
 
@@ -91,14 +91,14 @@ export const renderTextLayer = (rows: SpanRow[], config: TextRendererConfig): st
           } else {
             // Use textY for regular characters
             parts.push(
-              `<text class="${classes.join(' ')}" x="${fmt(charX)}" y="${fmt(textY)}"${fillAttr}>${escapeXml(char)}</text>`
+              `<text class="${classes.join(' ')}" x="${fmt(charX)}" y="${fmt(textY)}"${fillAttr}>${escapeXml(forceTextPresentation(char))}</text>`
             );
           }
         });
       } else {
         // Use textY for regular text
         parts.push(
-          `<text class="${classes.join(' ')}" x="${fmt(baseX)}" y="${fmt(textY)}"${fillAttr}>${escapeXml(rawText)}</text>`
+          `<text class="${classes.join(' ')}" x="${fmt(baseX)}" y="${fmt(textY)}"${fillAttr}>${escapeXml(forceTextPresentation(rawText))}</text>`
         );
       }
     });
@@ -153,7 +153,7 @@ export const renderSimpleTextLayer = (
       if (!rawText) return;
 
       parts.push(
-        `<text class="${classes.join(' ')}" x="${fmt(x)}" y="${fmt(y)}"${fillAttr}>${escapeXml(rawText)}</text>`
+        `<text class="${classes.join(' ')}" x="${fmt(x)}" y="${fmt(y)}"${fillAttr}>${escapeXml(forceTextPresentation(rawText))}</text>`
       );
     });
   });
