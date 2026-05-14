@@ -1,12 +1,23 @@
 //#region Fullwidth Ranges
 
+// Emoji + East-Asian-Wide characters that occupy two terminal cells by
+// default. Restricted to glyphs with Unicode property
+// `Emoji_Presentation=Yes` plus the structural EAW ranges (CJK, Hangul,
+// etc.). Characters that default to TEXT presentation per Unicode
+// (e.g. ✳ U+2733, ✔ U+2714, ⏺ U+23FA, ➜ would-be) MUST NOT live here:
+// modern terminals render them in a single cell unless they're followed
+// by VS-16 (U+FE0F), and adding them produces off-by-one cursor drift —
+// most visibly in Claude Code's spinner animation, where U+2733 was
+// shifting subsequent paints by one column and corrupting the
+// "Propagating…" label.
 const FULLWIDTH_RANGES: [number, number][] = [
   [0x1100, 0x115f], // Hangul Jamo
   [0x231a, 0x231b], // Watch, Hourglass
-  [0x2329, 0x232a], // Angle brackets
-  [0x23e9, 0x23f3], // Various symbols
-  [0x23f8, 0x23fa], // Playback symbols
-  [0x25fd, 0x25fe], // Squares
+  [0x2329, 0x232a], // Angle brackets (EAW=Wide)
+  [0x23e9, 0x23ec], // Fast forward / rewind / etc.
+  [0x23f0, 0x23f0], // Alarm clock
+  [0x23f3, 0x23f3], // Hourglass with flowing sand
+  [0x25fd, 0x25fe], // Medium small squares
   [0x2614, 0x2615], // Umbrella, Hot beverage
   [0x2648, 0x2653], // Zodiac
   [0x267f, 0x267f], // Wheelchair
@@ -22,33 +33,19 @@ const FULLWIDTH_RANGES: [number, number][] = [
   [0x26f5, 0x26f5], // Sailboat
   [0x26fa, 0x26fa], // Tent
   [0x26fd, 0x26fd], // Fuel pump
-  [0x2702, 0x2702], // Scissors
-  [0x2705, 0x2705], // Check mark
-  [0x2708, 0x270d], // Various symbols
-  [0x270f, 0x270f], // Pencil
-  [0x2712, 0x2712], // Black nib
-  [0x2714, 0x2714], // Check mark
-  [0x2716, 0x2716], // X mark
-  [0x271d, 0x271d], // Latin cross
-  [0x2721, 0x2721], // Star of David
+  [0x2705, 0x2705], // White heavy check mark (Emoji_Presentation=Yes)
+  [0x270a, 0x270b], // Raised fist, raised hand
   [0x2728, 0x2728], // Sparkles
-  [0x2733, 0x2734], // Eight spoked asterisk
-  [0x2744, 0x2744], // Snowflake
-  [0x2747, 0x2747], // Sparkle
   [0x274c, 0x274c], // Cross mark
-  [0x274e, 0x274e], // Cross mark
-  [0x2753, 0x2755], // Question marks
-  [0x2757, 0x2757], // Exclamation
-  [0x2763, 0x2764], // Heart exclamation, heart
-  [0x2795, 0x2797], // Plus, minus, division
-  [0x27a1, 0x27a1], // Right arrow
+  [0x274e, 0x274e], // Negative squared cross mark
+  [0x2753, 0x2755], // Question / exclamation marks (emoji)
+  [0x2757, 0x2757], // Heavy exclamation mark
+  [0x2795, 0x2797], // Heavy plus / minus / division
   [0x27b0, 0x27b0], // Curly loop
   [0x27bf, 0x27bf], // Double curly loop
-  [0x2934, 0x2935], // Arrows
-  [0x2b05, 0x2b07], // Arrows
-  [0x2b1b, 0x2b1c], // Squares
-  [0x2b50, 0x2b50], // Star
-  [0x2b55, 0x2b55], // Circle
+  [0x2b1b, 0x2b1c], // Large squares
+  [0x2b50, 0x2b50], // White medium star
+  [0x2b55, 0x2b55], // Heavy large circle
   [0x2e80, 0x2e99], // CJK Radicals
   [0x2e9b, 0x2ef3], // CJK Radicals
   [0x2f00, 0x2fd5], // Kangxi Radicals
@@ -187,6 +184,15 @@ export const getCharWidth = (char: string): 0 | 1 | 2 => {
   }
 
   if (inRange(codePoint, FULLWIDTH_RANGES)) {
+    return 2;
+  }
+
+  // Default-text-presentation glyphs (✔ U+2714, ❤ U+2764, ✳ U+2733, …)
+  // are width 1 on their own — but force emoji presentation, and thus
+  // double width, when followed by VS-16 (U+FE0F). The grapheme-
+  // clustering pass in parseInput already glues the variation selector
+  // into the same `char` string, so we just probe it for FE0F.
+  if (char.length > 1 && char.includes('️')) {
     return 2;
   }
 

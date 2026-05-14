@@ -158,9 +158,12 @@ export const coalesce = (grid: GridState, theme: Theme): SpanRow[] => {
     const spans: Span[] = [];
     for (let i = 0; i <= lastVisibleIndex; i++) {
       if (allSpans[i].text.length > 0) {
-        // For the last visible span, always trim trailing whitespace
-        // This matches real terminal behavior where backgrounds don't extend beyond content
-        if (i === lastVisibleIndex) {
+        // For the last visible span, trim trailing whitespace IFF it has no
+        // background — a whitespace span with bg is intentional (e.g., the
+        // inverse-rendered space Claude Code paints as its own cursor block
+        // when the real cursor is hidden). Trimming would drop it entirely
+        // and the cursor would vanish from the SVG.
+        if (i === lastVisibleIndex && !allSpans[i].style.bg) {
           const trimmed = allSpans[i].text.trimEnd();
           if (trimmed.length > 0) {
             spans.push({

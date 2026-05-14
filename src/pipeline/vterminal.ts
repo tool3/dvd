@@ -684,13 +684,30 @@ const parseEscapeSequence = (input: string, start: number): ParseResult | null =
 };
 
 const parseCSI = (input: string, start: number): ParseResult | null => {
+  // A CSI sequence may begin with a single "private indicator" byte in
+  // the range 0x3C..0x3F (`< = > ?`). Standard parameter bytes are
+  // 0x30..0x3B (digits, `:`, `;`). The previous parser lumped them
+  // together which made `\x1b[<u` (kitty keyboard-protocol pop) collide
+  // with `\x1b[u` (restoreCursor) — Claude Code emits the former on
+  // exit, and the spurious restoreCursor jumped the cursor back to its
+  // saved (top-of-screen) position, so the subsequent "Resume this
+  // session…" text overwrote the rendered Claude UI.
+  let privateIndicator = '';
   let params = '';
   let intermediate = '';
   let i = start;
 
+  if (i < input.length) {
+    const code = input.charCodeAt(i);
+    if (code >= 0x3c && code <= 0x3f) {
+      privateIndicator = input[i];
+      i++;
+    }
+  }
+
   while (i < input.length) {
     const code = input.charCodeAt(i);
-    if (code >= 0x30 && code <= 0x3f) { params += input[i]; i++; }
+    if (code >= 0x30 && code <= 0x3b) { params += input[i]; i++; }
     else break;
   }
 
@@ -705,13 +722,26 @@ const parseCSI = (input: string, start: number): ParseResult | null => {
   const finalCode = input.charCodeAt(i);
   if (finalCode < 0x40 || finalCode > 0x7e) return null;
 
-  return { command: interpretCSI(params, intermediate, input[i]), endIndex: i + 1 };
+  return { command: interpretCSI(privateIndicator, params, intermediate, input[i]), endIndex: i + 1 };
 };
 
-const interpretCSI = (params: string, _intermediate: string, final: string): VTerminalCommand => {
-  const isPrivate = params.startsWith('?');
-  const cleanParams = isPrivate ? params.slice(1) : params;
-  const paramList = cleanParams ? cleanParams.split(';').map((p) => (p === '' ? 0 : parseInt(p, 10))) : [];
+const interpretCSI = (
+  privateIndicator: string,
+  params: string,
+  _intermediate: string,
+  final: string,
+): VTerminalCommand => {
+  const isPrivate = privateIndicator === '?';
+  // Sequences with non-`?` private indicators (`<`, `=`, `>`) are
+  // terminal-specific protocols (xterm modifyOtherKeys, kitty keyboard
+  // protocol, etc.) that don't affect the rendered terminal grid.
+  // Treat them as noops so they don't accidentally collide with the
+  // standard CSI letters they share — e.g. `\x1b[<u` must not be
+  // mistaken for restoreCursor.
+  if (privateIndicator && !isPrivate) {
+    return { type: 'noop' };
+  }
+  const paramList = params ? params.split(';').map((p) => (p === '' ? 0 : parseInt(p, 10))) : [];
   const p1 = paramList[0] || 1;
   const p2 = paramList[1] || 1;
 
