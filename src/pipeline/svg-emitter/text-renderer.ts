@@ -18,8 +18,31 @@ export interface TextRendererConfig {
 }
 
 
+//#region Span → tspan helpers
+
+// Build the per-span class string for a <tspan> child. The parent <text> owns
+// the `.text` class (which carries font-family / font-size / baseline), so we
+// strip it here to keep the output compact.
+const buildTspanClassAttr = (classes: string[]): string => {
+  const filtered = classes.filter((c) => c !== 'text');
+  return filtered.length > 0 ? ` class="${filtered.join(' ')}"` : '';
+};
+
+
 //#region Text Layer Rendering
 
+// Single <text> per row, with one <tspan> per styled span. Doing it this way
+// makes the entire row share one `dominant-baseline: text-before-edge`
+// computation — otherwise mobile browsers (notably iOS Safari) measure the
+// glyph-union bbox separately for each `<text>` element, so bold spans sit at
+// a slightly different visual baseline than the regular spans on the same row
+// and the line appears to "jump" during animation. Desktop browsers hide this;
+// mobile exposes it.
+//
+// Rows that contain custom glyphs (box-drawing, braille, media controls, …)
+// emit the glyphs as sibling SVG shapes positioned absolutely. Plain-text
+// portions of those rows still go inside the shared <text> so they retain the
+// row-wide baseline.
 export const renderTextLayer = (rows: SpanRow[], config: TextRendererConfig): string => {
   const { charWidth, lineHeight, padding, contentStartY, fontSize, theme } = config;
 
@@ -35,14 +58,19 @@ export const renderTextLayer = (rows: SpanRow[], config: TextRendererConfig): st
   const textOffsetY = getTextOffsetY(lineHeight, fontSize);
 
   rows.forEach((row) => {
+    if (row.length === 0) return;
+
+    // All spans in a row share the same row index → same Y.
+    const rowIndex = row[0].row;
+    const cellY = contentStartY + rowIndex * lineHeight;
+    const cursorY = r(cellY + cursorYOffset);
+    const textY = r(cursorY + textOffsetY);
+
+    const tspans: string[] = [];
+    const glyphSvgs: string[] = [];
+
     row.forEach((span) => {
       const baseX = rx(padding + span.col * charWidth);
-      // Cell Y is top of line cell
-      const cellY = contentStartY + span.row * lineHeight;
-      // Cursor Y position (may extend above cell)
-      const cursorY = r(cellY + cursorYOffset);
-      // Text Y = cursor Y + text offset within cursor
-      const textY = r(cursorY + textOffsetY);
       const classes = ['text', ...styleToClasses(span.style)];
 
       let fillAttr = '';
@@ -69,6 +97,8 @@ export const renderTextLayer = (rows: SpanRow[], config: TextRendererConfig): st
       const rawText = span.style.bg ? span.text : span.text.trimEnd();
       if (!rawText) return;
 
+      const classAttr = buildTspanClassAttr(classes);
+
       if (containsCustomGlyphs(rawText)) {
         [...rawText].forEach((char, charOffset) => {
           // Use absolute column position to ensure consistent alignment across spans
@@ -87,21 +117,31 @@ export const renderTextLayer = (rows: SpanRow[], config: TextRendererConfig): st
           };
           const result = renderCustomGlyph(char, glyphCtx);
           if (result.handled) {
-            parts.push(result.svg);
+            glyphSvgs.push(result.svg);
           } else {
-            // Use textY for regular characters
-            parts.push(
-              `<text class="${classes.join(' ')}" x="${fmt(charX)}" y="${fmt(textY)}"${fillAttr}>${escapeXml(forceTextPresentation(char))}</text>`
+            tspans.push(
+              `<tspan x="${fmt(charX)}"${classAttr}${fillAttr}>${escapeXml(forceTextPresentation(char))}</tspan>`
             );
           }
         });
       } else {
-        // Use textY for regular text
-        parts.push(
-          `<text class="${classes.join(' ')}" x="${fmt(baseX)}" y="${fmt(textY)}"${fillAttr}>${escapeXml(forceTextPresentation(rawText))}</text>`
+        tspans.push(
+          `<tspan x="${fmt(baseX)}"${classAttr}${fillAttr}>${escapeXml(forceTextPresentation(rawText))}</tspan>`
         );
       }
     });
+
+    if (tspans.length > 0) {
+      parts.push(
+        `<text class="text" y="${fmt(textY)}">${tspans.join('')}</text>`
+      );
+    }
+
+    // Custom glyphs are absolutely positioned siblings — they don't share the
+    // row's baseline, they fill their cell box on their own.
+    for (const glyphSvg of glyphSvgs) {
+      parts.push(glyphSvg);
+    }
   });
 
   parts.push('</g>');
@@ -126,14 +166,17 @@ export const renderSimpleTextLayer = (
   const textOffsetY = getTextOffsetY(lineHeight, fontSize);
 
   rows.forEach((row) => {
+    if (row.length === 0) return;
+
+    const rowIndex = row[0].row;
+    const cellY = contentStartY + rowIndex * lineHeight;
+    const cursorY = cellY + cursorYOffset;
+    const y = r(cursorY + textOffsetY);
+
+    const tspans: string[] = [];
+
     row.forEach((span) => {
       const x = rx(padding + span.col * charWidth);
-      // Cell Y is top of line cell
-      const cellY = contentStartY + span.row * lineHeight;
-      // Cursor Y position (may extend above cell)
-      const cursorY = cellY + cursorYOffset;
-      // Text Y = cursor Y + text offset within cursor
-      const y = r(cursorY + textOffsetY);
       const classes = ['text', ...styleToClasses(span.style)];
       let fillAttr = '';
 
@@ -152,13 +195,17 @@ export const renderSimpleTextLayer = (
       const rawText = span.style.bg ? span.text : span.text.trimEnd();
       if (!rawText) return;
 
-      parts.push(
-        `<text class="${classes.join(' ')}" x="${fmt(x)}" y="${fmt(y)}"${fillAttr}>${escapeXml(forceTextPresentation(rawText))}</text>`
+      const classAttr = buildTspanClassAttr(classes);
+      tspans.push(
+        `<tspan x="${fmt(x)}"${classAttr}${fillAttr}>${escapeXml(forceTextPresentation(rawText))}</tspan>`
       );
     });
+
+    if (tspans.length > 0) {
+      parts.push(`<text class="text" y="${fmt(y)}">${tspans.join('')}</text>`);
+    }
   });
 
   parts.push('</g>');
   return parts.join('\n');
 };
-
