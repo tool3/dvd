@@ -458,12 +458,12 @@ export const emitFilmstrip = (
   }
 
   // Font styling (matching master's emit() for consistent rendering)
-  const defaultFonts = "'SF Mono','Monaco','Menlo','Consolas',monospace";
+  const defaultFonts = "ui-monospace,SFMono-Regular,monospace";
   const fontFamily = options.embedFont && options.fontData
     ? "'DVDMono',monospace"
     : options.fontFamily ? `'${options.fontFamily}',monospace` : defaultFonts;
   const letterSpacingStyle = options.letterSpacing ? `letter-spacing:${options.letterSpacing}px;` : '';
-  parts.push(`.text{font-family:${fontFamily};font-size:${fontSize}px;dominant-baseline:text-before-edge;text-rendering:geometricPrecision;white-space:pre;${letterSpacingStyle}}`);
+  parts.push(`.text{font-family:${fontFamily};font-size:${fontSize}px;font-synthesis-weight:auto;dominant-baseline:text-before-edge;text-rendering:geometricPrecision;font-variant-emoji:text;white-space:pre;${letterSpacingStyle}}`);
 
   // Color classes for foreground (matching master's stylesheet)
   parts.push(`.fg{fill:${theme.foreground}}`);
@@ -652,7 +652,7 @@ export const emitFilmstrip = (
   // Watermark (rendered inside the terminal window in the reserved bottom strip)
   if (watermarkContent) {
     const wmFontSize = Math.round(fontSize * 0.75);
-    const wmDefaultFonts = "'SF Mono','Monaco','Menlo','Ubuntu Mono','Consolas','Courier New',monospace";
+    const wmDefaultFonts = "ui-monospace,SFMono-Regular,monospace";
     const wmFontFamily = options.fontFamily ? `'${options.fontFamily}',monospace` : wmDefaultFonts;
     const watermarkX = width - padding;
     const watermarkY = rawHeight + padding / 2;

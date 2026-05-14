@@ -36,7 +36,16 @@ export const generateStylesheet = (
 }`);
   }
 
-  const defaultFonts = "'SF Mono', 'Monaco', 'Menlo', 'Consolas', monospace";
+  // `ui-monospace` resolves to the OS's preferred mono family on every modern
+  // browser, and *stays inside that family* for the bold weight — so regular
+  // and bold spans on the same row share metrics. The legacy cascade
+  // (`'SF Mono', 'Monaco', 'Menlo', 'Consolas', monospace`) caused iOS Safari
+  // to pick SF Mono for regular but Menlo for bold (SF Mono Bold isn't always
+  // exposed by that CSS name on iOS); the two have different ascender heights
+  // so bold spans drifted vertically against their regular neighbours.
+  // `SFMono-Regular` is the PostScript fallback for older Safari that doesn't
+  // grok `ui-monospace`.
+  const defaultFonts = "ui-monospace, SFMono-Regular, monospace";
   const fontFamily =
     options.embedFont && options.fontData
       ? "'DVDMono', monospace"
@@ -49,6 +58,7 @@ export const generateStylesheet = (
   lines.push(`.text {
   font-family: ${fontFamily};
   font-size: ${fontSize}px;
+  font-synthesis-weight: auto;
   dominant-baseline: text-before-edge;
   text-rendering: geometricPrecision;
   font-variant-emoji: text;

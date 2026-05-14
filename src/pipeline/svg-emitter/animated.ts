@@ -247,7 +247,7 @@ export const emitAnimated = (
 
   // Render watermark inside the terminal window (in the reserved bottom strip)
   if (watermarkContent) {
-    const defaultFonts = "'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Courier New', monospace";
+    const defaultFonts = "ui-monospace, SFMono-Regular, monospace";
     const fontFamily = options.fontFamily ? `'${options.fontFamily}', monospace` : defaultFonts;
     const watermarkX = width - padding;
     const watermarkY = rawHeight + padding / 2;
@@ -376,7 +376,7 @@ const generateFrameContent = (
       );
       // Render inverted character on top of block cursor (same position as text layer)
       if (charUnderCursor && charUnderCursor.trim()) {
-        const defaultFonts = "'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Courier New', monospace";
+        const defaultFonts = "ui-monospace, SFMono-Regular, monospace";
         const font = config.fontFamily ? `'${config.fontFamily}', monospace` : defaultFonts;
         parts.push(
           `<text x="${fmt(cursorX)}" y="${fmt(textY)}" fill="${theme.background}" ` +

@@ -71,7 +71,7 @@ export const renderCursor = (config: CursorConfig): string => {
     );
     // Render inverted character on top of block cursor (same position as text layer)
     if (charUnderCursor && charUnderCursor.trim() && backgroundColor) {
-      const defaultFonts = "'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Courier New', monospace";
+      const defaultFonts = "ui-monospace, SFMono-Regular, monospace";
       const font = fontFamily ? `'${fontFamily}', monospace` : defaultFonts;
       parts.push(
         `<text x="${fmt(cursorX)}" y="${fmt(textY)}" fill="${backgroundColor}" ` +

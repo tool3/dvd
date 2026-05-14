@@ -304,7 +304,7 @@ export const emit = (
 
   // Render watermark inside the terminal window (in the reserved bottom strip)
   if (watermarkContent) {
-    const defaultFonts = "'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Courier New', monospace";
+    const defaultFonts = "ui-monospace, SFMono-Regular, monospace";
     const fontFamily = options.fontFamily ? `'${options.fontFamily}', monospace` : defaultFonts;
     const watermarkX = width - padding;
     const watermarkY = rawHeight + padding / 2;
