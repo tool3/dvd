@@ -75,13 +75,21 @@ const blendColors = (fg: string, bg: string, opacity: number): string => {
 export const isBoxDrawing = (codePoint: number): boolean =>
   codePoint >= 0x2500 && codePoint <= 0x257f;
 
+// Media-control buttons (U+23F4..U+23FA). These are text-default per Unicode
+// but most platforms (notably iOS Safari) substitute Apple Color Emoji because
+// no monospace font in the cascade has a text glyph for them. We render them
+// as inline SVG shapes so desktop and mobile look identical.
+const isMediaControl = (codePoint: number): boolean =>
+  codePoint >= 0x23f4 && codePoint <= 0x23fa;
+
 // All custom glyphs including block elements, braille, etc.
 export const isCustomGlyph = (codePoint: number): boolean =>
   (codePoint >= 0x2500 && codePoint <= 0x257f) ||
   (codePoint >= 0x2580 && codePoint <= 0x259f) ||
   codePoint === 0x25a0 ||
   (codePoint >= 0x2800 && codePoint <= 0x28ff) ||
-  (codePoint >= 0x1fb00 && codePoint <= 0x1fbff);
+  (codePoint >= 0x1fb00 && codePoint <= 0x1fbff) ||
+  isMediaControl(codePoint);
 
 // Check if text contains box-drawing characters (need geometric rendering)
 export const containsBoxDrawing = (text: string): boolean => {
@@ -148,6 +156,8 @@ export const renderCustomGlyph = (char: string, ctx: GlyphContext): GlyphResult 
     result = renderBraille(codePoint, ctx);
   } else if (codePoint >= 0x1fb00 && codePoint <= 0x1fbff) {
     result = renderLegacyComputing(codePoint, ctx);
+  } else if (isMediaControl(codePoint)) {
+    result = renderMediaControl(codePoint, ctx);
   } else {
     return { svg: '', handled: false };
   }
@@ -657,5 +667,76 @@ const renderLegacyComputing = (codePoint: number, ctx: GlyphContext): GlyphResul
     svg: `<rect x="${x}" y="${y}" width="${cellWidth}" height="${cellHeight}" fill="${color}" fill-opacity="0.5"/>`,
     handled: true,
   };
+};
+
+
+//#region Media Controls (U+23F4..U+23FA)
+
+// Renders the seven media-control glyphs as inline SVG shapes that approximate
+// what monospace text fonts (SF Mono, Menlo, DejaVu Sans Mono, etc.) draw for
+// the text-presentation forms of these codepoints. Icon side ≈ 70% of cellWidth,
+// centered in the cell — matches the visual weight of a glyph in the surrounding
+// text.
+const renderMediaControl = (codePoint: number, ctx: GlyphContext): GlyphResult => {
+  const { cellWidth, cellHeight, x, y, color } = ctx;
+  const size = cellWidth * 0.7;
+  const cx = x + cellWidth / 2;
+  const cy = y + cellHeight / 2;
+  const half = size / 2;
+
+  switch (codePoint) {
+    case 0x23fa: {
+      // ⏺ RECORD — filled circle
+      const radius = size / 2;
+      return {
+        svg: `<circle cx="${r(cx)}" cy="${r(cy)}" r="${r(radius)}" fill="${color}"/>`,
+        handled: true,
+      };
+    }
+    case 0x23f9: {
+      // ⏹ STOP — filled square
+      return {
+        svg: `<rect x="${r(cx - half)}" y="${r(cy - half)}" width="${r(size)}" height="${r(size)}" fill="${color}" shape-rendering="crispEdges"/>`,
+        handled: true,
+      };
+    }
+    case 0x23f8: {
+      // ⏸ PAUSE — two vertical bars
+      const barWidth = size * 0.32;
+      const gap = size * 0.18;
+      const barHeight = size;
+      const leftX = cx - gap / 2 - barWidth;
+      const rightX = cx + gap / 2;
+      const barY = cy - barHeight / 2;
+      return {
+        svg:
+          `<rect x="${r(leftX)}" y="${r(barY)}" width="${r(barWidth)}" height="${r(barHeight)}" fill="${color}" shape-rendering="crispEdges"/>` +
+          `<rect x="${r(rightX)}" y="${r(barY)}" width="${r(barWidth)}" height="${r(barHeight)}" fill="${color}" shape-rendering="crispEdges"/>`,
+        handled: true,
+      };
+    }
+    case 0x23f5: {
+      // ⏵ RIGHT-POINTING TRIANGLE
+      const pts = `${r(cx - half)},${r(cy - half)} ${r(cx - half)},${r(cy + half)} ${r(cx + half)},${r(cy)}`;
+      return { svg: `<polygon points="${pts}" fill="${color}"/>`, handled: true };
+    }
+    case 0x23f4: {
+      // ⏴ LEFT-POINTING TRIANGLE
+      const pts = `${r(cx + half)},${r(cy - half)} ${r(cx + half)},${r(cy + half)} ${r(cx - half)},${r(cy)}`;
+      return { svg: `<polygon points="${pts}" fill="${color}"/>`, handled: true };
+    }
+    case 0x23f6: {
+      // ⏶ UP-POINTING TRIANGLE
+      const pts = `${r(cx)},${r(cy - half)} ${r(cx - half)},${r(cy + half)} ${r(cx + half)},${r(cy + half)}`;
+      return { svg: `<polygon points="${pts}" fill="${color}"/>`, handled: true };
+    }
+    case 0x23f7: {
+      // ⏷ DOWN-POINTING TRIANGLE
+      const pts = `${r(cx - half)},${r(cy - half)} ${r(cx + half)},${r(cy - half)} ${r(cx)},${r(cy + half)}`;
+      return { svg: `<polygon points="${pts}" fill="${color}"/>`, handled: true };
+    }
+  }
+
+  return { svg: '', handled: false };
 };
 
