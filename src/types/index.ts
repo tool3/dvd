@@ -90,6 +90,10 @@ export interface SavedCursorState {
   attributes: CellAttributes;
 }
 
+export type Charset = 'ascii' | 'dec';
+
+export type CharsetSlot = 'g0' | 'g1';
+
 export interface GridState {
   cells: Cell[][];
   cursor: CursorPosition;
@@ -101,6 +105,9 @@ export interface GridState {
   autoWrap: boolean;
   wrapPending: boolean;
   cursorVisible: boolean;
+  g0Charset: Charset;
+  g1Charset: Charset;
+  activeCharset: CharsetSlot;
 }
 
 
@@ -140,6 +147,10 @@ export type VTerminalCommand =
   | { type: 'scrollDown'; count: number }
   | { type: 'setAutoWrap'; enabled: boolean }
   | { type: 'setCursorVisible'; visible: boolean }
+  // ESC ( c / ESC ) c — designate charset for G0 / G1 slot (e.g. ESC ( 0 = DEC line drawing)
+  | { type: 'designateCharset'; slot: CharsetSlot; charset: Charset }
+  // SI (0x0f) / SO (0x0e) — invoke G0 or G1 into the GL position
+  | { type: 'invokeCharset'; slot: CharsetSlot }
   | { type: 'resetTerminal' }
   | { type: 'noop' };
 

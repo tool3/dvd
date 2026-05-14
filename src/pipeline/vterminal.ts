@@ -3,6 +3,8 @@ import type {
   GridState,
   CellAttributes,
   VTerminalCommand,
+  Charset,
+  CharsetSlot,
 } from '../types';
 import {
   DEFAULT_CELL,
@@ -10,6 +12,30 @@ import {
   createCell,
 } from '../types';
 import { getCharWidth } from '../utils/wcwidth';
+
+// DEC Special Graphics Character Set (VT100 line drawing).
+// Selected via `ESC ( 0` (G0) or `ESC ) 0` (G1). When the corresponding slot is
+// invoked into GL, ASCII chars in the range 0x5F..0x7E are remapped per VT100.
+const DEC_SPECIAL_GRAPHICS: Record<string, string> = {
+  '_': ' ', '`': '◆', 'a': '▒', 'b': '␉', 'c': '␌',
+  'd': '␍', 'e': '␊', 'f': '°', 'g': '±', 'h': '␤',
+  'i': '␋', 'j': '┘', 'k': '┐', 'l': '┌', 'm': '└',
+  'n': '┼', 'o': '⎺', 'p': '⎻', 'q': '─', 'r': '⎼',
+  's': '⎽', 't': '├', 'u': '┤', 'v': '┴', 'w': '┬',
+  'x': '│', 'y': '≤', 'z': '≥', '{': 'π', '|': '≠',
+  '}': '£', '~': '·',
+};
+
+const charsetCodeToCharset = (code: string): Charset =>
+  code === '0' ? 'dec' : 'ascii';
+
+const translateForCharset = (char: string, charset: Charset): string => {
+  if (charset !== 'dec') return char;
+  return DEC_SPECIAL_GRAPHICS[char] ?? char;
+};
+
+const activeCharsetOf = (state: GridState): Charset =>
+  state.activeCharset === 'g1' ? state.g1Charset : state.g0Charset;
 
 const MAX_SCROLLBACK = 1000;
 const TAB_WIDTH = 8;
@@ -29,6 +55,9 @@ export const createGridState = (width: number, height: number): GridState => {
     autoWrap: true,
     wrapPending: false,
     cursorVisible: true,
+    g0Charset: 'ascii',
+    g1Charset: 'ascii',
+    activeCharset: 'g0',
   };
 };
 
@@ -93,6 +122,12 @@ export const applyCommand = (state: GridState, command: VTerminalCommand): GridS
       return { ...state, autoWrap: command.enabled };
     case 'setCursorVisible':
       return { ...state, cursorVisible: command.visible };
+    case 'designateCharset':
+      return command.slot === 'g0'
+        ? { ...state, g0Charset: command.charset }
+        : { ...state, g1Charset: command.charset };
+    case 'invokeCharset':
+      return { ...state, activeCharset: command.slot };
     case 'resetTerminal':
       // ESC c (RIS) — Reset to Initial State: clear screen, reset cursor, reset attributes
       return createGridState(state.width, state.height);
@@ -128,6 +163,8 @@ const clamp = (value: number, min: number, max: number): number =>
 //#region Print Handler
 
 const handlePrint = (state: GridState, char: string, width: 1 | 2): GridState => {
+  const translatedChar = width === 1 ? translateForCharset(char, activeCharsetOf(state)) : char;
+
   const baseState = state.wrapPending && state.autoWrap
     ? handleNewline({ ...state, wrapPending: false })
     : state;
@@ -151,7 +188,7 @@ const handlePrint = (state: GridState, char: string, width: 1 | 2): GridState =>
   const row = stateAfterWideCharWrap.cursor.row;
   const col = stateAfterWideCharWrap.cursor.col;
 
-  newCells[row][col] = createCell(char, width, attributes);
+  newCells[row][col] = createCell(translatedChar, width, attributes);
 
   // For wide characters, write spacer in next cell
   if (width === 2 && col + 1 < termWidth) {
@@ -535,14 +572,17 @@ const handleSGR = (state: GridState, params: number[]): GridState => {
 
 //#region ANSI Parser
 
-const CONTROL_CHARS: Record<string, VTerminalCommand['type']> = {
-  '\x07': 'bell',
-  '\x08': 'backspace',
-  '\x09': 'tab',
-  '\x0a': 'newline',
-  '\x0b': 'newline',
-  '\x0c': 'newline',
-  '\x0d': 'carriageReturn',
+const CONTROL_CHARS: Record<string, VTerminalCommand> = {
+  '\x07': { type: 'bell' },
+  '\x08': { type: 'backspace' },
+  '\x09': { type: 'tab' },
+  '\x0a': { type: 'newline' },
+  '\x0b': { type: 'newline' },
+  '\x0c': { type: 'newline' },
+  '\x0d': { type: 'carriageReturn' },
+  // SO (Shift Out) — invoke G1 into GL; SI (Shift In) — invoke G0 into GL
+  '\x0e': { type: 'invokeCharset', slot: 'g1' },
+  '\x0f': { type: 'invokeCharset', slot: 'g0' },
 };
 
 export const parseInput = (input: string): VTerminalCommand[] => {
@@ -562,8 +602,8 @@ export const parseInput = (input: string): VTerminalCommand[] => {
     }
 
     if (code < 0x20) {
-      const cmdType = CONTROL_CHARS[input[i]];
-      if (cmdType) commands.push({ type: cmdType } as VTerminalCommand);
+      const cmd = CONTROL_CHARS[input[i]];
+      if (cmd) commands.push(cmd);
       i++;
       continue;
     }
@@ -660,14 +700,20 @@ const parseEscapeSequence = (input: string, start: number): ParseResult | null =
   if (next === '=') return { command: { type: 'noop' }, endIndex: start + 2 }; // Application Keypad Mode
   if (next === '>') return { command: { type: 'noop' }, endIndex: start + 2 }; // Normal Keypad Mode
 
-  // DEC private mode sequences without CSI (ESC followed by other chars)
-  // These are single-character escape sequences that should be ignored
+  // Character set designation: ESC ( c → G0, ESC ) c → G1, ESC * c → G2, ESC + c → G3.
+  // We track G0/G1 only (the slots that matter for VT100 line drawing via SO/SI or direct GL).
   if (next === '(' || next === ')' || next === '*' || next === '+') {
-    // Character set designation (e.g., ESC ( B for ASCII)
-    if (start + 2 < input.length) {
+    if (start + 2 >= input.length) {
+      return { command: { type: 'noop' }, endIndex: start + 2 };
+    }
+    const slot: CharsetSlot | null = next === '(' ? 'g0' : next === ')' ? 'g1' : null;
+    if (slot === null) {
       return { command: { type: 'noop' }, endIndex: start + 3 };
     }
-    return { command: { type: 'noop' }, endIndex: start + 2 };
+    return {
+      command: { type: 'designateCharset', slot, charset: charsetCodeToCharset(input[start + 2]) },
+      endIndex: start + 3,
+    };
   }
 
   if (next === ']') {
