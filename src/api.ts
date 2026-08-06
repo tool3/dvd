@@ -15,7 +15,7 @@ import { themes } from './pipeline';
 import { processRawOutput } from './pipeline/raw-output';
 import type { FrameData } from './pipeline/svg-emitter';
 import { emit } from './pipeline/svg-emitter';
-import type { Gradient, Theme } from './types';
+import type { EmitterOptions, Gradient, Theme } from './types';
 import { parseGradient } from 'shellfie';
 
 const normalizeBackground = (
@@ -115,6 +115,16 @@ export interface DVDResult {
   frames: TerminalFrame[];
   frameData: FrameData[];
   metadata: { duration: number; frameCount: number; fps: number };
+  /**
+   * The fully resolved emitter options this render used — auto-detected
+   * dimensions, resolved theme object, defaulted font metrics and all.
+   *
+   * Exposed so callers can re-render individual frames identically to the
+   * animation they just got back. `planVideo()` needs exactly this, and
+   * without it every consumer would have to reconstruct the resolution
+   * rules by hand and drift out of sync with the animation.
+   */
+  emitter: EmitterOptions;
 }
 
 
@@ -297,8 +307,42 @@ const dvdFromRawOutput = async (input: RawInput, options: DVDOptions): Promise<D
     },
   }));
 
+  const emitter: EmitterOptions = {
+    theme,
+    template,
+    width,
+    height,
+    fontSize,
+    title: options.title,
+    lineHeight: fontSize * lineHeight,
+    charWidth: fontSize * charWidthRatio,
+    padding,
+    borderRadius: options.borderRadius,
+    borderColor: options.borderColor,
+    borderWidth: options.borderWidth,
+    fontFamily: options.fontFamily,
+    letterSpacing: options.letterSpacing,
+    watermark: options.watermark,
+    cursorStyle: (options.cursorStyle as 'block' | 'bar' | 'underline') ?? 'block',
+    cursorColor: options.cursorColor,
+    cursorBlink: options.cursorBlink,
+    headerBackground: options.headerBackground,
+    headerHeight: options.headerHeight,
+    headerBorder: options.headerBorder,
+    headerBorderColor: options.headerBorderColor,
+    headerBorderWidth: options.headerBorderWidth,
+    footerBackground: options.footerBackground,
+    footerHeight: options.footerHeight,
+    footerBorder: options.footerBorder,
+    footerBorderColor: options.footerBorderColor,
+    footerBorderWidth: options.footerBorderWidth,
+    background: normalizeBackground(options.background),
+    backgroundPadding: options.backgroundPadding,
+    backgroundRadius: options.backgroundRadius,
+  };
+
   const metadata = getAnimationMetadata(frames);
-  return { svg, frames, frameData, metadata };
+  return { svg, frames, frameData, metadata, emitter };
 };
 
 
@@ -440,10 +484,48 @@ const dvdFromScript = async (input: DVDInput, options: DVDOptions): Promise<DVDR
 
   const metadata = getAnimationMetadata(frames);
   const frameData = executor.getFrameData();
+  const ctx = executor.getContext();
+
+  const emitter: EmitterOptions = {
+    theme: ctx.theme,
+    template: ctx.template,
+    width: ctx.width,
+    height: ctx.height,
+    fontSize: ctx.fontSize,
+    title: ctx.title,
+    lineHeight: ctx.fontSize * ctx.lineHeight,
+    charWidth: ctx.fontSize * ctx.charWidthRatio,
+    padding: ctx.padding,
+    borderRadius: ctx.borderRadius,
+    borderColor: ctx.borderColor,
+    borderWidth: ctx.borderWidth,
+    fontFamily: ctx.fontFamily,
+    letterSpacing: ctx.letterSpacing,
+    embedFont: ctx.embedFont,
+    fontData: ctx.fontData,
+    watermark:
+      typeof ctx.watermark === 'string' ? ctx.watermark : ctx.watermark?.content,
+    headerBackground: ctx.headerBackground,
+    headerHeight: ctx.headerHeight,
+    headerBorder: ctx.headerBorder,
+    headerBorderColor: ctx.headerBorderColor,
+    headerBorderWidth: ctx.headerBorderWidth,
+    footerBackground: ctx.footerBackground,
+    footerHeight: ctx.footerHeight,
+    footerBorder: ctx.footerBorder,
+    footerBorderColor: ctx.footerBorderColor,
+    footerBorderWidth: ctx.footerBorderWidth,
+    background: ctx.background,
+    backgroundPadding: ctx.backgroundPadding,
+    backgroundRadius: ctx.backgroundRadius,
+    cursorStyle: ctx.cursorStyle as 'block' | 'bar' | 'underline',
+    cursorColor: ctx.cursorColor,
+    cursorBlink: ctx.cursorBlink,
+  };
 
   await executor.cleanup();
 
-  return { svg, frames, frameData, metadata };
+  return { svg, frames, frameData, metadata, emitter };
 };
 
 
