@@ -63,10 +63,28 @@ export interface VideoFrame {
 }
 
 export interface VideoPlan {
-  /** Even-rounded output width. */
+  /**
+   * Encoder canvas width — `frameWidth` rounded up to even.
+   * Differs from `frameWidth` by at most 1px; see `frameWidth`.
+   */
   width: number;
-  /** Even-rounded output height. */
+  /** Encoder canvas height — `frameHeight` rounded up to even. */
   height: number;
+  /**
+   * Intrinsic width of each rasterized frame: the emitted SVG's own
+   * `width` attribute, measured rather than assumed.
+   *
+   * This is NOT `emitter.width`. The emitter treats that as the terminal
+   * window's size and then grows the canvas around it — background padding
+   * on all four sides, plus any overflow from a watermark wider than the
+   * window. A 700x300 request with `backgroundPadding: "100 50"` emits an
+   * 800x500 SVG. Scaling that into a 700x300 video is how you get a
+   * squashed picture, so consumers must rasterize at this size and pad
+   * (never scale) to reach `width`/`height`.
+   */
+  frameWidth: number;
+  /** Intrinsic height of each rasterized frame. */
+  frameHeight: number;
   fps: number;
   frameCount: number;
   durationMs: number;
@@ -92,6 +110,39 @@ const DEFAULT_FPS = 30;
 const toEven = (n: number): number => {
   const rounded = Math.max(2, Math.ceil(n));
   return rounded % 2 === 0 ? rounded : rounded + 1;
+};
+
+/**
+ * Read the true canvas size off an emitted SVG's root element.
+ *
+ * Attribute order isn't guaranteed and values may be fractional, so this
+ * scans the root tag for each attribute independently and falls back to the
+ * viewBox before giving up.
+ */
+const measureSvg = (
+  svg: string,
+): { width: number; height: number } | null => {
+  const root = svg.slice(0, svg.indexOf('>') + 1);
+  const num = (attr: string): number | null => {
+    const match = root.match(new RegExp(`[\\s"']${attr}\\s*=\\s*["']([\\d.]+)`));
+    if (!match) return null;
+    const value = Number.parseFloat(match[1]);
+    return Number.isFinite(value) && value > 0 ? value : null;
+  };
+
+  const width = num('width');
+  const height = num('height');
+  if (width !== null && height !== null) return { width, height };
+
+  const viewBox = root.match(/viewBox\s*=\s*["']\s*[\d.-]+\s+[\d.-]+\s+([\d.]+)\s+([\d.]+)/);
+  if (viewBox) {
+    const w = Number.parseFloat(viewBox[1]);
+    const h = Number.parseFloat(viewBox[2]);
+    if (Number.isFinite(w) && Number.isFinite(h) && w > 0 && h > 0) {
+      return { width: w, height: h };
+    }
+  }
+  return null;
 };
 
 
@@ -120,16 +171,15 @@ export const planVideo = (
   const loops = Math.max(1, Math.floor(options.loops ?? 1));
   const pauseAtEnd = Math.max(0, options.pauseAtEnd ?? 0);
 
-  const width = toEven(options.emitter.width);
-  const height = toEven(options.emitter.height);
-
   // A blinking cursor is a SMIL animation inside the emitted SVG. In a
   // still frame it can't blink — it would just freeze in whichever phase
   // the rasterizer happens to sample. Off is the honest rendering.
+  //
+  // Dimensions are deliberately NOT overridden here: `emitter.width` is
+  // the terminal window, not the canvas, and forcing it even would shift
+  // the layout by a pixel. The real canvas size is measured below.
   const emitter: EmitterOptions = {
     ...options.emitter,
-    width,
-    height,
     cursorBlink: false,
   };
 
@@ -162,13 +212,7 @@ export const planVideo = (
     timeline.push(...pass);
   }
 
-  const render = (index: number): string => {
-    const sourceIndex = timeline[index];
-    if (sourceIndex === undefined) {
-      throw new Error(
-        `Frame ${index} is out of range (sequence has ${timeline.length} frames)`,
-      );
-    }
+  const renderSource = (sourceIndex: number): string => {
     const frame = frameData[sourceIndex];
     const { svg } = emit(
       frame.rows,
@@ -181,6 +225,27 @@ export const planVideo = (
       },
     );
     return svg;
+  };
+
+  // Measure the canvas from a real emitted frame rather than trusting the
+  // requested size. Cached, so this probe is not extra work — it's the
+  // first frame everybody renders anyway.
+  const probeSvg = renderSource(timeline[0]);
+  const measured = measureSvg(probeSvg);
+  if (!measured) {
+    throw new Error('Could not determine the emitted frame size for video encoding.');
+  }
+  const frameWidth = Math.round(measured.width);
+  const frameHeight = Math.round(measured.height);
+
+  const render = (index: number): string => {
+    const sourceIndex = timeline[index];
+    if (sourceIndex === undefined) {
+      throw new Error(
+        `Frame ${index} is out of range (sequence has ${timeline.length} frames)`,
+      );
+    }
+    return sourceIndex === timeline[0] ? probeSvg : renderSource(sourceIndex);
   };
 
   function* frames(): Generator<VideoFrame> {
@@ -202,8 +267,13 @@ export const planVideo = (
   }
 
   return {
-    width,
-    height,
+    // Pad, never scale: the ≤1px of slack between the frame and an even
+    // canvas is invisible, whereas resampling every frame by a fractional
+    // factor would soften all the text.
+    width: toEven(frameWidth),
+    height: toEven(frameHeight),
+    frameWidth,
+    frameHeight,
     fps,
     frameCount: timeline.length,
     durationMs: timeline.length * frameMs,

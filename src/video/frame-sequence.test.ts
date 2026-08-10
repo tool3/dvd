@@ -35,6 +35,8 @@ describe('planVideo', () => {
     const plan = planVideo([frameAt(0, 'a')], {
       emitter: emitter({ width: 401, height: 199 }),
     });
+    expect(plan.frameWidth).toBe(401);
+    expect(plan.frameHeight).toBe(199);
     expect(plan.width).toBe(402);
     expect(plan.height).toBe(200);
   });
@@ -45,6 +47,67 @@ describe('planVideo', () => {
     });
     expect(plan.width).toBe(400);
     expect(plan.height).toBe(200);
+    expect(plan.frameWidth).toBe(400);
+    expect(plan.frameHeight).toBe(200);
+  });
+
+  it('measures the real canvas when background padding grows it', () => {
+    // Regression: the emitter treats `width`/`height` as the terminal
+    // window and pads the canvas around it. Using the requested size as
+    // the video size scaled an 800x500 frame into 700x300 — a squashed
+    // picture, which is exactly what shipped.
+    const plan = planVideo([frameAt(0, 'a')], {
+      emitter: emitter({
+        width: 700,
+        height: 300,
+        background: '#ff0000',
+        backgroundPadding: '100 50',
+      }),
+    });
+    expect(plan.frameWidth).toBe(800);
+    expect(plan.frameHeight).toBe(500);
+    expect(plan.width).toBe(800);
+    expect(plan.height).toBe(500);
+
+    const svg = plan.render(0);
+    expect(svg).toContain('width="800"');
+    expect(svg).toContain('height="500"');
+  });
+
+  it('measures the real canvas when a watermark overflows it', () => {
+    const plan = planVideo([frameAt(0, 'a')], {
+      emitter: emitter({
+        width: 200,
+        height: 120,
+        watermark: 'a watermark considerably wider than the window itself',
+      }),
+    });
+    // Whatever the emitter decided, the plan must agree with the SVG.
+    const svg = plan.render(0);
+    expect(svg).toContain(`width="${plan.frameWidth}"`);
+    expect(svg).toContain(`height="${plan.frameHeight}"`);
+    expect(plan.frameWidth).toBeGreaterThan(200);
+  });
+
+  it('always reports a frame size the emitted SVG actually has', () => {
+    for (const extra of [
+      {},
+      { background: '#123456', backgroundPadding: 24 },
+      { background: '#123456', backgroundPadding: '10 20 30 40' },
+      { template: 'minimal' as const },
+      { watermark: 'dvdrw' },
+    ]) {
+      const plan = planVideo([frameAt(0, 'hello')], {
+        emitter: emitter({ width: 500, height: 250, ...extra }),
+      });
+      const svg = plan.render(0);
+      expect(svg).toContain(`width="${plan.frameWidth}"`);
+      expect(svg).toContain(`height="${plan.frameHeight}"`);
+      expect(plan.width % 2).toBe(0);
+      expect(plan.height % 2).toBe(0);
+      expect(plan.width).toBeGreaterThanOrEqual(plan.frameWidth);
+      expect(plan.height).toBeGreaterThanOrEqual(plan.frameHeight);
+    }
   });
 
   it('holds each source frame until the next one is due', () => {
@@ -132,8 +195,10 @@ describe('planVideo', () => {
     });
     const first = plan.render(0);
     expect(first).toMatch(/^<svg/);
-    expect(first).toContain('width="402"');
-    expect(first).toContain('height="200"');
+    // The SVG keeps its own odd size; the even canvas is the encoder's.
+    expect(first).toContain('width="401"');
+    expect(first).toContain('height="199"');
+    expect(plan.width).toBe(402);
     expect(first).toContain('hello');
     expect(plan.render(1)).toContain('world');
   });
