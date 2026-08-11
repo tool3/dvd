@@ -38,8 +38,14 @@ export { processRawOutput, detectAnimationType, splitIntoFrames } from './pipeli
 export type { AnimationType, RawOutputResult, RawOutputOptions } from './pipeline/raw-output';
 
 // Video frame sequencing (rasterize + encode is the consumer's job)
-export { planVideo } from './video/frame-sequence';
-export type { VideoPlan, VideoPlanOptions, VideoFrame } from './video/frame-sequence';
+export { planVideo, resolveQuality, VIDEO_QUALITY } from './video/frame-sequence';
+export type {
+  VideoPlan,
+  VideoPlanOptions,
+  VideoFrame,
+  VideoQuality,
+  VideoQualityPreset,
+} from './video/frame-sequence';
 
 // High-level API
 import dvd from './api';

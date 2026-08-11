@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { planVideo } from './frame-sequence';
+import { planVideo, VIDEO_QUALITY } from './frame-sequence';
 import { coalesce } from '../pipeline/coalescer';
 import { createGridState, processInput } from '../pipeline/vterminal';
 import { themes } from '../pipeline';
@@ -14,6 +14,18 @@ const emitter = (over: Partial<EmitterOptions> = {}): EmitterOptions => ({
   fontSize: 14,
   ...over,
 });
+
+/** The emitted SVG's own canvas size, ceiled the way the plan does. */
+const svgSize = (svg: string): { width: number; height: number } => {
+  const root = svg.slice(0, svg.indexOf('>') + 1);
+  const w = root.match(/\swidth="([\d.]+)"/);
+  const h = root.match(/\sheight="([\d.]+)"/);
+  if (!w || !h) throw new Error(`no size on root element: ${root.slice(0, 120)}`);
+  return {
+    width: Math.ceil(Number.parseFloat(w[1])),
+    height: Math.ceil(Number.parseFloat(h[1])),
+  };
+};
 
 /** Build a frame whose text is `label`, stamped at `timestamp`. */
 const frameAt = (timestamp: number, label: string): FrameData => {
@@ -82,10 +94,10 @@ describe('planVideo', () => {
         watermark: 'a watermark considerably wider than the window itself',
       }),
     });
-    // Whatever the emitter decided, the plan must agree with the SVG.
-    const svg = plan.render(0);
-    expect(svg).toContain(`width="${plan.frameWidth}"`);
-    expect(svg).toContain(`height="${plan.frameHeight}"`);
+    expect(svgSize(plan.render(0))).toEqual({
+      width: plan.frameWidth,
+      height: plan.frameHeight,
+    });
     expect(plan.frameWidth).toBeGreaterThan(200);
   });
 
@@ -96,17 +108,24 @@ describe('planVideo', () => {
       { background: '#123456', backgroundPadding: '10 20 30 40' },
       { template: 'minimal' as const },
       { watermark: 'dvdrw' },
+      // Fractional height: the watermark row is fontSize * lineHeight.
+      { watermark: 'dvdrw', lineHeight: 19.6 },
     ]) {
       const plan = planVideo([frameAt(0, 'hello')], {
         emitter: emitter({ width: 500, height: 250, ...extra }),
       });
-      const svg = plan.render(0);
-      expect(svg).toContain(`width="${plan.frameWidth}"`);
-      expect(svg).toContain(`height="${plan.frameHeight}"`);
+      expect(svgSize(plan.render(0))).toEqual({
+        width: plan.frameWidth,
+        height: plan.frameHeight,
+      });
       expect(plan.width % 2).toBe(0);
       expect(plan.height % 2).toBe(0);
-      expect(plan.width).toBeGreaterThanOrEqual(plan.frameWidth);
-      expect(plan.height).toBeGreaterThanOrEqual(plan.frameHeight);
+      // Pad-only: the canvas never crops the frame, and never scales it
+      // by more than the sub-pixel needed to reach an even edge.
+      expect(plan.width - plan.frameWidth).toBeGreaterThanOrEqual(0);
+      expect(plan.width - plan.frameWidth).toBeLessThanOrEqual(1);
+      expect(plan.height - plan.frameHeight).toBeGreaterThanOrEqual(0);
+      expect(plan.height - plan.frameHeight).toBeLessThanOrEqual(1);
     }
   });
 
@@ -223,6 +242,92 @@ describe('planVideo', () => {
     const frames = [...plan.frames()];
     expect(frames.map((f) => f.index)).toEqual([0, 1]);
     expect(frames.map((f) => f.timestampMs)).toEqual([0, 100]);
+  });
+
+  it('defaults to medium, matching the previous 1:1 behaviour', () => {
+    const plan = planVideo([frameAt(0, 'a')], {
+      emitter: emitter({ width: 400, height: 200 }),
+    });
+    expect(plan.quality).toBe('medium');
+    expect(plan.encoding.scale).toBe(1);
+    expect(plan.frameWidth).toBe(400);
+    expect(plan.frameHeight).toBe(200);
+  });
+
+  it('supersamples the frame for high quality', () => {
+    const base = planVideo([frameAt(0, 'a')], {
+      emitter: emitter({ width: 400, height: 200 }),
+      quality: 'medium',
+    });
+    const high = planVideo([frameAt(0, 'a')], {
+      emitter: emitter({ width: 400, height: 200 }),
+      quality: 'high',
+    });
+
+    const factor = VIDEO_QUALITY.high.scale;
+    expect(factor).toBeGreaterThan(1);
+    expect(high.frameWidth).toBe(base.frameWidth * factor);
+    expect(high.frameHeight).toBe(base.frameHeight * factor);
+    expect(svgSize(high.render(0))).toEqual({
+      width: 400 * factor,
+      height: 200 * factor,
+    });
+    // Vector scaling, not a bigger bitmap: the viewBox is untouched so the
+    // geometry still spans the original coordinate space.
+    expect(high.render(0)).toContain('viewBox="0 0 400 200"');
+    expect(high.encoding.crf).toBeLessThan(base.encoding.crf);
+  });
+
+  it('keeps low quality at 1:1 but cheaper to encode', () => {
+    const low = planVideo([frameAt(0, 'a')], {
+      emitter: emitter({ width: 400, height: 200 }),
+      quality: 'low',
+    });
+    expect(low.frameWidth).toBe(400);
+    expect(low.encoding.crf).toBeGreaterThan(VIDEO_QUALITY.medium.crf);
+    expect(low.encoding.bitsPerPixel).toBeLessThan(VIDEO_QUALITY.medium.bitsPerPixel);
+  });
+
+  it('scales a padded canvas by its real size, not the requested one', () => {
+    const plan = planVideo([frameAt(0, 'a')], {
+      emitter: emitter({
+        width: 700,
+        height: 300,
+        background: '#ff0000',
+        backgroundPadding: '100 50',
+      }),
+      quality: 'high',
+    });
+    // Real canvas is 800x500; high scales THAT, not the 700x300 request.
+    const factor = VIDEO_QUALITY.high.scale;
+    expect(plan.frameWidth).toBe(800 * factor);
+    expect(plan.frameHeight).toBe(500 * factor);
+    expect(svgSize(plan.render(0))).toEqual({
+      width: 800 * factor,
+      height: 500 * factor,
+    });
+  });
+
+  it('honours an explicit scale over the tier', () => {
+    const plan = planVideo([frameAt(0, 'a')], {
+      emitter: emitter({ width: 400, height: 200 }),
+      quality: 'low',
+      scale: 3,
+    });
+    expect(plan.frameWidth).toBe(1200);
+    expect(plan.frameHeight).toBe(600);
+  });
+
+  it('keeps scaled dimensions even for the encoder', () => {
+    const plan = planVideo([frameAt(0, 'a')], {
+      emitter: emitter({ width: 401, height: 199 }),
+      quality: 'high',
+    });
+    const factor = VIDEO_QUALITY.high.scale;
+    expect(plan.frameWidth).toBe(Math.ceil(401 * factor));
+    expect(plan.frameHeight).toBe(Math.ceil(199 * factor));
+    expect(plan.width % 2).toBe(0);
+    expect(plan.height % 2).toBe(0);
   });
 
   it('throws for an out-of-range frame index', () => {

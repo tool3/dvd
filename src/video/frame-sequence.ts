@@ -34,6 +34,48 @@ import { emit } from '../pipeline/svg-emitter';
 
 //#region Types
 
+/**
+ * Output quality tier.
+ *
+ * The dominant lever is `scale` — supersampling. Terminal output is thin
+ * high-contrast glyph edges, which is the worst case for a block-based
+ * codec at 1:1; rendering the vector at 2x and letting the player downscale
+ * is what makes a video read as crisply as the SVG it came from. Bitrate
+ * matters far less, because flat colour compresses almost for free.
+ */
+export type VideoQuality = 'low' | 'medium' | 'high';
+
+export interface VideoQualityPreset {
+  /** Supersampling factor applied to the rasterized frame size. */
+  scale: number;
+  /** Constant-rate factor for x264/VP9. Lower is better quality. */
+  crf: number;
+  /** Bits per pixel, used to size a WebCodecs bitrate. */
+  bitsPerPixel: number;
+}
+
+export const VIDEO_QUALITY: Record<VideoQuality, VideoQualityPreset> = {
+  /** Half the detail budget — for quick previews and chat attachments. */
+  low: { scale: 1, crf: 30, bitsPerPixel: 1.5 },
+  /** The long-standing default. 1:1 with the SVG's own pixel size. */
+  medium: { scale: 1, crf: 18, bitsPerPixel: 4 },
+  /**
+   * 3x supersampled and near-lossless — the tier that should be
+   * indistinguishable from the SVG even when zoomed.
+   *
+   * 3x rather than 2x on purpose: 2x merely matches a retina display at
+   * 100%, whereas this tier exists for people who will scale the video up
+   * (slides, full-screen, a big README hero). Nine times the pixels, so
+   * encode time and file size grow accordingly — still small in absolute
+   * terms because flat terminal colour compresses so well.
+   */
+  high: { scale: 3, crf: 14, bitsPerPixel: 12 },
+};
+
+export const resolveQuality = (
+  quality: VideoQuality = 'medium',
+): VideoQualityPreset => VIDEO_QUALITY[quality] ?? VIDEO_QUALITY.medium;
+
 export interface VideoPlanOptions {
   /** Emitter options — the same object shape the animated emitters take. */
   emitter: EmitterOptions;
@@ -43,6 +85,10 @@ export interface VideoPlanOptions {
   loops?: number;
   /** Hold the final frame this long (ms) at the end of every pass. */
   pauseAtEnd?: number;
+  /** Quality tier. Default `medium`. */
+  quality?: VideoQuality;
+  /** Explicit supersampling factor, overriding the tier's `scale`. */
+  scale?: number;
 }
 
 export interface VideoFrame {
@@ -85,6 +131,11 @@ export interface VideoPlan {
   frameWidth: number;
   /** Intrinsic height of each rasterized frame. */
   frameHeight: number;
+  /** Quality tier this plan was built for. */
+  quality: VideoQuality;
+  /** Encoder settings for the tier — `crf` for ffmpeg, `bitsPerPixel` for
+   *  WebCodecs. `scale` is already baked into the frame dimensions. */
+  encoding: VideoQualityPreset;
   fps: number;
   frameCount: number;
   durationMs: number;
@@ -110,6 +161,45 @@ const DEFAULT_FPS = 30;
 const toEven = (n: number): number => {
   const rounded = Math.max(2, Math.ceil(n));
   return rounded % 2 === 0 ? rounded : rounded + 1;
+};
+
+/**
+ * Resize an emitted frame by rewriting its root `width`/`height`.
+ *
+ * Supersampling happens here, in the markup, rather than in each consumer's
+ * rasterizer. The emitter always writes a `viewBox`, so enlarging the
+ * intrinsic size re-renders the vector at that size — real extra detail,
+ * not an upscaled bitmap — and every downstream stage keeps working
+ * unchanged because it already measures the frame it is handed.
+ */
+const resizeSvgRoot = (
+  svg: string,
+  width: number,
+  height: number,
+  natural: { width: number; height: number },
+): string => {
+  const end = svg.indexOf('>');
+  if (end === -1) return svg;
+  let root = svg.slice(0, end + 1);
+
+  // Without a viewBox, changing width/height would crop instead of scale.
+  if (!/[\s"']viewBox\s*=/.test(root)) {
+    root = root.replace(
+      /^<svg/,
+      `<svg viewBox="0 0 ${natural.width} ${natural.height}"`,
+    );
+  }
+
+  const setAttr = (source: string, attr: string, value: number): string => {
+    const pattern = new RegExp(`([\\s"']${attr}\\s*=\\s*["'])[\\d.]+(["'])`);
+    return pattern.test(source)
+      ? source.replace(pattern, `$1${value}$2`)
+      : source.replace(/^<svg/, `<svg ${attr}="${value}"`);
+  };
+
+  root = setAttr(root, 'width', width);
+  root = setAttr(root, 'height', height);
+  return root + svg.slice(end + 1);
 };
 
 /**
@@ -230,13 +320,29 @@ export const planVideo = (
   // Measure the canvas from a real emitted frame rather than trusting the
   // requested size. Cached, so this probe is not extra work — it's the
   // first frame everybody renders anyway.
-  const probeSvg = renderSource(timeline[0]);
-  const measured = measureSvg(probeSvg);
+  const rawProbe = renderSource(timeline[0]);
+  const measured = measureSvg(rawProbe);
   if (!measured) {
     throw new Error('Could not determine the emitted frame size for video encoding.');
   }
-  const frameWidth = Math.round(measured.width);
-  const frameHeight = Math.round(measured.height);
+
+  const quality = options.quality ?? 'medium';
+  const preset = resolveQuality(quality);
+  const scale =
+    options.scale && options.scale > 0 ? options.scale : preset.scale;
+
+  // Ceil, not round: the emitter can produce fractional sizes (a watermark
+  // adds `fontSize * lineHeight`, e.g. 19.6px), and rounding down would
+  // clip the last row of pixels off every frame.
+  const frameWidth = Math.ceil(measured.width * scale);
+  const frameHeight = Math.ceil(measured.height * scale);
+
+  const sized = (svg: string): string =>
+    scale === 1 && frameWidth === measured.width && frameHeight === measured.height
+      ? svg
+      : resizeSvgRoot(svg, frameWidth, frameHeight, measured);
+
+  const probeSvg = sized(rawProbe);
 
   const render = (index: number): string => {
     const sourceIndex = timeline[index];
@@ -245,7 +351,9 @@ export const planVideo = (
         `Frame ${index} is out of range (sequence has ${timeline.length} frames)`,
       );
     }
-    return sourceIndex === timeline[0] ? probeSvg : renderSource(sourceIndex);
+    return sourceIndex === timeline[0]
+      ? probeSvg
+      : sized(renderSource(sourceIndex));
   };
 
   function* frames(): Generator<VideoFrame> {
@@ -274,6 +382,8 @@ export const planVideo = (
     height: toEven(frameHeight),
     frameWidth,
     frameHeight,
+    quality,
+    encoding: preset,
     fps,
     frameCount: timeline.length,
     durationMs: timeline.length * frameMs,
