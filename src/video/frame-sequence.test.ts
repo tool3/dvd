@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { planVideo, VIDEO_QUALITY } from './frame-sequence';
+import { planVideo, autoFps, VIDEO_QUALITY } from './frame-sequence';
 import { coalesce } from '../pipeline/coalescer';
 import { createGridState, processInput } from '../pipeline/vterminal';
 import { themes } from '../pipeline';
@@ -328,6 +328,114 @@ describe('planVideo', () => {
     expect(plan.frameHeight).toBe(Math.ceil(199 * factor));
     expect(plan.width % 2).toBe(0);
     expect(plan.height % 2).toBe(0);
+  });
+
+  describe('frame rate per tier', () => {
+    // 33ms apart — a ~30fps source animation, like chartscii's redraws.
+    const brisk = Array.from({ length: 20 }, (_, i) => frameAt(i * 33, `f${i}`));
+    // 50ms apart — plain typing, which needs only 20fps to represent.
+    const slow = Array.from({ length: 20 }, (_, i) => frameAt(i * 50, `f${i}`));
+    // 8ms apart — faster than any tier should bother chasing.
+    const frantic = Array.from({ length: 20 }, (_, i) => frameAt(i * 8, `f${i}`));
+
+    it('uses the tier rate for low and medium', () => {
+      expect(planVideo(brisk, { emitter: emitter(), quality: 'low' }).fps).toBe(15);
+      expect(planVideo(brisk, { emitter: emitter(), quality: 'medium' }).fps).toBe(30);
+    });
+
+    it('defaults to 30 when no tier is given', () => {
+      expect(planVideo(brisk, { emitter: emitter() }).fps).toBe(30);
+    });
+
+    it('snaps to the nearest standard rate, not the next one up', () => {
+      // 33ms gaps imply ~30.3fps, and 30 keeps every frame — the grid
+      // drifts 0.33ms per tick, nowhere near a whole frame. Rounding up to
+      // 60 would double the frame count to show identical content.
+      expect(autoFps(brisk)).toBe(30);
+      expect(planVideo(brisk, { emitter: emitter(), quality: 'high' }).fps).toBe(30);
+
+      const briskPlan = planVideo(brisk, { emitter: emitter(), quality: 'high' });
+      expect(new Set(briskPlan.timeline).size).toBe(brisk.length);
+    });
+
+    it('reaches 120 and 240 when the source is genuinely that fast', () => {
+      // Sub-16ms gaps come from a fast TypingSpeed or playbackSpeed > 1.
+      // At 8ms, 60fps would throw away half the frames.
+      const fast = Array.from({ length: 40 }, (_, i) => frameAt(i * 8, `f${i}`));
+      expect(autoFps(fast)).toBe(120);
+
+      const faster = Array.from({ length: 40 }, (_, i) => frameAt(i * 4, `f${i}`));
+      expect(autoFps(faster)).toBe(240);
+
+      // And the higher rate really does preserve more of the recording.
+      const at60 = planVideo(fast, { emitter: emitter(), fps: 60 });
+      const auto = planVideo(fast, { emitter: emitter(), quality: 'high' });
+      expect(new Set(auto.timeline).size).toBeGreaterThan(
+        new Set(at60.timeline).size,
+      );
+    });
+
+    it('never drops high below the medium default', () => {
+      // 50ms gaps only need 20fps, but high must not be worse than medium.
+      expect(autoFps(slow)).toBe(30);
+      expect(planVideo(slow, { emitter: emitter(), quality: 'high' }).fps).toBe(30);
+    });
+
+    it('caps at the fastest standard rate', () => {
+      // 8ms gaps -> 125fps -> nearest step is 120.
+      expect(planVideo(frantic, { emitter: emitter(), quality: 'high' }).fps).toBe(120);
+      // A genuinely sub-4ms recording tops out rather than running away.
+      const absurd = Array.from({ length: 40 }, (_, i) => frameAt(i, `f${i}`));
+      expect(autoFps(absurd)).toBe(240);
+    });
+
+    it('ignores a stray 1ms nudge in an otherwise normal recording', () => {
+      // The executor bumps colliding timestamps 1ms apart to keep them
+      // ordered. Two such pairs must not drag a 33ms recording to 240fps
+      // and octuple its frame count for identical content.
+      const nudged = brisk.map((f, i) => ({ ...f, timestamp: f.timestamp }));
+      nudged.splice(5, 0, { ...brisk[5], timestamp: brisk[5].timestamp + 1 });
+      nudged.splice(20, 0, { ...brisk[19], timestamp: brisk[19].timestamp + 1 });
+      nudged.sort((a, b) => a.timestamp - b.timestamp);
+
+      expect(autoFps(nudged)).toBe(30);
+      expect(planVideo(nudged, { emitter: emitter(), quality: 'high' }).fps).toBe(30);
+    });
+
+    it('falls back to the floor for a single frame', () => {
+      expect(autoFps([frameAt(0, 'only')])).toBe(30);
+    });
+
+    it('lets an explicit fps override every tier', () => {
+      for (const quality of ['low', 'medium', 'high'] as const) {
+        expect(
+          planVideo(brisk, { emitter: emitter(), quality, fps: 24 }).fps,
+        ).toBe(24);
+      }
+    });
+
+    it('samples more finely at a higher rate', () => {
+      const low = planVideo(brisk, { emitter: emitter(), quality: 'low' });
+      const high = planVideo(brisk, { emitter: emitter(), quality: 'high' });
+      const animationMs = brisk[brisk.length - 1].timestamp;
+
+      // Same wall-clock animation, so a higher rate means more frames…
+      expect(high.frameCount).toBeGreaterThan(low.frameCount);
+
+      // …covering the same span. Each tier overshoots by at most one of its
+      // own frame periods (the endpoint frame that guarantees the final
+      // source frame is shown), which is why the two durations differ.
+      for (const plan of [low, high]) {
+        const framePeriod = 1000 / plan.fps;
+        expect(plan.durationMs).toBeGreaterThanOrEqual(animationMs);
+        expect(plan.durationMs).toBeLessThan(animationMs + 2 * framePeriod);
+      }
+
+      // And low genuinely drops source frames the high tier keeps.
+      expect(new Set(high.timeline).size).toBeGreaterThan(
+        new Set(low.timeline).size,
+      );
+    });
   });
 
   it('throws for an out-of-range frame index', () => {

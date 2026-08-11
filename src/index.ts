@@ -38,7 +38,7 @@ export { processRawOutput, detectAnimationType, splitIntoFrames } from './pipeli
 export type { AnimationType, RawOutputResult, RawOutputOptions } from './pipeline/raw-output';
 
 // Video frame sequencing (rasterize + encode is the consumer's job)
-export { planVideo, resolveQuality, VIDEO_QUALITY } from './video/frame-sequence';
+export { planVideo, resolveQuality, autoFps, VIDEO_QUALITY } from './video/frame-sequence';
 export type {
   VideoPlan,
   VideoPlanOptions,

@@ -39,9 +39,10 @@ import { emit } from '../pipeline/svg-emitter';
  *
  * The dominant lever is `scale` — supersampling. Terminal output is thin
  * high-contrast glyph edges, which is the worst case for a block-based
- * codec at 1:1; rendering the vector at 2x and letting the player downscale
- * is what makes a video read as crisply as the SVG it came from. Bitrate
- * matters far less, because flat colour compresses almost for free.
+ * codec at 1:1; rendering the vector larger and letting the player
+ * downscale is what makes a video read as crisply as the SVG it came from.
+ * Frame rate is the second lever. Bitrate matters least, because flat
+ * colour compresses almost for free.
  */
 export type VideoQuality = 'low' | 'medium' | 'high';
 
@@ -52,24 +53,103 @@ export interface VideoQualityPreset {
   crf: number;
   /** Bits per pixel, used to size a WebCodecs bitrate. */
   bitsPerPixel: number;
+  /**
+   * Output frame rate, or `'auto'` to derive it from how fast the
+   * recording actually moves (see `autoFps`).
+   */
+  fps: number | 'auto';
 }
 
 export const VIDEO_QUALITY: Record<VideoQuality, VideoQualityPreset> = {
   /** Half the detail budget — for quick previews and chat attachments. */
-  low: { scale: 1, crf: 30, bitsPerPixel: 1.5 },
+  low: { scale: 1, crf: 30, bitsPerPixel: 1.5, fps: 15 },
   /** The long-standing default. 1:1 with the SVG's own pixel size. */
-  medium: { scale: 1, crf: 18, bitsPerPixel: 4 },
+  medium: { scale: 1, crf: 18, bitsPerPixel: 4, fps: 30 },
   /**
-   * 3x supersampled and near-lossless — the tier that should be
+   * 3x supersampled, near-lossless, and running at whatever frame rate the
+   * recording can actually fill — the tier that should be
    * indistinguishable from the SVG even when zoomed.
    *
    * 3x rather than 2x on purpose: 2x merely matches a retina display at
    * 100%, whereas this tier exists for people who will scale the video up
-   * (slides, full-screen, a big README hero). Nine times the pixels, so
-   * encode time and file size grow accordingly — still small in absolute
-   * terms because flat terminal colour compresses so well.
+   * (slides, full-screen, a big README hero). Nine times the pixels at up
+   * to twice the frame rate, so encode time and file size grow
+   * accordingly — still small in absolute terms because flat terminal
+   * colour compresses so well.
    */
-  high: { scale: 3, crf: 14, bitsPerPixel: 12 },
+  high: { scale: 3, crf: 14, bitsPerPixel: 12, fps: 'auto' },
+};
+
+/**
+ * Standard output rates `'auto'` chooses between.
+ *
+ * Snapping to one of these rather than emitting the raw measured rate: a
+ * source whose frames land 33ms apart implies 31fps, which is a peculiar
+ * number to hand a player or an editor.
+ *
+ * 120 and 240 are reachable but rarely chosen, because most frame sources
+ * are already capped at one frame per 16ms (`minFrameInterval` in the
+ * recording player, and the shell-animation resampler). What does get past
+ * that is a fast `TypingSpeed` or a `playbackSpeed` above 1, both of which
+ * compress timestamps arbitrarily — and there the higher rates earn their
+ * keep. Measured, on 60 source frames:
+ *
+ *   gap    30fps      60fps      120fps     240fps
+ *   50ms   all kept   all kept   all kept   all kept
+ *   33ms   all kept   all kept   all kept   all kept
+ *   16ms   30 of 60   58 of 60   all kept   all kept
+ *    8ms   16 of 60   30 of 60   58 of 60   all kept
+ *    4ms    9 of 60   16 of 60   30 of 60   58 of 60
+ */
+const AUTO_FPS_STEPS = [30, 60, 120, 240] as const;
+
+/**
+ * The frame rate the `'auto'` tier picks for a recording.
+ *
+ * Frames arrive at irregular times, and resampling onto a constant grid
+ * keeps only the most recent frame at each tick — so any two source frames
+ * closer together than one tick collapse into one, and the faster of the
+ * two is simply lost. This finds the tightest gap, works out the rate that
+ * would preserve it, and snaps to the *nearest* standard rate.
+ *
+ * Nearest rather than next-above, which is worth being precise about: a
+ * 33ms recording needs 31fps, and 30fps turns out to keep every single
+ * frame — the grid drifts by only 0.33ms per tick, far less than one frame
+ * — while rounding up to 60 measurably cost ~28% more bytes to show the
+ * exact same content twice. Rounding up buys nothing on the low side, and
+ * on the high side the steps are close enough together that the nearest is
+ * never more than a couple of frames from lossless.
+ *
+ * Bounded at both ends. The floor keeps `'auto'` from dropping *below*
+ * medium on a slow recording (typing at 50ms/char only needs 20fps), and
+ * the ceiling absorbs pathological 1ms gaps — the executor nudges
+ * colliding timestamps by a millisecond to keep them monotonic, which
+ * taken literally would imply 1000fps.
+ */
+export const autoFps = (frameData: FrameData[]): number => {
+  const gaps: number[] = [];
+  for (let i = 1; i < frameData.length; i++) {
+    const delta = frameData[i].timestamp - frameData[i - 1].timestamp;
+    if (delta > 0) gaps.push(delta);
+  }
+  if (gaps.length === 0) return AUTO_FPS_STEPS[0];
+
+  // The 10th-percentile gap, not the smallest one. A single outlier must
+  // not set the frame rate for the whole video: the executor nudges
+  // colliding timestamps 1ms apart to keep them ordered, and one such pair
+  // in an otherwise 33ms recording would otherwise imply 1000fps and
+  // multiply the frame count eightfold to show identical content. A
+  // percentile ignores a handful of artifacts while still reacting to a
+  // source that is genuinely fast throughout.
+  gaps.sort((a, b) => a - b);
+  const tightest = gaps[Math.floor(gaps.length * 0.1)];
+
+  const needed = 1000 / tightest;
+  let best: number = AUTO_FPS_STEPS[0];
+  for (const step of AUTO_FPS_STEPS) {
+    if (Math.abs(step - needed) < Math.abs(best - needed)) best = step;
+  }
+  return best;
 };
 
 export const resolveQuality = (
@@ -79,7 +159,7 @@ export const resolveQuality = (
 export interface VideoPlanOptions {
   /** Emitter options — the same object shape the animated emitters take. */
   emitter: EmitterOptions;
-  /** Constant output frame rate. Default 30. */
+  /** Constant output frame rate. Overrides the quality tier's own rate. */
   fps?: number;
   /** How many times the animation plays. Default 1. */
   loops?: number;
@@ -257,7 +337,18 @@ export const planVideo = (
     throw new Error('No frames to encode');
   }
 
-  const fps = options.fps && options.fps > 0 ? options.fps : DEFAULT_FPS;
+  const quality = options.quality ?? 'medium';
+  const preset = resolveQuality(quality);
+
+  // Explicit fps wins; otherwise the tier decides, and `'auto'` asks the
+  // recording itself how fast it actually moves.
+  const fps =
+    options.fps && options.fps > 0
+      ? options.fps
+      : preset.fps === 'auto'
+        ? autoFps(frameData)
+        : preset.fps || DEFAULT_FPS;
+
   const loops = Math.max(1, Math.floor(options.loops ?? 1));
   const pauseAtEnd = Math.max(0, options.pauseAtEnd ?? 0);
 
@@ -326,8 +417,6 @@ export const planVideo = (
     throw new Error('Could not determine the emitted frame size for video encoding.');
   }
 
-  const quality = options.quality ?? 'medium';
-  const preset = resolveQuality(quality);
   const scale =
     options.scale && options.scale > 0 ? options.scale : preset.scale;
 
