@@ -45,6 +45,9 @@ export const applySetting = (ctx: ExecutorContext, key: string, value: string): 
     PromptPrefix: () => {
       ctx.promptPrefix = parseEscapes(value);
     },
+    Seed: () => {
+      ctx.seed = parseEscapes(value);
+    },
     Watermark: () => {
       setWatermarkContent(ctx, parseEscapes(value));
     },

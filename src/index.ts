@@ -32,6 +32,8 @@ export { themes } from './pipeline';
 
 // Utilities
 export { getCharWidth } from './utils/wcwidth';
+export { resolveSeedLines, resolveSeedText } from './utils/seed';
+export type { Seed } from './utils/seed';
 
 // Raw output processing
 export { processRawOutput, detectAnimationType, splitIntoFrames } from './pipeline/raw-output';

@@ -16,6 +16,7 @@ import { processRawOutput } from './pipeline/raw-output';
 import type { FrameData } from './pipeline/svg-emitter';
 import { emit } from './pipeline/svg-emitter';
 import type { EmitterOptions, Gradient, Theme } from './types';
+import type { Seed } from './utils/seed';
 import { parseGradient } from 'shellfie';
 
 const normalizeBackground = (
@@ -65,6 +66,9 @@ export interface DVDOptions {
   fontFamily?: string;
   watermark?: string;
   letterSpacing?: number;
+
+  // Content
+  seed?: Seed;
 
   // Cursor
   cursorStyle?: string;
@@ -181,6 +185,7 @@ const dvdFromRawOutput = async (input: RawInput, options: DVDOptions): Promise<D
     headerHeight: options.headerHeight,
     letterSpacing: options.letterSpacing,
     watermark: options.watermark,
+    seed: options.seed,
     playbackSpeed: options.playbackSpeed,
     totalDuration: input.totalDuration,
   });

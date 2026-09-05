@@ -17,6 +17,7 @@ import {
   executeScreenshot,
 } from './handlers';
 import { applySetting, resolveTheme } from './settings';
+import { resolveSeedLines } from '../utils/seed';
 import { parseGradient } from 'shellfie';
 
 
@@ -49,6 +50,7 @@ export class CDExecutor {
 
     this.context.outputPath = script.output;
     this.updateGridDimensions();
+    seedBuffer(this.context);
     captureFrame(this.context, this.options, true, false);
 
     const actionCommands = script.commands.filter(
@@ -228,6 +230,9 @@ export class CDExecutor {
 
     // Watermark override
     if (opts.watermark !== undefined) this.context.watermark = opts.watermark;
+
+    // Seed override
+    if (opts.seed !== undefined) this.context.seed = opts.seed;
 
     // Playback speed override
     if (opts.playbackSpeed !== undefined) this.context.playbackSpeed = opts.playbackSpeed;
@@ -409,6 +414,7 @@ const createContext = (options: CDExecutorOptions): ExecutorContext => {
     // Theme will be resolved in applyCliOverrides if passed as string
     theme: typeof options.theme === 'object' ? options.theme : pipelineThemes.dark,
     promptPrefix: '\x1b[95m❯ \x1b[0m',
+    seed: options.seed,
     cursorBlink: true,
 
     clipboard: '',
@@ -443,6 +449,19 @@ const createContext = (options: CDExecutorOptions): ExecutorContext => {
 
     playbackSpeed: options.playbackSpeed ?? 1,
   };
+};
+
+
+//#region Seed Application
+
+const seedBuffer = (ctx: ExecutorContext): void => {
+  const lines = resolveSeedLines(ctx.seed);
+  if (lines.length === 0) return;
+
+  ctx.lines = [...lines, ''];
+  ctx.cursorY = lines.length;
+  ctx.cursorX = 0;
+  ctx.currentLine = '';
 };
 
 

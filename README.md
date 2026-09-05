@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="examples/svgs/low-level-api.svg" alt="dvdrw — animated SVG terminal recordings, programmatic" />
+  <img src="examples/svgs/low-level-api.svg" alt="dvdrw — animated SVGs from terminal recordings" />
 </p>
 
 <p align="center">
@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/dvdrw"><img src="https://img.shields.io/badge/npm-v10-blue" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/dvdrw"><img src="https://img.shields.io/npm/v/dvdrw" alt="npm version"></a>
   <a href="https://www.npmjs.com/package/dvdrw"><img src="https://img.shields.io/npm/dm/dvdrw" alt="npm downloads"></a>
   <a href="https://github.com/tool3/dvd/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-orange" alt="license"></a>
   <a href="https://github.com/tool3/dvd-cli"><img src="https://img.shields.io/badge/cli-dvd--cli-7c5fff" alt="cli"></a>
@@ -37,23 +37,28 @@ const { svg } = await dvd(`
 
 ## Contents
 
+**Guide**
+
 - [Why the library?](#why-the-library)
-- [Inputs](#inputs)
-  - [CD script string](#1-cd-script-string)
-  - [Programmatic steps](#2-programmatic-steps)
-  - [Raw terminal output](#3-raw-terminal-output)
-  - [Pre-parsed script](#4-pre-parsed-script)
-- [Themes](#themes)
-- [Templates](#templates)
-- [Loop styles](#loop-styles)
+- [Inputs](#inputs) — [script string](#1-cd-script-string) · [steps](#2-programmatic-steps) · [raw output](#3-raw-terminal-output) · [pre-parsed](#4-pre-parsed-script)
+- [Seeding the terminal](#seeding-the-terminal)
+- [Themes](#themes) · [Templates](#templates) · [Loop styles](#loop-styles)
 - [Branded output](#branded-output)
 - [Progress tracking](#progress-tracking)
 - [Low-level API](#low-level-api)
+- [Video frame sequencing](#video-frame-sequencing)
 - [Rendering modes](#rendering-modes-filmstrip-vs-smil)
-- [Options reference](#options-reference)
-- [Steps reference](#steps-reference)
-- [Comparison](#comparison)
-- [Related](#related)
+
+**Reference**
+
+- [Options](#options-reference)
+- [Result](#result-reference)
+- [Steps](#steps-reference)
+- [Script settings](#script-settings-reference)
+
+**Meta**
+
+- [Examples](#examples) · [Comparison](#comparison) · [Related](#related)
 
 ---
 
@@ -75,6 +80,13 @@ If you want a single command on the CLI that takes a `.cd` file and writes a `.s
 
 `dvd(input, options)` accepts four input shapes. Pick whichever matches the data you already have.
 
+| Input | Shape | Use when |
+|---|---|---|
+| [Script string](#1-cd-script-string) | `string` | You're writing the demo by hand |
+| [Steps](#2-programmatic-steps) | `CDCommand[]` | The content is computed at runtime |
+| [Raw output](#3-raw-terminal-output) | `{ raw, totalDuration? }` | You already captured stdout |
+| [Pre-parsed](#4-pre-parsed-script) | `{ script }` | You parsed and transformed a script yourself |
+
 ### 1. CD script string
 
 The fastest path. Same syntax as `dvd-cli`, just inlined.
@@ -87,6 +99,8 @@ const { svg } = await dvd(`
   Sleep 800ms
 `, { theme: 'dracula', template: 'macos', title: 'quick-start' });
 ```
+
+`Type` + `Enter` runs the line through a real shell and records its actual output. `Set` lines inside the script are applied as settings — see [script settings](#script-settings-reference).
 
 ### 2. Programmatic steps
 
@@ -113,11 +127,13 @@ const { svg } = await dvd(steps, { theme: 'tokyoNight', template: 'macos', title
   <img src="https://github.com/tool3/dvd/blob/master/examples/svgs/programmatic-steps.svg" alt="programmatic test runner output" />
 </p>
 
+> Settings are **not** read from a steps array — a `{ type: 'Set', ... }` entry is ignored. Pass them as the second argument to `dvd()` instead.
+
 > Full source: [`examples/02-programmatic-steps.ts`](examples/02-programmatic-steps.ts)
 
 ### 3. Raw terminal output
 
-Capture stdout from any command and hand the bytes over. dvd auto-detects the animation pattern (cursor reset, terminal reset, clear-line, cursor-up) and splits into frames automatically.
+Capture stdout from any command and hand the bytes over. dvd auto-detects the animation pattern (terminal reset, cursor restore, cursor up, clear line) and splits into frames automatically.
 
 ```typescript
 import dvd from 'dvdrw';
@@ -132,6 +148,8 @@ const { svg } = await dvd({ raw, totalDuration: 2400 }, {
   title: 'spinner capture',
 });
 ```
+
+`totalDuration` is the wall-clock time the capture took, in ms. Without it, frames are spaced at a flat 30fps.
 
 <p align="center">
   <img src="https://github.com/tool3/dvd/blob/master/examples/svgs/raw-output.svg" alt="captured spinner output" />
@@ -150,6 +168,66 @@ const script = parseCDScript(scriptText);
 // ...mutate, validate, splice frames...
 const { svg } = await dvd({ script }, { theme: 'nord' });
 ```
+
+---
+
+## Seeding the terminal
+
+`seed` pre-fills the screen with text that was never typed and never executed. Every frame starts with it already on screen, and the prompt begins on the line below.
+
+Use it to give a recording context it would otherwise waste time earning — earlier commands in the session, a banner, a fake `motd`, a chart the demo is about to update.
+
+```typescript
+const { svg } = await dvd(`
+  Type "npm run deploy"
+  Sleep 400ms
+  Enter
+  Sleep 1200ms
+`, {
+  seed: [
+    '\x1b[95m❯\x1b[0m npm test',
+    '\x1b[32m  ✓\x1b[0m 56 passing \x1b[2m(1.7s)\x1b[0m',
+    '',
+  ],
+  theme: 'catppuccinMocha',
+  template: 'macos',
+});
+```
+
+<p align="center">
+  <img src="https://github.com/tool3/dvd/blob/master/examples/svgs/seed.svg" alt="seeded terminal session" />
+</p>
+
+The seed is **content, not chrome** — it goes through the same terminal emulator as everything else:
+
+- **ANSI works.** Colors, bold, dim, background fills — anything the emulator understands.
+- **Auto-sizing accounts for it.** A wide or tall seed grows the SVG, same as recorded output.
+- **`clear` wipes it.** A `clear` in the script resets the screen exactly like a real terminal, seed included.
+- **It is not a prompt.** Seed lines are printed verbatim, with no prompt prefix. Include your own `❯` if you want the seed to look like past commands.
+
+Accepted as a string or an array of lines — the array form avoids escaping and makes blank lines explicit:
+
+```typescript
+seed: 'line one\nline two'     // a single trailing \n is ignored
+seed: ['line one', 'line two'] // same result
+```
+
+All three input shapes support it. With `{ raw }`, the seed is prepended to **every** detected frame, so it stays on screen while the capture animates underneath it.
+
+From a script, use `Set Seed` — backticks span multiple lines:
+
+```
+Set Seed `❯ git status
+On branch master
+nothing to commit, working tree clean`
+
+Type "npm run deploy"
+Enter
+```
+
+`Set Seed` runs the value through the same escape handling as `Set PromptPrefix`: `\e` / `\x1b`, `\n`, `\t` and `$VAR` are expanded. The `seed` option, being a real JS string, is taken literally.
+
+> Full source: [`examples/11-seed.ts`](examples/11-seed.ts)
 
 ---
 
@@ -340,11 +418,39 @@ The exposed building blocks:
 | Emission | `emit`, `emitAnimated`, `emitFilmstripAnimated` |
 | Animation | `createAnimatedSVG`, `createFilmstripSVG`, `optimizeSvg` |
 | Raw output | `processRawOutput`, `detectAnimationType`, `splitIntoFrames` |
-| Cast files | `parseCastFile`, `RecordingPlayer`, `generateFramesFromRecording` |
+| Cast files | `parseCastFile`, `RecordingPlayer`, `generateFramesFromRecording`, `optimizeFrames` |
 | Script parsing | `parseCDScript`, `CDParseError` |
 | Executor | `CDExecutor` |
+| Frame sequencing | `planVideo`, `resolveQuality`, `autoFps`, `VIDEO_QUALITY` |
+| Seeding | `resolveSeedLines`, `resolveSeedText` |
+| Misc | `themes`, `getCharWidth` |
 
 > Source: [`examples/08-low-level-api.ts`](examples/08-low-level-api.ts)
+
+---
+
+## Video frame sequencing
+
+`dvdrw` emits SVG and only SVG. It does not rasterize and it does not encode — no ffmpeg, no canvas, no browser.
+
+What it does give you is `planVideo()`: a constant-rate frame plan built from the same `emitter` options the animation used, so every still renders identically to the animation it came from. Rasterizing and encoding that plan is your job.
+
+```typescript
+import dvd, { planVideo } from 'dvdrw';
+
+const { frameData, emitter } = await dvd(script);
+const plan = planVideo(frameData, { emitter, quality: 'high' });
+
+for (const frame of plan.frames()) {
+  // frame.svg — a standalone static SVG for this instant
+  // frame.index, frame.timestampMs, frame.sourceIndex
+  // frame.repeatsPrevious — true when the raster is identical to the last one
+}
+```
+
+`plan.frames()` is a lazy generator; `plan.render(index)` gives you one frame on its own. Quality tiers are `low` / `medium` / `high` (`VIDEO_QUALITY` holds their `scale`, `crf`, `bitsPerPixel` and `fps`), and `fps: 'auto'` on the `high` tier asks the recording how fast it actually moves.
+
+Rasterize at `plan.frameWidth` × `plan.frameHeight` — the SVG's own intrinsic size, which is larger than `emitter.width`/`height` whenever background padding or a wide watermark grows the canvas. Then **pad** (never scale) to reach the even-numbered `plan.width` × `plan.height` the encoder wants.
 
 ---
 
@@ -366,73 +472,107 @@ await dvd(script, { smil: true });
 
 ## Options reference
 
+Every option is optional.
+
+### Content
+
+| Option | Type | Default | |
+|---|---|---|---|
+| `seed` | `string \| string[]` | — | Text pre-filled on screen before anything runs — see [Seeding](#seeding-the-terminal) |
+| `title` | `string` | — | Window title text |
+| `watermark` | `string` | — | Text or SVG markup pinned under the content |
+
+### Window chrome
+
+| Option | Type | Default | |
+|---|---|---|---|
+| `theme` | `Theme \| string` | `dark` | Name or full `Theme` object |
+| `template` | `'macos' \| 'windows' \| 'minimal'` | `minimal`, or `macos` for `{ raw }` input | Window chrome |
+| `borderRadius` | `number` | `8` | |
+| `borderColor` | `string` | — | |
+| `borderWidth` | `number` | — | |
+
+### Dimensions
+
+| Option | Type | Default | |
+|---|---|---|---|
+| `width` / `height` | `number` | auto | Omit to size from content (including the seed) |
+| `fontSize` | `number` | `14` | |
+| `lineHeight` | `number` | `1.4` | Multiplier, minimum `1` |
+| `letterSpacing` | `number` | `0` | |
+| `fontFamily` | `string` | system mono stack | |
+| `padding` | `number` | `16` | Inside the terminal window |
+
+### Background (outside the window)
+
+| Option | Type | Default | |
+|---|---|---|---|
+| `background` | `string \| Gradient` | — | `'#hex'` or `'gradient(#a, #b[:horizontal\|vertical\|diagonal])'` |
+| `backgroundPadding` | `number \| string` | `0` | CSS-style shorthand: `48`, `'40 64'`, `'10 20 30 40'` |
+| `backgroundRadius` | `number` | `12` | |
+
+### Header / footer
+
+| Option | Type | |
+|---|---|---|
+| `headerHeight`, `headerBackground` | `number`, `string` | Header bar |
+| `headerBorder`, `headerBorderColor`, `headerBorderWidth` | `boolean`, `string`, `number` | Header rule |
+| `footerHeight`, `footerBackground` | `number`, `string` | Footer bar |
+| `footerBorder`, `footerBorderColor`, `footerBorderWidth` | `boolean`, `string`, `number` | Footer rule |
+
+### Cursor
+
+| Option | Type | Default | |
+|---|---|---|---|
+| `cursorStyle` | `'block' \| 'bar' \| 'underline'` | `block` | |
+| `cursorColor` | `string` | theme cursor | |
+| `cursorBlink` | `boolean` | `true` | |
+
+### Animation
+
+| Option | Type | Default | |
+|---|---|---|---|
+| `loop` | `boolean` | `true` | |
+| `loopStyle` | `'loop' \| 'reverse' \| 'rewind' \| 'fade'` | `loop` | |
+| `loopPause` | `number` | `0` | ms between cycles |
+| `pauseAtEnd` | `number` | `1000` | ms held on the last frame |
+| `fadeDuration` | `number` | `1500` | ms, `fade` style only |
+| `rewindSpeed` | `number` | `5` | multiplier, `rewind` style only |
+| `playbackSpeed` | `number` | `1` | `2` = 2×, `0.5` = half speed |
+| `fps` | `number` | — | Reserved. Frame timing comes from recorded timestamps; this is accepted but not yet applied |
+
+### Renderer
+
+| Option | Type | Default | |
+|---|---|---|---|
+| `smil` | `boolean` | `false` | `false` = filmstrip, `true` = SMIL |
+| `optimize` | `boolean` | `true` | SVGO post-pass |
+| `customGlyphs` | `boolean` | `true` | Box-drawing characters as geometric shapes |
+
+### Callbacks
+
+| Option | Signature |
+|---|---|
+| `onFrame` | `(frame: TerminalFrame) => void` |
+| `onProgress` | `(current: number, total: number, description?: string) => void` |
+
+---
+
+## Result reference
+
 ```typescript
-const { svg, frames, frameData, metadata } = await dvd(input, {
-  // Window chrome
-  theme,                  // Theme name (string) or Theme object — default 'dark'
-  template,               // 'macos' | 'windows' | 'minimal' — default 'macos'
-  title,                  // window title text
-  watermark,              // string or SVG markup
-
-  // Dimensions
-  width, height,          // omit for auto-sizing from script content
-  fontSize,               // default 14
-  lineHeight,             // multiplier — default 1.4
-  letterSpacing,
-  fontFamily,
-  padding,                // default 16
-
-  // Borders
-  borderRadius,           // default 8
-  borderColor, borderWidth,
-
-  // Background (outside the terminal window)
-  background,             // '#hex' or 'gradient(#a, #b[:horizontal|vertical|diagonal])'
-  backgroundPadding,
-  backgroundRadius,
-
-  // Header / footer
-  headerHeight, headerBackground, headerBorder,
-  headerBorderColor, headerBorderWidth,
-  footerHeight, footerBackground, footerBorder,
-  footerBorderColor, footerBorderWidth,
-
-  // Cursor
-  cursorStyle,            // 'block' | 'bar' | 'underline'
-  cursorColor,
-  cursorBlink,            // default false
-
-  // Animation
-  fps,
-  loop,                   // default true
-  loopStyle,              // 'loop' | 'reverse' | 'rewind' | 'fade'
-  loopPause,              // ms between cycles
-  pauseAtEnd,             // ms hold on last frame — default 1000
-  fadeDuration,           // ms for 'fade' style — default 1500
-  rewindSpeed,            // multiplier for 'rewind' — default 5
-  playbackSpeed,          // 1 = normal, 2 = 2x, 0.5 = half speed
-
-  // Renderer
-  smil,                   // false = filmstrip (default), true = SMIL
-  optimize,               // SVGO post-pass — default true
-  customGlyphs,           // box-drawing as geometric shapes — default true
-
-  // Callbacks
-  onFrame,                // (frame: TerminalFrame) => void
-  onProgress,             // (current, total, description?) => void
-});
+const result = await dvd(input, options);
 ```
 
-The result:
-
-```typescript
-result.svg                  // animated SVG string
-result.metadata.duration    // total ms
-result.metadata.frameCount  // number of frames
-result.metadata.fps         // effective fps
-result.frames               // TerminalFrame[]
-result.frameData            // FrameData[] — raw row data, useful for custom emitters
-```
+| Field | Type | |
+|---|---|---|
+| `result.svg` | `string` | The animated SVG |
+| `result.metadata.duration` | `number` | Total ms |
+| `result.metadata.frameCount` | `number` | Number of frames |
+| `result.metadata.fps` | `number` | Effective fps, derived from frame timestamps |
+| `result.frames` | `TerminalFrame[]` | Per-frame SVG + terminal state |
+| `result.frameData` | `FrameData[]` | Raw row spans — the input to a custom emitter |
+| `result.emitter` | `EmitterOptions` | Fully resolved render options: auto-detected size, resolved theme, defaulted font metrics. Feed this back into `emit()` or `planVideo()` to re-render single frames identically |
 
 ---
 
@@ -443,31 +583,36 @@ When using the programmatic-steps input, each entry conforms to one of these sha
 | Type | Fields | Example |
 |---|---|---|
 | `Type` | `text`, optional `speed` (ms/char) | `{ type: 'Type', text: 'hello', speed: 50 }` |
-| `Key` | `key` | `{ type: 'Key', key: 'Enter' }` |
+| `Key` | `key`, optional `count` | `{ type: 'Key', key: 'Enter' }` |
 | `Sleep` | `duration` (ms) | `{ type: 'Sleep', duration: 1000 }` |
-| `Shortcut` | `key` + modifier flags | `{ type: 'Shortcut', ctrl: true, key: 'c' }` |
+| `Shortcut` | `key` + `ctrl` / `alt` / `shift` / `cmd` flags, optional `count` | `{ type: 'Shortcut', ctrl: true, key: 'c' }` |
 | `Screenshot` | `path` | `{ type: 'Screenshot', path: 'frame.svg' }` |
 | `Copy` / `Paste` | `text` (Copy only) | `{ type: 'Copy', text: 'hi' }` |
-| `Set` | `setting`, `value` | `{ type: 'Set', setting: 'Theme', value: 'dracula' }` |
-| `Env` | `key`, `value` | `{ type: 'Env', key: 'NODE_ENV', value: 'prod' }` |
 
 Keys: `Enter`, `Backspace`, `Tab`, `Space`, `Left`, `Right`, `Up`, `Down`.
 
+The parser also accepts `Set`, `Env`, `Output`, `Require`, `Wait`, `Hide`, `Show` and `Source`, but the executor does not act on them — `Set` only takes effect through a script string or a pre-parsed script, and the rest are currently inert.
+
 ---
 
-## Comparison
+## Script settings reference
 
-|                   |     dvdrw      |     VHS      |  asciinema   |
-| ----------------- | :------------: | :----------: | :----------: |
-| Output            |      SVG       |   GIF / MP4  |   asciicast  |
-| Native API        | TypeScript lib |     CLI      | JSON + player |
-| Dependencies      |      none      | ffmpeg, ttyd | player embed |
-| Scalable          |      yes       |      no      |     yes      |
-| GitHub README     |    perfect     |    works     | embed only   |
-| Editable          |   yes (XML)    |      no      | yes (JSON)   |
-| Offline           |      yes       |     yes      |      no      |
-| Loop styles       |    4 modes     |    basic     |    basic     |
-| Programmatic      |      yes       |   limited    |     yes      |
+Settings usable as `Set <Name> <value>` inside a CD script string. Anything not listed is ignored.
+
+| Group | Settings |
+|---|---|
+| Content | `Seed`, `Title`, `Watermark`, `WatermarkStyle`, `PromptPrefix` |
+| Size | `Width`, `Height`, `FontSize`, `LineHeight`, `LetterSpacing`, `CharWidthRatio`, `Padding`, `Scroll` |
+| Font | `FontFamily`, `EmbedFont` (path to a font file, inlined as base64) |
+| Chrome | `Template`, `Theme`, `BorderColor`, `BorderWidth`, `BorderRadius` |
+| Header | `HeaderHeight`, `HeaderBackground`, `HeaderBorder`, `HeaderBorderColor`, `HeaderBorderWidth` |
+| Footer | `FooterHeight`, `FooterBackground`, `FooterBorder`, `FooterBorderColor`, `FooterBorderWidth` |
+| Cursor | `CursorStyle`, `CursorColor`, `CursorBlink` |
+| Background | `Background`, `BackgroundPadding`, `BackgroundRadius` |
+| Timing | `TypingSpeed`, `AnimationSpeed`, `PlaybackSpeed`, `LoopStyle`, `LoopPause`, `FadeDuration`, `RewindSpeed` |
+| Shell | `Shell`, `WorkingDirectory` (`$PWD` or an absolute path) |
+
+Values can be bare, `"double quoted"` (with `\n`, `\t`, `\"` escapes) or `` `backticked` `` (literal, may span lines). Options passed to `dvd()` override the script's own `Set` lines.
 
 ---
 
@@ -485,10 +630,27 @@ npx ts-node -P tsconfig.dev.json examples/06-branding.ts
 npx ts-node -P tsconfig.dev.json examples/07-progress.ts
 npx ts-node -P tsconfig.dev.json examples/08-low-level-api.ts
 npx ts-node -P tsconfig.dev.json examples/09-templates.ts
+npx ts-node -P tsconfig.dev.json examples/11-seed.ts
 
 # or render them all in one go:
 npx ts-node -P tsconfig.dev.json examples/10-render-all.ts
 ```
+
+---
+
+## Comparison
+
+|                   |     dvdrw      |     VHS      |  asciinema   |
+| ----------------- | :------------: | :----------: | :----------: |
+| Output            |      SVG       |   GIF / MP4  |   asciicast  |
+| Native API        | TypeScript lib |     CLI      | JSON + player |
+| Dependencies      |      none      | ffmpeg, ttyd | player embed |
+| Scalable          |      yes       |      no      |     yes      |
+| GitHub README     |    perfect     |    works     | embed only   |
+| Editable          |   yes (XML)    |      no      | yes (JSON)   |
+| Offline           |      yes       |     yes      |      no      |
+| Loop styles       |    4 modes     |    basic     |    basic     |
+| Programmatic      |      yes       |   limited    |     yes      |
 
 ---
 

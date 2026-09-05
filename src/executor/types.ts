@@ -2,9 +2,11 @@
 
 import type { GridState, Theme, SpanRow, Gradient } from '../types';
 import type { FrameData } from '../pipeline/svg-emitter';
+import type { Seed } from '../utils/seed';
 import type { WatermarkConfig, WatermarkStyle } from 'shellfie';
 
 export type { WatermarkConfig, WatermarkStyle };
+export type { Seed };
 
 
 //#region Terminal State Types
@@ -39,6 +41,7 @@ export interface CDExecutorOptions {
   title?: string;
   template?: 'macos' | 'windows' | 'minimal';
   theme?: Theme | string;
+  seed?: Seed;
   playbackSpeed?: number;
   padding?: number;
   borderRadius?: number;
@@ -92,6 +95,7 @@ export interface ExecutorContext {
   template: 'macos' | 'windows' | 'minimal';
   theme: Theme;
   promptPrefix: string;
+  seed?: Seed;
   watermark?: string | WatermarkConfig;
   cursorBlink: boolean;
 

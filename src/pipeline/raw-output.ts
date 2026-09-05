@@ -4,6 +4,7 @@ import type { Theme } from '../types';
 import type { FrameData } from './svg-emitter';
 import { createGridState, processInput } from './vterminal';
 import { coalesce } from './coalescer';
+import { resolveSeedText, type Seed } from '../utils/seed';
 
 
 //#region Types
@@ -26,6 +27,7 @@ export interface RawOutputOptions {
   headerHeight?: number;
   letterSpacing?: number;
   watermark?: string;
+  seed?: Seed;
   playbackSpeed?: number;
   /** Total duration of the piped input in ms (used for frame timing) */
   totalDuration?: number;
@@ -176,7 +178,10 @@ export const processRawOutput = (
   const speed = options.playbackSpeed ?? 1;
 
   const animationType = detectAnimationType(rawOutput);
-  const frameContents = splitIntoFrames(rawOutput, animationType);
+  const seedText = resolveSeedText(options.seed);
+  const frameContents = splitIntoFrames(rawOutput, animationType).map((content) =>
+    seedText ? `${seedText}\n${content}` : content,
+  );
 
   if (frameContents.length === 0) {
     throw new Error('No frames detected in raw output');
